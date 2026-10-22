@@ -161,3 +161,8 @@
 
 /* V1.15: country list completion counters */
 .country-counts{display:block;font-size:.79rem;line-height:1.35;margin-top:3px;color:#446354;font-weight:700;white-space:normal;}
+
+/* V1.16: clearly visible country summary in every country tile */
+.country-choice .country-counts{display:block!important;margin:6px auto 0;padding:4px 3px;border-radius:7px;background:#e7f4e9;color:#265d3f;font-size:12px;font-weight:850;line-height:1.45;white-space:normal;}
+.country-choice{min-height:83px;}
+@media(max-width:560px){.country-choice .country-counts{font-size:11px;padding:3px 1px}.country-choice{min-height:78px;}}
