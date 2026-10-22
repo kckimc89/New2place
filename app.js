@@ -37,7 +37,7 @@ let photosObserver=null,toastTimeout=0;
 let albumTimer=null, albumPlaying=false, albumInterval=5000, bulkBusy=false;
 const candidateSelected=new Map();
 
-// NEW 41 V1.7: landmark-specific search memory, isolated from photo storage.
+// NEW 41 V1.8: landmark-specific search memory, isolated from photo storage.
 // Only compact search metadata is stored here; no additional image binary.
 const SEARCH_MEMORY_DB='new_world_landmarks_41_v11_search_memory';
 const searchMemory=new Map();
@@ -160,7 +160,7 @@ function autoBuildHtml(){
  const b=autoBuild,code=state.country,curr=COUNTRY_MAP.get(code),places=allLandmarks().filter(x=>x.countryCode===code);
  const resume=b&&!b.done,active=b&&b.code===code;
  const progress=active?`<p><b>${esc(b.message||'준비됨')}</b></p><progress max="${b.ids.length||1}" value="${Math.min(b.cursor,b.ids.length)}" style="width:100%"></progress><p class="muted small">명소 ${Math.min(b.cursor,b.ids.length)}/${b.ids.length} · 이번 작업 새 사진 ${b.saved||0}장 · 실패 ${b.failed||0}장 · 추가 확인 ${b.review||0}곳</p>`:'';
- return `<section class="panel" style="border:2px solid #e7b96c;background:#fffbf1"><div class="section-head"><h2>✨ ${esc(curr?.name||code)} 자동 사진여행 만들기</h2><small>NEW 41 V1.7 · PHOTO AUTO BUILD</small></div><p>기존 명소 ${places.length}곳의 사진첩을 살펴보고, 풍경 중심의 사진을 <b>명소별 최대 30장</b>까지 보강합니다. 기존 사진·순서·대표사진·설명·여행기는 바꾸지 않습니다.</p>${progress}${active?`<div class="action-row"><button type="button" class="btn primary" data-act="broadcast-open">🎬 실시간 사진여행 중계 보기</button></div>`:''}${state.admin?`<div class="action-row"><button class="btn green" data-act="auto-build-start" ${autoBuildRunning?'disabled':''}>${resume&&active?'▶ 멈춘 곳부터 이어하기':'🌍 이 나라 자동보강 시작'}</button><button class="btn" data-act="auto-build-pause" ${!autoBuildRunning?'disabled':''}>⏸ 잠시 멈추기</button><button class="btn" data-act="auto-build-report">📋 결과 보기</button></div>`:`<div class="info">🧒 자동 제작과정은 함께 감상할 수 있습니다. 자동저장을 시작하려면 부모모드를 켜 주세요.</div>`}<p class="muted small">연결 실패는 건너뛰고 기록합니다. 앱이 닫힌 동안에는 실행되지 않으며, 다시 열어 이어할 수 있습니다. 사진의 실제 명소 일치·라이선스는 부모의 최종 확인이 필요합니다.</p>${!places.length?'<p class="warning">이 나라는 등록된 명소가 없습니다. 대표 명소와 설명을 검증해 등록한 후 사진 자동보강을 시작할 수 있습니다. 무검증 자동 설명 생성은 제공하지 않습니다.</p>':''}</section>`;
+ return `<section class="panel" style="border:2px solid #e7b96c;background:#fffbf1"><div class="section-head"><h2>✨ ${esc(curr?.name||code)} 자동 사진여행 만들기</h2><small>NEW 41 V1.8 · PHOTO AUTO BUILD</small></div><p>기존 명소 ${places.length}곳의 사진첩을 살펴보고, 풍경 중심의 사진을 <b>명소별 최대 30장</b>까지 보강합니다. 기존 사진·순서·대표사진·설명·여행기는 바꾸지 않습니다.</p>${progress}${active?`<div class="action-row"><button type="button" class="btn primary" data-act="broadcast-open">🎬 실시간 사진여행 중계 보기</button></div>`:''}${state.admin?`<div class="action-row"><button class="btn green" data-act="auto-build-start" ${autoBuildRunning?'disabled':''}>${resume&&active?'▶ 멈춘 곳부터 이어하기':'🌍 이 나라 자동보강 시작'}</button><button class="btn" data-act="auto-build-pause" ${!autoBuildRunning?'disabled':''}>⏸ 잠시 멈추기</button><button class="btn" data-act="auto-build-report">📋 결과 보기</button></div>`:`<div class="info">🧒 자동 제작과정은 함께 감상할 수 있습니다. 자동저장을 시작하려면 부모모드를 켜 주세요.</div>`}<p class="muted small">연결 실패는 건너뛰고 기록합니다. 앱이 닫힌 동안에는 실행되지 않으며, 다시 열어 이어할 수 있습니다. 사진의 실제 명소 일치·라이선스는 부모의 최종 확인이 필요합니다.</p>${!places.length?'<p class="warning">이 나라는 등록된 명소가 없습니다. 대표 명소와 설명을 검증해 등록한 후 사진 자동보강을 시작할 수 있습니다. 무검증 자동 설명 생성은 제공하지 않습니다.</p>':''}</section>`;
 }
 function updateAutoBuildUi(){if(state.view==='countries'){const root=document.getElementById('autoBuildHost');if(root)root.innerHTML=autoBuildHtml();}broadcastUpdate();}
 async function autoBuildCountry(){
@@ -226,15 +226,16 @@ async function saveSelectedCandidates(id){if(!state.admin||bulkBusy)return;const
 // Stage 2.1: metadata-based conservative automatic photo curation.
 // This is a ranking aid, NOT computer vision or verified identity/licensing.
 function photoScene(ph){
- const t=(ph.title||'').replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
+ const t=([ph.title,ph.description].filter(Boolean).join(' ')).replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
  const scenes=[
  ['전경 / 파노라마',/panorama|panoramic|aerial|bird.s.eye|skyline|overview|wide.view|全景|俯瞰|전경|파노라마|luftbild|vue générale/i],
- ['풍경 / 전면',/landscape|scenery|view.of|front.view|facade|exterior|front|view.from|perspective|遠景|외관|풍경/i],
+ ['풍경 / 전면',/landscape|scenery|view.of|front.view|facade|exterior|outside|courtyard|front|view.from|perspective|遠景|외관|풍경|전면|정면/i],
+ ['정원 / 연못',/garden|pond|lake|lotus|rear.garden|후원|정원|연못|庭園|池/i],
  ['일출 / 일몰',/sunrise|sunset|golden.hour|dusk|dawn|일출|일몰|석양|lever.du.soleil/i],
  ['야경 / 조명',/night|evening|illuminat|blue.hour|야경|밤|nuit/i],
  ['눈 / 겨울',/snow|winter|neige|schnee|설경|겨울/i],
- ['봄 / 꽃',/spring|cherry|blossom|flower|봄|벚꽃/i],
- ['가을 / 단풍',/autumn|fall.color|foliage|가을|단풍/i],
+ ['봄 / 꽃 풍경',/spring|cherry|blossom|flowering|봄|벚꽃/i],
+ ['가을 / 단풍 풍경',/autumn|fall.color|foliage|가을|단풍/i],
  ['물 / 반영',/reflection|reflected|river|lake|water|sea|coast|반영|호수|바다/i],
  ['측면 / 다른 각도',/side.view|from.the|from.south|from.north|from.east|from.west|측면/i]
  ];
@@ -242,53 +243,69 @@ function photoScene(ph){
 }
 function autoPhotoRank(ph){
  if(!ph.allowed||!ph.source||!ph.url)return -999;
- const name=(ph.title||'').replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
- if(/\b(map|plan|diagram|floor.plan|drawing|poster|signage|signboard|logo|flag|ticket|route|locator|location.map|mapa|karte)\b|지도|평면도|도면|안내판|地図|地圖|地图/i.test(name))return -999;
- if(/\b(crowd|tourists|selfie|portrait|wedding|group.photo|people|person|protest|ceremony|march|conference)\b|인물|군중|단체사진|游客合影/i.test(name))return -300;
- if(/\b(detail|close.up|inscription|plaque|statue|door.knob|ornament|texture|tile|ceiling|window.detail)\b|문양|세부|장식|부분 확대/i.test(name))return -120;
+ const text=([ph.title,ph.description].filter(Boolean).join(' ')).replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
+ if(/\b(map|plan|diagram|floor.plan|drawing|poster|signage|signboard|logo|flag|ticket|route|locator|location.map|mapa|karte)\b|지도|평면도|도면|안내판|地図|地圖|地图/i.test(text))return -999;
+ if(/\b(painting|illustration|artwork|engraving|etching|watercolor|watercolour|sketch|lithograph|rendering|digital.art|ai.generated|postcard|scan(?:ned)?)\b|그림|회화|삽화|일러스트|스캔|絵画|绘画|繪畫/i.test(text))return -999;
+ if(/\b(crowd|tourists|selfie|portrait|wedding|group.photo|people|person|protest|ceremony|march|conference)\b|인물|군중|단체사진|游客合影/i.test(text))return -320;
+ if(/\b(interior|inside|room|altar|shrine.interior|throne|artifact|relic|sundial|instrument|object|display|detail|close.up|inscription|plaque|statue|door.knob|ornament|texture|tile|ceiling|window.detail)\b|실내|내부|제단|유물|해시계|세부|장식|부분 확대/i.test(text))return -220;
+ if(/\b(branch|twig|leaf|leaves|berry|berries|fruit|flower.detail|blossom.close|tree.trunk|bark)\b|나뭇가지|나무열매|열매|잎사귀|가지|수피|枝|葉|果実/i.test(text))return -240;
  let score=0;
  const ratio=(ph.width||0)/(ph.height||1);
  if(ph.width>=1400&&ph.height>=850)score+=20;
  if(ph.width>=2000)score+=12;
- if(ratio>=1.3&&ratio<=2.6)score+=22;
- else if(ratio<0.8)score-=14;
- if(/panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|view|front|skyline|全景|풍경|전경|파노라마/i.test(name))score+=24;
- if(/sunrise|sunset|night|dusk|autumn|winter|snow|spring|reflection|야경|석양|설경|단풍/i.test(name))score+=13;
- if(/\b(blur|blurry|low.res|thumbnail|cropped|scan|postcard|illustration|watermark|replica|reproduction)\b/i.test(name))score-=45;
+ if(ph.height>=700)score+=8;
+ if(ratio>=1.3&&ratio<=2.8)score+=24;
+ else if(ratio<1.1)score-=18;
+ if(/panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|outside|courtyard|garden|view|front|facade|palace|hall|gate|pavilion|temple|building|roofline|skyline|全景|풍경|전경|파노라마|외관|궁|전각|문|누각|정원|후원|연못/i.test(text))score+=30;
+ if(/sunrise|sunset|night|dusk|autumn|winter|snow|spring|reflection|야경|석양|설경|단풍/i.test(text))score+=10;
+ if(/\b(blur|blurry|low.res|thumbnail|cropped|watermark|replica|reproduction|miniature|model)\b|복제품|모형|저해상도/i.test(text))score-=50;
  // Existing search confidence is a weak tie breaker, not proof of subject identity.
  score+=Math.max(-10,Math.min(15,(Number(ph.score)||0)/12));
  return score;
 }
-// V1.7: strict, deliberately incomplete metadata gate for unattended saves.
-// Names may be incomplete in Commons. Uncertain files are kept for manual review,
-// not added to the album automatically.
-function automaticPhotoSafety(ph,f){
- const text=[ph.title,ph.description].filter(Boolean).join(' ').replace(/[_-]/g,' ').toLowerCase();
- const exclude=/(?:\b(?:painting|illustration|artwork|drawing|engraving|etching|watercolor|watercolour|sketch|lithograph|poster|painting of|photo of (?:a )?painting|photograph of (?:a )?painting|scan|scanned|replica|reproduction|miniature|model|interior|inside|altar|shrine interior|exhibit|statue detail|close[ -]?up|cropped|plan|map|diagram|postcard|screenshot|rendering|digital art|ai generated|generated image)\b|그림|회화|삽화|일러스트|스캔|복제품|모형|미니어처|실내|내부|제단|지도|도면|포스터|绘画|繪畫|画作|絵画|イラスト)/i;
- if(exclude.test(text))return {ok:false,why:'그림·실내·부분 사진 또는 원본 불명 자료'};
+// V1.8: stricter metadata gate for unattended saves.
+// The goal is to prefer wide exterior landmark scenery and avoid paintings,
+// interior shots, tiny detail crops, plant close-ups, and artifact/object photos.
+ function automaticPhotoSafety(ph,f){
+ const text=[ph.title,ph.description,ph.query,ph.artist].filter(Boolean).join(' ').replace(/[_-]/g,' ').toLowerCase();
+ const artLike=/(?:\b(?:painting|illustration|artwork|drawing|engraving|etching|watercolor|watercolour|sketch|lithograph|poster|painting of|photo of (?:a )?painting|photograph of (?:a )?painting|scan|scanned|replica|reproduction|miniature|model|postcard|screenshot|rendering|digital art|ai generated|generated image|map|plan|diagram)\b|그림|회화|삽화|일러스트|스캔|복제품|모형|미니어처|지도|도면|포스터|绘画|繪畫|画作|絵画|イラスト)/i;
+ const interiorLike=/(?:\b(?:interior|inside|room|hall interior|altar|shrine interior|exhibit|throne|furniture|display case|corridor interior)\b|실내|내부|제단|실내 전시|室内|內部)/i;
+ const detailLike=/(?:\b(?:detail|close[ -]?up|cropped|inscription|plaque|statue detail|texture|tile|ceiling|door knob|window detail|artifact|relic|sundial|instrument|object|display|tablet|stele|monument detail)\b|세부|장식|부분 확대|유물|해시계|비석|현판 확대|細部|文物)/i;
+ const plantLike=/(?:\b(?:branch|twig|leaf|leaves|berry|berries|fruit|flower detail|blossom close|tree trunk|bark|flora)\b|나뭇가지|나무열매|열매|꽃잎|잎사귀|가지|수피|枝|葉|果実)/i;
+ if(artLike.test(text))return {ok:false,why:'그림·지도·스캔·복제 자료'};
+ if(interiorLike.test(text))return {ok:false,why:'실내 중심 사진'};
+ if(detailLike.test(text))return {ok:false,why:'유물·장식·부분 확대 사진'};
+ if(plantLike.test(text))return {ok:false,why:'나무·꽃·열매 등 부분 자연 사진'};
  const n=String(f?.name||'').trim().toLowerCase();
  const primary=[n,String(f?.wikiTitle||'').toLowerCase(),...(f?.aliases||[]).map(x=>String(x).toLowerCase())].filter(x=>x.length>=4);
  // Generic translated terms such as Palace, Temple, Castle aren't enough.
  const hasName=primary.some(x=>x.length>=4&&text.includes(x));
- const strict=ph.sourceType==='구조화된 명소 사진' || hasName;
- if(!strict)return {ok:false,why:'사진 제목·설명에 해당 명소의 확실한 식별정보가 없음'};
- if(ph.width&&ph.height&&ph.width/ph.height<1.08)return {ok:false,why:'풍경 중심 가로 사진 기준 미달'};
+ const structured=ph.sourceType==='구조화된 명소 사진';
+ if(!(structured||hasName))return {ok:false,why:'사진 제목·설명에 해당 명소의 식별정보가 부족함'};
+ if(ph.width&&ph.height&&ph.width/ph.height<1.15)return {ok:false,why:'풍경 중심 가로 사진 기준 미달'};
+ if(ph.width&&ph.width<1100)return {ok:false,why:'너무 작은 원본 사진'};
+ const strongExterior=/(?:panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|outside|courtyard|garden|rear garden|pond|view|front|facade|palace|hall|gate|pavilion|temple|building|roofline|전경|풍경|외관|정면|궁|전각|문|누각|정원|후원|연못|建築|宮殿|門|庭園|殿|閣|楼)/i;
+ const weakSubjectOnly=/(?:palace|hall|gate|pavilion|temple|building|전각|궁|문|정원|후원|연못|建築|宮殿|門|庭園|殿|閣|楼)/i;
+ if(!strongExterior.test(text) && !(structured && weakSubjectOnly.test(text)))return {ok:false,why:'명소 전경·외관·풍경을 보여주는 단서가 부족함'};
  // Strong contamination clue: unsupported subject vs selected palace.
  if(/경복궁|gyeongbok(?:gung)?|景福宮/i.test([f?.name,f?.wikiTitle].join(' ')) && /\b(?:forbidden city|beijing|taipei|taiwan|china|chinese temple|chinese shrine|tokyo|japan|japanese shrine)\b|故宫|故宮|紫禁城|中国|中國|北京|台湾|臺灣|日本/i.test(text))return {ok:false,why:'경복궁이 아닌 다른 국가·장소로 의심됨'};
- return {ok:true,why:'메타데이터 기초 확인(실제 사진 내용 검증 아님)'};
+ if(/창덕궁|changdeok(?:gung)?|昌德宮/i.test([f?.name,f?.wikiTitle].join(' ')) && /\b(?:forbidden city|beijing|taipei|taiwan|china|chinese temple|chinese shrine|tokyo|japan|japanese shrine)\b|故宫|故宮|紫禁城|中国|中國|北京|台湾|臺灣|日本/i.test(text))return {ok:false,why:'창덕궁이 아닌 다른 국가·장소로 의심됨'};
+ return {ok:true,why:'메타데이터 기준의 보수적 풍경 사진 후보'};
 }
 function curateCandidatePhotos(id,limit=30){
  const f=getLandmark(id),already=new Set((f?.photos||[]).map(p=>p.source).filter(Boolean));
- const items=(commonsCache.get(id)||[]).map((p,index)=>({...p,index,rank:autoPhotoRank(p),scene:photoScene(p)}))
- .filter(p=>p.rank>=0&&!already.has(p.source)&&!jpPhotoRejected(p,f)&&automaticPhotoSafety(p,f).ok)
+ const items=(commonsCache.get(id)||[]).map((p,index)=>({...p,index,rank:autoPhotoRank(p),scene:photoScene(p),safe:automaticPhotoSafety(p,f)}))
+ .filter(p=>p.rank>=5&&!already.has(p.source)&&!jpPhotoRejected(p,f)&&p.safe.ok)
  .sort((a,b)=>b.rank-a.rank||b.width-a.width);
  const result=[],scenes=new Map(),prefixes=new Set();
- // Two rounds: ensure visual variety first, then include more excellent candidates.
+ // Two rounds: first prefer high-confidence exterior/landscape photos, then fill with backups.
  for(let round=0;round<2&&result.length<limit;round++)for(const ph of items){
    if(result.length>=limit)break;
    if(result.some(r=>r.index===ph.index))continue;
+   if(round===0 && ph.rank<28)continue;
    const sceneCount=scenes.get(ph.scene)||0;
-   if(round===0&&sceneCount>=3)continue;
+   if(round===0&&sceneCount>=2)continue;
+   if(round===1&&sceneCount>=4)continue;
    const filename=(ph.title||'').replace(/^File:/i,'').toLowerCase().replace(/\d+|\.(jpe?g|png|webp)$/gi,'').replace(/[_\W]+/g,'').slice(0,34);
    if(filename&&prefixes.has(filename))continue;
    result.push(ph);scenes.set(ph.scene,sceneCount+1);if(filename)prefixes.add(filename);
@@ -299,9 +316,9 @@ let autoPhotoBusy=false,autoPhotoMessage='';
 async function autoCurateAndSave(id){
  if(!state.admin||autoPhotoBusy||bulkBusy)return;
  const items=curateCandidatePhotos(id,30);
- if(!items.length)return alert('자동저장 기준을 통과한 사진이 없습니다. 불확실한 그림·다른 명소 사진으로 30장을 채우지 않습니다. 사진 여행에서 후보를 직접 확인해 주세요.');
- if(!confirm('✨ '+items.length+'장을 명소 식별·풍경·그림 제외·화질 기준으로 보수적으로 자동 추천했습니다.\n\n사진 제목과 크기에 근거한 추천으로, 실제 명소 일치나 저작권을 완벽히 검증한 것은 아닙니다. 원본 출처를 확인하고 저장할까요?\n\n기존 사진은 삭제하거나 순서를 변경하지 않습니다.'))return;
- // Native Safari WebP encoding is optional: V1.7 can invoke an independent
+ if(!items.length)return alert('자동저장 기준을 통과한 사진이 없습니다. 그림·실내·유물·부분 확대·자연 클로즈업 사진으로 30장을 채우지 않습니다. 사진 여행에서 후보를 직접 확인해 주세요.');
+ if(!confirm('✨ '+items.length+'장을 명소 식별·전경/풍경·그림 제외·실내 제외·부분 확대 제외 기준으로 보수적으로 자동 추천했습니다.\n\n사진 제목과 설명, 크기에 근거한 추천으로 실제 명소 일치나 저작권을 완벽히 검증한 것은 아닙니다. 원본 출처를 확인하고 저장할까요?\n\n기존 사진은 삭제하거나 순서를 변경하지 않습니다.'))return;
+ // Native Safari WebP encoding is optional: V1.8 can invoke an independent
  // WebAssembly encoder during the actual conversion. Do not block prematurely.
 
  autoPhotoBusy=true;let success=0,failed=0,skipped=0;const errors=[];
@@ -320,7 +337,7 @@ async function autoCurateAndSave(id){
  }
  autoPhotoBusy=false;autoPhotoMessage=`자동 추천 저장 완료 · 성공 ${success}장 · 실패 ${failed}장 · 중복 ${skipped}장`;
  updateModalPhoto();
- alert(autoPhotoMessage+(errors.length?'\n\n실패 예시: '+errors.join(' / '):'')+'\n\n사진첩에서 결과를 확인해 주세요. 메타데이터만으로 실제 명소 일치·그림 여부를 완벽히 증명할 수 없으므로 최종 확인해 주세요.');
+ alert(autoPhotoMessage+(errors.length?'\n\n실패 예시: '+errors.join(' / '):'')+'\n\n사진첩에서 결과를 확인해 주세요. 풍경 중심 기준을 강화했지만 최종 확인은 부모가 해 주세요.');
 }
 
 function allLandmarks(){return [...BASE.landmarks,...edits.added].map(x=>{
@@ -591,7 +608,7 @@ function renderPhotoTravel(){
  <p class="muted">${esc(chosen.name)} · 현재 보관 ${chosen.photos.length}/30장</p><div id="photoTravelResults">${state.commonsMsg?`<div class="info">${esc(state.commonsMsg)}</div>`:''}${renderCommons(chosen)}</div></section>`;
 }
 function refreshPhotoTravel(){if(state.view==='photoTravel')render();}
-function renderParent(){const items=allLandmarks(),numConfirmed=items.filter(f=>f.verified).length,numPhotographed=items.filter(f=>(f.photos||[]).length).length,editable=state.editorId?getLandmark(state.editorId):null;return `<section class="panel"><div class="section-head"><h2>👨‍👩‍👧 부모모드</h2><small>NEW 41 V1.7 · 명소 관리</small></div>${!state.admin?`<div class="info">위의 <b>부모모드 켜기</b>를 눌러 수정·검색·저장 기능을 사용해 주세요. 아이가 보는 동안에는 꺼 두면 좋습니다.</div>`:`<div class="panel" style="background:#fff8e8"><h3>☀️ 전체 사진 밝기 · 화면에서만 조절</h3><p class="small muted">원본 WebP 파일은 변경하지 않습니다. 이 기기에 값이 저장됩니다.</p><div class="action-row"><label>밝기 <strong>${photoBrightness}%</strong> <input id="photoBrightnessSlider" type="range" min="70" max="150" step="1" value="${photoBrightness}"></label><button class="btn blue" data-act="bright-default">108%</button><button class="btn" data-act="bright-original">100% 원래 밝기</button></div></div><div class="parent-stats"><div class="parent-stat"><strong>${BASE.countries.length}</strong>나라</div><div class="parent-stat"><strong>${items.length}</strong>명소 초안</div><div class="parent-stat"><strong>${numConfirmed}</strong>명소 설명 확인 완료</div><div class="parent-stat"><strong>${numPhotographed}</strong>사진 연결된 명소</div></div><div class="info">📁 <b>앱 전용 사진보관함:</b> ${storedPhotoRecords.size}장 · 약 ${bytesLabel([...storedPhotoRecords.values()].reduce((n,p)=>n+(p.blob?.size||0),0))} 사용. Safari와 홈화면 앱이 별도로 저장할 수 있으므로 iCloud Drive → 세계 명소대백과 폴더에 정기적으로 백업하세요. 저장은 자동 동기화가 아닙니다.</div><div class="info">대표이름과 별칭은 검색엔진의 제안 및 국가 일치 확인 후 부모가 승인합니다. 기초 등록 명소는 자료 검증 상태를 구분해 표시하며, 검색 결과만으로 설명·사진이 검증되었다고 표시하지 않습니다. 사진은 위키미디어에서 찾아 직접 고릅니다.</div><div class="action-row"><button class="btn primary" data-act="parent-new">＋ 새 명소 등록</button><div class="panel" style="width:100%;background:#f0faf4"><h3>📦 전체 백업 · 사진과 검색기억까지</h3><p class="small muted">전체 ZIP 한 개로 사진, 설명, 대표사진·순서, 검색기억, 전체 밝기 설정을 함께 보관합니다. 먼저 백업 준비, 완료 후 ZIP 저장을 누르세요.</p><div class="action-row"><button class="btn green" data-act="zip-backup">📦 전체 ZIP 백업 준비</button><button class="btn blue" id="zipSaveButton" data-act="zip-save" style="display:none">⬇ 준비된 전체 ZIP 저장</button><label class="btn blue">⬆ 전체 ZIP 복원<input type="file" id="mainZipRestore" accept=".zip,application/zip" style="display:none"></label><span id="zipStatus" class="small muted"></span></div></div><div class="country-backup-picker"><b>🌍 백업할 나라 선택</b><div class="small muted">41개국을 각각 선택하거나 모두 선택할 수 있습니다. 사진이 없는 나라도 설명·목록·검색기억을 백업합니다.</div><div class="action-row"><button class="btn ghost" data-act="backup-select-all">☑ 모두 선택</button><button class="btn ghost" data-act="backup-select-none">선택 해제</button><span id="backupSelectionCount" class="small muted">선택 ${selectedBackupCountries.size}개국</span></div><div class="backup-country-list">${backupCountryOptions().map(c=>`<label class="backup-country-choice"><input type="checkbox" data-backup-country="${esc(c.code)}" ${selectedBackupCountries.has(c.code)?'checked':''}> ${esc(c.name)} <small>(${c.count}장)</small></label>`).join('')||'<span class="muted">저장된 나라 자료가 아직 없습니다.</span>'}</div></div><div class="action-row"><button class="btn green" data-act="country-zip-backup">📦 선택한 나라 백업 준비</button><button class="btn blue" data-act="split-next">⬇ 다음 ZIP 저장</button><label class="btn blue" style="cursor:pointer">⬆ 나라별 ZIP 복원<input type="file" id="countryZipRestore" accept=".zip,application/zip" multiple style="display:none"></label><label class="btn ghost" style="cursor:pointer">🔍 나라별 ZIP 검사<input type="file" id="countryZipVerify" accept=".zip,application/zip" multiple style="display:none"></label></div><details class="backup-advanced"><summary>기존 전체 백업·검색기억·진단 도구</summary><div class="action-row"><button class="btn green" data-act="split-start">📦 전체 ZIP 분할 준비</button><label class="btn blue">⬆ 분할 ZIP 복원<input type="file" id="importBackup" accept=".json,.zip,application/json,application/zip" multiple style="display:none"></label><label class="btn ghost">🔍 기존 ZIP 안전검사<input type="file" id="verifyZipInput" accept=".zip,application/zip" multiple style="display:none"></label><button class="btn blue" data-act="search-memory-export">🧠 검색기억 백업</button><label class="btn ghost">🧠 검색기억 가져오기<input type="file" id="searchMemoryImport" accept=".json" style="display:none"></label></div></details></div><div class="info" id="splitBackupStatus" role="status">나라별 ZIP은 한 나라당 하나씩 생성하며, 파일 이름은 나라명으로 시작합니다.</div><div class="small muted" id="verifyZipStatus" role="status">검사는 파일을 읽기만 하며 앱의 사진을 변경하지 않습니다.</div><details class="backup-advanced"><summary>기존 방식 및 진단 도구 보기</summary><div class="action-row"><button class="btn ghost" data-act="download-backup">기존 JSON 백업</button><button class="btn blue" data-act="chunk-start">기존 JSON 분할 준비</button><button class="btn blue" data-act="chunk-next">다음 JSON 묶음</button><label class="btn blue">ZIP 가상복원 검사<input type="file" id="dryRunZipInput" accept=".zip" style="display:none"></label><label class="btn blue">30장 복원 비교<input type="file" id="isolatedZipInput" accept=".zip" style="display:none"></label><label class="btn blue">100장 저장 시험<input type="file" id="isolatedFullZipInput" accept=".zip" style="display:none"></label><label class="btn blue">기존 ZIP 독립복원 시험<input type="file" id="incrementalRestoreInput" accept=".zip" style="display:none"></label><button class="btn ghost" data-act="incremental-restore-pause">독립복원 잠시 멈추기</button><button class="btn ghost" data-act="incremental-restore-status">진행 확인</button><button class="btn ghost" data-act="incremental-restore-clear">시험자료 정리</button><label class="btn blue">기존 ZIP에서 누락 사진만 추가<input type="file" id="liveMergeZipInput" accept=".zip" style="display:none"></label><button class="btn ghost" data-act="live-merge-stop">누락 사진 추가 중지</button></div><span id="chunkStatus" class="small muted"></span><span id="dryRunZipStatus" class="small muted"></span><span id="incrementalRestoreStatus" class="small muted"></span><span id="isolatedRestoreStatus" class="small muted"></span><span id="liveMergeStatus" class="small muted"></span></details>`}</section>
+function renderParent(){const items=allLandmarks(),numConfirmed=items.filter(f=>f.verified).length,numPhotographed=items.filter(f=>(f.photos||[]).length).length,editable=state.editorId?getLandmark(state.editorId):null;return `<section class="panel"><div class="section-head"><h2>👨‍👩‍👧 부모모드</h2><small>NEW 41 V1.8 · 명소 관리</small></div>${!state.admin?`<div class="info">위의 <b>부모모드 켜기</b>를 눌러 수정·검색·저장 기능을 사용해 주세요. 아이가 보는 동안에는 꺼 두면 좋습니다.</div>`:`<div class="panel" style="background:#fff8e8"><h3>☀️ 전체 사진 밝기 · 화면에서만 조절</h3><p class="small muted">원본 WebP 파일은 변경하지 않습니다. 이 기기에 값이 저장됩니다.</p><div class="action-row"><label>밝기 <strong>${photoBrightness}%</strong> <input id="photoBrightnessSlider" type="range" min="70" max="150" step="1" value="${photoBrightness}"></label><button class="btn blue" data-act="bright-default">108%</button><button class="btn" data-act="bright-original">100% 원래 밝기</button></div></div><div class="parent-stats"><div class="parent-stat"><strong>${BASE.countries.length}</strong>나라</div><div class="parent-stat"><strong>${items.length}</strong>명소 초안</div><div class="parent-stat"><strong>${numConfirmed}</strong>명소 설명 확인 완료</div><div class="parent-stat"><strong>${numPhotographed}</strong>사진 연결된 명소</div></div><div class="info">📁 <b>앱 전용 사진보관함:</b> ${storedPhotoRecords.size}장 · 약 ${bytesLabel([...storedPhotoRecords.values()].reduce((n,p)=>n+(p.blob?.size||0),0))} 사용. Safari와 홈화면 앱이 별도로 저장할 수 있으므로 iCloud Drive → 세계 명소대백과 폴더에 정기적으로 백업하세요. 저장은 자동 동기화가 아닙니다.</div><div class="info">대표이름과 별칭은 검색엔진의 제안 및 국가 일치 확인 후 부모가 승인합니다. 기초 등록 명소는 자료 검증 상태를 구분해 표시하며, 검색 결과만으로 설명·사진이 검증되었다고 표시하지 않습니다. 사진은 위키미디어에서 찾아 직접 고릅니다.</div><div class="action-row"><button class="btn primary" data-act="parent-new">＋ 새 명소 등록</button><div class="panel" style="width:100%;background:#f0faf4"><h3>📦 전체 백업 · 사진과 검색기억까지</h3><p class="small muted">전체 ZIP 한 개로 사진, 설명, 대표사진·순서, 검색기억, 전체 밝기 설정을 함께 보관합니다. 먼저 백업 준비, 완료 후 ZIP 저장을 누르세요.</p><div class="action-row"><button class="btn green" data-act="zip-backup">📦 전체 ZIP 백업 준비</button><button class="btn blue" id="zipSaveButton" data-act="zip-save" style="display:none">⬇ 준비된 전체 ZIP 저장</button><label class="btn blue">⬆ 전체 ZIP 복원<input type="file" id="mainZipRestore" accept=".zip,application/zip" style="display:none"></label><span id="zipStatus" class="small muted"></span></div></div><div class="country-backup-picker"><b>🌍 백업할 나라 선택</b><div class="small muted">41개국을 각각 선택하거나 모두 선택할 수 있습니다. 사진이 없는 나라도 설명·목록·검색기억을 백업합니다.</div><div class="action-row"><button class="btn ghost" data-act="backup-select-all">☑ 모두 선택</button><button class="btn ghost" data-act="backup-select-none">선택 해제</button><span id="backupSelectionCount" class="small muted">선택 ${selectedBackupCountries.size}개국</span></div><div class="backup-country-list">${backupCountryOptions().map(c=>`<label class="backup-country-choice"><input type="checkbox" data-backup-country="${esc(c.code)}" ${selectedBackupCountries.has(c.code)?'checked':''}> ${esc(c.name)} <small>(${c.count}장)</small></label>`).join('')||'<span class="muted">저장된 나라 자료가 아직 없습니다.</span>'}</div></div><div class="action-row"><button class="btn green" data-act="country-zip-backup">📦 선택한 나라 백업 준비</button><button class="btn blue" data-act="split-next">⬇ 다음 ZIP 저장</button><label class="btn blue" style="cursor:pointer">⬆ 나라별 ZIP 복원<input type="file" id="countryZipRestore" accept=".zip,application/zip" multiple style="display:none"></label><label class="btn ghost" style="cursor:pointer">🔍 나라별 ZIP 검사<input type="file" id="countryZipVerify" accept=".zip,application/zip" multiple style="display:none"></label></div><details class="backup-advanced"><summary>기존 전체 백업·검색기억·진단 도구</summary><div class="action-row"><button class="btn green" data-act="split-start">📦 전체 ZIP 분할 준비</button><label class="btn blue">⬆ 분할 ZIP 복원<input type="file" id="importBackup" accept=".json,.zip,application/json,application/zip" multiple style="display:none"></label><label class="btn ghost">🔍 기존 ZIP 안전검사<input type="file" id="verifyZipInput" accept=".zip,application/zip" multiple style="display:none"></label><button class="btn blue" data-act="search-memory-export">🧠 검색기억 백업</button><label class="btn ghost">🧠 검색기억 가져오기<input type="file" id="searchMemoryImport" accept=".json" style="display:none"></label></div></details></div><div class="info" id="splitBackupStatus" role="status">나라별 ZIP은 한 나라당 하나씩 생성하며, 파일 이름은 나라명으로 시작합니다.</div><div class="small muted" id="verifyZipStatus" role="status">검사는 파일을 읽기만 하며 앱의 사진을 변경하지 않습니다.</div><details class="backup-advanced"><summary>기존 방식 및 진단 도구 보기</summary><div class="action-row"><button class="btn ghost" data-act="download-backup">기존 JSON 백업</button><button class="btn blue" data-act="chunk-start">기존 JSON 분할 준비</button><button class="btn blue" data-act="chunk-next">다음 JSON 묶음</button><label class="btn blue">ZIP 가상복원 검사<input type="file" id="dryRunZipInput" accept=".zip" style="display:none"></label><label class="btn blue">30장 복원 비교<input type="file" id="isolatedZipInput" accept=".zip" style="display:none"></label><label class="btn blue">100장 저장 시험<input type="file" id="isolatedFullZipInput" accept=".zip" style="display:none"></label><label class="btn blue">기존 ZIP 독립복원 시험<input type="file" id="incrementalRestoreInput" accept=".zip" style="display:none"></label><button class="btn ghost" data-act="incremental-restore-pause">독립복원 잠시 멈추기</button><button class="btn ghost" data-act="incremental-restore-status">진행 확인</button><button class="btn ghost" data-act="incremental-restore-clear">시험자료 정리</button><label class="btn blue">기존 ZIP에서 누락 사진만 추가<input type="file" id="liveMergeZipInput" accept=".zip" style="display:none"></label><button class="btn ghost" data-act="live-merge-stop">누락 사진 추가 중지</button></div><span id="chunkStatus" class="small muted"></span><span id="dryRunZipStatus" class="small muted"></span><span id="incrementalRestoreStatus" class="small muted"></span><span id="isolatedRestoreStatus" class="small muted"></span><span id="liveMergeStatus" class="small muted"></span></details>`}</section>
  ${state.admin?`${renderSelectionEngine()}${renderWikidataSearch()}${renderEditor(editable)}${renderCountryEditor()}<section class="panel"><div class="section-head"><h2>🗂️ 등록 명소 관리</h2><small>이름·분류·별칭·설명 수정</small></div>${items.map(f=>`<div class="result-row"><div><b>${esc(COUNTRY_MAP.get(f.countryCode)?.flag)} ${esc(f.name)}</b><div class="muted small">${esc(f.region)} · ${esc(category(f.category).name)} · ${f.nameAudit?.countryStatus==='matched'?'이름·국가 부모확인':(f.verified?'설명 검토완료':'기초자료/확인 전')} · 사진 ${(f.photos||[]).length}장</div></div><div class="action-row" style="margin-top:0"><button class="btn btn-small" data-act="edit-place" data-id="${esc(f.id)}">수정</button><button class="btn btn-small" data-act="open-detail" data-id="${esc(f.id)}">사진</button></div></div>`).join('')}</section>`:''}`;}
 
 // Stage 0.2: Search engine joins selection, identity checking, multilingual aliases.
