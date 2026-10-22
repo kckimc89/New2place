@@ -166,3 +166,10 @@
 .country-choice .country-counts{display:block!important;margin:6px auto 0;padding:4px 3px;border-radius:7px;background:#e7f4e9;color:#265d3f;font-size:12px;font-weight:850;line-height:1.45;white-space:normal;}
 .country-choice{min-height:83px;}
 @media(max-width:560px){.country-choice .country-counts{font-size:11px;padding:3px 1px}.country-choice{min-height:78px;}}
+
+/* NEW 41 V1.17: calm country progress status */
+.country-choice.country-complete{border:3px solid #256c3a;}
+.country-choice.country-started{border:2px solid #a1cdb0;}
+.country-choice.country-complete.selected{border-color:#256c3a;}
+.country-choice.country-started.selected{border-color:#a1cdb0;}
+.country-choice .country-counts{display:block!important;background:transparent!important;color:#5b5147!important;font-weight:800;font-size:12px!important;padding:2px 0!important;margin:4px auto 0!important;line-height:1.35!important;}
