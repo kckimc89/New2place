@@ -226,16 +226,15 @@ async function saveSelectedCandidates(id){if(!state.admin||bulkBusy)return;const
 // Stage 2.1: metadata-based conservative automatic photo curation.
 // This is a ranking aid, NOT computer vision or verified identity/licensing.
 function photoScene(ph){
- const t=([ph.title,ph.description].filter(Boolean).join(' ')).replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
+ const t=(ph.title||'').replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
  const scenes=[
  ['전경 / 파노라마',/panorama|panoramic|aerial|bird.s.eye|skyline|overview|wide.view|全景|俯瞰|전경|파노라마|luftbild|vue générale/i],
- ['풍경 / 전면',/landscape|scenery|view.of|front.view|facade|exterior|outside|courtyard|front|view.from|perspective|遠景|외관|풍경|전면|정면/i],
- ['정원 / 연못',/garden|pond|lake|lotus|rear.garden|후원|정원|연못|庭園|池/i],
+ ['풍경 / 전면',/landscape|scenery|view.of|front.view|facade|exterior|front|view.from|perspective|遠景|외관|풍경/i],
  ['일출 / 일몰',/sunrise|sunset|golden.hour|dusk|dawn|일출|일몰|석양|lever.du.soleil/i],
  ['야경 / 조명',/night|evening|illuminat|blue.hour|야경|밤|nuit/i],
  ['눈 / 겨울',/snow|winter|neige|schnee|설경|겨울/i],
- ['봄 / 꽃 풍경',/spring|cherry|blossom|flowering|봄|벚꽃/i],
- ['가을 / 단풍 풍경',/autumn|fall.color|foliage|가을|단풍/i],
+ ['봄 / 꽃',/spring|cherry|blossom|flower|봄|벚꽃/i],
+ ['가을 / 단풍',/autumn|fall.color|foliage|가을|단풍/i],
  ['물 / 반영',/reflection|reflected|river|lake|water|sea|coast|반영|호수|바다/i],
  ['측면 / 다른 각도',/side.view|from.the|from.south|from.north|from.east|from.west|측면/i]
  ];
@@ -243,69 +242,53 @@ function photoScene(ph){
 }
 function autoPhotoRank(ph){
  if(!ph.allowed||!ph.source||!ph.url)return -999;
- const text=([ph.title,ph.description].filter(Boolean).join(' ')).replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
- if(/\b(map|plan|diagram|floor.plan|drawing|poster|signage|signboard|logo|flag|ticket|route|locator|location.map|mapa|karte)\b|지도|평면도|도면|안내판|地図|地圖|地图/i.test(text))return -999;
- if(/\b(painting|illustration|artwork|engraving|etching|watercolor|watercolour|sketch|lithograph|rendering|digital.art|ai.generated|postcard|scan(?:ned)?)\b|그림|회화|삽화|일러스트|스캔|絵画|绘画|繪畫/i.test(text))return -999;
- if(/\b(crowd|tourists|selfie|portrait|wedding|group.photo|people|person|protest|ceremony|march|conference)\b|인물|군중|단체사진|游客合影/i.test(text))return -320;
- if(/\b(interior|inside|room|altar|shrine.interior|throne|artifact|relic|sundial|instrument|object|display|detail|close.up|inscription|plaque|statue|door.knob|ornament|texture|tile|ceiling|window.detail)\b|실내|내부|제단|유물|해시계|세부|장식|부분 확대/i.test(text))return -220;
- if(/\b(branch|twig|leaf|leaves|berry|berries|fruit|flower.detail|blossom.close|tree.trunk|bark)\b|나뭇가지|나무열매|열매|잎사귀|가지|수피|枝|葉|果実/i.test(text))return -240;
+ const name=(ph.title||'').replace(/^File:/i,'').replace(/[_-]/g,' ').toLowerCase();
+ if(/\b(map|plan|diagram|floor.plan|drawing|poster|signage|signboard|logo|flag|ticket|route|locator|location.map|mapa|karte)\b|지도|평면도|도면|안내판|地図|地圖|地图/i.test(name))return -999;
+ if(/\b(crowd|tourists|selfie|portrait|wedding|group.photo|people|person|protest|ceremony|march|conference)\b|인물|군중|단체사진|游客合影/i.test(name))return -300;
+ if(/\b(detail|close.up|inscription|plaque|statue|door.knob|ornament|texture|tile|ceiling|window.detail)\b|문양|세부|장식|부분 확대/i.test(name))return -120;
  let score=0;
  const ratio=(ph.width||0)/(ph.height||1);
  if(ph.width>=1400&&ph.height>=850)score+=20;
  if(ph.width>=2000)score+=12;
- if(ph.height>=700)score+=8;
- if(ratio>=1.3&&ratio<=2.8)score+=24;
- else if(ratio<1.1)score-=18;
- if(/panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|outside|courtyard|garden|view|front|facade|palace|hall|gate|pavilion|temple|building|roofline|skyline|全景|풍경|전경|파노라마|외관|궁|전각|문|누각|정원|후원|연못/i.test(text))score+=30;
- if(/sunrise|sunset|night|dusk|autumn|winter|snow|spring|reflection|야경|석양|설경|단풍/i.test(text))score+=10;
- if(/\b(blur|blurry|low.res|thumbnail|cropped|watermark|replica|reproduction|miniature|model)\b|복제품|모형|저해상도/i.test(text))score-=50;
+ if(ratio>=1.3&&ratio<=2.6)score+=22;
+ else if(ratio<0.8)score-=14;
+ if(/panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|view|front|skyline|全景|풍경|전경|파노라마/i.test(name))score+=24;
+ if(/sunrise|sunset|night|dusk|autumn|winter|snow|spring|reflection|야경|석양|설경|단풍/i.test(name))score+=13;
+ if(/\b(blur|blurry|low.res|thumbnail|cropped|scan|postcard|illustration|watermark|replica|reproduction)\b/i.test(name))score-=45;
  // Existing search confidence is a weak tie breaker, not proof of subject identity.
  score+=Math.max(-10,Math.min(15,(Number(ph.score)||0)/12));
  return score;
 }
-// V1.8: stricter metadata gate for unattended saves.
-// The goal is to prefer wide exterior landmark scenery and avoid paintings,
-// interior shots, tiny detail crops, plant close-ups, and artifact/object photos.
- function automaticPhotoSafety(ph,f){
- const text=[ph.title,ph.description,ph.query,ph.artist].filter(Boolean).join(' ').replace(/[_-]/g,' ').toLowerCase();
- const artLike=/(?:\b(?:painting|illustration|artwork|drawing|engraving|etching|watercolor|watercolour|sketch|lithograph|poster|painting of|photo of (?:a )?painting|photograph of (?:a )?painting|scan|scanned|replica|reproduction|miniature|model|postcard|screenshot|rendering|digital art|ai generated|generated image|map|plan|diagram)\b|그림|회화|삽화|일러스트|스캔|복제품|모형|미니어처|지도|도면|포스터|绘画|繪畫|画作|絵画|イラスト)/i;
- const interiorLike=/(?:\b(?:interior|inside|room|hall interior|altar|shrine interior|exhibit|throne|furniture|display case|corridor interior)\b|실내|내부|제단|실내 전시|室内|內部)/i;
- const detailLike=/(?:\b(?:detail|close[ -]?up|cropped|inscription|plaque|statue detail|texture|tile|ceiling|door knob|window detail|artifact|relic|sundial|instrument|object|display|tablet|stele|monument detail)\b|세부|장식|부분 확대|유물|해시계|비석|현판 확대|細部|文物)/i;
- const plantLike=/(?:\b(?:branch|twig|leaf|leaves|berry|berries|fruit|flower detail|blossom close|tree trunk|bark|flora)\b|나뭇가지|나무열매|열매|꽃잎|잎사귀|가지|수피|枝|葉|果実)/i;
- if(artLike.test(text))return {ok:false,why:'그림·지도·스캔·복제 자료'};
- if(interiorLike.test(text))return {ok:false,why:'실내 중심 사진'};
- if(detailLike.test(text))return {ok:false,why:'유물·장식·부분 확대 사진'};
- if(plantLike.test(text))return {ok:false,why:'나무·꽃·열매 등 부분 자연 사진'};
+// V1.8: selection criteria reverted to the broader V1.6-style auto-curation while keeping newer storage and audit features.
+// Names may be incomplete in Commons. Uncertain files are kept for manual review,
+// not added to the album automatically.
+function automaticPhotoSafety(ph,f){
+ const text=[ph.title,ph.description].filter(Boolean).join(' ').replace(/[_-]/g,' ').toLowerCase();
+ const exclude=/(?:\b(?:painting|illustration|artwork|drawing|engraving|etching|watercolor|watercolour|sketch|lithograph|poster|painting of|photo of (?:a )?painting|photograph of (?:a )?painting|scan|scanned|replica|reproduction|miniature|model|interior|inside|altar|shrine interior|exhibit|statue detail|close[ -]?up|cropped|plan|map|diagram|postcard|screenshot|rendering|digital art|ai generated|generated image)\b|그림|회화|삽화|일러스트|스캔|복제품|모형|미니어처|실내|내부|제단|지도|도면|포스터|绘画|繪畫|画作|絵画|イラスト)/i;
+ if(exclude.test(text))return {ok:false,why:'그림·실내·부분 사진 또는 원본 불명 자료'};
  const n=String(f?.name||'').trim().toLowerCase();
  const primary=[n,String(f?.wikiTitle||'').toLowerCase(),...(f?.aliases||[]).map(x=>String(x).toLowerCase())].filter(x=>x.length>=4);
  // Generic translated terms such as Palace, Temple, Castle aren't enough.
  const hasName=primary.some(x=>x.length>=4&&text.includes(x));
- const structured=ph.sourceType==='구조화된 명소 사진';
- if(!(structured||hasName))return {ok:false,why:'사진 제목·설명에 해당 명소의 식별정보가 부족함'};
- if(ph.width&&ph.height&&ph.width/ph.height<1.15)return {ok:false,why:'풍경 중심 가로 사진 기준 미달'};
- if(ph.width&&ph.width<1100)return {ok:false,why:'너무 작은 원본 사진'};
- const strongExterior=/(?:panorama|panoramic|aerial|overview|wide|landscape|scenery|exterior|outside|courtyard|garden|rear garden|pond|view|front|facade|palace|hall|gate|pavilion|temple|building|roofline|전경|풍경|외관|정면|궁|전각|문|누각|정원|후원|연못|建築|宮殿|門|庭園|殿|閣|楼)/i;
- const weakSubjectOnly=/(?:palace|hall|gate|pavilion|temple|building|전각|궁|문|정원|후원|연못|建築|宮殿|門|庭園|殿|閣|楼)/i;
- if(!strongExterior.test(text) && !(structured && weakSubjectOnly.test(text)))return {ok:false,why:'명소 전경·외관·풍경을 보여주는 단서가 부족함'};
+ const strict=ph.sourceType==='구조화된 명소 사진' || hasName;
+ if(!strict)return {ok:false,why:'사진 제목·설명에 해당 명소의 확실한 식별정보가 없음'};
+ if(ph.width&&ph.height&&ph.width/ph.height<1.08)return {ok:false,why:'풍경 중심 가로 사진 기준 미달'};
  // Strong contamination clue: unsupported subject vs selected palace.
  if(/경복궁|gyeongbok(?:gung)?|景福宮/i.test([f?.name,f?.wikiTitle].join(' ')) && /\b(?:forbidden city|beijing|taipei|taiwan|china|chinese temple|chinese shrine|tokyo|japan|japanese shrine)\b|故宫|故宮|紫禁城|中国|中國|北京|台湾|臺灣|日本/i.test(text))return {ok:false,why:'경복궁이 아닌 다른 국가·장소로 의심됨'};
- if(/창덕궁|changdeok(?:gung)?|昌德宮/i.test([f?.name,f?.wikiTitle].join(' ')) && /\b(?:forbidden city|beijing|taipei|taiwan|china|chinese temple|chinese shrine|tokyo|japan|japanese shrine)\b|故宫|故宮|紫禁城|中国|中國|北京|台湾|臺灣|日本/i.test(text))return {ok:false,why:'창덕궁이 아닌 다른 국가·장소로 의심됨'};
- return {ok:true,why:'메타데이터 기준의 보수적 풍경 사진 후보'};
+ return {ok:true,why:'메타데이터 기초 확인(실제 사진 내용 검증 아님)'};
 }
 function curateCandidatePhotos(id,limit=30){
  const f=getLandmark(id),already=new Set((f?.photos||[]).map(p=>p.source).filter(Boolean));
- const items=(commonsCache.get(id)||[]).map((p,index)=>({...p,index,rank:autoPhotoRank(p),scene:photoScene(p),safe:automaticPhotoSafety(p,f)}))
- .filter(p=>p.rank>=5&&!already.has(p.source)&&!jpPhotoRejected(p,f)&&p.safe.ok)
+ const items=(commonsCache.get(id)||[]).map((p,index)=>({...p,index,rank:autoPhotoRank(p),scene:photoScene(p)}))
+ .filter(p=>p.rank>=0&&!already.has(p.source)&&!jpPhotoRejected(p,f))
  .sort((a,b)=>b.rank-a.rank||b.width-a.width);
  const result=[],scenes=new Map(),prefixes=new Set();
- // Two rounds: first prefer high-confidence exterior/landscape photos, then fill with backups.
+ // Two rounds: ensure visual variety first, then include more excellent candidates.
  for(let round=0;round<2&&result.length<limit;round++)for(const ph of items){
    if(result.length>=limit)break;
    if(result.some(r=>r.index===ph.index))continue;
-   if(round===0 && ph.rank<28)continue;
    const sceneCount=scenes.get(ph.scene)||0;
-   if(round===0&&sceneCount>=2)continue;
-   if(round===1&&sceneCount>=4)continue;
+   if(round===0&&sceneCount>=3)continue;
    const filename=(ph.title||'').replace(/^File:/i,'').toLowerCase().replace(/\d+|\.(jpe?g|png|webp)$/gi,'').replace(/[_\W]+/g,'').slice(0,34);
    if(filename&&prefixes.has(filename))continue;
    result.push(ph);scenes.set(ph.scene,sceneCount+1);if(filename)prefixes.add(filename);
@@ -316,8 +299,8 @@ let autoPhotoBusy=false,autoPhotoMessage='';
 async function autoCurateAndSave(id){
  if(!state.admin||autoPhotoBusy||bulkBusy)return;
  const items=curateCandidatePhotos(id,30);
- if(!items.length)return alert('자동저장 기준을 통과한 사진이 없습니다. 그림·실내·유물·부분 확대·자연 클로즈업 사진으로 30장을 채우지 않습니다. 사진 여행에서 후보를 직접 확인해 주세요.');
- if(!confirm('✨ '+items.length+'장을 명소 식별·전경/풍경·그림 제외·실내 제외·부분 확대 제외 기준으로 보수적으로 자동 추천했습니다.\n\n사진 제목과 설명, 크기에 근거한 추천으로 실제 명소 일치나 저작권을 완벽히 검증한 것은 아닙니다. 원본 출처를 확인하고 저장할까요?\n\n기존 사진은 삭제하거나 순서를 변경하지 않습니다.'))return;
+ if(!items.length)return alert('현재 후보에서 새로 추천할 사진이 없습니다. 이미 저장했거나, 풍경 중심의 적합한 후보가 부족할 수 있습니다.');
+ if(!confirm('✨ '+items.length+'장을 풍경·화질·다양성 기준으로 자동 추천했습니다.\n\n사진 제목과 크기에 근거한 추천으로, 실제 명소 일치나 저작권을 완벽히 검증한 것은 아닙니다. 원본 출처를 확인하고 저장할까요?\n\n기존 사진은 삭제하거나 순서를 변경하지 않습니다.'))return;
  // Native Safari WebP encoding is optional: V1.8 can invoke an independent
  // WebAssembly encoder during the actual conversion. Do not block prematurely.
 
@@ -336,10 +319,10 @@ async function autoCurateAndSave(id){
   await new Promise(resolve=>setTimeout(resolve,20));
  }
  autoPhotoBusy=false;autoPhotoMessage=`자동 추천 저장 완료 · 성공 ${success}장 · 실패 ${failed}장 · 중복 ${skipped}장`;
- updateModalPhoto();
- alert(autoPhotoMessage+(errors.length?'\n\n실패 예시: '+errors.join(' / '):'')+'\n\n사진첩에서 결과를 확인해 주세요. 풍경 중심 기준을 강화했지만 최종 확인은 부모가 해 주세요.');
+ if(errors.length)autoPhotoMessage+='\n실패 예시: '+errors.join(' / ');
+ render();
+ alert(autoPhotoMessage+'\n\n사진첩에서 결과를 확인해 주세요. 제목 기반 추천이므로 명소 일치와 이용조건을 최종 검토해 주세요.');
 }
-
 function allLandmarks(){return [...BASE.landmarks,...edits.added].map(x=>{
  const f={...x,...(edits.overrides[x.id]||{})};
  const photos=(f.photos||[]).slice();const keys=new Set(photos.map(p=>p.url));
@@ -757,7 +740,7 @@ function researchToEditor(){
 
 function renderWikidataSearch(){return `<section class="panel"><div class="section-head"><h2>🔎 검색엔진과 함께 대표명소 선정</h2><small>위키데이터 후보 발굴</small></div><p class="lead small">등록하기 전에 이름의 뜻과 실제 장소를 확인합니다. 검색 결과는 검증된 명소가 아니라 <b>선정 후보</b>입니다.</p><form id="wikidataForm" class="search-form"><input id="wikidataInput" autocomplete="off" enterkeyhint="search" placeholder="예: Gyeongbokgung, Eiffel Tower, 万里长城" value="${esc(state.wikidataQuery)}"><button>후보 찾기</button></form><p class="muted small">${esc(state.wikidataMessage||'한국어·영어 후보를 검색하고, 위키데이터의 설명과 식별번호를 확인합니다.')}</p><div id="wikidataResults">${state.wikidataResults.map(r=>`<div class="result-row"><div><h4>${esc(r.label||r.id)} <span class="muted small">${esc(r.id)}</span></h4><p class="muted small">${esc(r.description||'설명 없음')}</p><a class="link small" href="https://www.wikidata.org/wiki/${esc(r.id)}" target="_blank" rel="noopener noreferrer">원본 확인 ↗</a></div><button type="button" class="btn btn-small" data-act="use-wikidata" data-qid="${esc(r.id)}">국가·별칭 확인</button></div>`).join('')}</div></section>`;}
 
-// NEW 41 V1.7: Auto-fill a sourced *draft*, never mark it verified.
+// NEW 41 V1.8: Auto-fill a sourced *draft*, never mark it verified.
 async function draftLandmarkDescription(){
  if(!state.admin)return;const form=document.getElementById('placeEditForm');if(!form)return;
  const qid=String(form.elements.qid.value||'').trim();const name=String(form.elements.name.value||'').trim();
@@ -838,7 +821,7 @@ async function makeCountryTour(code){
  return slides;
 }
 
-// NEW 41 V1.7: A photo journey plays every photograph in the saved album order.
+// NEW 41 V1.8: A photo journey plays every photograph in the saved album order.
 let albumCountryMode=false,albumCountryTimer=null,albumCountryMs=3000;
 function stopAlbumCountryTimer(){if(albumCountryTimer){clearTimeout(albumCountryTimer);albumCountryTimer=null;}}
 function drawAlbumCountry(){drawCountryTour();const root=tourElement();root.classList.toggle('album-country-mode',true);root.querySelector('#tourCaption').textContent='';root.querySelector('#tourCredit').textContent='';const btn=document.getElementById('tourToggle');if(btn)btn.textContent=tourActive?'⏸ 정지해서 보기':'▶ 계속 재생';document.querySelectorAll('.album-country-speed button').forEach(b=>b.classList.toggle('selected',Number(b.dataset.ms)===albumCountryMs));}
@@ -1223,7 +1206,7 @@ const JP_PHOTO_SEARCH={
  'JP-CF-016':{names:['Himeji Castle Japan','姫路城']},
  'JP-CF-023':{names:['Kanazawa Castle park','金沢城公園']}
 };
-// NEW 41 V1.7: specific-name search hints for Singapore, Germany, Switzerland.
+// NEW 41 V1.8: specific-name search hints for Singapore, Germany, Switzerland.
 // These are discovery terms only; the parent must still verify each photo identity and its license.
 // Verified place-name search hints for GB, FR, US, AU. Search-only; never changes user data.
 const PHOTO_SEARCH_FOUR_COUNTRIES={"GB-CF-001":["Palace of Westminster","Big Ben","Elizabeth Tower London"],"GB-CF-002":["Buckingham Palace"],"GB-CF-003":["Tower Bridge London"],"GB-CF-004":["Tower of London"],"GB-CF-005":["Westminster Abbey"],"GB-CF-006":["British Museum London"],"GB-CF-007":["London Eye"],"GB-CF-008":["St Paul Cathedral London"],"GB-CF-009":["Trafalgar Square London"],"GB-CF-010":["Natural History Museum London"],"GB-CF-011":["Stonehenge Wiltshire"],"GB-CF-012":["Windsor Castle"],"GB-CF-013":["Bodleian Library Oxford"],"GB-CF-014":["Roman Baths Bath England"],"GB-CF-015":["Lake District National Park England"],"GB-CF-016":["Edinburgh Castle"],"GB-CF-017":["Old Man of Storr Isle of Skye","The Storr Skye"],"GB-CF-018":["Loch Ness Scotland"],"GB-CF-019":["Conwy Castle Wales"],"GB-CF-020":["Giant Causeway Northern Ireland","Giant’s Causeway","Clochán an Aifir"],"FR-CF-001":["Musée d Orsay Paris"],"FR-CF-002":["Montmartre Paris"],"FR-CF-003":["Basilique du Sacré Cœur Montmartre"],"FR-CF-004":["Sainte-Chapelle Paris"],"FR-CF-005":["Jardin des Tuileries Paris"],"FR-CF-006":["Jardin du Luxembourg Paris"],"FR-CF-007":["Palais Garnier Paris"],"FR-CF-008":["Château de Fontainebleau"],"FR-CF-010":["Château de Chambord"],"FR-CF-011":["Château de Chenonceau"],"FR-CF-012":["Palais des Papes Avignon"],"FR-CF-013":["Pont du Gard"],"FR-CF-014":["Falaises d Étretat"],"FR-CF-015":["Plateau de Valensole lavender","Lavandes Valensole","Lavender fields Valensole"],"FR-CF-016":["Croisette Cannes"],"FR-CF-017":["Saint Malo ville intra muros"],"FR-CF-018":["Chamonix Mont Blanc"],"FR-CF-019":["Lac d Annecy"],"FR-CF-020":["Place de la Bourse Bordeaux","Miroir d eau Bordeaux"],"FR-CF-021":["Petite France Strasbourg"],"US-CF-001":["Statue of Liberty New York"],"US-CF-002":["Times Square New York"],"US-CF-003":["Central Park New York"],"US-CF-004":["Empire State Building New York"],"US-CF-005":["Brooklyn Bridge New York"],"US-CF-006":["Metropolitan Museum of Art New York"],"US-CF-007":["Lincoln Memorial Washington DC"],"US-CF-008":["White House Washington DC"],"US-CF-009":["United States Capitol Washington DC"],"US-CF-010":["Niagara Falls New York"],"US-CF-011":["Grand Canyon National Park Arizona"],"US-CF-012":["Yosemite National Park California"],"US-CF-013":["Yellowstone National Park"],"US-CF-014":["Zion National Park Utah"],"US-CF-015":["Bryce Canyon National Park Utah"],"US-CF-016":["Antelope Canyon Page Arizona","Upper Antelope Canyon","Lower Antelope Canyon"],"US-CF-017":["Monument Valley Navajo Tribal Park"],"US-CF-018":["Arches National Park Utah"],"US-CF-019":["Death Valley National Park"],"US-CF-020":["Redwood National and State Parks California","Redwood forest California"],"US-CF-021":["Golden Gate Bridge San Francisco"],"US-CF-022":["Alcatraz Island San Francisco"],"US-CF-023":["Hollywood Sign Los Angeles"],"US-CF-024":["Griffith Observatory Los Angeles"],"US-CF-025":["Las Vegas Strip Nevada"],"US-CF-026":["Magic Kingdom Walt Disney World Florida","Cinderella Castle Magic Kingdom Orlando"],"US-CF-027":["Millennium Park Chicago"],"US-CF-028":["Space Needle Seattle"],"US-CF-029":["Diamond Head Oahu Hawaii"],"US-CF-030":["Hawaii Volcanoes National Park"],"AU-CF-001":["Sydney Opera House"],"AU-CF-002":["Sydney Harbour Bridge"],"AU-CF-003":["Bondi Beach Sydney"],"AU-CF-004":["Three Sisters Blue Mountains Katoomba","Three Sisters Katoomba"],"AU-CF-005":["Taronga Zoo Sydney"],"AU-CF-006":["Hunter Valley vineyards Australia"],"AU-CF-007":["Flinders Street railway station Melbourne"],"AU-CF-008":["Great Ocean Road Victoria"],"AU-CF-009":["Twelve Apostles Victoria Australia","The Twelve Apostles Port Campbell"],"AU-CF-010":["Penguin Parade Phillip Island","Phillip Island penguins"],"AU-CF-011":["Adelaide Botanic Garden"],"AU-CF-012":["Great Barrier Reef Queensland"],"AU-CF-013":["Daintree Rainforest Queensland"],"AU-CF-014":["Uluru Ayers Rock","Uluru Kata Tjuta National Park"],"AU-CF-015":["Kata Tjuta Olgas"],"AU-CF-016":["Kakadu National Park Northern Territory"],"AU-CF-017":["Kings Canyon Watarrka National Park"],"AU-CF-018":["Wave Rock Hyden Western Australia"],"AU-CF-019":["Kings Park Perth Western Australia"],"AU-CF-020":["Cradle Mountain Tasmania","Cradle Mountain Lake St Clair National Park"]};
@@ -1895,7 +1878,7 @@ async function restoreSplitZipFiles(files){
  finally{splitBusy=false;}
 }
 
-// NEW 41 V1.7: single ZIP download, no base64 copies of photos.
+// NEW 41 V1.8: single ZIP download, no base64 copies of photos.
 // ZIP uses STORE (no re-compression of JPEGs); Blob parts reference photo binaries.
 let zipBusy=false,zipReady=null;
 const ZIP_ENC=new TextEncoder();
@@ -1967,7 +1950,7 @@ async function prepareZipBackup(){
 }
 async function zipSlice(file,start,length){return new Uint8Array(await file.slice(start,start+length).arrayBuffer());}
 
-// NEW 41 V1.7: read-only ZIP audit. Does NOT open or modify IndexedDB.
+// NEW 41 V1.8: read-only ZIP audit. Does NOT open or modify IndexedDB.
 // Each photo CRC is verified from a limited-size slice; no whole-archive buffer.
 let zipAuditBusy=false;
 function auditStatus(text){const el=document.getElementById('verifyZipStatus');if(el)el.textContent=text;}
@@ -2087,7 +2070,7 @@ async function auditZipFile(file,mode="audit"){
  finally{zipAuditBusy=false;}
 }
 
-// NEW 41 V1.7: isolated IndexedDB WRITE/READ verification. Never open or modify PHOTO_DB.
+// NEW 41 V1.8: isolated IndexedDB WRITE/READ verification. Never open or modify PHOTO_DB.
 const ISOLATED_RESTORE_DB='world_landmarks_zip_restore_test_v239';
 let isolatedRestoreBusy=false;
 function isolatedStatus(message){const el=document.getElementById('isolatedRestoreStatus');if(el)el.textContent=message;}
@@ -2196,7 +2179,7 @@ async function testIsolatedZipRestore(file,full){
  }finally{if(trialDb){try{await isolatedClear(trialDb);}catch(e){isolatedStatus('⚠ 시험 자료 정리에 실패했습니다: '+e.message+' · 기존 사진첩 변경 없음');}try{trialDb.close();}catch{}}isolatedRestoreBusy=false;}
 }
 
-// NEW 41 V1.7: resumable isolated ZIP restore test, ONLY the trial database is written.
+// NEW 41 V1.8: resumable isolated ZIP restore test, ONLY the trial database is written.
 // Never touches PHOTO_DB or real album metadata; uses 25-photo incremental sessions.
 const BATCH_RESTORE_COUNT=25;
 let incrementalRestoreBusy=false;
@@ -2272,7 +2255,7 @@ async function incrementalRestoreZip(file){
  }catch(e){incrementalStatus('⚠ '+step+' 실패: '+independentError(e)+' · 이전 완료 장수 보존');alert('독립 ZIP 복원 시험 중단\n'+step+'\n'+independentError(e)+'\n기존 사진첩 변경 없음. 같은 ZIP을 다시 선택해 이어갈 수 있습니다.');}
  finally{try{d?.close()}catch{}incrementalRestoreBusy=false;incrementalRestoreStop=false;}
 }
-// NEW 41 V1.7: non-destructive actual photo-library missing-photo recovery.
+// NEW 41 V1.8: non-destructive actual photo-library missing-photo recovery.
 // Existing photos, overrides, album order, featured images and travel notes are NEVER changed.
 let liveMergeBusy=false,liveMergeStop=false;
 function liveMergeStatus(t){const e=document.getElementById('liveMergeStatus');if(e)e.textContent=t;}
@@ -2373,7 +2356,7 @@ async function restoreZipBackup(file){
  finally{zipBusy=false;}
 }
 
-// NEW 41 V1.7: independent JSON metadata + small photo chunks.
+// NEW 41 V1.8: independent JSON metadata + small photo chunks.
 // Existing single-file backup is preserved. Never delete user photo data here.
 const CHUNK_PHOTOS=25;
 let chunkJob=null,chunkBusy=false;
