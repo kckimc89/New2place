@@ -158,3 +158,6 @@
 .story-tab{min-width:0;padding:12px 5px;white-space:normal;font-size:clamp(12px,1.7vw,17px)}
 .detail-travel-panel{margin-top:12px}
 @media(max-width:480px){.story-tab{font-size:12px;padding:10px 3px}}
+
+/* V1.15: country list completion counters */
+.country-counts{display:block;font-size:.79rem;line-height:1.35;margin-top:3px;color:#446354;font-weight:700;white-space:normal;}
