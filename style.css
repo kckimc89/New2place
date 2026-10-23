@@ -195,3 +195,8 @@
 .country-picker .country-choice.country-complete.selected {outline:2px solid #e4b66e;outline-offset:1px;}
 .country-picker .country-choice.country-started.selected {outline:2px solid #b17a44;outline-offset:1px;}
 .country-picker .country-choice .country-counts {background:transparent!important;font-weight:850;}
+
+/* V1.21 country name-plate parent controls */
+.nameplate-grid{align-items:stretch}
+.country-name-admin{display:inline-flex;gap:5px;align-items:center;justify-content:center;flex-wrap:wrap;margin:2px 5px 9px 0;padding:5px;background:#edf5ee;border-radius:10px}
+.country-name-admin .btn{font-size:12px;padding:7px 9px}
