@@ -1,7 +1,7 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.43.1",
-  "release": "NEW 41 V1.43.1",
+  "version": "1.43.2",
+  "release": "NEW 41 V1.43.2",
   "basedOn": "V1.42 underfilled search boost + country expansion + extra landmarks + KR additions",
   "categories": [
     {
@@ -16105,21 +16105,25 @@
       "name": "신안 천사섬",
       "category": "nature",
       "extraCategories": [],
-      "region": "전라남도 신안군",
+      "region": "전라남도 신안군, 대한민국",
       "aliases": [
-        "Shinan County",
-        "1004 Islands",
-        "천사섬 신안",
-        "신안군"
+        "Shinan County South Korea",
+        "Shinan Jeollanam-do Korea",
+        "Sinan County South Korea",
+        "Purple Island Banwol Bakji Shinan",
+        "Purple Island South Korea",
+        "천사대교 신안",
+        "퍼플섬 반월도 박지도",
+        "신안군 전남"
       ],
-      "description": "신안 천사섬은 수많은 섬이 펼쳐진 신안군의 바다 풍경을 대표하는 이름입니다. 다도해의 갯벌과 섬, 바다 위 다리와 해변 풍경을 함께 만날 수 있어 사진 자료가 풍부하고 아이가 보기에 인상적인 지역형 명소입니다.",
-      "wikiTitle": "Shinan County",
+      "description": "신안 천사섬은 전라남도 신안군의 섬과 바다를 아우르는 이름입니다. 섬들을 잇는 천사대교와 보라색 풍경으로 알려진 반월도·박지도 퍼플섬, 갯벌과 다도해의 풍경이 아름답습니다. 중국의 동명 지명과 혼동되지 않도록 대한민국 전라남도 신안군 사진을 중심으로 살펴봅니다.",
+      "wikiTitle": "Sinan County, South Korea",
       "wikiLang": "en",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "starter-editorial",
-      "selectionStatus": "확장 명소 초안",
+      "selectionStatus": "대한민국 신안군 지역·사진 검색 전용 보강",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
       "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
