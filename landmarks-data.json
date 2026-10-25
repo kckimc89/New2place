@@ -1,7 +1,7 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.43.3",
-  "release": "NEW 41 V1.43.3",
+  "version": "1.43.4",
+  "release": "NEW 41 V1.43.4",
   "basedOn": "V1.42 underfilled search boost + country expansion + extra landmarks + KR additions",
   "categories": [
     {
@@ -12434,15 +12434,22 @@
       "category": "nature",
       "extraCategories": [],
       "region": "",
-      "aliases": [],
+      "aliases": [
+        "Sigtuna old town Sweden",
+        "Stora gatan Sigtuna Sweden",
+        "Sigtuna rådhus",
+        "Sigtuna town hall Sweden",
+        "Sigtuna medieval town",
+        "Sigtuna gamla stad"
+      ],
       "description": "시그투나 구시가지은(는) 스웨덴의 대표적인 여행 명소입니다. 역사와 자연, 지역 문화를 직접 살펴보며 이 장소의 특징을 찾아보세요. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
-      "wikiTitle": "",
+      "wikiTitle": "Sigtuna",
       "wikiLang": "en",
       "photos": [],
       "status": "신규 후보",
       "verified": false,
       "source": "41-country-curated-starter",
-      "selectionStatus": "추가 검증 필요",
+      "selectionStatus": "V1.43.4 사진 검색어 집중 보강 · 사진 개별 검토 필요",
       "descriptionNote": "기본 안내 문구 · 상세 설명 미검증"
     },
     {
@@ -16231,18 +16238,24 @@
       "extraCategories": [],
       "region": "강원특별자치도 강릉",
       "aliases": [
+        "Gyeongpo Beach Gangneung South Korea",
+        "Gyeongpo Beach",
+        "경포해수욕장 강릉",
+        "경포해변",
+        "Gyeongpodae Pavilion Gangneung",
+        "경포호",
         "Gyeongpodae",
         "鏡浦臺",
         "경포대 강릉"
       ],
-      "description": "경포대는 경포호와 동해 바다를 함께 감상할 수 있는 강릉의 대표 명소입니다. 호수, 소나무 숲, 넓은 백사장과 해돋이 풍경이 어우러져 오래전부터 사랑받아 온 곳입니다.",
+      "description": "경포대는 강릉 경포호 근처에 자리한 아름다운 누정입니다. 주변의 경포호와 소나무 숲, 동해로 이어지는 경포해수욕장을 함께 살펴볼 수 있습니다. 전통 누정의 건축과 넓은 백사장, 푸른 바다를 한 명소의 사진여행에서 감상해 보세요.",
       "wikiTitle": "Gyeongpodae",
       "wikiLang": "en",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "starter-editorial",
-      "selectionStatus": "확장 명소 초안",
+      "selectionStatus": "V1.43.4 사진 검색어 집중 보강 · 사진 개별 검토 필요",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
       "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
@@ -17769,6 +17782,11 @@
       "extraCategories": [],
       "region": "케이프타운",
       "aliases": [
+        "Kirstenbosch National Botanical Garden Cape Town",
+        "Kirstenbosch Boomslang canopy walkway",
+        "Kirstenbosch gardens Table Mountain",
+        "Centenary Tree Canopy Walkway Kirstenbosch",
+        "Kirstenbosch Cape Town South Africa",
         "Kirstenbosch Botanical Garden"
       ],
       "description": "커스텐보시 식물원은 남아프리카의 식물을 아름답게 가꾼 큰 정원입니다. 산을 배경으로 꽃과 나무를 함께 즐길 수 있습니다.",
@@ -17778,7 +17796,7 @@
       "status": "초안",
       "verified": false,
       "source": "starter-editorial",
-      "selectionStatus": "확장 명소 초안",
+      "selectionStatus": "V1.43.4 사진 검색어 집중 보강 · 사진 개별 검토 필요",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
       "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
