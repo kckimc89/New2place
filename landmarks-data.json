@@ -1,7 +1,7 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.43",
-  "release": "NEW 41 V1.43",
+  "version": "1.43.1",
+  "release": "NEW 41 V1.43.1",
   "basedOn": "V1.42 underfilled search boost + country expansion + extra landmarks + KR additions",
   "categories": [
     {
