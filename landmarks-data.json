@@ -1,8 +1,8 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.43.4",
-  "release": "NEW 41 V1.43.4",
-  "basedOn": "V1.42 underfilled search boost + country expansion + extra landmarks + KR additions",
+  "version": "1.45",
+  "release": "NEW 41 V1.45",
+  "basedOn": "V1.43.4 preserved; 3 places and individual editorial story enhancements",
   "categories": [
     {
       "id": "nature",
@@ -474,7 +474,7 @@
         "景福宮",
         "Gyeongbokgung"
       ],
-      "description": "경복궁은 1395년 한양에 세워진 조선 왕조의 중심 궁궐입니다. ‘경복’이라는 이름에는 큰 복을 누리기를 바라는 뜻이 담겨 있습니다. 국왕이 공식 의식을 치르던 근정전, 연못 위에 세운 경회루, 정원이 아름다운 향원정은 각각 다른 쓰임새를 가졌습니다. 조선 후기 화재와 파괴를 겪은 뒤 고종 때 크게 중건되었고, 근현대에도 건물이 훼손되어 지금까지 복원이 이어지고 있습니다. 높은 산을 배경으로 전각이 일직선에 놓인 배치는 조선 궁궐이 추구했던 질서를 잘 보여 줍니다.",
+      "description": "경복궁은 1395년 조선의 첫 도읍 한양에 세워진 궁궐입니다. 왕이 나라의 중요한 행사를 열던 근정전, 연회를 베풀던 경회루, 연못 위의 향원정처럼 건물마다 쓰임이 달랐습니다. 궁궐은 여러 차례 큰 피해를 입었고 고종 때 크게 다시 지었습니다. 오늘날에도 역사 자료를 바탕으로 복원과 연구가 이어지고 있습니다. 북악산을 배경으로 한 전각의 배치를 보면 왕궁이 도시와 산을 어떻게 연결했는지 느낄 수 있습니다. 사진에서 근정전의 넓은 마당과 경회루의 물에 비친 모습, 향원정의 작은 다리를 찾아보세요.",
       "wikiTitle": "Gyeongbokgung",
       "wikiLang": "en",
       "photos": [],
@@ -483,8 +483,8 @@
       "source": "starter-editorial",
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
-      "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "KR-L02",
@@ -1340,7 +1340,7 @@
         "Tour Eiffel",
         "La tour Eiffel"
       ],
-      "description": "1889년 파리 만국박람회를 위해 세운 철제 탑입니다. 건설 당시 찬반 논쟁이 있었지만 오늘날에는 파리와 프랑스를 대표하는 상징이 되었습니다. 철골이 층층이 교차하는 구조는 가까이에서 보면 더욱 인상적입니다. 탑을 이루는 철제 격자 구조는 가까이서 보면 매우 촘촘하고 복잡합니다. 파리를 상징하는 이 건축물은 실용적인 공학기술이 시간이 흐르며 도시의 아름다움으로 받아들여진 특별한 사례입니다.",
+      "description": "파리를 대표하는 에펠탑은 1889년 세계박람회를 위해 세워졌습니다. 설계에 참여한 기술자 귀스타브 에펠의 이름을 따서 부르게 되었지요. 처음에는 거대한 철탑이 도시와 어울리지 않는다는 비판도 있었습니다. 그런데 철로만 만든 탑이 바람을 견디며 서 있는 모습은 당시의 뛰어난 공학 기술을 보여 줍니다. 시간이 흐르면서 에펠탑은 파리의 가장 유명한 상징이 되었고, 통신 시설로도 활용되었습니다. 밤의 반짝이는 조명은 낮의 철골 모습과 전혀 다른 인상을 줍니다. 사진에서 탑의 다리 네 개가 위쪽으로 모이는 곡선을 찾아보세요.",
       "wikiTitle": "Eiffel Tower",
       "wikiLang": "en",
       "photos": [],
@@ -1349,8 +1349,8 @@
       "source": "starter-editorial",
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
-      "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "FR-L02",
@@ -7794,14 +7794,15 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "나이아가라 폭포는 미국과 캐나다의 국경을 흐르는 나이아가라강에 있는 큰 폭포군입니다. 거대한 물줄기가 높은 절벽 아래로 떨어지며 많은 물안개와 굉음을 만들어 냅니다. 주요 폭포들은 서로 다른 모양을 지녀 전망 위치에 따라 풍경이 달라집니다. 빙하기 이후 강물이 지형을 깎으며 폭포의 위치가 천천히 변화해 왔다는 점도 흥미롭습니다.",
+      "description": "나이아가라 폭포는 캐나다와 미국의 국경에 걸쳐 있는 거대한 폭포입니다. 떨어지는 물의 양이 많아 멀리서도 굉음과 물보라가 느껴집니다. 여러 폭포 가운데 말굽 모양으로 휘어진 호스슈 폭포가 특히 유명합니다. 폭포 아래에는 배를 타고 가까이 다가가 물보라를 체험하는 관광도 있습니다. 밤에는 조명이 비춰져 낮과 전혀 다른 모습을 볼 수 있습니다. 사진에서 말굽 모양의 물줄기와 강 위로 피어오르는 물안개를 찾아보세요.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강"
     },
     {
       "id": "US-CF-011",
@@ -8243,7 +8244,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "인도 아그라의 타지마할은 무굴제국 황제 샤 자한이 아내 뭄타즈 마할을 기리기 위해 세운 흰 대리석 무덤 건축물입니다. 17세기에 건설되었고 중앙 돔과 네 개의 미나레트, 좌우 대칭의 정원이 특징입니다. 낮의 햇빛에 따라 대리석의 빛깔이 다르게 느껴지기도 합니다. 가까이에서는 돌에 꽃무늬와 글씨를 새긴 장식을 찾아보세요.",
+      "description": "타지마할은 인도 아그라에 있는 하얀 대리석 무덤 건축물입니다. 무굴 제국의 황제 샤 자한이 아내 뭄타즈 마할을 기리기 위해 만들게 했습니다. 커다란 중앙 돔과 네 귀퉁이의 미나레트가 좌우 대칭을 이루며, 벽에는 정교한 장식과 보석처럼 빛나는 돌 장식이 있습니다. 긴 수로에 비친 타지마할의 모습은 특히 유명합니다. 같은 건물도 아침과 저녁 햇빛에 따라 대리석의 색이 달라 보입니다. 사진 속 좌우 대칭과 물에 비친 건물 모양을 찾아보세요.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -8251,8 +8252,8 @@
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "개별 역사 정보 최종 검증 전",
-      "descriptionProvenance": "V1.37 편집 보강 초안 · 부모의 자료 확인 필요"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강"
     },
     {
       "id": "IN-N02",
@@ -15897,7 +15898,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "이구아수 폭포는 브라질과 아르헨티나의 국경 가까이에 있는 거대한 폭포군입니다. 하나의 물줄기가 아니라 수많은 폭포가 넓은 절벽을 따라 떨어집니다. 가장 유명한 곳은 물안개와 굉음이 가득한 ‘악마의 목구멍’입니다. 주변 열대림에는 다양한 식물과 동물이 살고 있으며 양국의 국립공원에서 폭포를 다른 각도로 볼 수 있습니다.",
+      "description": "이구아수 폭포는 아르헨티나와 브라질 국경 근처에 있는 거대한 폭포 지대입니다. 여러 개의 물줄기가 숲 사이를 지나 한꺼번에 떨어져 장엄한 풍경을 만듭니다. 특히 ‘악마의 목구멍’이라 불리는 곳에서는 엄청난 양의 물이 좁은 구간으로 몰려 떨어집니다. 주변에는 열대 숲이 펼쳐져 다양한 새와 동물도 살아갑니다. 사진에서 여러 갈래 폭포와 물보라 사이에 보이는 초록 숲을 살펴보세요.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -15905,8 +15906,8 @@
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "개별 역사 정보 최종 검증 전",
-      "descriptionProvenance": "V1.37 편집 보강 초안 · 부모의 자료 확인 필요"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강"
     },
     {
       "id": "BR-N08",
@@ -15974,7 +15975,7 @@
         "松廣寺",
         "송광사 순천"
       ],
-      "description": "송광사는 한국의 대표적인 불교 사찰 가운데 하나로, 조계산 자락의 숲길과 함께 고요한 분위기를 느낄 수 있는 곳입니다. 오랜 시간 수행과 배움의 중심지로 알려졌으며, 계곡과 전각이 어우러진 풍경이 아름답습니다.",
+      "description": "송광사는 전라남도 순천의 조계산 기슭에 자리한 오래된 사찰입니다. 한국 불교에서 수행과 배움의 중심지로 알려졌으며, 깊은 산속으로 이어지는 숲길과 전각이 고요한 분위기를 만들어 줍니다. 사찰에 들어서기 전 계곡과 다리 주변 풍경도 많은 사람이 좋아하는 장면입니다. 오래된 목조건축은 화려함보다는 주변 산과 어우러지는 아름다움을 보여 줍니다. 사진에서 전각의 지붕과 산의 숲, 계곡물이 만나는 모습을 찾아보세요.",
       "wikiTitle": "Songgwangsa",
       "wikiLang": "en",
       "photos": [],
@@ -15983,8 +15984,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "KR-ADD-006",
@@ -16022,7 +16023,7 @@
         "Ulleung Island",
         "鬱陵島"
       ],
-      "description": "울릉도는 깊은 바다 위에 솟은 화산섬으로, 절벽과 해안도로, 맑은 바다 풍경이 아름다운 섬입니다. 독특한 지형과 푸른 숲, 시원한 바다 경치 덕분에 한국의 대표적인 섬 여행지로 사랑받고 있습니다.",
+      "description": "울릉도는 동해 위에 솟아 있는 화산섬입니다. 가파른 절벽과 높은 산, 깊은 바다가 가까이 붙어 있어 육지와는 다른 독특한 지형을 볼 수 있습니다. 성인봉 주변에는 숲이 울창하며, 해안에는 파도에 깎여 만들어진 바위 절벽이 많습니다. 섬에서는 날씨가 빨리 바뀔 수 있어 배가 오가거나 해안 길을 여행할 때 파도와 바람을 살펴야 합니다. 사진에서 산이 바다까지 바로 내려오는 모습과 기암괴석을 찾아보세요.",
       "wikiTitle": "Ulleungdo",
       "wikiLang": "en",
       "photos": [],
@@ -16031,8 +16032,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "KR-ADD-008",
@@ -16046,7 +16047,7 @@
         "Liancourt Rocks",
         "獨島"
       ],
-      "description": "독도는 동해에 자리한 작은 화산섬으로, 바다 위의 바위섬과 등대 풍경이 인상적인 곳입니다. 한국 사람들이 오래도록 소중히 여겨 온 섬으로, 거친 파도와 바다새가 어우러진 풍경을 만날 수 있습니다.",
+      "description": "독도는 울릉도 동남쪽 동해에 자리한 바위섬입니다. 동도와 서도를 비롯한 바위와 작은 섬들이 모여 있으며, 깎아지른 절벽과 거센 파도가 인상적입니다. 화산 활동으로 형성된 지형을 볼 수 있고 바다새와 다양한 해양 생물이 살아갑니다. 날씨와 파도 때문에 가까이 가기 어려운 날도 많습니다. 사진에서 두 큰 섬의 모양과 절벽, 주변의 작은 바위섬을 찾아보세요.",
       "wikiTitle": "Liancourt Rocks",
       "wikiLang": "en",
       "photos": [],
@@ -16055,8 +16056,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "KR-ADD-009",
@@ -16094,7 +16095,7 @@
         "Jiri Mountain",
         "智異山"
       ],
-      "description": "지리산은 넓은 능선과 깊은 계곡을 가진 한국의 대표적인 산입니다. 사계절 풍경이 아름답고, 국립공원 안에는 숲길과 사찰, 다양한 동식물이 함께 살아가고 있습니다.",
+      "description": "지리산은 전남·전북·경남에 걸쳐 이어지는 큰 산으로, 넓은 능선과 깊은 골짜기가 특징입니다. 지리산국립공원에는 높은 봉우리와 계곡, 숲과 사찰이 함께 있습니다. 천왕봉에서 맞는 해돋이와 가을 단풍, 겨울 설경은 서로 전혀 다른 풍경을 보여 줍니다. 자연을 보호하기 위해 지정된 탐방로를 이용하고 야생동물을 멀리서 관찰하는 것이 중요합니다. 사진에서 계절에 따라 능선과 숲의 색이 어떻게 바뀌는지 비교해 보세요.",
       "wikiTitle": "Jirisan",
       "wikiLang": "en",
       "photos": [],
@@ -16103,8 +16104,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "KR-ADD-011",
@@ -16248,7 +16249,7 @@
         "鏡浦臺",
         "경포대 강릉"
       ],
-      "description": "경포대는 강릉 경포호 근처에 자리한 아름다운 누정입니다. 주변의 경포호와 소나무 숲, 동해로 이어지는 경포해수욕장을 함께 살펴볼 수 있습니다. 전통 누정의 건축과 넓은 백사장, 푸른 바다를 한 명소의 사진여행에서 감상해 보세요.",
+      "description": "경포대는 강릉의 경포호 가까이에 있는 아름다운 누정입니다. 옛사람들은 이곳에 올라 호수의 물결과 달빛을 감상하며 시를 짓곤 했습니다. 가까운 경포해수욕장은 넓은 백사장과 동해의 푸른 바다가 펼쳐지는 곳입니다. 따라서 경포대 여행에서는 누정과 경포호, 경포해수욕장의 풍경을 함께 볼 수 있습니다. 호수는 비교적 잔잔하고 바다에는 파도가 밀려오기 때문에 물의 모습도 다릅니다. 사진에서 누정의 지붕, 호수 위 반영, 모래사장과 파도를 하나씩 찾아보세요.",
       "wikiTitle": "Gyeongpodae",
       "wikiLang": "en",
       "photos": [],
@@ -16257,8 +16258,8 @@
       "source": "starter-editorial",
       "selectionStatus": "V1.43.4 사진 검색어 집중 보강 · 사진 개별 검토 필요",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "CA-L01",
@@ -16294,7 +16295,7 @@
         "Niagara Falls",
         "Canadian Niagara Falls"
       ],
-      "description": "나이아가라 폭포는 거대한 물줄기가 힘차게 떨어지는 세계적인 폭포입니다. 가까이서 느끼는 물보라와 넓은 폭포 전망이 인상적이며, 캐나다 쪽 전망이 특히 유명합니다.",
+      "description": "나이아가라 폭포는 캐나다와 미국의 국경에 걸쳐 있는 거대한 폭포입니다. 떨어지는 물의 양이 많아 멀리서도 굉음과 물보라가 느껴집니다. 여러 폭포 가운데 말굽 모양으로 휘어진 호스슈 폭포가 특히 유명합니다. 폭포 아래에는 배를 타고 가까이 다가가 물보라를 체험하는 관광도 있습니다. 밤에는 조명이 비춰져 낮과 전혀 다른 모습을 볼 수 있습니다. 사진에서 말굽 모양의 물줄기와 강 위로 피어오르는 물안개를 찾아보세요.",
       "wikiTitle": "Niagara Falls",
       "wikiLang": "en",
       "photos": [],
@@ -16303,8 +16304,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "CA-L03",
@@ -16493,7 +16494,7 @@
       "aliases": [
         "Milford Sound"
       ],
-      "description": "밀퍼드사운드는 높은 절벽과 폭포, 잔잔한 바다가 함께 있는 뉴질랜드의 대표 피오르드입니다. 배를 타고 웅장한 자연을 가까이 만날 수 있어 매우 유명합니다.",
+      "description": "밀퍼드사운드는 뉴질랜드 남섬의 피오르드랜드에 있는 깊고 좁은 바닷길입니다. 아주 오래전 빙하가 산 사이를 깊게 깎았고 그 자리에 바닷물이 들어오면서 지금의 지형이 만들어졌습니다. 수직으로 솟은 절벽과 폭포, 물 위로 비치는 산의 그림자가 장관입니다. 비가 많이 내리는 날에는 평소 보이지 않던 작은 폭포가 절벽에 수없이 생기기도 합니다. 사진에서 물가 바로 위로 솟은 절벽과 뾰족한 미터피크를 찾아보세요.",
       "wikiTitle": "Milford Sound",
       "wikiLang": "en",
       "photos": [],
@@ -16502,8 +16503,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "NZ-L02",
@@ -16939,7 +16940,7 @@
       "aliases": [
         "Chichen Itza"
       ],
-      "description": "치첸이트사는 마야 문명의 대표 유적으로, 계단식 피라미드가 특히 유명합니다. 넓은 유적지에서 고대 사람들의 뛰어난 건축과 천문 지식을 떠올려 볼 수 있습니다.",
+      "description": "치첸이트사는 멕시코 유카탄반도에 남아 있는 마야 문명의 중요한 유적입니다. 계단식 피라미드인 엘 카스티요가 가장 유명하며, 사방의 계단과 정교한 설계가 눈에 띕니다. 마야 사람들은 하늘의 움직임을 관찰해 달력을 만들고 큰 건축물을 세웠습니다. 이곳에는 공놀이 경기장과 여러 석조 유적도 남아 있습니다. 사진에서 피라미드의 층층이 쌓인 계단과 꼭대기의 사원을 찾아보세요.",
       "wikiTitle": "Chichen Itza",
       "wikiLang": "en",
       "photos": [],
@@ -16948,8 +16949,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "MX-L02",
@@ -17163,7 +17164,7 @@
       "aliases": [
         "Machu Picchu"
       ],
-      "description": "마추픽추는 안데스 산속 높은 곳에 남아 있는 잉카 문명의 대표 유적입니다. 산과 구름 사이에 펼쳐진 돌건물의 모습이 매우 신비롭습니다.",
+      "description": "마추픽추는 페루 안데스 산속 높은 곳에 남아 있는 잉카 문명의 유적입니다. 15세기 무렵에 만들어진 이곳에는 돌로 쌓은 건물과 계단식 밭, 물을 흐르게 한 수로가 있습니다. 잉카 사람들은 커다란 돌을 정교하게 맞춰 높은 산 위에 건축물을 세웠습니다. 안개가 걷히면 유적 뒤로 뾰족한 산이 모습을 드러내어 아주 신비롭게 보입니다. 이곳이 정확히 어떤 용도로 쓰였는지는 연구가 계속되고 있습니다. 사진에서 돌담과 계단식 밭, 뒤편 산의 위치를 함께 살펴보세요.",
       "wikiTitle": "Machu Picchu",
       "wikiLang": "en",
       "photos": [],
@@ -17172,8 +17173,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "PE-L02",
@@ -17386,7 +17387,7 @@
         "Iguazu Falls",
         "Iguazú Falls"
       ],
-      "description": "이구아수 폭포는 수많은 폭포가 길게 이어지는 거대한 폭포 지대입니다. 굉음과 물보라가 아주 웅장해 남아메리카를 대표하는 자연 명소로 손꼽힙니다.",
+      "description": "이구아수 폭포는 아르헨티나와 브라질 국경 근처에 있는 거대한 폭포 지대입니다. 여러 개의 물줄기가 숲 사이를 지나 한꺼번에 떨어져 장엄한 풍경을 만듭니다. 특히 ‘악마의 목구멍’이라 불리는 곳에서는 엄청난 양의 물이 좁은 구간으로 몰려 떨어집니다. 주변에는 열대 숲이 펼쳐져 다양한 새와 동물도 살아갑니다. 사진에서 여러 갈래 폭포와 물보라 사이에 보이는 초록 숲을 살펴보세요.",
       "wikiTitle": "Iguazu Falls",
       "wikiLang": "en",
       "photos": [],
@@ -17395,8 +17396,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "AR-L02",
@@ -17608,7 +17609,7 @@
       "aliases": [
         "Table Mountain"
       ],
-      "description": "테이블마운틴은 꼭대기가 평평한 모습이 특징인 케이프타운의 상징 산입니다. 산과 바다, 도시가 함께 보여 남아프리카공화국을 대표하는 풍경입니다.",
+      "description": "테이블마운틴은 남아프리카공화국 케이프타운 뒤에 솟아 있는 산입니다. 꼭대기가 넓고 평평하여 멀리서 보면 커다란 탁자처럼 보이는 것이 특징입니다. 산 위에는 구름이 흰 천처럼 덮이는 날이 있어 사람들은 이를 ‘테이블보’에 비유합니다. 케이블카를 타거나 등산로를 따라 올라가면 바다와 도시를 함께 내려다볼 수 있습니다. 사진에서 평평한 정상선과 산 앞의 케이프타운, 바다를 찾아보세요.",
       "wikiTitle": "Table Mountain",
       "wikiLang": "en",
       "photos": [],
@@ -17617,8 +17618,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "ZA-L02",
@@ -17833,7 +17834,7 @@
       "aliases": [
         "Cliffs of Moher"
       ],
-      "description": "모허 절벽은 대서양 바다 위로 높게 이어지는 거대한 절벽입니다. 끝없이 펼쳐진 바다와 절벽 풍경이 아일랜드를 대표합니다.",
+      "description": "모허 절벽은 아일랜드 서쪽 대서양을 따라 높이 솟아 있는 해안 절벽입니다. 절벽이 길게 이어지고 그 아래로 파도가 부딪히는 모습은 웅장합니다. 수많은 바닷새가 이곳 주변에서 살아가며, 날씨에 따라 안개와 바람이 풍경을 바꾸어 놓습니다. 절벽 가까이는 위험하므로 방문할 때는 정해진 길을 이용해야 합니다. 사진에서 겹겹이 이어진 절벽의 윤곽과 끝없이 펼쳐진 바다를 찾아보세요.",
       "wikiTitle": "Cliffs of Moher",
       "wikiLang": "en",
       "photos": [],
@@ -17842,8 +17843,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "IE-L02",
@@ -18297,7 +18298,7 @@
       "aliases": [
         "Kuang Si Falls"
       ],
-      "description": "꽝시 폭포는 층층이 떨어지는 폭포와 맑은 물빛이 아름다운 라오스의 대표 자연 명소입니다. 숲속에서 시원한 풍경을 만날 수 있습니다.",
+      "description": "꽝시 폭포는 라오스 루앙프라방 근처 숲속에 있는 아름다운 폭포입니다. 높은 곳에서 떨어진 물이 여러 단의 작은 연못으로 흘러내려 청록색 물빛이 특히 인상적입니다. 물에 녹아 있는 석회질과 빛의 조건 등이 물빛과 지형에 영향을 줍니다. 계단식으로 이어지는 폭포는 한 장의 사진 안에서도 높낮이를 비교해 보기 좋습니다. 사진에서 가장 큰 폭포와 아래쪽의 작은 물웅덩이를 구분해 보세요.",
       "wikiTitle": "Kuang Si Falls",
       "wikiLang": "en",
       "photos": [],
@@ -18306,8 +18307,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "LA-L03",
@@ -18654,7 +18655,7 @@
       "aliases": [
         "Bagan"
       ],
-      "description": "바간 유적은 평원 위에 수많은 사원과 탑이 흩어져 있는 장관으로 유명합니다. 특히 아침 안개나 열기구와 함께 보는 풍경이 인상적입니다.",
+      "description": "바간은 미얀마의 넓은 평원에 수많은 불교 사원과 탑이 남아 있는 역사 유적입니다. 여러 왕조가 번성하던 시기에 많은 사원이 세워졌고, 지금도 붉은 벽돌탑들이 지평선을 따라 펼쳐집니다. 아침 안개 속에 탑들이 하나둘 보이는 풍경은 특히 유명합니다. 각 탑은 크기와 지붕 모양이 조금씩 달라 가까이서 보면 더 흥미롭습니다. 사진에서 가장 높은 탑과 작은 탑들의 모양을 비교해 보세요.",
       "wikiTitle": "Bagan",
       "wikiLang": "en",
       "photos": [],
@@ -18663,8 +18664,8 @@
       "source": "starter-editorial",
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
-      "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionProvenance": "V1.45 장소별 명소이야기 편집 보강",
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
     },
     {
       "id": "ZZ-L09",
@@ -18711,6 +18712,89 @@
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
       "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+    },
+    {
+      "id": "MY-ADD-KK01",
+      "countryCode": "MY",
+      "name": "코타키나발루",
+      "category": "nature",
+      "extraCategories": [
+        "modern"
+      ],
+      "region": "말레이시아 사바주",
+      "aliases": [
+        "Kota Kinabalu",
+        "Kota Kinabalu Sabah Malaysia",
+        "Tanjung Aru Beach Kota Kinabalu",
+        "Tunku Abdul Rahman Marine Park",
+        "코타키나발루 탄중아루"
+      ],
+      "wikiTitle": "Kota Kinabalu",
+      "description": "말레이시아 보르네오섬 북쪽의 코타키나발루는 바다와 섬, 열대 숲을 한자리에서 만날 수 있는 도시입니다. 저녁이 되면 탄중아루 해변의 하늘이 붉게 물들어 아름다운 석양 사진을 남기기 좋습니다. 앞바다의 툰쿠 압둘 라만 해양공원에는 맑은 바다와 산호초가 펼쳐집니다. 멀지 않은 곳에는 키나발루산이 솟아 있어 해변과 산의 풍경을 함께 볼 수 있습니다. **사진을 볼 때는** 바다 위 작은 섬과 저녁놀, 멀리 보이는 산의 모습을 찾아보세요.",
+      "photos": [],
+      "status": "초안",
+      "verified": false,
+      "source": "starter-editorial",
+      "selectionStatus": "신규 명소 · 사진/설명 검토 전",
+      "researchProvenance": "V1.45 신규 등록, 사진 근거 확인 전",
+      "descriptionProvenance": "V1.45 명소이야기 편집 초안",
+      "descriptionNote": "편집자가 작성한 설명 초안; 여행지 대표사진은 검색 후 검증 필요",
+      "wikiLang": "en"
+    },
+    {
+      "id": "ID-ADD-BALI01",
+      "countryCode": "ID",
+      "name": "발리섬",
+      "category": "nature",
+      "extraCategories": [
+        "traditional"
+      ],
+      "region": "인도네시아 발리주",
+      "aliases": [
+        "Bali Indonesia",
+        "Bali Island",
+        "Ubud Bali",
+        "Tegallalang Rice Terrace Bali",
+        "Uluwatu Temple Bali",
+        "발리섬 인도네시아"
+      ],
+      "wikiTitle": "Bali",
+      "description": "발리는 인도네시아의 섬으로, 푸른 바다와 계단식 논, 사원과 화산이 함께 있는 곳입니다. 우붓 주변의 논은 산비탈을 따라 층층이 펼쳐져 마치 거대한 초록 계단처럼 보입니다. 바다 위 절벽 가까이에 있는 울루와투 사원에서는 파도와 석양을 함께 감상할 수 있습니다. 발리 사람들은 사원에서 전통 의식과 축제를 이어 가며 독특한 문화를 지켜 왔습니다. **사진 속에서** 계단식 논, 사원의 지붕, 해변의 절벽을 찾아보면 섬의 서로 다른 모습을 알 수 있습니다.",
+      "photos": [],
+      "status": "초안",
+      "verified": false,
+      "source": "starter-editorial",
+      "selectionStatus": "신규 명소 · 사진/설명 검토 전",
+      "researchProvenance": "V1.45 신규 등록, 사진 근거 확인 전",
+      "descriptionProvenance": "V1.45 명소이야기 편집 초안",
+      "descriptionNote": "편집자가 작성한 설명 초안; 여행지 대표사진은 검색 후 검증 필요",
+      "wikiLang": "en"
+    },
+    {
+      "id": "ZZ-ADD-SAIPAN01",
+      "countryCode": "ZZ",
+      "name": "사이판",
+      "category": "nature",
+      "extraCategories": [],
+      "region": "북마리아나 제도(미국 자치령)",
+      "aliases": [
+        "Saipan Northern Mariana Islands",
+        "Saipan Island",
+        "Managaha Island Saipan",
+        "Micro Beach Saipan",
+        "Saipan Mariana"
+      ],
+      "wikiTitle": "Saipan",
+      "description": "사이판은 서태평양의 북마리아나 제도에 속하는 섬으로, 맑은 바다와 산호초, 흰 모래사장으로 유명합니다. 가까운 마나가하섬은 작은 섬을 둥글게 둘러싼 에메랄드빛 바다가 아름답습니다. 마이크로비치에서는 넓은 바다와 석양을 감상할 수 있습니다. 사이판에는 제2차 세계대전의 흔적이 남아 있어 아름다운 자연과 함께 역사를 생각해 볼 수도 있습니다. **사진을 볼 때는** 얕은 바다의 색이 깊이에 따라 어떻게 달라지는지 살펴보세요.",
+      "photos": [],
+      "status": "초안",
+      "verified": false,
+      "source": "starter-editorial",
+      "selectionStatus": "신규 명소 · 사진/설명 검토 전",
+      "researchProvenance": "V1.45 신규 등록, 사진 근거 확인 전",
+      "descriptionProvenance": "V1.45 명소이야기 편집 초안",
+      "descriptionNote": "편집자가 작성한 설명 초안; 여행지 대표사진은 검색 후 검증 필요",
+      "wikiLang": "en"
     }
   ],
   "pilotCountries": [
