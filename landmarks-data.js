@@ -1,8 +1,8 @@
 window.LANDMARK_BASE = {
   "title": "세계 명소대백과",
-  "version": "1.59",
-  "release": "V1.59 · 임시설명 4차 보강",
-  "basedOn": "V1.58 · 사진 저장 구조 유지",
+  "version": "1.60",
+  "release": "V1.60 · 임시설명 최종 42곳 보강",
+  "basedOn": "V1.59 · 사진 저장 구조 유지",
   "categories": [
     {
       "id": "nature",
@@ -13703,7 +13703,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "카우파토리 시장은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "헬싱키 항구의 카우파토리 시장은 바다와 도시가 만나는 활기찬 광장입니다. 핀란드어로 '시장 광장'이라는 뜻의 이곳에는 계절마다 채소와 과일, 생선, 수공예품을 파는 가판대가 들어섭니다. 항구에는 섬으로 향하는 배가 드나들고, 바닷바람 속에서 사람들이 따뜻한 음식을 나눠 먹습니다. 여름에는 밝고 긴 낮을 따라 야외 시장의 활기가 이어지고, 추운 계절에는 또 다른 북유럽의 항구 풍경이 펼쳐집니다. 가까운 곳에 대통령궁과 헬싱키 대성당이 있어 핀란드의 일상과 수도의 역사를 함께 느낄 수 있는 장소입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13711,8 +13711,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N09",
@@ -13722,7 +13722,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "세우라사리 야외박물관은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "헬싱키의 세우라사리 야외박물관은 숲이 우거진 섬에 핀란드의 옛집들을 모아 놓은 특별한 박물관입니다. 여러 지역에서 옮겨 온 나무집과 농가, 창고와 교회는 사람들이 어떻게 살고 일했는지를 보여줍니다. 통나무를 맞춰 지은 벽과 높은 지붕에는 춥고 눈 많은 북쪽 나라의 생활 지혜가 숨어 있습니다. 박물관의 건물들은 단순히 오래된 집이 아니라 농사와 가족생활, 마을의 축제까지 떠올리게 하는 역사 자료입니다. 여름에는 전통문화를 소개하는 행사도 열려, 숲길을 걷다 보면 과거 핀란드의 마을을 만나는 듯한 기분이 듭니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13730,8 +13730,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N10",
@@ -13741,7 +13741,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "핀란드 국립박물관은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "헬싱키의 핀란드 국립박물관은 선사시대부터 오늘날까지 이어지는 핀란드 사람들의 이야기를 간직한 곳입니다. 돌과 금속으로 만든 오래된 도구, 전통의상과 생활용품, 역사적인 물건을 통해 사람들이 변화하는 자연환경 속에서 어떻게 살아왔는지 알 수 있습니다. 건물 자체도 흥미로운데, 높은 탑과 거친 돌 외벽은 중세 성을 연상시키면서 핀란드 특유의 민족낭만주의 건축을 보여줍니다. 이 나라는 오랫동안 스웨덴과 러시아의 지배를 겪다가 1917년 독립했습니다. 박물관은 한 나라가 오랜 시간 자신의 언어와 문화를 지켜 온 역사를 들려줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13749,8 +13749,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N11",
@@ -13780,7 +13780,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "투르쿠 대성당은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "핀란드의 투르쿠 대성당은 아우라강 가까이에 자리한 오래된 종교 건축물입니다. 중세에 세워진 뒤 여러 시대를 거치며 확장되고 보수되었고, 오늘날에는 핀란드 복음주의 루터교회의 중요한 성당으로 여겨집니다. 높은 탑은 투르쿠의 옛 도시 풍경을 대표합니다. 투르쿠는 한때 핀란드의 정치와 종교, 교육의 중심지였으며, 성당은 그 변화의 시간을 오랫동안 지켜봤습니다. 성당 안에는 과거 인물들의 무덤과 여러 시대의 장식이 남아 있습니다. 오래된 돌벽에는 중세의 신앙과 핀란드 역사가 차곡차곡 쌓여 있는 셈입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13788,8 +13788,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N13",
@@ -13876,7 +13876,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "아르크티쿰 박물관은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "로바니에미의 아르크티쿰은 북극 지역의 자연과 사람들의 삶을 소개하는 박물관이자 과학센터입니다. 긴 유리 통로가 건물 밖으로 뻗어 있어, 마치 북쪽의 하늘과 땅 사이를 걷는 듯한 독특한 인상을 줍니다. 안에서는 오로라가 생기는 원리와 눈과 얼음 속 생태계, 북극권 사람들이 추운 환경에 적응해 온 역사를 만날 수 있습니다. 북극은 아무도 살지 않는 얼음 세계가 아닙니다. 사미족을 비롯한 여러 사람들이 저마다의 문화와 생활방식을 이어 온 터전입니다. 이곳은 신비로운 자연과 그곳에 살아가는 사람들의 이야기를 함께 전합니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13884,8 +13884,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N18",
@@ -13895,7 +13895,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "레비 스키 리조트은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "핀란드 라플란드의 레비는 겨울이면 눈 덮인 숲과 산이 이어지는 스키 휴양지입니다. 북극권에 가까운 지역이라 겨울의 낮이 짧고, 길고 어두운 밤에는 날씨가 맞으면 오로라가 나타나기도 합니다. 슬로프에서는 스키와 스노보드를 즐기고, 주변에서는 눈길을 걷거나 북쪽 지방의 자연을 경험할 수 있습니다. 반대로 여름에는 해가 오래 떠 있는 백야의 계절이 찾아와 눈 대신 녹색 숲과 산책길이 펼쳐집니다. 같은 장소가 겨울의 하얀 설원과 여름의 푸른 산으로 전혀 다르게 변하는 것이 레비의 매력입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13903,8 +13903,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N19",
@@ -13914,7 +13914,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "이날리 호수은(는) 핀란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "핀란드 북부의 이나리 호수는 수많은 섬과 좁은 만이 흩어져 있는 커다란 호수입니다. 북극권에 가까워 겨울이면 넓은 수면이 얼어붙고, 여름에는 긴 낮 동안 물빛과 숲이 환하게 빛납니다. 이 지역은 오래전부터 사미족이 살아온 터전이기도 합니다. 사람들은 호수에서 물고기를 잡고 숲과 계절의 변화에 맞춰 삶을 이어 왔습니다. 호수 주변에는 사미족의 언어와 문화를 알리는 시설도 있습니다. 섬마다 모양이 다르고 계절마다 모습이 달라, 이나리 호수는 북쪽의 자연과 사람들의 오랜 관계를 보여줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13922,8 +13922,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "FI-N20",
@@ -14183,7 +14183,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "스나이펠스요쿨 국립공원은(는) 아이슬란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "아이슬란드 서쪽 끝에 가까운 스나이펠스요쿨 국립공원에는 빙하로 덮인 화산과 검은 용암 지대, 거친 바닷가가 함께 펼쳐집니다. 스나이펠스요쿨은 화산의 이름이면서 그 꼭대기를 덮은 빙하의 이름이기도 합니다. 화산과 얼음이 한곳에 있다는 사실만으로도 아이슬란드의 특별한 자연을 느낄 수 있습니다. 프랑스 작가 쥘 베른의 소설 《지구 속 여행》에서는 이 화산이 지구 내부로 들어가는 상상 속 출입구로 등장합니다. 실제로 땅속으로 이어지는 비밀 문이 있는 것은 아니지만, 신비로운 산의 모습은 오랫동안 사람들의 상상력을 자극했습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14191,8 +14191,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "IS-N14",
@@ -14280,7 +14280,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "그료타갸 동굴은(는) 아이슬란드의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "아이슬란드 북부 미바튼 호수 근처의 그료타갸는 용암 지대 아래에 숨은 작은 동굴입니다. 동굴 안에는 지열의 영향을 받아 따뜻해진 물이 고여 있으며, 거친 바위 틈으로 들어오는 빛이 푸른 수면에 비칩니다. 아이슬란드는 지각판이 벌어지는 지역에 있어 화산과 온천, 뜨거운 지하수가 곳곳에서 나타납니다. 그료타갸도 땅속의 열이 지표 가까이 전달되는 모습을 보여줍니다. 동굴은 드라마 《왕좌의 게임》 촬영지로 알려지기도 했습니다. 다만 물의 온도와 안전 조건이 변할 수 있어 수영 장소가 아니라 지질 현상을 만나는 명소로 이해하는 것이 좋습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14288,8 +14288,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "IS-N19",
@@ -14417,7 +14417,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "생미셸 대성당은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브뤼셀의 성 미셸과 성 귀둘라 대성당은 높은 두 탑이 나란히 선 고딕 양식의 성당입니다. 오랜 세월에 걸쳐 지어진 건물에는 뾰족한 아치와 정교한 돌 장식, 색색의 빛이 통과하는 스테인드글라스가 어우러져 있습니다. 벨기에 왕실의 결혼식이나 국가적인 종교 행사가 열리는 중요한 장소이기도 합니다. 건물 안으로 들어온 햇빛은 창의 유리 조각을 지나며 여러 빛깔로 바뀌어 돌기둥과 바닥에 드리워집니다. 중세 장인들은 이렇게 높은 천장과 커다란 창을 통해 장엄한 공간을 만들었습니다. 성당은 브뤼셀이 여러 세기를 거쳐 성장해 온 시간을 품고 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14425,8 +14425,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N06",
@@ -14436,7 +14436,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "몽데자르은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브뤼셀의 몽데자르는 프랑스어로 '예술의 언덕'이라는 뜻을 가진 도심의 정원과 문화 공간입니다. 계단식 정원과 분수, 곧게 뻗은 산책길 사이로 브뤼셀의 옛 시가지가 펼쳐집니다. 주변에는 왕립도서관과 여러 미술관, 음악과 예술 관련 시설이 모여 있어 이름처럼 문화의 중심지 역할을 합니다. 오늘날의 정원은 도시를 새롭게 정비하는 과정에서 조성되었습니다. 위쪽에서 내려다보면 정원의 대칭적인 무늬와 멀리 솟은 건물들이 한 장면을 이룹니다. 자연의 언덕을 도시 속 예술 공간으로 바꾼 사례입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14444,8 +14444,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N07",
@@ -14455,7 +14455,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "벨기에 왕립미술관은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "벨기에 왕립미술관은 브뤼셀에 있는 여러 미술관과 소장품을 아우르는 미술 기관입니다. 플랑드르 지역의 오래된 회화에서 근현대 작품까지 폭넓은 예술을 만날 수 있습니다. 이 지역에서는 상인들이 번성하고 도시가 성장하던 시대에 뛰어난 화가들이 활동했습니다. 브뤼헐과 루벤스 같은 화가들은 사람들의 일상, 종교, 신화 속 장면을 생생하게 그렸습니다. 그림 한 점에는 당시 사람들이 입던 옷과 살던 집, 믿음과 생각까지 담겨 있습니다. 왕립미술관은 단순히 아름다운 작품을 모아 둔 곳이 아니라 유럽의 역사와 문화가 그림 속에 어떻게 남았는지 보여주는 장소입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14463,8 +14463,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N08",
@@ -14474,7 +14474,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "마그리트 미술관은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브뤼셀의 마그리트 미술관은 벨기에 초현실주의 화가 르네 마그리트의 작품 세계를 소개하는 곳입니다. 마그리트는 우리가 익숙하게 아는 물건을 낯선 상황에 놓아 보는 사람을 놀라게 했습니다. 하늘이 보이는 듯한 그림, 뜻밖의 장소에 나타난 사물처럼 평범한 장면이 갑자기 수수께끼로 변합니다. 그는 그림이 실제 물건과 똑같은 것은 아니라는 질문도 던졌습니다. 이런 작품들은 단순히 잘 그린 그림을 넘어 눈에 보이는 것이 무엇을 뜻하는지 다시 생각하게 만듭니다. 마그리트 미술관은 현실과 상상의 경계에서 탄생한 벨기에 미술의 독특한 모습을 전합니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14482,8 +14482,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N09",
@@ -14493,7 +14493,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "브뤼헤 마르크트 광장은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "벨기에 브뤼헤의 마르크트 광장은 중세 무역도시의 심장부 같은 공간입니다. 광장 한쪽에는 종루가 높이 솟아 있고, 주변에는 뾰족한 지붕과 알록달록한 외벽의 오래된 건물들이 이어집니다. 브뤼헤는 중세에 북해와 연결된 상업 중심지로 번성했으며, 여러 지역의 상인들이 모여 물건을 사고팔았습니다. 종루의 종소리는 도시 사람들에게 시간과 중요한 소식을 전하는 역할을 했습니다. 오늘날 광장을 둘러싼 건물들은 장사와 모임, 도시의 자치가 중요했던 시대의 기억을 간직합니다. 물길과 거리, 건물이 어우러진 브뤼헤의 역사도심은 유네스코 세계유산으로 인정받았습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14501,8 +14501,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N10",
@@ -14531,7 +14531,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "사랑의 호수은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브뤼헤의 사랑의 호수로 불리는 미네워터는 조용한 물길과 나무, 오래된 다리가 어우러진 곳입니다. 중세 운하도시 브뤼헤의 남쪽에 자리하며, 과거에는 물과 배가 오가던 도시의 생활과 연결되어 있었습니다. 오늘날에는 물가의 산책로와 백조, 계절마다 달라지는 나뭇잎의 색으로 알려져 있습니다. 이곳에는 이루어지지 못한 사랑에 관한 전설도 전해지지만, 그것은 실제 역사가 아니라 사람들이 장소에 덧붙여 온 이야기입니다. 물에 비친 나무와 건물이 조용히 흔들리는 풍경은 상업으로 번성하던 옛 도시의 또 다른 부드러운 얼굴을 보여줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14539,8 +14539,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N12",
@@ -14569,7 +14569,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "겐트 성 바보 대성당은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "벨기에 겐트의 성 바보 대성당은 여러 시대의 건축이 겹쳐 있는 커다란 성당입니다. 특히 미술사에서 중요한 작품인 《신비한 어린양에 대한 경배》 제단화로 유명합니다. 15세기에 완성된 이 그림은 얀 반 에이크와 그의 형제 후베르트의 이름과 연결되어 전해지며, 아주 세밀한 묘사와 풍부한 색채로 큰 주목을 받았습니다. 성당에는 고딕 건축의 높은 공간과 오래된 예술품이 함께 남아 있습니다. 건축물 하나가 신앙의 장소이면서 세계적인 미술 작품을 지켜 온 공간인 셈입니다. 겐트가 중세의 부유한 도시였다는 사실도 이곳의 규모와 예술에서 느낄 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14577,8 +14577,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N14",
@@ -14607,7 +14607,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "겐트 그라슬레이은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "벨기에 겐트의 그라슬레이는 레이에강을 따라 옛 상인들의 건물이 늘어선 아름다운 강변 거리입니다. 중세 겐트는 직물업과 무역으로 부유해졌고, 강에는 물건을 싣고 내리는 배들이 드나들었습니다. 강변의 길고 좁은 건물들은 상인 조합과 무역 활동의 역사를 간직합니다. 건물마다 지붕 모양과 외벽 장식이 달라 하나의 거대한 야외 건축 전시장처럼 보이기도 합니다. 강 건너 코렌레이와 함께 어우러지는 풍경에는 과거의 항구 기능과 오늘날 사람들이 즐기는 도시의 일상이 겹쳐 있습니다. 물길이 도시를 성장시켰다는 사실을 가장 실감 나게 보여주는 곳입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14615,8 +14615,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N16",
@@ -14645,7 +14645,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "안트베르펜 성모 대성당은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "안트베르펜 성모 대성당은 벨기에의 항구도시 안트베르펜 중심에 우뚝 선 고딕 성당입니다. 매우 높은 탑과 정교한 석조 장식이 특징이며, 내부에는 바로크 화가 페테르 파울 루벤스의 작품들이 보존되어 있습니다. 루벤스는 이 도시에서 활동하며 유럽 미술에 큰 영향을 끼쳤습니다. 성당은 오랜 기간 건설되었고 여러 시대의 역사적 사건도 겪었습니다. 하늘을 향한 가느다란 탑과 넓은 실내 공간에는 중세 장인들의 기술이 담겨 있습니다. 종교 건축과 예술이 만나는 이 성당은 안트베르펜이 누렸던 문화적 번영을 보여줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14653,8 +14653,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N18",
@@ -14664,7 +14664,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "루벤 시청은(는) 벨기에의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "벨기에 루벤의 시청은 작은 돌 조각들이 건물 전체를 덮은 듯한 화려한 고딕 건축물입니다. 뾰족한 탑과 수많은 창, 조각상들이 촘촘히 이어져 마치 커다란 돌 레이스처럼 보입니다. 15세기에 지어진 시청은 도시 사람들이 스스로 행정을 운영하던 공간이었습니다. 건물 곳곳의 조각은 역사적인 인물과 성인, 도시의 기억을 나타냅니다. 루벤은 오래된 대학도시이기도 해서 학문과 시민 문화가 함께 발전해 왔습니다. 시청의 정교한 외벽은 도시 공동체가 얼마나 큰 자부심을 가지고 건물을 꾸몄는지 전하는 특별한 작품입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -14672,8 +14672,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BE-N19",
@@ -14996,7 +14996,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "말라카 네덜란드 광장은(는) 말레이시아의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "말레이시아 말라카의 네덜란드 광장은 붉은빛 건물들로 둘러싸인 역사적인 공간입니다. 말라카는 인도양과 동아시아를 잇는 바닷길에 자리해 오래전부터 여러 나라의 배와 상인들이 모였습니다. 포르투갈의 지배를 거쳐 네덜란드와 영국의 영향을 받았고, 광장 주변의 건물에는 그 복잡한 역사가 남아 있습니다. 특히 붉은 건물로 유명한 스타드하위스는 네덜란드 통치 시기의 흔적을 보여줍니다. 오늘날 광장에는 말레이·중국·유럽 문화가 뒤섞인 도시의 분위기가 가득합니다. 말라카 역사도시는 조지타운과 함께 2008년 유네스코 세계유산에 등재되었습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -15004,8 +15004,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "MY-N06",
@@ -15290,7 +15290,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "뚜얼슬렝 박물관은(는) 캄보디아의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "캄보디아 프놈펜의 뚜얼슬렝 대학살 박물관은 나라의 아픈 역사를 기억하는 장소입니다. 이 건물은 원래 학교였지만 1970년대 크메르루주 정권 아래에서 감옥과 심문시설로 바뀌었습니다. 많은 사람이 이곳에 갇혀 고통을 겪었고, 수많은 생명이 희생되었습니다. 오늘날에는 당시의 기록과 시설을 보존해 어떤 일이 일어났는지 알리고 있습니다. 이 박물관의 의미는 무서운 사건을 보여주는 데서 끝나지 않습니다. 사람의 존엄성과 생명이 얼마나 소중한지, 권력이 사람을 해칠 때 어떤 비극이 생기는지를 기억하게 합니다. 슬픈 역사를 잊지 않는 것이 다시 같은 일이 벌어지지 않도록 하는 첫걸음입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -15298,8 +15298,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "PH-N01",
@@ -15329,7 +15329,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "산아구스틴 교회은(는) 필리핀의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "필리핀 마닐라의 산아구스틴 교회는 인트라무로스 성벽도시 안에 자리한 오래된 가톨릭 성당입니다. 스페인 식민지 시대에 세워진 석조 교회로, 마닐라에서 오랜 역사를 간직한 건축물 가운데 하나입니다. 필리핀에는 태풍과 지진이 자주 일어나기 때문에 교회를 튼튼하게 짓는 일이 중요했습니다. 이 성당의 넓고 두꺼운 구조는 여러 재난과 역사적 격변 속에서 살아남았습니다. 내부에는 종교 미술과 장식이 남아 있으며, 유럽에서 전해진 건축 방식이 필리핀의 환경과 만나 변화한 모습을 보여줍니다. 산아구스틴 교회는 필리핀의 바로크 양식 교회들 가운데 하나로 유네스코 세계유산에 포함되어 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -15337,8 +15337,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "PH-N03",
@@ -15531,7 +15531,7 @@ window.LANDMARK_BASE = {
         "The Dubai Mall",
         "Downtown Dubai"
       ],
-      "description": "두바이 몰은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "두바이 몰은 아랍에미리트 두바이에 자리한 거대한 쇼핑·문화 공간입니다. 초고층 건물 부르즈 할리파 가까이에 있으며, 수많은 상점과 식당뿐 아니라 대형 수족관과 여러 실내 체험시설로도 알려져 있습니다. 밖에서는 사막의 뜨거운 햇볕이 내리쬐지만 실내에는 넓고 시원한 공간이 이어집니다. 두바이는 석유 개발 이후 무역과 관광, 항공 산업을 키우며 도시의 모습을 크게 바꾸었습니다. 이 쇼핑몰은 물건을 사는 곳을 넘어 사람들이 모이고 놀고 쉬는 현대 도시의 장소가 되었습니다. 거대한 실내 시설을 지어 기후의 어려움을 극복하려 한 두바이의 도시 발전을 보여줍니다.",
       "wikiTitle": "Dubai Mall",
       "wikiLang": "en",
       "photos": [],
@@ -15539,8 +15539,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "AE-N03",
@@ -15554,7 +15554,7 @@ window.LANDMARK_BASE = {
         "The Dubai Fountain",
         "Burj Lake Dubai"
       ],
-      "description": "두바이 분수은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "두바이 분수는 부르즈 할리파 아래 인공 호수에서 음악과 함께 물줄기가 춤추듯 솟아오르는 분수입니다. 여러 방향으로 움직이는 물줄기와 조명이 어우러지며, 음악의 리듬에 따라 전혀 다른 모양의 공연이 만들어집니다. 주변에는 초고층 건물과 상점, 산책 공간이 이어져 도시의 밤 풍경을 더욱 화려하게 만듭니다. 두바이가 자리한 아라비아반도는 물이 귀한 사막 기후로 알려져 있습니다. 이런 곳에서 물과 빛을 이용한 거대한 야외 공연을 만든 사실은 현대 두바이의 기술과 도시계획을 상징합니다. 분수의 물줄기는 도시가 자연환경을 다루는 방식을 보여주는 특별한 풍경입니다.",
       "wikiTitle": "Dubai Fountain",
       "wikiLang": "en",
       "photos": [],
@@ -15562,8 +15562,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "AE-N04",
@@ -15600,7 +15600,7 @@ window.LANDMARK_BASE = {
         "Burj Al Arab Jumeirah",
         "Burj Al Arab hotel Dubai"
       ],
-      "description": "부르즈 알아랍은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "두바이 해변에 돛단배처럼 솟아 있는 부르즈 알아랍은 독특한 외형으로 유명한 호텔입니다. 바다 위 인공섬에 세워졌고, 높은 건물을 흰색 돛처럼 보이게 설계해 멀리서도 쉽게 알아볼 수 있습니다. 주변의 푸른 바다와 대비되는 곡선형 외관은 두바이가 세계적인 관광도시로 알려지는 데 중요한 상징이 되었습니다. '7성급 호텔'이라는 별명으로 자주 소개되지만 공식 호텔 등급을 뜻하는 표현은 아닙니다. 이 건물은 화려한 내부 시설뿐 아니라 사막의 항구도시가 바다와 무역의 이미지를 현대 건축으로 표현했다는 점에서도 특별합니다.",
       "wikiTitle": "Burj Al Arab",
       "wikiLang": "en",
       "photos": [],
@@ -15608,8 +15608,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "AE-N06",
@@ -15623,7 +15623,7 @@ window.LANDMARK_BASE = {
         "Dubai Frame Zabeel Park",
         "برواز دبي"
       ],
-      "description": "두바이 프레임은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "두바이 프레임은 높이 솟은 두 기둥을 위쪽에서 연결해 거대한 황금빛 액자처럼 만든 건축물입니다. 자빌 공원에 자리하며, 위쪽 전망 통로에서 도시의 서로 다른 풍경을 바라볼 수 있습니다. 한쪽에는 오랜 시장과 낮은 건물들이 남은 옛 두바이의 모습이, 다른 쪽에는 초고층 빌딩이 이어지는 새로운 도시의 모습이 펼쳐집니다. 마치 하나의 액자에 도시의 과거와 현재를 나란히 담는 셈입니다. 내부 전시에서는 두바이가 어떻게 성장했는지를 소개합니다. 건축물의 모양 자체가 도시 변화라는 이야기를 들려주는 독특한 명소입니다.",
       "wikiTitle": "Dubai Frame",
       "wikiLang": "en",
       "photos": [],
@@ -15631,8 +15631,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "AE-N07",
@@ -15646,7 +15646,7 @@ window.LANDMARK_BASE = {
         "Museum of the Future",
         "متحف المستقبل"
       ],
-      "description": "미래 박물관은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "두바이 미래 박물관은 가운데가 뚫린 타원형 고리처럼 생긴 독특한 건축물입니다. 매끄러운 곡선의 외벽에는 아랍어 서예 모양이 새겨져 있어 멀리서도 눈에 띕니다. 바깥 모습이 놀라운 이유는 일반적인 건물처럼 직선으로만 이루어지지 않았기 때문입니다. 박물관 안에서는 미래의 과학기술, 우주와 환경, 새로운 생활방식 등에 대한 상상을 전시로 풀어냅니다. 미래가 어떤 모습일지 아직 누구도 정확히 알 수 없지만, 사람들은 질문을 던지고 실험하면서 새로운 가능성을 찾아갑니다. 이 박물관은 완성된 과거를 보여주는 곳이 아니라 다가올 세상을 상상하게 하는 장소입니다.",
       "wikiTitle": "Museum of the Future Dubai",
       "wikiLang": "en",
       "photos": [],
@@ -15654,8 +15654,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "AE-N08",
@@ -15715,7 +15715,7 @@ window.LANDMARK_BASE = {
         "Al Ain Oasis Abu Dhabi",
         "واحة العين"
       ],
-      "description": "알아인 오아시스은(는) 아랍에미리트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "아랍에미리트 알아인의 오아시스는 건조한 땅 한가운데 야자나무 숲이 이어지는 푸른 공간입니다. 사막 기후에서 농사를 지으려면 무엇보다 물을 안정적으로 확보해야 합니다. 이 지역 사람들은 오래전부터 '팔라즈'라고 불리는 전통 수로 체계를 이용해 물을 나누고 대추야자 등을 길러 왔습니다. 야자나무 그늘 아래에는 다른 작물을 재배하기도 했습니다. 오아시스는 단순히 물이 있는 곳이 아니라 사람들이 자연에 맞춰 생활방식을 발전시킨 터전입니다. 알아인의 문화유산 지역은 오래된 정착과 관개 역사의 가치를 인정받아 유네스코 세계유산에 등재되어 있습니다.",
       "wikiTitle": "Al Ain Oasis",
       "wikiLang": "en",
       "photos": [],
@@ -15723,8 +15723,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "JO-N01",
@@ -15784,7 +15784,7 @@ window.LANDMARK_BASE = {
         "The Monastery Petra",
         "الدير البتراء"
       ],
-      "description": "아드 데이르은(는) 요르단의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "요르단 페트라의 아드 데이르는 산 위쪽 바위 절벽에 새겨진 거대한 건축물입니다. 이름은 흔히 '수도원'으로 번역되지만, 원래는 고대 나바테아 사람들이 만든 기념적인 건축물로 여겨집니다. 높은 계단과 산길을 따라 올라가면 장식된 기둥과 넓은 입구가 하나의 암벽에서 드러납니다. 벽돌을 한 장씩 쌓은 것이 아니라 거대한 바위를 위에서부터 깎아 형태를 만들었다는 점이 놀랍습니다. 나바테아 사람들은 사막의 무역로를 이용해 번성했고, 바위와 물이 부족한 환경을 다루는 뛰어난 기술을 남겼습니다. 아드 데이르는 페트라의 유명한 보물창고와는 또 다른 웅장함을 보여줍니다.",
       "wikiTitle": "Ad Deir Petra",
       "wikiLang": "en",
       "photos": [],
@@ -15792,8 +15792,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "JO-N04",
@@ -15876,7 +15876,7 @@ window.LANDMARK_BASE = {
         "Jabal al Qal'a",
         "جبل القلعة عمان"
       ],
-      "description": "암만 성채은(는) 요르단의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "요르단 수도 암만의 성채는 도시 한가운데 높은 언덕 위에 자리한 오래된 유적지입니다. 이곳에서는 고대 암몬 왕국과 로마 시대, 이슬람 시대에 이르기까지 여러 문명의 흔적을 만날 수 있습니다. 높은 기둥이 남은 헤라클레스 신전 유적과 둥근 지붕의 우마이야 궁전 유적은 서로 다른 시대의 건축이 한곳에 겹쳐 있음을 보여줍니다. 높은 언덕은 주변 지역을 살피고 방어하기 좋은 자리였기 때문에 오래전부터 사람들이 중요하게 여겼습니다. 오늘날 성채 아래로 펼쳐지는 암만의 집과 거리는 옛 도시 위에 새로운 도시가 자라났다는 사실을 실감 나게 합니다.",
       "wikiTitle": "Amman Citadel",
       "wikiLang": "en",
       "photos": [],
@@ -15884,8 +15884,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "JO-N08",
@@ -15899,7 +15899,7 @@ window.LANDMARK_BASE = {
         "Roman Theater Amman",
         "المدرج الروماني عمان"
       ],
-      "description": "로마 극장 암만은(는) 요르단의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "암만의 로마 극장은 언덕을 따라 반원형 계단식 좌석이 펼쳐진 고대 건축물입니다. 로마 제국 시대에 만들어졌으며, 돌로 된 관람석은 무대 쪽을 향해 층층이 높아집니다. 지금처럼 전자식 확성 장치가 없던 시대에도 많은 관객이 공연을 즐길 수 있도록 공간의 형태를 계획했습니다. 당시 암만은 필라델피아라는 이름으로 불렸고, 로마 문화의 영향을 받았습니다. 극장에 남은 돌계단은 시민들이 연극과 공연을 보며 모였던 시간을 떠올리게 합니다. 오늘날에도 고대의 무대가 도시의 중요한 문화 공간으로 남아 있다는 점이 특별합니다.",
       "wikiTitle": "Roman Theatre Amman",
       "wikiLang": "en",
       "photos": [],
@@ -15907,8 +15907,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "JO-N09",
@@ -15945,7 +15945,7 @@ window.LANDMARK_BASE = {
         "Gulf of Aqaba Jordan",
         "العقبة شاطئ"
       ],
-      "description": "아카바 해변은(는) 요르단의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "요르단 남쪽의 아카바 해변은 홍해 북쪽 끝 아카바만을 따라 이어지는 바닷가입니다. 요르단은 대부분이 내륙과 사막으로 이루어져 있지만 아카바에서는 푸른 바다와 산을 함께 만날 수 있습니다. 홍해의 따뜻한 물에는 산호와 여러 열대어가 살아, 해안 가까이에서도 다채로운 해양생태계가 펼쳐집니다. 아카바는 오래전부터 육지의 교역로와 바다를 잇는 항구로 중요했습니다. 오늘날에는 항만과 관광지 역할을 함께하며 요르단이 바다와 연결되는 중요한 창구가 되어 줍니다. 건조한 사막 풍경과 풍부한 바닷속 생명이 이웃한 곳입니다.",
       "wikiTitle": "Aqaba beach Jordan",
       "wikiLang": "en",
       "photos": [],
@@ -15953,8 +15953,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N01",
@@ -15991,7 +15991,7 @@ window.LANDMARK_BASE = {
         "Gur Emir Samarkand",
         "Гур Эмир"
       ],
-      "description": "구르에미르 영묘은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "우즈베키스탄 사마르칸트의 구르에미르 영묘는 중앙아시아의 정복자 티무르와 그의 가문이 묻힌 무덤 건축물입니다. 푸른빛 돔과 정교한 타일 장식이 특징이며, 건물 안팎에는 기하학적 무늬와 글씨 장식이 이어집니다. 티무르가 이끈 제국은 여러 지역을 연결했지만 전쟁과 정복으로 큰 고통을 남기기도 했습니다. 그 시대에는 장인과 학자들이 사마르칸트로 모여 특별한 건축 문화를 발전시켰습니다. 영묘는 한 인물의 무덤을 넘어 중앙아시아의 정치와 예술, 권력의 역사가 건축에 어떻게 남았는지 보여주는 장소입니다.",
       "wikiTitle": "Gur-e-Amir Mausoleum",
       "wikiLang": "en",
       "photos": [],
@@ -15999,8 +15999,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N03",
@@ -16014,7 +16014,7 @@ window.LANDMARK_BASE = {
         "Bibi Khanum Mosque Samarkand",
         "Биби Ханым"
       ],
-      "description": "비비하눔 모스크은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "사마르칸트의 비비하눔 모스크는 티무르 시대의 거대한 이슬람 건축을 보여주는 유적입니다. 14세기 말에서 15세기 초에 세워졌으며, 넓은 안뜰과 높은 입구, 푸른 장식 타일을 통해 당시 제국이 추구했던 웅장함을 드러냅니다. 건물의 이름과 건설 과정에는 여러 전설이 전해지지만, 전설의 내용은 확인된 역사와 구분할 필요가 있습니다. 시간이 지나 건물은 훼손되었고, 지진과 풍화의 영향을 겪으면서 보수와 복원이 이루어졌습니다. 거대한 규모와 섬세한 문양은 실크로드의 중심도시였던 사마르칸트가 예술과 건축에서도 중요한 장소였음을 보여줍니다.",
       "wikiTitle": "Bibi-Khanym Mosque",
       "wikiLang": "en",
       "photos": [],
@@ -16022,8 +16022,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N04",
@@ -16083,7 +16083,7 @@ window.LANDMARK_BASE = {
         "Minaret Kalon Bukhara",
         "Минарет Калян"
       ],
-      "description": "부하라 칼론 미나레트은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "우즈베키스탄 부하라의 칼론 미나레트는 오래된 도시 위로 높이 솟은 벽돌 탑입니다. 12세기에 세워진 이 미나레트는 이슬람 사원의 예배 시간을 알리는 시설과 연결되어 있으며, 멀리서도 위치를 알 수 있는 도시의 상징이 되었습니다. 탑의 벽면에는 단순한 벽돌을 여러 방식으로 쌓아 만든 섬세한 무늬가 이어집니다. 화려한 색을 많이 사용하지 않고도 재료의 배열만으로 아름다움을 만든 것입니다. 부하라는 실크로드의 중요한 학문과 무역 중심지였습니다. 탑은 수많은 시대의 변화를 견디며 오래된 도시의 지평선을 지켜 왔습니다.",
       "wikiTitle": "Kalyan Minaret Bukhara",
       "wikiLang": "en",
       "photos": [],
@@ -16091,8 +16091,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N07",
@@ -16106,7 +16106,7 @@ window.LANDMARK_BASE = {
         "Poi Kalyan Bukhara",
         "Пои Калян"
       ],
-      "description": "포이칼론 단지은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "부하라의 포이칼론 단지는 칼론 미나레트와 칼론 모스크, 미르이아랍 마드라사가 마주한 역사적인 공간입니다. 높은 탑과 넓은 모스크의 안뜰, 종교 교육을 위한 건물들이 하나의 광장처럼 어우러집니다. 이슬람 세계에서 마드라사는 학문과 종교를 배우는 학교 역할을 했습니다. 이곳의 건물에는 오래된 벽돌 구조와 푸른 장식 타일이 함께 남아 있습니다. 부하라는 동서 교역로를 따라 여행자와 학자들이 찾아오던 도시였기 때문에, 예배와 공부의 장소도 도시 생활의 중심이 되었습니다. 포이칼론은 종교·교육·도시 건축이 하나의 풍경으로 이어진 곳입니다.",
       "wikiTitle": "Po-i-Kalyan",
       "wikiLang": "en",
       "photos": [],
@@ -16114,8 +16114,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N08",
@@ -16129,7 +16129,7 @@ window.LANDMARK_BASE = {
         "Bukhara Ark fortress",
         "Арк Бухары"
       ],
-      "description": "아르크 요새은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "부하라의 아르크 요새는 높은 성벽으로 둘러싸인 거대한 옛 성채입니다. 오랜 세월 이 지역을 다스리던 통치자들의 거처와 행정 중심지로 사용되었고, 성 안에는 궁정과 여러 시설이 있었습니다. 바깥에서 보면 흙빛 성벽이 커다란 언덕처럼 솟아 있어 평평한 도시의 풍경과 뚜렷하게 구별됩니다. 요새는 여러 시대에 걸쳐 고쳐지고 확장되었으며, 근현대의 격변 속에서도 큰 피해를 겪었습니다. 오늘날 남은 건물과 유물은 실크로드 도시의 화려한 무역뿐 아니라 정치와 권력, 사람들이 겪은 역사까지 함께 전해 줍니다.",
       "wikiTitle": "Ark of Bukhara",
       "wikiLang": "en",
       "photos": [],
@@ -16137,8 +16137,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "UZ-N09",
@@ -16175,7 +16175,7 @@ window.LANDMARK_BASE = {
         "Chorsu Market Tashkent",
         "Чорсу бозори"
       ],
-      "description": "타슈켄트 초르수 시장은(는) 우즈베키스탄의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "우즈베키스탄 수도 타슈켄트의 초르수 시장은 커다란 푸른 돔 아래에 가게들이 모여 있는 전통 시장입니다. 둥근 지붕은 멀리서도 눈에 띄고, 그 아래에는 빵과 과일, 향신료, 견과류와 여러 생활용품이 가득합니다. 타슈켄트는 오래전부터 중앙아시아의 교역로와 연결된 도시였습니다. 시장은 단순히 물건을 사고파는 곳이 아니라 사람들이 만나 소식을 나누고 지역의 음식을 이어 가는 공간입니다. 둥글게 구운 전통 빵과 다양한 색의 농산물에서 이 지역 사람들의 식생활을 엿볼 수 있습니다. 시장의 활기는 오래된 교역도시의 전통이 오늘날에도 살아 있음을 보여줍니다.",
       "wikiTitle": "Chorsu Bazaar Tashkent",
       "wikiLang": "en",
       "photos": [],
@@ -16183,8 +16183,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "MN-N01",
@@ -16431,7 +16431,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "이집트 대박물관은(는) 이집트의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "이집트 대박물관은 기자의 피라미드 가까이에 세워진 거대한 고대 이집트 전문 박물관입니다. 고대 왕과 장인들의 유물, 조각과 생활도구를 통해 나일강 문명이 남긴 이야기를 전합니다. 특히 투탕카멘 왕의 무덤에서 발견된 유물들은 고대 이집트의 장례 문화와 뛰어난 제작기술을 이해하는 데 중요한 자료입니다. 피라미드가 거대한 건축으로 왕의 시대를 보여준다면, 박물관의 작은 장신구와 생활용품은 그 시대 사람들의 생각과 손길을 느끼게 합니다. 긴 역사를 지닌 유물을 보존하고 연구하며 다음 세대에 전하는 일 역시 이 박물관의 중요한 역할입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -16439,8 +16439,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "EG-N04",
@@ -16625,7 +16625,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "코파카바나 해변은(는) 브라질의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브라질 리우데자네이루의 코파카바나 해변은 커다란 만을 따라 길게 이어지는 도시 해변입니다. 밝은 모래사장 뒤로 높은 건물과 산이 겹쳐 있고, 바닷가 산책로에는 검은색과 흰색 돌로 만든 물결무늬가 이어집니다. 이 독특한 길은 코파카바나를 떠올리게 하는 대표적인 풍경입니다. 해변에서는 수영과 운동, 음악과 사람들이 어우러지며 대도시의 활기찬 생활이 펼쳐집니다. 한편 해변은 큰 행사와 축제가 열리는 공공 공간이기도 합니다. 자연의 바다와 도시의 일상이 한자리에 모인 코파카바나는 리우가 세계적으로 알려진 이유 가운데 하나입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -16633,8 +16633,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BR-N04",
@@ -16683,7 +16683,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "마라카낭 경기장은(는) 브라질의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "리우데자네이루의 마라카낭 경기장은 브라질 축구의 열정을 상징하는 장소입니다. 1950년 브라질 월드컵을 위해 문을 열었으며, 당시 결승에 해당하는 우루과이와의 마지막 경기에서 브라질이 패한 사건은 '마라카나수'라는 이름으로 오래 기억되고 있습니다. 시간이 지나 경기장은 여러 차례 개조되었고, 2014년 월드컵 결승과 2016년 리우 올림픽 행사 등 세계적인 무대가 되었습니다. 거대한 관중석을 가득 채운 응원과 노래는 경기장이 단순한 스포츠 시설을 넘어 시민들의 감정과 역사가 모이는 공간임을 보여줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -16691,8 +16691,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BR-N07",
@@ -16741,7 +16741,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "아마존 극장은(는) 브라질의 대표적인 여행 명소입니다. 자세한 역사와 방문 정보는 추가 검증이 필요합니다.",
+      "description": "브라질 마나우스의 아마존 극장은 열대우림 한가운데 가까운 도시에서 만나는 화려한 공연장입니다. 19세기 말 아마존의 고무 산업이 번성하던 시기에 건설되었으며, 유럽의 건축 양식과 장식 재료를 활용해 꾸몄습니다. 건물 위의 알록달록한 둥근 지붕은 멀리서도 눈에 띄는 특징입니다. 당시 고무 무역으로 얻은 부가 도시의 오페라와 예술 문화에 사용되었다는 사실이 흥미롭습니다. 하지만 그 번영 뒤에는 고무 채취 노동자와 원주민 공동체가 겪은 어려움도 있었습니다. 아마존 극장은 화려한 문화와 복잡한 경제·사회 역사를 함께 품고 있는 건축물입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -16749,8 +16749,8 @@ window.LANDMARK_BASE = {
       "verified": false,
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
-      "descriptionNote": "기본 안내 문구 · 상세 설명 미검증",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionNote": "V1.60 명소별 개별 이야기: 임시 안내문 교체",
+      "descriptionProvenance": "명소별 역사·특징 중심 개별 집필; 세부 사실 전수 교차검증 전"
     },
     {
       "id": "BR-N10",
