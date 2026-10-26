@@ -1,0 +1,926 @@
+id,country,name,chars,status,sourceCandidate,sourceLanguage,sourceTitle,sourceVerified
+KR-L01,KR,경복궁,228,보강 권장,False,,,False
+KR-L02,KR,창덕궁,205,보강 권장,False,,,False
+KR-L03,KR,한라산,576,기본 이야기 확보,True,en,Hallasan,False
+KR-L04,KR,설악산,554,기본 이야기 확보,True,en,Seoraksan National Park,False
+KR-L05,KR,남산서울타워,544,기본 이야기 확보,True,en,Namsan Seoul Tower,False
+KR-L06,KR,광장시장,575,기본 이야기 확보,True,en,Gwangjang Market,False
+KR-L07,KR,국립중앙박물관,535,기본 이야기 확보,True,en,National Museum of Korea,False
+KR-L08,KR,청계천,564,기본 이야기 확보,True,en,Cheonggyecheon,False
+CN-L01,CN,만리장성,271,보강 권장,False,,,False
+CN-L02,CN,자금성,251,보강 권장,False,,,False
+CN-L03,CN,진시황릉 병마용,215,보강 권장,False,,,False
+CN-L04,CN,장가계 국가삼림공원,359,기본 이야기 확보,True,en,Zhangjiajie National Forest Park,False
+CN-L05,CN,상하이 타워,522,기본 이야기 확보,True,en,Shanghai Tower,False
+CN-L06,CN,예원,561,기본 이야기 확보,True,en,Yu Garden,False
+CN-L07,CN,상하이 와이탄,585,기본 이야기 확보,True,en,The Bund,False
+CN-L08,CN,청두 판다기지,579,기본 이야기 확보,True,en,Chengdu Research Base of Giant Panda Breeding,False
+JP-L01,JP,후지산,237,보강 권장,False,,,False
+JP-L02,JP,후시미 이나리 신사,340,보강 권장,True,en,Fushimi Inari-taisha,False
+JP-L03,JP,기요미즈데라,231,보강 권장,False,,,False
+JP-L04,JP,도쿄 스카이트리,525,기본 이야기 확보,True,en,Tokyo Skytree,False
+JP-L05,JP,아라시야마 대나무숲,531,기본 이야기 확보,True,en,Arashiyama,False
+JP-L06,JP,오사카성,207,보강 권장,False,,,False
+JP-L07,JP,쓰키지 장외시장,536,기본 이야기 확보,True,en,Tsukiji fish market,False
+JP-L08,JP,나라공원,534,기본 이야기 확보,True,en,Nara Park,False
+TW-L01,TW,타이베이 101,231,보강 권장,False,,,False
+TW-L02,TW,국립고궁박물원,212,보강 권장,False,,,False
+TW-L03,TW,타이루거 협곡,203,보강 권장,False,,,False
+TW-L04,TW,일월담,517,기본 이야기 확보,True,en,Sun Moon Lake,False
+TW-L05,TW,지우펀 옛거리,547,기본 이야기 확보,True,en,Jiufen,False
+TW-L06,TW,스린 야시장,330,보강 권장,True,en,Shilin Night Market,False
+TW-L07,TW,중정기념당,346,보강 권장,True,en,Chiang Kai-shek Memorial Hall,False
+TW-L08,TW,아리산 국가풍경구,311,보강 권장,True,en,Alishan National Scenic Area,False
+FR-L01,FR,에펠탑,255,보강 권장,False,,,False
+FR-L02,FR,루브르 박물관,281,보강 권장,False,,,False
+FR-L03,FR,몽생미셸,265,보강 권장,False,,,False
+FR-L04,FR,베르사유 궁전,275,보강 권장,False,,,False
+FR-L05,FR,샹젤리제 거리,542,기본 이야기 확보,True,en,Champs-Élysées,False
+FR-L06,FR,에투알 개선문,220,보강 권장,False,,,False
+FR-L07,FR,노트르담 대성당,224,보강 권장,False,,,False
+FR-L08,FR,베르동 협곡,205,보강 권장,False,,,False
+FR-L09,FR,카르카손 성곽도시,598,기본 이야기 확보,True,en,Cité de Carcassonne,False
+FR-L10,FR,니스 영국인 산책로,492,기본 이야기 확보,True,en,Promenade des Anglais,False
+KR-L09,KR,불국사,382,기본 이야기 확보,True,en,Bulguksa,False
+KR-L10,KR,성산일출봉,367,기본 이야기 확보,True,en,Seongsan Ilchulbong,False
+JP-L09,JP,금각사,335,보강 권장,True,en,Kinkaku-ji,False
+JP-L10,JP,히메지성,195,보강 권장,True,en,Himeji Castle,False
+CN-L09,CN,이화원,360,기본 이야기 확보,True,en,Summer Palace,False
+CN-L10,CN,황산,558,기본 이야기 확보,True,en,Huangshan,False
+IT-L01,IT,콜로세움,277,보강 권장,False,,,False
+IT-L02,IT,베네치아 대운하,244,보강 권장,False,,,False
+IT-L03,IT,피사의 사탑,242,보강 권장,False,,,False
+IT-L04,IT,트레비 분수,186,보강 권장,True,en,Trevi Fountain,False
+IT-L05,IT,포로 로마노,567,기본 이야기 확보,True,en,Roman Forum,False
+IT-L06,IT,피렌체 두오모,212,보강 권장,False,,,False
+IT-L07,IT,아말피 해안,195,보강 권장,True,en,Amalfi Coast,False
+IT-L08,IT,밀라노 두오모,559,기본 이야기 확보,True,en,Milan Cathedral,False
+IT-L09,IT,친퀘테레,540,기본 이야기 확보,True,en,Cinque Terre,False
+IT-L10,IT,판테온,618,기본 이야기 확보,True,en,"Pantheon, Rome",False
+ES-L01,ES,사그라다 파밀리아,282,보강 권장,False,,,False
+ES-L02,ES,구엘 공원,203,보강 권장,False,,,False
+ES-L03,ES,알함브라 궁전,231,보강 권장,False,,,False
+ES-L04,ES,세비야 스페인 광장,200,보강 권장,False,,,False
+ES-L05,ES,톨레도 구시가지,533,기본 이야기 확보,True,en,"Toledo, Spain",False
+ES-L06,ES,메스키타,214,보강 권장,False,,,False
+ES-L07,ES,마드리드 왕궁,528,기본 이야기 확보,True,en,Royal Palace of Madrid,False
+ES-L08,ES,카사 바트요,589,기본 이야기 확보,True,en,Casa Batlló,False
+ES-L09,ES,산티아고 데 콤포스텔라 대성당,529,기본 이야기 확보,True,en,Santiago de Compostela Cathedral,False
+ES-L10,ES,바르셀로나 고딕 지구,574,기본 이야기 확보,True,en,"Gothic Quarter, Barcelona",False
+KR-CF-001,KR,덕수궁,428,기본 이야기 확보,True,ko,덕수궁,False
+KR-CF-002,KR,종묘,349,보강 권장,True,ko,종묘,False
+KR-CF-003,KR,북촌한옥마을,433,기본 이야기 확보,True,ko,북촌 한옥마을,False
+KR-CF-005,KR,롯데월드타워 서울스카이,423,기본 이야기 확보,True,ko,롯데월드타워,False
+KR-CF-006,KR,수원 화성,366,기본 이야기 확보,True,ko,수원 화성,False
+KR-CF-007,KR,인천 차이나타운,148,우선 보강,False,,,False
+KR-CF-008,KR,석굴암,185,보강 권장,True,ko,석굴암,False
+KR-CF-009,KR,첨성대,381,기본 이야기 확보,True,ko,첨성대,False
+KR-CF-010,KR,동궁과 월지,194,보강 권장,True,ko,동궁과 월지,False
+KR-CF-011,KR,대릉원,310,보강 권장,True,ko,대릉원,False
+KR-CF-012,KR,안동 하회마을,344,보강 권장,True,ko,안동 하회마을,False
+KR-CF-013,KR,전주한옥마을,402,기본 이야기 확보,True,ko,전주한옥마을,False
+KR-CF-014,KR,해인사 장경판전,416,기본 이야기 확보,True,ko,합천 해인사 장경판전,False
+KR-CF-015,KR,백제역사유적지구,522,기본 이야기 확보,True,ko,백제역사유적지구,False
+KR-CF-016,KR,공주 공산성,386,기본 이야기 확보,True,ko,공주 공산성,False
+KR-CF-017,KR,만장굴,199,보강 권장,False,,,False
+KR-CF-018,KR,천지연폭포,218,보강 권장,True,ko,천지연폭포,False
+KR-CF-019,KR,주상절리대,575,기본 이야기 확보,True,ko,무등산 주상절리대,False
+KR-CF-021,KR,부산 해운대,353,기본 이야기 확보,True,ko,해운대해수욕장,False
+KR-CF-022,KR,감천문화마을,360,기본 이야기 확보,True,ko,감천문화마을,False
+KR-CF-023,KR,순천만 습지,387,기본 이야기 확보,True,en,Suncheon Bay,False
+KR-CF-024,KR,담양 죽녹원,169,보강 권장,False,,,False
+CN-CF-001,CN,천안문광장,562,기본 이야기 확보,True,ko,1989년 천안문 광장 시위 및 학살 기념비,False
+CN-CF-002,CN,천단공원,345,보강 권장,True,en,Temple of Heaven,False
+CN-CF-003,CN,원명원,188,보강 권장,True,ko,원명원,False
+CN-CF-004,CN,명13릉,154,보강 권장,True,en,Ming tombs,False
+CN-CF-006,CN,시안 성벽,185,보강 권장,True,en,Xi'an,False
+CN-CF-007,CN,대안탑,166,보강 권장,True,ko,대안탑,False
+CN-CF-009,CN,동방명주탑,405,기본 이야기 확보,True,ko,동방명주탑,False
+CN-CF-010,CN,주가각 수향마을,187,보강 권장,True,en,Zhujiajiao,False
+CN-CF-011,CN,항저우 서호,191,보강 권장,True,en,West Lake,False
+CN-CF-012,CN,우전 수향마을,130,우선 보강,True,en,Wuzhen,False
+CN-CF-013,CN,쑤저우 졸정원,346,보강 권장,True,en,Humble Administrator's Garden,False
+CN-CF-014,CN,난징 중산릉,149,우선 보강,True,en,Sun Yat-sen Mausoleum,False
+CN-CF-015,CN,홍춘 고촌,371,기본 이야기 확보,True,en,Hongcun,False
+CN-CF-017,CN,톈먼산,168,보강 권장,True,ko,톈먼산,False
+CN-CF-018,CN,계림 리강,178,보강 권장,True,en,Li River,False
+CN-CF-019,CN,양숴 산수,174,보강 권장,True,en,Yangshuo County,False
+CN-CF-020,CN,구채구,384,기본 이야기 확보,True,en,Jiuzhaigou,False
+CN-CF-021,CN,황룽 풍경구,286,보강 권장,True,ko,황룽 풍경구,False
+CN-CF-022,CN,러산 대불,379,기본 이야기 확보,True,ko,러산 대불,False
+CN-CF-023,CN,둔황 막고굴,396,기본 이야기 확보,True,ko,막고굴,False
+CN-CF-024,CN,포탈라궁,413,기본 이야기 확보,True,ko,포탈라궁,False
+JP-CF-001,JP,도쿄타워,404,기본 이야기 확보,True,ko,도쿄 타워,False
+JP-CF-002,JP,센소지,276,보강 권장,True,ko,센소지,False
+JP-CF-003,JP,메이지 신궁,215,보강 권장,True,ko,메이지 신궁,False
+JP-CF-004,JP,시부야 스크램블 교차로,415,기본 이야기 확보,True,ko,시부야,False
+JP-CF-005,JP,도쿄역 마루노우치 역사,402,기본 이야기 확보,True,ko,도쿄역,False
+JP-CF-006,JP,우에노 공원,390,기본 이야기 확보,True,ko,우에노 공원,False
+JP-CF-007,JP,도쿄 디즈니리조트,173,보강 권장,True,ko,도쿄 디즈니 리조트,False
+JP-CF-008,JP,가마쿠라 대불,366,기본 이야기 확보,True,en,Kōtoku-in,False
+JP-CF-009,JP,하코네 아시노코,165,보강 권장,True,en,Lake Ashi,False
+JP-CF-010,JP,은각사,371,기본 이야기 확보,True,en,Ginkaku-ji,False
+JP-CF-011,JP,니조성,380,기본 이야기 확보,True,ko,니조성,False
+JP-CF-012,JP,뵤도인,378,기본 이야기 확보,True,ko,뵤도인,False
+JP-CF-013,JP,도다이지,397,기본 이야기 확보,True,ko,도다이지,False
+JP-CF-015,JP,히로시마 평화기념공원,198,보강 권장,True,ko,히로시마 평화기념공원,False
+JP-CF-016,JP,이쓰쿠시마 신사,344,보강 권장,True,ko,이쓰쿠시마 신사,False
+JP-CF-017,JP,가나자와 겐로쿠엔,391,기본 이야기 확보,True,ko,겐로쿠엔,False
+JP-CF-018,JP,시라카와고 합장촌,172,보강 권장,False,,,False
+JP-CF-019,JP,닛코 도쇼구,129,우선 보강,False,,,False
+JP-CF-020,JP,홋카이도 비에이 청의 호수,359,기본 이야기 확보,True,en,Blue Pond (Biei),False
+JP-CF-021,JP,오키나와 슈리성,186,보강 권장,True,en,Shuri Castle,False
+JP-CF-022,JP,나가사키 구라바엔,161,보강 권장,True,ko,구라바엔,False
+TW-CF-001,TW,용산사,168,보강 권장,True,en,Taipei,False
+TW-CF-002,TW,디화제,154,보강 권장,True,en,Dihua Street,False
+TW-CF-003,TW,스펀 폭포,367,기본 이야기 확보,True,en,Shifen Waterfall,False
+TW-CF-004,TW,예류지질공원,358,기본 이야기 확보,True,en,Yehliu,False
+TW-CF-005,TW,단수이 옛거리,151,보강 권장,True,en,Tamsui Old Street,False
+TW-CF-008,TW,칭징농장,160,보강 권장,True,en,Qingjing Farm,False
+TW-CF-009,TW,타이중 국가가극원,341,보강 권장,True,en,National Taichung Theater,False
+TW-CF-010,TW,가오슝 용호탑,360,기본 이야기 확보,True,en,Dragon and Tiger Pagodas,False
+TW-CF-011,TW,보얼예술특구,119,우선 보강,True,en,Pier-2 Art Center,False
+TW-CF-012,TW,타이난 적감루,176,보강 권장,True,en,Tainan,False
+TW-CF-013,TW,안핑 고보,121,우선 보강,True,en,Tainan,False
+TW-CF-014,TW,컨딩 국가공원,161,보강 권장,True,en,Kenting National Park,False
+TH-CF-001,TH,방콕 왕궁,209,보강 권장,False,,,False
+TH-CF-002,TH,왓 프라깨우,136,우선 보강,True,en,Wat Phra Kaew,False
+TH-CF-003,TH,왓 아룬,184,보강 권장,True,en,Wat Arun,False
+TH-CF-004,TH,왓 포,168,보강 권장,True,en,Wat Pho,False
+TH-CF-005,TH,왓 사켓,158,보강 권장,True,en,Wat Saket,False
+TH-CF-006,TH,짜뚜짝 시장,380,기본 이야기 확보,True,en,Chatuchak Weekend Market,False
+TH-CF-007,TH,담넌사두억 수상시장,125,우선 보강,True,en,Damnoen Saduak Floating Market,False
+TH-CF-008,TH,아유타야 역사공원,191,보강 권장,True,en,Ayutthaya Historical Park,False
+TH-CF-009,TH,왓 마하탓,175,보강 권장,True,en,Wat Mahathat (Ayutthaya),False
+TH-CF-010,TH,칸차나부리 콰이강의 다리,167,보강 권장,False,,,False
+TH-CF-011,TH,치앙마이 왓 프라탓 도이수텝,155,보강 권장,True,en,Wat Phra That Doi Suthep,False
+TH-CF-012,TH,치앙마이 구시가지,149,우선 보강,True,en,Chiang Mai,False
+TH-CF-013,TH,왓 롱쿤,348,보강 권장,True,en,Wat Rong Khun,False
+TH-CF-014,TH,왓 롱쓰아뗀,116,우선 보강,True,en,Wat Rong Suea Ten,False
+TH-CF-015,TH,수코타이 역사공원,355,기본 이야기 확보,True,en,Sukhothai Historical Park,False
+TH-CF-016,TH,푸껫 빠똥 해변,166,보강 권장,True,en,Patong,False
+TH-CF-017,TH,피피섬,162,보강 권장,True,en,Phi Phi Islands,False
+TH-CF-018,TH,팡응아만,159,보강 권장,True,en,Phang Nga Bay,False
+TH-CF-019,TH,끄라비 라일레이 해변,119,우선 보강,True,en,Railay Beach,False
+TH-CF-020,TH,꼬따오,168,보강 권장,True,en,Ko Tao,False
+VN-CF-001,VN,하롱베이,222,보강 권장,False,,,False
+VN-CF-002,VN,하노이 호안끼엠 호수,164,보강 권장,True,ko,호안끼엠호,False
+VN-CF-003,VN,하노이 문묘,176,보강 권장,True,en,"Temple of Literature, Hanoi",False
+VN-CF-004,VN,호찌민 묘소,123,우선 보강,True,en,Ho Chi Minh Mausoleum,False
+VN-CF-005,VN,탕롱 황성,135,우선 보강,False,,,False
+VN-CF-006,VN,닌빈 짱안 경관단지,201,보강 권장,False,,,False
+VN-CF-007,VN,탐꼭,171,보강 권장,True,en,Tam Cốc – Bích Động,False
+VN-CF-008,VN,사파 계단식 논,151,보강 권장,False,,,False
+VN-CF-009,VN,호이안 고도시,209,보강 권장,False,,,False
+VN-CF-010,VN,미선 유적,354,기본 이야기 확보,True,ko,미선 유적,False
+VN-CF-011,VN,후에 황성,186,보강 권장,True,ko,후에 황성,False
+VN-CF-012,VN,티엔무 사원,212,보강 권장,True,ko,티엔무 사원,False
+VN-CF-013,VN,다낭 용다리,163,보강 권장,True,en,Dragon Bridge (Da Nang),False
+VN-CF-014,VN,바나힐 골든브리지,224,보강 권장,False,,,False
+VN-CF-015,VN,오행산,155,보강 권장,True,en,Ngũ Hành Sơn,False
+VN-CF-016,VN,퐁냐케방 국립공원,154,보강 권장,True,en,Phong Nha,False
+VN-CF-017,VN,호찌민시 중앙우체국,152,보강 권장,True,en,Saigon Central Post Office,False
+VN-CF-018,VN,호찌민시 독립궁,158,보강 권장,True,en,Independence Palace,False
+VN-CF-019,VN,구찌 터널,393,기본 이야기 확보,True,en,Củ Chi tunnels,False
+VN-CF-020,VN,메콩델타 수상시장,167,보강 권장,True,en,Cái Răng,False
+SG-CF-001,SG,마리나 베이 샌즈,233,보강 권장,False,,,False
+SG-CF-002,SG,가든스 바이 더 베이,205,보강 권장,False,,,False
+SG-CF-003,SG,슈퍼트리 그로브,164,보강 권장,False,,,False
+SG-CF-004,SG,플라워 돔,170,보강 권장,False,,,False
+SG-CF-005,SG,클라우드 포레스트,171,보강 권장,False,,,False
+SG-CF-006,SG,머라이언 공원,122,우선 보강,False,,,False
+SG-CF-007,SG,싱가포르 플라이어,278,보강 권장,True,ko,싱가포르 플라이어,False
+SG-CF-008,SG,주얼 창이공항,185,보강 권장,False,,,False
+SG-CF-009,SG,에스플러네이드,332,보강 권장,True,ko,에스플러네이드 시어터스 온 더 베이,False
+SG-CF-010,SG,헬릭스 브리지,154,보강 권장,False,,,False
+SG-CF-011,SG,센토사섬,408,기본 이야기 확보,True,ko,센토사섬,False
+SG-CF-012,SG,유니버설 스튜디오 싱가포르,168,보강 권장,True,ko,유니버설 스튜디오 싱가포르,False
+SG-CF-013,SG,싱가포르 동물원,435,기본 이야기 확보,True,ko,싱가포르 동물원,False
+SG-CF-014,SG,나이트 사파리,164,보강 권장,True,ko,나이트 사파리,False
+SG-CF-015,SG,싱가포르 보타닉 가든,172,보강 권장,False,,,False
+SG-CF-016,SG,차이나타운,366,기본 이야기 확보,True,ko,차이나타운,False
+SG-CF-017,SG,리틀 인디아,294,보강 권장,True,ko,리틀인디아,False
+SG-CF-018,SG,캄퐁 글램,163,보강 권장,False,,,False
+SG-CF-019,SG,포트 캐닝 공원,164,보강 권장,False,,,False
+SG-CF-020,SG,풀라우 우빈,175,보강 권장,False,,,False
+FR-CF-001,FR,오르세 미술관,383,기본 이야기 확보,True,ko,오르세 미술관,False
+FR-CF-002,FR,몽마르트르 언덕,308,보강 권장,True,ko,몽마르트르,False
+FR-CF-003,FR,사크레쾨르 대성당,260,보강 권장,True,ko,사크레쾨르 대성당,False
+FR-CF-004,FR,생트샤펠,419,기본 이야기 확보,True,ko,생트샤펠,False
+FR-CF-005,FR,튈르리 정원,461,기본 이야기 확보,True,ko,튈르리 정원의 음악회,False
+FR-CF-006,FR,뤽상부르 공원,157,보강 권장,True,ko,파리 뤽상부르 공원,False
+FR-CF-007,FR,오페라 가르니에,390,기본 이야기 확보,True,ko,오페라 가르니에,False
+FR-CF-008,FR,퐁텐블로 궁전,427,기본 이야기 확보,True,ko,퐁텐블로궁,False
+FR-CF-010,FR,샹보르성,382,기본 이야기 확보,True,ko,샹보르성,False
+FR-CF-011,FR,슈농소성,353,기본 이야기 확보,True,ko,슈농소성,False
+FR-CF-012,FR,아비뇽 교황청,125,우선 보강,True,ko,아비뇽,False
+FR-CF-013,FR,퐁뒤가르 수도교,350,기본 이야기 확보,True,ko,수도교,False
+FR-CF-014,FR,에트르타 절벽,132,우선 보강,False,,,False
+FR-CF-015,FR,프로방스 발랑솔 라벤더 평원,172,보강 권장,False,,,False
+FR-CF-016,FR,칸 크루아제트 거리,121,우선 보강,False,,,False
+FR-CF-017,FR,생말로 성벽도시,123,우선 보강,False,,,False
+FR-CF-018,FR,샤모니 몽블랑 전망지역,162,보강 권장,False,,,False
+FR-CF-019,FR,안시 호수,161,보강 권장,False,,,False
+FR-CF-020,FR,보르도 부르스 광장,154,보강 권장,False,,,False
+FR-CF-021,FR,스트라스부르 프티트프랑스,421,기본 이야기 확보,True,ko,스트라스부르,False
+IT-CF-001,IT,스페인 계단,137,우선 보강,True,en,Spanish Steps,False
+IT-CF-002,IT,나보나 광장,131,우선 보강,True,en,Piazza Navona,False
+IT-CF-003,IT,산탄젤로성,369,기본 이야기 확보,True,en,Castel Sant'Angelo,False
+IT-CF-005,IT,베키오 다리,349,보강 권장,True,en,Ponte Vecchio,False
+IT-CF-006,IT,우피치 미술관,163,보강 권장,True,en,Uffizi,False
+IT-CF-007,IT,미켈란젤로 광장,162,보강 권장,True,en,Piazzale Michelangelo,False
+IT-CF-008,IT,시에나 캄포 광장,151,보강 권장,True,en,Piazza del Campo,False
+IT-CF-009,IT,산지미냐노 역사도심,169,보강 권장,True,en,San Gimignano,False
+IT-CF-010,IT,산마르코 대성당,171,보강 권장,True,en,St Mark's Basilica,False
+IT-CF-011,IT,산마르코 광장,123,우선 보강,True,en,Piazza San Marco,False
+IT-CF-012,IT,리알토 다리,123,우선 보강,True,en,Rialto Bridge,False
+IT-CF-013,IT,두칼레 궁전,168,보강 권장,True,en,Doge's Palace,False
+IT-CF-015,IT,밀라노 비토리오 에마누엘레 2세 갤러리아,149,우선 보강,True,en,Galleria Vittorio Emanuele II,False
+IT-CF-016,IT,베로나 아레나,132,우선 보강,True,en,Verona Arena,False
+IT-CF-017,IT,코모 호수,126,우선 보강,True,en,Lake Como,False
+IT-CF-018,IT,돌로미티 산맥,159,보강 권장,True,en,Dolomites,False
+IT-CF-019,IT,폼페이 유적,210,보강 권장,False,,,False
+IT-CF-020,IT,베수비오산,176,보강 권장,True,en,Mount Vesuvius,False
+IT-CF-021,IT,카프리섬 푸른 동굴,172,보강 권장,True,en,Blue Grotto (Capri),False
+IT-CF-022,IT,알베로벨로 트룰리 마을,166,보강 권장,True,en,Alberobello,False
+ES-CF-001,ES,카사 밀라,171,보강 권장,True,en,"La Pedrera, Barcelona",False
+ES-CF-002,ES,카탈루냐 음악당,170,보강 권장,True,en,Palau de la Música Catalana,False
+ES-CF-003,ES,몬주익 성,127,우선 보강,True,en,Montjuïc Castle,False
+ES-CF-004,ES,보케리아 시장,134,우선 보강,True,en,La Boqueria,False
+ES-CF-005,ES,프라도 미술관,172,보강 권장,True,en,Museo del Prado,False
+ES-CF-006,ES,레티로 공원,111,우선 보강,True,en,Parque del Buen Retiro,False
+ES-CF-007,ES,마요르 광장,156,보강 권장,True,en,"Plaza Mayor, Madrid",False
+ES-CF-008,ES,푸에르타 델 솔,169,보강 권장,True,en,Puerta del Sol,False
+ES-CF-009,ES,세고비아 수도교,161,보강 권장,True,en,Aqueduct of Segovia,False
+ES-CF-010,ES,세고비아 알카사르,166,보강 권장,True,en,Alcázar of Segovia,False
+ES-CF-011,ES,엘 에스코리알 수도원,165,보강 권장,True,en,El Escorial,False
+ES-CF-012,ES,헤네랄리페 정원,139,우선 보강,True,en,Generalife,False
+ES-CF-014,ES,세비야 대성당,170,보강 권장,True,en,Seville Cathedral,False
+ES-CF-015,ES,히랄다 탑,127,우선 보강,True,en,Giralda,False
+ES-CF-016,ES,세비야 알카사르,171,보강 권장,True,en,Alcázar of Seville,False
+ES-CF-017,ES,론다 누에보 다리,145,우선 보강,True,en,Puente Nuevo,False
+ES-CF-018,ES,카디스 구시가지,119,우선 보강,True,en,Cádiz,False
+ES-CF-020,ES,빌바오 구겐하임 미술관,156,보강 권장,True,en,Guggenheim Museum Bilbao,False
+ES-CF-021,ES,발렌시아 예술과학도시,154,보강 권장,True,en,City of Arts and Sciences,False
+ES-CF-022,ES,테이데 국립공원,134,우선 보강,True,en,Teide,False
+GB-CF-001,GB,빅벤과 웨스트민스터 궁전,414,기본 이야기 확보,True,ko,웨스트민스터궁,False
+GB-CF-002,GB,버킹엄 궁전,393,기본 이야기 확보,True,ko,버킹엄궁,False
+GB-CF-003,GB,타워 브리지,419,기본 이야기 확보,True,ko,타워 브리지,False
+GB-CF-004,GB,런던탑,435,기본 이야기 확보,True,ko,런던탑,False
+GB-CF-005,GB,웨스트민스터 사원,270,보강 권장,True,ko,웨스트민스터 사원,False
+GB-CF-006,GB,대영박물관,207,보강 권장,False,,,False
+GB-CF-007,GB,런던 아이,479,기본 이야기 확보,True,ko,런던 아이,False
+GB-CF-008,GB,세인트폴 대성당,408,기본 이야기 확보,True,ko,세인트폴 대성당,False
+GB-CF-009,GB,트라팔가 광장,401,기본 이야기 확보,True,ko,트라팔가 광장,False
+GB-CF-010,GB,자연사박물관,157,보강 권장,True,ko,자연사 박물관,False
+GB-CF-011,GB,스톤헨지,212,보강 권장,False,,,False
+GB-CF-012,GB,윈저성,405,기본 이야기 확보,True,ko,윈저성,False
+GB-CF-013,GB,옥스퍼드 보들리언 도서관,167,보강 권장,False,,,False
+GB-CF-014,GB,바스 로마 목욕탕,164,보강 권장,False,,,False
+GB-CF-015,GB,레이크 디스트릭트,123,우선 보강,True,ko,레이크디스트릭트,False
+GB-CF-016,GB,에든버러성,413,기본 이야기 확보,True,ko,에든버러성,False
+GB-CF-017,GB,스카이섬 올드맨 오브 스토르,125,우선 보강,False,,,False
+GB-CF-018,GB,네스호,163,보강 권장,True,ko,네스호,False
+GB-CF-019,GB,콘위성,441,기본 이야기 확보,True,ko,콘위성,False
+GB-CF-020,GB,자이언츠 코즈웨이,128,우선 보강,False,,,False
+DE-CF-001,DE,브란덴부르크 문,288,보강 권장,True,ko,브란덴부르크 문,False
+DE-CF-002,DE,독일 국회의사당,161,보강 권장,False,,,False
+DE-CF-003,DE,베를린 장벽 이스트사이드 갤러리,405,기본 이야기 확보,True,ko,베를린 장벽,False
+DE-CF-004,DE,박물관섬,479,기본 이야기 확보,True,ko,박물관섬,False
+DE-CF-005,DE,베를린 대성당,149,우선 보강,False,,,False
+DE-CF-006,DE,함부르크 엘프필하모니,124,우선 보강,False,,,False
+DE-CF-007,DE,노이슈반슈타인성,227,보강 권장,False,,,False
+DE-CF-008,DE,호엔슈방가우성,243,보강 권장,True,ko,호엔슈방가우성,False
+DE-CF-009,DE,뮌헨 마리엔 광장,412,기본 이야기 확보,True,ko,마리엔 광장,False
+DE-CF-010,DE,님펜부르크 궁전,405,기본 이야기 확보,True,ko,님펜부르크궁,False
+DE-CF-011,DE,뮌헨 영국정원,130,우선 보강,True,ko,뮌헨,False
+DE-CF-012,DE,추크슈피체산,137,우선 보강,True,ko,추크슈피체산,False
+DE-CF-013,DE,로텐부르크 구시가지,165,보강 권장,False,,,False
+DE-CF-014,DE,쾰른 대성당,384,기본 이야기 확보,True,ko,쾰른 대성당,False
+DE-CF-015,DE,하이델베르크성,139,우선 보강,True,ko,하이델베르크성,False
+DE-CF-016,DE,라인강 로렐라이 바위,355,기본 이야기 확보,True,ko,라인강,False
+DE-CF-017,DE,에르츠산맥 지역,133,우선 보강,False,,,False
+DE-CF-018,DE,드레스덴 프라우엔 교회,167,보강 권장,False,,,False
+DE-CF-019,DE,작센 스위스 바스타이 다리,157,보강 권장,False,,,False
+DE-CF-020,DE,포츠담 상수시 궁전,494,기본 이야기 확보,True,ko,포츠담,False
+CH-CF-001,CH,마터호른,212,보강 권장,False,,,False
+CH-CF-002,CH,융프라우요흐,231,보강 권장,False,,,False
+CH-CF-003,CH,아이거 북벽,134,우선 보강,False,,,False
+CH-CF-004,CH,쉴트호른,424,기본 이야기 확보,True,ko,쉴트호른,False
+CH-CF-005,CH,피르스트 클리프워크,130,우선 보강,True,ko,피르스트,False
+CH-CF-006,CH,라우터브루넨 계곡,200,보강 권장,False,,,False
+CH-CF-007,CH,트뤼멜바흐 폭포,385,기본 이야기 확보,True,ko,트뤼멜바흐 폭포,False
+CH-CF-008,CH,알레치 빙하,353,기본 이야기 확보,True,ko,알레치 빙하,False
+CH-CF-009,CH,리기산,290,보강 권장,True,ko,리기산,False
+CH-CF-010,CH,필라투스산,154,보강 권장,True,ko,필라투스산,False
+CH-CF-011,CH,티틀리스산,162,보강 권장,False,,,False
+CH-CF-012,CH,라인폭포,165,보강 권장,True,ko,라인 폭포,False
+CH-CF-013,CH,루체른 카펠교,268,보강 권장,True,ko,루체른,False
+CH-CF-014,CH,취리히 구시가지,493,기본 이야기 확보,True,ko,취리히,False
+CH-CF-015,CH,베른 구시가지,156,보강 권장,True,ko,베른,False
+CH-CF-016,CH,제네바 제토 분수,148,우선 보강,False,,,False
+CH-CF-017,CH,시옹성,263,보강 권장,True,ko,시옹성,False
+CH-CF-018,CH,몽트뢰 호숫가,151,보강 권장,False,,,False
+CH-CF-019,CH,생모리츠 호수,151,보강 권장,False,,,False
+CH-CF-020,CH,레만호,161,보강 권장,True,ko,레만호,False
+AU-CF-001,AU,시드니 오페라하우스,246,보강 권장,False,,,False
+AU-CF-002,AU,시드니 하버브리지,262,보강 권장,True,ko,시드니 하버 브리지,False
+AU-CF-003,AU,본다이 비치,285,보강 권장,True,ko,본다이비치,False
+AU-CF-004,AU,블루마운틴 세 자매봉,251,보강 권장,True,ko,세 자매봉,False
+AU-CF-005,AU,타롱가 동물원,404,기본 이야기 확보,True,ko,타롱가 동물원,False
+AU-CF-006,AU,헌터밸리 와인 지역,147,우선 보강,False,,,False
+AU-CF-007,AU,멜버른 플린더스 스트리트역,386,기본 이야기 확보,True,ko,멜버른,False
+AU-CF-008,AU,그레이트 오션 로드,527,기본 이야기 확보,True,ko,그레이트 오션 로드,False
+AU-CF-009,AU,열두 사도 바위,177,보강 권장,True,ko,사도,False
+AU-CF-010,AU,필립아일랜드 펭귄 퍼레이드,106,우선 보강,False,,,False
+AU-CF-011,AU,애들레이드 식물원,446,기본 이야기 확보,True,ko,식물원,False
+AU-CF-012,AU,그레이트 배리어 리프,394,기본 이야기 확보,True,ko,그레이트배리어리프,False
+AU-CF-013,AU,데인트리 열대우림,366,기본 이야기 확보,True,ko,데인트리 열대우림,False
+AU-CF-014,AU,울루루,221,보강 권장,False,,,False
+AU-CF-015,AU,카타추타,405,기본 이야기 확보,True,ko,카타추타,False
+AU-CF-016,AU,카카두 국립공원,309,보강 권장,True,ko,카카두 국립공원,False
+AU-CF-017,AU,킹스캐니언,444,기본 이야기 확보,True,ko,킹스 캐니언 국립공원,False
+AU-CF-018,AU,웨이브 록,227,보강 권장,True,ko,웨이브록,False
+AU-CF-019,AU,퍼스 킹스파크,138,우선 보강,False,,,False
+AU-CF-020,AU,태즈메이니아 크레이들마운틴,157,보강 권장,False,,,False
+US-CF-001,US,자유의 여신상,188,보강 권장,True,ko,자유의 여신상,False
+US-CF-002,US,타임스스퀘어,441,기본 이야기 확보,True,ko,타임스 스퀘어,False
+US-CF-003,US,센트럴파크,395,기본 이야기 확보,True,ko,센트럴 파크,False
+US-CF-004,US,엠파이어 스테이트 빌딩,414,기본 이야기 확보,True,ko,엠파이어 스테이트 빌딩,False
+US-CF-005,US,브루클린 브리지,144,우선 보강,False,,,False
+US-CF-006,US,메트로폴리탄 미술관,437,기본 이야기 확보,True,ko,메트로폴리탄 미술관,False
+US-CF-007,US,워싱턴 링컨 기념관,422,기본 이야기 확보,True,ko,링컨 기념관,False
+US-CF-008,US,백악관,384,기본 이야기 확보,True,ko,백악관,False
+US-CF-009,US,미국 국회의사당,408,기본 이야기 확보,True,ko,미국 국회의사당,False
+US-CF-010,US,나이아가라 폭포,191,보강 권장,True,ko,나이아가라 폭포,False
+US-CF-011,US,그랜드캐니언,255,보강 권장,False,,,False
+US-CF-012,US,요세미티 국립공원,366,기본 이야기 확보,True,ko,요세미티 국립공원,False
+US-CF-013,US,옐로스톤 국립공원,208,보강 권장,False,,,False
+US-CF-014,US,자이언 국립공원,121,우선 보강,True,ko,자이언 국립공원,False
+US-CF-015,US,브라이스캐니언,398,기본 이야기 확보,True,ko,브라이스 캐니언 국립공원,False
+US-CF-016,US,앤털로프캐니언,157,보강 권장,False,,,False
+US-CF-017,US,모뉴먼트밸리,466,기본 이야기 확보,True,ko,모뉴먼트밸리,False
+US-CF-018,US,아치스 국립공원,367,기본 이야기 확보,True,ko,아치스 국립공원,False
+US-CF-019,US,데스밸리 국립공원,158,보강 권장,True,ko,데스 밸리 국립공원,False
+US-CF-020,US,레드우드 국립공원,226,보강 권장,True,ko,레드우드 국립공원,False
+US-CF-021,US,금문교,211,보강 권장,False,,,False
+US-CF-022,US,알카트라즈섬,139,우선 보강,False,,,False
+US-CF-023,US,할리우드 사인,137,우선 보강,True,ko,할리우드 사인,False
+US-CF-024,US,그리피스 천문대,160,보강 권장,False,,,False
+US-CF-025,US,라스베이거스 스트립,170,보강 권장,True,ko,라스베이거스 스트립,False
+US-CF-026,US,월트 디즈니 월드 매직 킹덤,131,우선 보강,False,,,False
+US-CF-027,US,시카고 밀레니엄 파크,423,기본 이야기 확보,True,ko,시카고,False
+US-CF-028,US,스페이스 니들,269,보강 권장,True,ko,스페이스 니들,False
+US-CF-029,US,하와이 다이아몬드 헤드,129,우선 보강,False,,,False
+US-CF-030,US,하와이 화산 국립공원,391,기본 이야기 확보,True,ko,하와이 화산 국립공원,False
+KR-ADD-001,KR,영주 부석사,296,보강 권장,False,,,False
+KR-ADD-002,KR,부안 내소사,283,보강 권장,False,,,False
+KR-ADD-003,KR,고창 선운사,278,보강 권장,False,,,False
+KR-ADD-004,KR,고창 갯벌,359,기본 이야기 확보,False,,,False
+IN-N01,IN,타지마할,213,보강 권장,False,,,False
+IN-N02,IN,아그라 요새,116,우선 보강,True,ko,아그라 요새,False
+IN-N03,IN,파테푸르 시크리,316,보강 권장,True,ko,파테푸르 시크리,False
+IN-N04,IN,쿠트브 미나르,325,보강 권장,True,ko,쿠트브 미나르,False
+IN-N05,IN,붉은 요새,224,보강 권장,True,ko,붉은 요새,False
+IN-N06,IN,후마윤 묘,136,우선 보강,False,,,False
+IN-N07,IN,인디아 게이트,166,보강 권장,False,,,False
+IN-N08,IN,연꽃 사원,285,보강 권장,True,ko,연꽃 사원,False
+IN-N09,IN,하와 마할,415,기본 이야기 확보,True,ko,하와마할,False
+IN-N10,IN,암베르 요새,121,우선 보강,False,,,False
+IN-N11,IN,시티 팰리스 자이푸르,134,우선 보강,False,,,False
+IN-N12,IN,잔타르 만타르,397,기본 이야기 확보,True,ko,잔타르 만타르,False
+IN-N13,IN,바라나시 가트,59,임시 문장 검토,True,ko,바라나시,False
+IN-N14,IN,카주라호 사원군,144,우선 보강,True,ko,카주라호,False
+IN-N15,IN,엘로라 석굴,340,보강 권장,True,ko,엘로라 석굴,False
+IN-N16,IN,아잔타 석굴,365,기본 이야기 확보,True,ko,아잔타 석굴,False
+IN-N17,IN,산치 불교 유적,125,우선 보강,False,,,False
+IN-N18,IN,마하보디 사원,139,우선 보강,True,ko,마하보디 사원,False
+IN-N19,IN,황금사원,101,우선 보강,True,ko,황금 사원,False
+IN-N20,IN,달 호수,56,임시 문장 검토,False,,,False
+ID-N01,ID,보로부두르,400,기본 이야기 확보,True,ko,보로부두르,False
+ID-N02,ID,프람바난,367,기본 이야기 확보,True,ko,프람바난,False
+ID-N03,ID,울루와투 사원,62,임시 문장 검토,False,,,False
+ID-N04,ID,타나롯 사원,141,우선 보강,True,ko,타나롯,False
+ID-N05,ID,우붓 원숭이 숲,63,임시 문장 검토,False,,,False
+ID-N06,ID,뜨갈랄랑 계단식 논,65,임시 문장 검토,False,,,False
+ID-N07,ID,바투르산,406,기본 이야기 확보,True,ko,바투르산,False
+ID-N08,ID,브로모산,275,보강 권장,True,ko,브로모산,False
+ID-N09,ID,이젠 화산,60,임시 문장 검토,False,,,False
+ID-N10,ID,코모도 국립공원,266,보강 권장,True,ko,코모도 국립공원,False
+ID-N11,ID,린차섬,203,보강 권장,True,ko,린차섬,False
+ID-N12,ID,켈리무투 호수,62,임시 문장 검토,False,,,False
+ID-N13,ID,토바 호수,60,임시 문장 검토,False,,,False
+ID-N14,ID,라자암팟,59,임시 문장 검토,False,,,False
+ID-N15,ID,길리 트라왕안,298,보강 권장,True,ko,길리 트라왕안,False
+ID-N16,ID,누사 페니다,61,임시 문장 검토,False,,,False
+ID-N17,ID,울룬 다누 브라탄 사원,67,임시 문장 검토,False,,,False
+ID-N18,ID,티르타 엠풀 사원,64,임시 문장 검토,False,,,False
+ID-N19,ID,족자카르타 왕궁,63,임시 문장 검토,False,,,False
+ID-N20,ID,이스티크랄 모스크,64,임시 문장 검토,False,,,False
+GR-N01,GR,아테네 아크로폴리스,503,기본 이야기 확보,True,ko,아테네,False
+GR-N02,GR,파르테논 신전,461,기본 이야기 확보,True,ko,파르테논 신전,False
+GR-N03,GR,아크로폴리스 박물관,187,보강 권장,True,ko,아크로폴리스 박물관,False
+GR-N04,GR,고대 아고라,409,기본 이야기 확보,True,ko,아고라,False
+GR-N05,GR,올림피아 제우스 신전,241,보강 권장,True,ko,올림피아 제우스 신전,False
+GR-N06,GR,델포이 유적,439,기본 이야기 확보,True,ko,델포이,False
+GR-N07,GR,메테오라 수도원,258,보강 권장,True,ko,메테오라,False
+GR-N08,GR,고대 올림피아,60,임시 문장 검토,False,,,False
+GR-N09,GR,미케네 유적,59,임시 문장 검토,False,,,False
+GR-N10,GR,에피다우로스 극장,206,보강 권장,True,ko,에피다우로스 극장,False
+GR-N11,GR,크노소스 궁전,351,기본 이야기 확보,True,ko,크노소스,False
+GR-N12,GR,산토리니 이아 마을,63,임시 문장 검토,False,,,False
+GR-N13,GR,산토리니 피라 마을,63,임시 문장 검토,False,,,False
+GR-N14,GR,로도스 구시가지,61,임시 문장 검토,False,,,False
+GR-N15,GR,코르푸 구시가지,61,임시 문장 검토,False,,,False
+GR-N16,GR,수니온 포세이돈 신전,64,임시 문장 검토,False,,,False
+GR-N17,GR,델로스섬,244,보강 권장,True,ko,델로스섬,False
+GR-N18,GR,나플리오 팔라미디 요새,65,임시 문장 검토,False,,,False
+GR-N19,GR,자킨토스 나바지오 해변,65,임시 문장 검토,False,,,False
+GR-N20,GR,사마리아 협곡,60,임시 문장 검토,False,,,False
+TR-N01,TR,아야 소피아,456,기본 이야기 확보,True,ko,아야 소피아,False
+TR-N02,TR,술탄아흐메트 모스크,276,보강 권장,True,ko,술탄 아흐메트 모스크,False
+TR-N03,TR,톱카프 궁전,433,기본 이야기 확보,True,ko,톱카프 궁전,False
+TR-N04,TR,돌마바흐체 궁전,427,기본 이야기 확보,True,ko,돌마바흐체 궁전,False
+TR-N05,TR,갈라타 탑,322,보강 권장,True,ko,갈라타 탑,False
+TR-N06,TR,그랜드 바자르,261,보강 권장,True,ko,그랜드 바자르 (테헤란),False
+TR-N07,TR,예레바탄 사라이,394,기본 이야기 확보,True,ko,예레바탄 사라이,False
+TR-N08,TR,보스포루스 해협,406,기본 이야기 확보,True,ko,보스포루스 해협,False
+TR-N09,TR,카파도키아 괴레메,224,보강 권장,True,ko,괴레메,False
+TR-N10,TR,데린쿠유 지하도시,259,보강 권장,True,ko,데린쿠유 지하도시,False
+TR-N11,TR,파묵칼레,131,우선 보강,True,ko,파묵칼레,False
+TR-N12,TR,히에라폴리스,209,보강 권장,True,ko,히에라폴리스,False
+TR-N13,TR,에페소스,487,기본 이야기 확보,True,ko,에페소스,False
+TR-N14,TR,트로이 유적,443,기본 이야기 확보,True,ko,트로이,False
+TR-N15,TR,넴루트산,266,보강 권장,True,ko,넴루트산,False
+TR-N16,TR,수멜라 수도원,61,임시 문장 검토,False,,,False
+TR-N17,TR,안탈리아 구시가지,63,임시 문장 검토,False,,,False
+TR-N18,TR,아스펜도스 극장,62,임시 문장 검토,False,,,False
+TR-N19,TR,우치히사르 성,61,임시 문장 검토,False,,,False
+TR-N20,TR,아니 유적,59,임시 문장 검토,False,,,False
+NL-N01,NL,암스테르담 운하,259,보강 권장,True,ko,암스테르담 운하,False
+NL-N02,NL,안네 프랑크의 집,218,보강 권장,True,ko,안네 프랑크의 집,False
+NL-N03,NL,국립미술관,292,보강 권장,True,ko,국립미술관 목록,False
+NL-N04,NL,반 고흐 미술관,456,기본 이야기 확보,True,ko,반 고흐 미술관,False
+NL-N05,NL,담 광장,58,임시 문장 검토,True,ko,담 광장,False
+NL-N06,NL,왕궁 암스테르담,62,임시 문장 검토,False,,,False
+NL-N07,NL,요르단 지구,235,보강 권장,True,ko,요르단,False
+NL-N08,NL,잔세스칸스,59,임시 문장 검토,False,,,False
+NL-N09,NL,킨더데이크 풍차,62,임시 문장 검토,False,,,False
+NL-N10,NL,쾨켄호프 정원,474,기본 이야기 확보,True,ko,쾨켄호프,False
+NL-N11,NL,마우리츠하위스 미술관,237,보강 권장,True,ko,마우리츠하위스,False
+NL-N12,NL,헤이그 평화궁,256,보강 권장,True,ko,평화궁,False
+NL-N13,NL,델프트 구시가지,62,임시 문장 검토,False,,,False
+NL-N14,NL,로테르담 마르크탈,63,임시 문장 검토,False,,,False
+NL-N15,NL,로테르담 큐브하우스,64,임시 문장 검토,False,,,False
+NL-N16,NL,유로마스트,496,기본 이야기 확보,True,ko,유로마스트,False
+NL-N17,NL,위트레흐트 돔탑,62,임시 문장 검토,False,,,False
+NL-N18,NL,호헤 벨루웨 국립공원,65,임시 문장 검토,False,,,False
+NL-N19,NL,크뢸러뮐러 미술관,218,보강 권장,True,ko,크뢸러 뮐러 미술관,False
+NL-N20,NL,하를럼 흐로터 마르크트,66,임시 문장 검토,False,,,False
+AT-N01,AT,쇤브룬 궁전,447,기본 이야기 확보,True,ko,쇤브룬궁,False
+AT-N02,AT,벨베데레 궁전,398,기본 이야기 확보,True,ko,벨베데레궁,False
+AT-N03,AT,호프부르크 왕궁,63,임시 문장 검토,False,,,False
+AT-N04,AT,슈테판 대성당,325,보강 권장,True,ko,슈테판 대성당,False
+AT-N05,AT,빈 국립오페라극장,395,기본 이야기 확보,True,ko,빈 국립 오페라 극장,False
+AT-N06,AT,미술사 박물관,319,보강 권장,True,ko,빈 미술사 박물관,False
+AT-N07,AT,알베르티나 미술관,472,기본 이야기 확보,True,ko,알베르티나,False
+AT-N08,AT,프라터 대관람차,63,임시 문장 검토,False,,,False
+AT-N09,AT,카를 교회,60,임시 문장 검토,False,,,False
+AT-N10,AT,잘츠부르크 호엔잘츠부르크 성,70,임시 문장 검토,True,ko,호엔잘츠부르크성,False
+AT-N11,AT,미라벨 정원,61,임시 문장 검토,False,,,False
+AT-N12,AT,모차르트 생가,402,기본 이야기 확보,True,ko,모차르트 생가,False
+AT-N13,AT,할슈타트,492,기본 이야기 확보,True,ko,할슈타트,False
+AT-N14,AT,다흐슈타인 얼음동굴,65,임시 문장 검토,False,,,False
+AT-N15,AT,인스브루크 황금지붕,65,임시 문장 검토,False,,,False
+AT-N16,AT,암브라스 성,61,임시 문장 검토,False,,,False
+AT-N17,AT,그로스글로크너 고산도로,67,임시 문장 검토,False,,,False
+AT-N18,AT,멜크 수도원,61,임시 문장 검토,True,ko,멜크 수도원,False
+AT-N19,AT,바하우 계곡,61,임시 문장 검토,True,ko,바하우,False
+AT-N20,AT,그라츠 시계탑,254,보강 권장,True,ko,그라츠,False
+CZ-N01,CZ,프라하 성,306,보강 권장,True,ko,프라하성,False
+CZ-N02,CZ,카를교,394,기본 이야기 확보,True,ko,카를교,False
+CZ-N03,CZ,구시가 광장,153,보강 권장,True,ko,구시가 광장 (프라하),False
+CZ-N04,CZ,천문시계,173,보강 권장,True,ko,천문시계,False
+CZ-N05,CZ,성 비투스 대성당,274,보강 권장,True,ko,성 비투스 대성당,False
+CZ-N06,CZ,성 니콜라스 성당,287,보강 권장,True,ko,성 니콜라스 성당 (스타레메스토),False
+CZ-N07,CZ,페트르진 전망탑,60,임시 문장 검토,False,,,False
+CZ-N08,CZ,바츨라프 광장,301,보강 권장,True,ko,바츨라프 광장,False
+CZ-N09,CZ,유대인 지구,58,임시 문장 검토,False,,,False
+CZ-N10,CZ,비셰흐라트,446,기본 이야기 확보,True,ko,비셰흐라트,False
+CZ-N11,CZ,체스키크룸로프 성,156,보강 권장,True,ko,체스키크룸로프성,False
+CZ-N12,CZ,체스키크룸로프 구시가지,343,보강 권장,True,ko,체스키크룸로프,False
+CZ-N13,CZ,카를슈테인 성,59,임시 문장 검토,False,,,False
+CZ-N14,CZ,쿠트나호라 해골성당,62,임시 문장 검토,False,,,False
+CZ-N15,CZ,성 바르바라 성당,61,임시 문장 검토,False,,,False
+CZ-N16,CZ,텔치 역사 지구,60,임시 문장 검토,False,,,False
+CZ-N17,CZ,레드니체 성,58,임시 문장 검토,False,,,False
+CZ-N18,CZ,브르노 슈필베르크 성,431,기본 이야기 확보,True,ko,브르노,False
+CZ-N19,CZ,카를로비바리 온천,216,보강 권장,True,ko,카를로비바리,False
+CZ-N20,CZ,올로모우츠 성삼위일체 기둥,66,임시 문장 검토,False,,,False
+PT-N01,PT,벨렝 탑,426,기본 이야기 확보,True,ko,벨렝탑,False
+PT-N02,PT,제로니무스 수도원,197,보강 권장,True,ko,제로니무스 수도원,False
+PT-N03,PT,발견기념비,186,보강 권장,True,ko,발견기념비,False
+PT-N04,PT,상조르즈 성,238,보강 권장,True,ko,상조르즈성,False
+PT-N05,PT,코메르시우 광장,179,보강 권장,True,ko,코메르시우 광장,False
+PT-N06,PT,알파마 지구,60,임시 문장 검토,False,,,False
+PT-N07,PT,산타주스타 엘리베이터,396,기본 이야기 확보,True,ko,엘리베이터,False
+PT-N08,PT,페나 궁전,59,임시 문장 검토,False,,,False
+PT-N09,PT,헤갈레이라 별장,62,임시 문장 검토,False,,,False
+PT-N10,PT,무어인의 성,60,임시 문장 검토,False,,,False
+PT-N11,PT,호카곶,107,우선 보강,True,ko,호카곶,False
+PT-N12,PT,포르투 히베이라,274,보강 권장,True,ko,포르투,False
+PT-N13,PT,동 루이스 1세 다리,65,임시 문장 검토,False,,,False
+PT-N14,PT,렐루 서점,59,임시 문장 검토,False,,,False
+PT-N15,PT,클레리구스 탑,61,임시 문장 검토,False,,,False
+PT-N16,PT,두루 계곡,59,임시 문장 검토,False,,,False
+PT-N17,PT,코임브라 대학교,433,기본 이야기 확보,True,ko,코임브라 대학교,False
+PT-N18,PT,바탈랴 수도원,372,기본 이야기 확보,True,ko,바탈랴 수도원,False
+PT-N19,PT,알코바사 수도원,352,기본 이야기 확보,True,ko,알코바사 수도원,False
+PT-N20,PT,에보라 로마 신전,391,기본 이야기 확보,True,ko,로마 신전,False
+PL-N01,PL,바벨 성,394,기본 이야기 확보,True,ko,바벨성,False
+PL-N02,PL,크라쿠프 중앙광장,62,임시 문장 검토,False,,,False
+PL-N03,PL,성 마리아 성당,61,임시 문장 검토,False,,,False
+PL-N04,PL,비엘리치카 소금광산,204,보강 권장,True,ko,비엘리치카 소금광산,False
+PL-N05,PL,아우슈비츠 비르케나우 기념관,68,임시 문장 검토,False,,,False
+PL-N06,PL,바르샤바 구시가지,440,기본 이야기 확보,True,ko,바르샤바,False
+PL-N07,PL,바르샤바 왕궁,168,보강 권장,True,ko,바르샤바 왕궁,False
+PL-N08,PL,와지엔키 공원,422,기본 이야기 확보,True,ko,와지엔키 공원,False
+PL-N09,PL,문화과학궁전,127,우선 보강,True,ko,문화과학궁전,False
+PL-N10,PL,빌라누프 궁전,411,기본 이야기 확보,True,ko,빌라누프궁,False
+PL-N11,PL,그단스크 긴 시장,62,임시 문장 검토,False,,,False
+PL-N12,PL,말보르크 성,388,기본 이야기 확보,True,ko,말보르크성,False
+PL-N13,PL,토룬 구시가지,60,임시 문장 검토,False,,,False
+PL-N14,PL,브로츠와프 시장광장,347,보강 권장,True,ko,브로츠와프,False
+PL-N15,PL,포즈난 구시가지,61,임시 문장 검토,False,,,False
+PL-N16,PL,자코파네,222,보강 권장,True,ko,자코파네,False
+PL-N17,PL,타트라 국립공원,287,보강 권장,True,ko,타트라 국립공원 (폴란드),False
+PL-N18,PL,비아워비에자 숲,210,보강 권장,True,ko,비아워비에자 숲,False
+PL-N19,PL,쳉스토호바 야스나구라,64,임시 문장 검토,False,,,False
+PL-N20,PL,모르스키에 오코,439,기본 이야기 확보,True,ko,모르스키에오코호,False
+HR-N01,HR,두브로브니크 성벽,183,보강 권장,True,ko,두브로브니크 성벽,False
+HR-N02,HR,두브로브니크 구시가지,120,우선 보강,False,,,False
+HR-N03,HR,로브리예나츠 요새,133,우선 보강,False,,,False
+HR-N04,HR,스르지산,130,우선 보강,False,,,False
+HR-N05,HR,스플리트 디오클레티아누스 궁전,151,보강 권장,True,ko,디오클레티아누스 궁전,False
+HR-N06,HR,스플리트 성 도미니우스 대성당,147,우선 보강,False,,,False
+HR-N07,HR,트로기르 구시가지,121,우선 보강,False,,,False
+HR-N08,HR,플리트비체 호수 국립공원,241,보강 권장,False,,,False
+HR-N09,HR,크르카 국립공원,89,우선 보강,False,,,False
+HR-N10,HR,자다르 바다 오르간,124,우선 보강,True,ko,바다 오르간,False
+HR-N11,HR,자다르 태양의 인사,145,우선 보강,True,ko,자다르,False
+HR-N12,HR,풀라 원형극장,107,우선 보강,False,,,False
+HR-N13,HR,로빈 구시가지,154,보강 권장,False,,,False
+HR-N14,HR,흐바르 요새,397,기본 이야기 확보,True,ko,흐바르,False
+HR-N15,HR,코르출라 구시가지,133,우선 보강,False,,,False
+HR-N16,HR,자그레브 성 마르코 교회,128,우선 보강,False,,,False
+HR-N17,HR,자그레브 대성당,275,보강 권장,False,,,False
+HR-N18,HR,실연 박물관,149,우선 보강,True,ko,실연박물관,False
+HR-N19,HR,시베니크 성 야고보 대성당,115,우선 보강,True,ko,시베니크,False
+HR-N20,HR,브리유니 국립공원,143,우선 보강,False,,,False
+NO-N01,NO,게이랑에르피오르,176,보강 권장,True,ko,게이랑에르 피오르,False
+NO-N02,NO,네뢰위피오르,404,기본 이야기 확보,True,ko,네뢰위 피오르,False
+NO-N03,NO,브뤼겐,307,보강 권장,True,ko,브뤼겐,False
+NO-N04,NO,플뢰엔산,58,임시 문장 검토,False,,,False
+NO-N05,NO,베르겐 어시장,61,임시 문장 검토,False,,,False
+NO-N06,NO,프레이케스톨렌,61,임시 문장 검토,False,,,False
+NO-N07,NO,트롤퉁가,58,임시 문장 검토,False,,,False
+NO-N08,NO,트롤스티겐,59,임시 문장 검토,False,,,False
+NO-N09,NO,로포텐 제도,110,우선 보강,True,ko,로포텐 제도,False
+NO-N10,NO,레이네 마을,60,임시 문장 검토,False,,,False
+NO-N11,NO,트롬쇠 북극대성당,430,기본 이야기 확보,True,ko,대성당,False
+NO-N12,NO,트롬쇠 케이블카,62,임시 문장 검토,False,,,False
+NO-N13,NO,오슬로 오페라하우스,266,보강 권장,True,ko,오슬로 오페라 하우스,False
+NO-N14,NO,비겔란 조각공원,62,임시 문장 검토,False,,,False
+NO-N15,NO,뭉크 미술관,154,보강 권장,True,ko,뭉크 미술관,False
+NO-N16,NO,아케르스후스 요새,63,임시 문장 검토,False,,,False
+NO-N17,NO,바이킹 선박 박물관,466,기본 이야기 확보,True,ko,바이킹,False
+NO-N18,NO,노르카프,252,보강 권장,True,ko,노르카프,False
+NO-N19,NO,요스테달스브레엔 빙하,65,임시 문장 검토,False,,,False
+NO-N20,NO,플롬 철도,59,임시 문장 검토,False,,,False
+SE-N01,SE,감라스탄,414,기본 이야기 확보,True,ko,감라스탄,False
+SE-N02,SE,스톡홀름 왕궁,226,보강 권장,True,ko,스톡홀름,False
+SE-N03,SE,바사 박물관,306,보강 권장,True,ko,바사 박물관,False
+SE-N04,SE,스칸센 야외박물관,292,보강 권장,True,ko,스칸센,False
+SE-N05,SE,ABBA 박물관,61,임시 문장 검토,True,ko,ABBA 박물관,False
+SE-N06,SE,스톡홀름 시청,442,기본 이야기 확보,True,ko,스톡홀름 시청사,False
+SE-N07,SE,드로트닝홀름 궁전,222,보강 권장,True,ko,드로트닝홀름 궁전,False
+SE-N08,SE,스톡홀름 지하철 미술,64,임시 문장 검토,False,,,False
+SE-N09,SE,유르고르덴,124,우선 보강,True,ko,유르고르덴,False
+SE-N10,SE,웁살라 대성당,349,보강 권장,True,ko,웁살라 대성당,False
+SE-N11,SE,웁살라 성,58,임시 문장 검토,False,,,False
+SE-N12,SE,시그투나 구시가지,234,보강 권장,False,,,False
+SE-N13,SE,고틀란드 비스뷔,345,보강 권장,True,ko,비스뷔,False
+SE-N14,SE,칼마르 성,58,임시 문장 검토,False,,,False
+SE-N15,SE,예테보리 리세베리,391,기본 이야기 확보,True,ko,예테보리,False
+SE-N16,SE,예테보리 하가 지구,63,임시 문장 검토,False,,,False
+SE-N17,SE,말뫼 터닝 토르소,226,보강 권장,True,ko,터닝 토르소,False
+SE-N18,SE,외레순 다리,378,기본 이야기 확보,True,ko,외레순 다리,False
+SE-N19,SE,키루나 아이스호텔,62,임시 문장 검토,False,,,False
+SE-N20,SE,아비스코 국립공원,157,보강 권장,True,ko,아비스코,False
+DK-N01,DK,뉘하운,423,기본 이야기 확보,True,ko,뉘하운,False
+DK-N02,DK,인어공주 동상,417,기본 이야기 확보,True,ko,인어공주,False
+DK-N03,DK,티볼리 공원,109,우선 보강,True,ko,티볼리 공원,False
+DK-N04,DK,아말리엔보르 궁전,62,임시 문장 검토,False,,,False
+DK-N05,DK,로센보르 성,391,기본 이야기 확보,True,ko,로센보르성,False
+DK-N06,DK,크리스티안보르 궁전,63,임시 문장 검토,False,,,False
+DK-N07,DK,룬데토른,57,임시 문장 검토,False,,,False
+DK-N08,DK,스트뢰에 거리,60,임시 문장 검토,False,,,False
+DK-N09,DK,크리스티아니아,133,우선 보강,True,ko,프리타운 크리스티아니아,False
+DK-N10,DK,코펜하겐 오페라하우스,407,기본 이야기 확보,True,ko,코펜하겐,False
+DK-N11,DK,루이지애나 현대미술관,64,임시 문장 검토,False,,,False
+DK-N12,DK,크론보르 성,59,임시 문장 검토,False,,,False
+DK-N13,DK,프레데릭스보르 성,403,기본 이야기 확보,True,ko,프레데릭스보르성,False
+DK-N14,DK,로스킬레 대성당,164,보강 권장,True,ko,로스킬레,False
+DK-N15,DK,바이킹 선박 박물관,466,기본 이야기 확보,True,ko,바이킹,False
+DK-N16,DK,레고랜드 빌룬,378,기본 이야기 확보,True,ko,레고랜드 빌룬 리조트,False
+DK-N17,DK,아로스 미술관,60,임시 문장 검토,False,,,False
+DK-N18,DK,덴 감레 뷔,59,임시 문장 검토,False,,,False
+DK-N19,DK,에스비에르 사람과 바다,65,임시 문장 검토,False,,,False
+DK-N20,DK,묀스 클린트,59,임시 문장 검토,False,,,False
+FI-N01,FI,헬싱키 대성당,327,보강 권장,True,ko,헬싱키 대성당,False
+FI-N02,FI,원로원 광장,256,보강 권장,True,ko,원로원 광장 (상트페테르부르크),False
+FI-N03,FI,수오멘린나 요새,385,기본 이야기 확보,True,ko,수오멘린나,False
+FI-N04,FI,템펠리아우키오 교회,403,기본 이야기 확보,True,ko,템펠리아우키오 교회,False
+FI-N05,FI,우스펜스키 대성당,395,기본 이야기 확보,True,ko,우스펜스키 대성당,False
+FI-N06,FI,시벨리우스 기념비,62,임시 문장 검토,False,,,False
+FI-N07,FI,오디 중앙도서관,421,기본 이야기 확보,True,ko,도서관,False
+FI-N08,FI,카우파토리 시장,61,임시 문장 검토,False,,,False
+FI-N09,FI,세우라사리 야외박물관,64,임시 문장 검토,False,,,False
+FI-N10,FI,핀란드 국립박물관,62,임시 문장 검토,False,,,False
+FI-N11,FI,투르쿠 성,154,보강 권장,True,ko,투르쿠성,False
+FI-N12,FI,투르쿠 대성당,60,임시 문장 검토,False,,,False
+FI-N13,FI,포르보 구시가지,61,임시 문장 검토,False,,,False
+FI-N14,FI,올라빈린나 성,60,임시 문장 검토,False,,,False
+FI-N15,FI,사이마 호수,59,임시 문장 검토,False,,,False
+FI-N16,FI,로바니에미 산타클로스 마을,457,기본 이야기 확보,True,ko,산타클로스,False
+FI-N17,FI,아르크티쿰 박물관,62,임시 문장 검토,False,,,False
+FI-N18,FI,레비 스키 리조트,62,임시 문장 검토,False,,,False
+FI-N19,FI,이날리 호수,59,임시 문장 검토,False,,,False
+FI-N20,FI,콜리 국립공원,60,임시 문장 검토,False,,,False
+IS-N01,IS,싱벨리르 국립공원,64,임시 문장 검토,False,,,False
+IS-N02,IS,게이시르 간헐천,387,기본 이야기 확보,True,ko,게이시르,False
+IS-N03,IS,굴포스 폭포,61,임시 문장 검토,False,,,False
+IS-N04,IS,블루라군,123,우선 보강,True,ko,블루 라군,False
+IS-N05,IS,스코가포스 폭포,63,임시 문장 검토,False,,,False
+IS-N06,IS,셀랴란드스포스 폭포,65,임시 문장 검토,False,,,False
+IS-N07,IS,레이니스피아라 해변,65,임시 문장 검토,False,,,False
+IS-N08,IS,디르홀레이 곶,62,임시 문장 검토,False,,,False
+IS-N09,IS,요쿨살론 빙하호수,64,임시 문장 검토,False,,,False
+IS-N10,IS,다이아몬드 비치,63,임시 문장 검토,False,,,False
+IS-N11,IS,바트나요쿨 국립공원,65,임시 문장 검토,False,,,False
+IS-N12,IS,스카프타펠,187,보강 권장,True,ko,스카프타펠,False
+IS-N13,IS,스나이펠스요쿨 국립공원,67,임시 문장 검토,False,,,False
+IS-N14,IS,키르큐펠 산,61,임시 문장 검토,False,,,False
+IS-N15,IS,데티포스 폭포,62,임시 문장 검토,False,,,False
+IS-N16,IS,고다포스 폭포,194,보강 권장,True,ko,고다포스,False
+IS-N17,IS,미바튼 호수,163,보강 권장,True,ko,미바튼,False
+IS-N18,IS,그료타갸 동굴,62,임시 문장 검토,False,,,False
+IS-N19,IS,할그림스키르캬,413,기본 이야기 확보,True,ko,할그림스키르캬,False
+IS-N20,IS,하르파 콘서트홀,63,임시 문장 검토,False,,,False
+BE-N01,BE,그랑플라스,58,임시 문장 검토,True,ko,그랑플라스,False
+BE-N02,BE,오줌싸개 소년상,424,기본 이야기 확보,True,ko,오줌싸개 소년,False
+BE-N03,BE,아토미움,413,기본 이야기 확보,True,ko,아토미움,False
+BE-N04,BE,브뤼셀 왕궁,350,기본 이야기 확보,True,ko,브뤼셀 왕궁,False
+BE-N05,BE,생미셸 대성당,60,임시 문장 검토,False,,,False
+BE-N06,BE,몽데자르,57,임시 문장 검토,False,,,False
+BE-N07,BE,벨기에 왕립미술관,62,임시 문장 검토,True,ko,벨기에 왕립미술관,False
+BE-N08,BE,마그리트 미술관,61,임시 문장 검토,False,,,False
+BE-N09,BE,브뤼헤 마르크트 광장,64,임시 문장 검토,False,,,False
+BE-N10,BE,브뤼헤 종탑,59,임시 문장 검토,False,,,False
+BE-N11,BE,사랑의 호수,59,임시 문장 검토,False,,,False
+BE-N12,BE,성혈 예배당,59,임시 문장 검토,False,,,False
+BE-N13,BE,겐트 성 바보 대성당,64,임시 문장 검토,False,,,False
+BE-N14,BE,그라벤스틴 성,60,임시 문장 검토,False,,,False
+BE-N15,BE,겐트 그라슬레이,61,임시 문장 검토,False,,,False
+BE-N16,BE,안트베르펜 중앙역,62,임시 문장 검토,False,,,False
+BE-N17,BE,안트베르펜 성모 대성당,65,임시 문장 검토,False,,,False
+BE-N18,BE,루벤 시청,58,임시 문장 검토,False,,,False
+BE-N19,BE,워털루 사자 언덕,62,임시 문장 검토,False,,,False
+BE-N20,BE,디낭 성채,58,임시 문장 검토,False,,,False
+NP-N01,NP,카트만두 더르바르 광장,317,보강 권장,True,ko,더르바르 광장,False
+NP-N02,NP,스와얌부나트,284,보강 권장,True,ko,스와얌부나트 사원,False
+NP-N03,NP,보드나트,56,임시 문장 검토,False,,,False
+NP-N04,NP,파슈파티나트,336,보강 권장,True,ko,파슈파티나트 사원,False
+NP-N05,NP,파탄 더르바르 광장,317,보강 권장,True,ko,더르바르 광장,False
+NP-N06,NP,박타푸르 더르바르 광장,317,보강 권장,True,ko,더르바르 광장,False
+NP-N07,NP,창구나라얀,57,임시 문장 검토,False,,,False
+NP-N08,NP,에베레스트산,376,기본 이야기 확보,True,ko,에베레스트산,False
+NP-N09,NP,사가르마타 국립공원,117,우선 보강,True,ko,사가르마타 국립공원,False
+NP-N10,NP,안나푸르나 보호구역,62,임시 문장 검토,False,,,False
+MY-N01,MY,페트로나스 트윈타워,471,기본 이야기 확보,True,ko,페트로나스 트윈 타워,False
+MY-N02,MY,바투 동굴,60,임시 문장 검토,False,,,False
+MY-N03,MY,메르데카 광장,62,임시 문장 검토,False,,,False
+MY-N04,MY,쿠알라룸푸르 타워,417,기본 이야기 확보,True,ko,쿠알라룸푸르 타워,False
+MY-N05,MY,말라카 네덜란드 광장,66,임시 문장 검토,False,,,False
+MY-N06,MY,페낭 조지타운,206,보강 권장,True,ko,조지타운,False
+MY-N07,MY,켁록시 사원,398,기본 이야기 확보,True,ko,켁록시,False
+MY-N08,MY,키나발루산,178,보강 권장,True,ko,키나발루산,False
+MY-N09,MY,키나발루 국립공원,64,임시 문장 검토,False,,,False
+MY-N10,MY,구눙물루 국립공원,64,임시 문장 검토,False,,,False
+KH-N01,KH,앙코르와트,207,보강 권장,False,,,False
+KH-N02,KH,앙코르톰,400,기본 이야기 확보,True,ko,앙코르 톰,False
+KH-N03,KH,바이욘 사원,409,기본 이야기 확보,True,ko,바이욘,False
+KH-N04,KH,타 프롬,162,보강 권장,True,ko,타 프롬,False
+KH-N05,KH,반테아이 스레이,62,임시 문장 검토,False,,,False
+KH-N06,KH,프레아 비헤아르 사원,446,기본 이야기 확보,True,ko,프레아 비헤아르 사원,False
+KH-N07,KH,코케르 유적,60,임시 문장 검토,False,,,False
+KH-N08,KH,톤레사프 호수,172,보강 권장,True,ko,톤레사프호,False
+KH-N09,KH,프놈펜 왕궁,306,보강 권장,True,ko,프놈펜 왕궁,False
+KH-N10,KH,뚜얼슬렝 박물관,62,임시 문장 검토,False,,,False
+PH-N01,PH,인트라무로스,267,보강 권장,True,ko,인트라무로스,False
+PH-N02,PH,산아구스틴 교회,61,임시 문장 검토,False,,,False
+PH-N03,PH,마닐라 대성당,60,임시 문장 검토,True,ko,마닐라,False
+PH-N04,PH,리살 공원,157,보강 권장,True,ko,리살 공원,False
+PH-N05,PH,바나웨 계단식 논,62,임시 문장 검토,False,,,False
+PH-N06,PH,초콜릿 힐스,184,보강 권장,True,ko,초콜릿 힐스,False
+PH-N07,PH,푸에르토프린세사 지하강,179,보강 권장,True,ko,푸에르토프린세사,False
+PH-N08,PH,엘니도,56,임시 문장 검토,False,,,False
+PH-N09,PH,코론섬,401,기본 이야기 확보,True,ko,코론섬,False
+PH-N10,PH,마욘 화산,58,임시 문장 검토,False,,,False
+AE-N01,AE,부르즈 할리파,63,임시 문장 검토,True,en,Burj Khalifa,False
+AE-N02,AE,두바이 몰,61,임시 문장 검토,True,en,Dubai Mall,False
+AE-N03,AE,두바이 분수,62,임시 문장 검토,True,en,Dubai Fountain,False
+AE-N04,AE,팜 주메이라,62,임시 문장 검토,True,en,Palm Jumeirah,False
+AE-N05,AE,부르즈 알아랍,63,임시 문장 검토,True,en,Burj Al Arab,False
+AE-N06,AE,두바이 프레임,63,임시 문장 검토,True,en,Dubai Frame,False
+AE-N07,AE,미래 박물관,62,임시 문장 검토,True,en,Museum of the Future,False
+AE-N08,AE,셰이크 자이드 그랜드 모스크,71,임시 문장 검토,True,en,Sheikh Zayed Grand Mosque,False
+AE-N09,AE,루브르 아부다비,64,임시 문장 검토,True,en,Louvre Abu Dhabi,False
+AE-N10,AE,알아인 오아시스,64,임시 문장 검토,True,en,Al Ain Oasis,False
+JO-N01,JO,페트라,170,보강 권장,True,en,Petra,False
+JO-N02,JO,알카즈네,57,임시 문장 검토,True,en,Al-Khazneh,False
+JO-N03,JO,아드 데이르,59,임시 문장 검토,True,en,Petra,False
+JO-N04,JO,와디럼,56,임시 문장 검토,True,en,Wadi Rum,False
+JO-N05,JO,사해,55,임시 문장 검토,True,en,Dead Sea,False
+JO-N06,JO,제라시 로마 유적,62,임시 문장 검토,True,en,Jerash,False
+JO-N07,JO,암만 성채,58,임시 문장 검토,True,en,Amman Citadel,False
+JO-N08,JO,로마 극장 암만,61,임시 문장 검토,True,en,Roman Theatre (Amman),False
+JO-N09,JO,네보산,56,임시 문장 검토,True,en,Mount Nebo,False
+JO-N10,JO,아카바 해변,59,임시 문장 검토,True,en,Aqaba,False
+UZ-N01,UZ,레기스탄 광장,63,임시 문장 검토,True,en,Registan,False
+UZ-N02,UZ,구르에미르 영묘,64,임시 문장 검토,True,en,Gur-e-Amir,False
+UZ-N03,UZ,비비하눔 모스크,64,임시 문장 검토,True,en,Bibi-Khanym Mosque,False
+UZ-N04,UZ,샤히진다,60,임시 문장 검토,True,en,Shah-i-Zinda,False
+UZ-N05,UZ,울루그베그 천문대,65,임시 문장 검토,True,en,Ulugh Beg Observatory,False
+UZ-N06,UZ,부하라 칼론 미나레트,67,임시 문장 검토,True,en,Kalyan Minaret,False
+UZ-N07,UZ,포이칼론 단지,63,임시 문장 검토,True,en,Po-i-Kalyan,False
+UZ-N08,UZ,아르크 요새,62,임시 문장 검토,True,en,Ark of Bukhara,False
+UZ-N09,UZ,히바 이찬칼라,63,임시 문장 검토,True,en,Itchan Kala,False
+UZ-N10,UZ,타슈켄트 초르수 시장,67,임시 문장 검토,True,en,Chorsu Bazaar,False
+MN-N01,MN,칭기즈 칸 기마상,396,기본 이야기 확보,True,ko,칭기즈 칸 기마상,False
+MN-N02,MN,간단 사원,381,기본 이야기 확보,True,ko,간단 사원,False
+MN-N03,MN,수흐바타르 광장,340,보강 권장,True,ko,수흐바타르 광장,False
+MN-N04,MN,테를지 국립공원,420,기본 이야기 확보,True,ko,고르히-테를지 국립공원,False
+MN-N05,MN,고비 사막,193,보강 권장,True,ko,고비 사막,False
+MN-N06,MN,홍고린 엘스,186,보강 권장,False,,,False
+MN-N07,MN,욜린 암,167,보강 권장,False,,,False
+MN-N08,MN,바얀작,55,임시 문장 검토,False,,,False
+MN-N09,MN,카라코룸 유적,402,기본 이야기 확보,True,ko,카라코룸,False
+MN-N10,MN,에르덴조 사원,179,보강 권장,True,ko,에르덴 조 사원,False
+EG-N01,EG,기자 대피라미드,477,기본 이야기 확보,True,ko,피라미드,False
+EG-N02,EG,스핑크스,156,보강 권장,True,ko,스핑크스,False
+EG-N03,EG,이집트 대박물관,61,임시 문장 검토,False,,,False
+EG-N04,EG,카이로 이집트 박물관,64,임시 문장 검토,True,ko,이집트 박물관,False
+EG-N05,EG,칸 엘칼릴리 시장,62,임시 문장 검토,False,,,False
+EG-N06,EG,살라딘 성채,522,기본 이야기 확보,True,ko,살라딘,False
+EG-N07,EG,룩소르 신전,274,보강 권장,True,ko,룩소르 신전,False
+EG-N08,EG,카르나크 신전,60,임시 문장 검토,False,,,False
+EG-N09,EG,왕가의 계곡,437,기본 이야기 확보,True,ko,왕가의 계곡,False
+EG-N10,EG,하트셉수트 장제전,62,임시 문장 검토,False,,,False
+BR-N01,BR,구세주 그리스도상,397,기본 이야기 확보,True,ko,구세주 그리스도상,False
+BR-N02,BR,슈거로프산,58,임시 문장 검토,False,,,False
+BR-N03,BR,코파카바나 해변,61,임시 문장 검토,False,,,False
+BR-N04,BR,이파네마 해변,127,우선 보강,True,ko,이파네마,False
+BR-N05,BR,셀라론 계단,59,임시 문장 검토,False,,,False
+BR-N06,BR,마라카낭 경기장,61,임시 문장 검토,False,,,False
+BR-N07,BR,이구아수 폭포,171,보강 권장,True,ko,이구아수 폭포,False
+BR-N08,BR,아마존강,400,기본 이야기 확보,True,ko,아마존강,False
+BR-N09,BR,아마존 극장,59,임시 문장 검토,False,,,False
+BR-N10,BR,렌소이스 마라녠시스 국립공원,68,임시 문장 검토,False,,,False
+KR-ADD-005,KR,송광사,190,보강 권장,True,en,Songgwangsa,False
+KR-ADD-006,KR,소양강댐,111,우선 보강,True,en,Soyang Dam,False
+KR-ADD-007,KR,울릉도,186,보강 권장,True,en,Ulleungdo,False
+KR-ADD-008,KR,독도,159,보강 권장,True,en,Liancourt Rocks,False
+KR-ADD-009,KR,한려수도,97,우선 보강,True,en,Hallyeohaesang National Park,False
+KR-ADD-010,KR,지리산,189,보강 권장,True,en,Jirisan,False
+KR-ADD-011,KR,신안 천사섬,146,우선 보강,True,en,Sinan County,False
+KR-ADD-012,KR,완도 청산도,93,우선 보강,True,en,Cheongsando,False
+KR-ADD-013,KR,진도 바닷길,98,우선 보강,False,,,False
+KR-ADD-014,KR,동학사,101,우선 보강,True,ko,동학사,False
+KR-ADD-015,KR,낙산사,100,우선 보강,True,en,Naksansa,False
+KR-ADD-016,KR,경포대,261,보강 권장,False,,,False
+CA-L01,CA,CN 타워,103,우선 보강,True,en,CN Tower,False
+CA-L02,CA,나이아가라 폭포,191,보강 권장,True,en,Niagara Falls,False
+CA-L03,CA,밴프 국립공원,282,보강 권장,False,,,False
+CA-L04,CA,루이스 호수,251,보강 권장,False,,,False
+CA-L05,CA,모레인 호수,250,보강 권장,False,,,False
+CA-L06,CA,올드 퀘벡,222,보강 권장,False,,,False
+CA-L07,CA,국회의사당 언덕,240,보강 권장,False,,,False
+CA-L08,CA,재스퍼 국립공원,232,보강 권장,False,,,False
+CA-L09,CA,부차트 가든,253,보강 권장,False,,,False
+CA-L10,CA,캐필라노 현수교,229,보강 권장,False,,,False
+NZ-L01,NZ,밀퍼드사운드,188,보강 권장,True,en,Milford Sound,False
+NZ-L02,NZ,아오라키 마운트쿡,79,우선 보강,True,en,Aoraki / Mount Cook,False
+NZ-L03,NZ,테카포 호수,81,우선 보강,True,en,Lake Tekapo,False
+NZ-L04,NZ,호빗마을 영화세트장,356,기본 이야기 확보,True,en,Hobbiton Movie Set,False
+NZ-L05,NZ,와이토모 반딧불 동굴,314,보강 권장,True,en,Waitomo Glowworm Cave,False
+NZ-L06,NZ,로토루아,74,우선 보강,True,en,Rotorua,False
+NZ-L07,NZ,통가리로 국립공원,77,우선 보강,True,en,Tongariro National Park,False
+NZ-L08,NZ,프란츠요제프 빙하,81,우선 보강,True,en,Franz Josef Glacier,False
+NZ-L09,NZ,퀸스타운,79,우선 보강,True,en,Queenstown,False
+NZ-L10,NZ,베이오브아일랜즈,86,우선 보강,True,en,Bay of Islands,False
+MA-L01,MA,마라케시 메디나,233,보강 권장,False,,,False
+MA-L02,MA,제마 엘프나 광장,101,우선 보강,True,en,Jemaa el-Fnaa,False
+MA-L03,MA,셰프샤우엔,236,보강 권장,False,,,False
+MA-L04,MA,아이트벤하두,245,보강 권장,False,,,False
+MA-L05,MA,하산 2세 모스크,234,보강 권장,False,,,False
+MA-L06,MA,페스 메디나,77,우선 보강,True,en,Fes el Bali,False
+MA-L07,MA,메르주가 사하라 사구,236,보강 권장,False,,,False
+MA-L08,MA,볼루빌리스,79,우선 보강,True,en,Volubilis,False
+MA-L09,MA,바이아 궁전,77,우선 보강,True,en,Bahia Palace,False
+MA-L10,MA,마조렐 정원,71,우선 보강,True,en,Majorelle Garden,False
+MX-L01,MX,치첸이트사,258,보강 권장,False,,,False
+MX-L02,MX,테오티우아칸,230,보강 권장,False,,,False
+MX-L03,MX,칸쿤 해변,70,우선 보강,True,en,Cancún,False
+MX-L04,MX,툴룸 유적,227,보강 권장,False,,,False
+MX-L05,MX,소칼로 광장,78,우선 보강,True,en,Zócalo,False
+MX-L06,MX,프리다 칼로 박물관,242,보강 권장,False,,,False
+MX-L07,MX,차풀테펙 성,73,우선 보강,True,en,Chapultepec Castle,False
+MX-L08,MX,구리 협곡,68,우선 보강,True,en,Copper Canyon,False
+MX-L09,MX,과나후아토 역사도심,77,우선 보강,True,en,Guanajuato (city),False
+MX-L10,MX,오악사카 역사도심,75,우선 보강,True,en,Oaxaca,False
+PE-L01,PE,마추픽추,219,보강 권장,False,,,False
+PE-L02,PE,쿠스코 역사도심,238,보강 권장,False,,,False
+PE-L03,PE,성스러운 계곡,216,보강 권장,False,,,False
+PE-L04,PE,티티카카호,238,보강 권장,False,,,False
+PE-L05,PE,나스카 라인,248,보강 권장,False,,,False
+PE-L06,PE,비니쿤카 무지개산,309,보강 권장,True,en,Vinicunca,False
+PE-L07,PE,콜카 협곡,78,우선 보강,True,en,Colca Canyon,False
+PE-L08,PE,아레키파 역사도심,68,우선 보강,True,en,Historic Centre of Arequipa,False
+PE-L09,PE,삭사이와만,239,보강 권장,False,,,False
+PE-L10,PE,와카치나,241,보강 권장,False,,,False
+AR-L01,AR,이구아수 폭포,171,보강 권장,True,en,Iguazu Falls,False
+AR-L02,AR,페리토 모레노 빙하,333,보강 권장,True,en,Perito Moreno Glacier,False
+AR-L03,AR,부에노스아이레스 오벨리스크,76,우선 보강,True,en,Obelisk,False
+AR-L04,AR,라보카,72,우선 보강,True,en,La Boca,False
+AR-L05,AR,바릴로체,66,우선 보강,True,en,Bariloche,False
+AR-L06,AR,로스글라시아레스 국립공원,82,우선 보강,True,en,Los Glaciares National Park,False
+AR-L07,AR,멘도사 포도밭,76,우선 보강,True,en,Fernando Mendoza,False
+AR-L08,AR,우수아이아,76,우선 보강,True,en,Ushuaia,False
+AR-L09,AR,우마우아카 계곡,76,우선 보강,True,en,Quebrada de Humahuaca,False
+AR-L10,AR,살리나스 그란데스,77,우선 보강,True,en,Salinas Grandes,False
+ZA-L01,ZA,테이블마운틴,176,보강 권장,True,en,Table Mountain,False
+ZA-L02,ZA,희망봉,248,보강 권장,False,,,False
+ZA-L03,ZA,크루거 국립공원,242,보강 권장,False,,,False
+ZA-L04,ZA,로벤섬,232,보강 권장,False,,,False
+ZA-L05,ZA,볼더스 비치,233,보강 권장,False,,,False
+ZA-L06,ZA,V&A 워터프런트,72,우선 보강,True,en,V&A Waterfront,False
+ZA-L07,ZA,드라켄즈버그 산맥,65,우선 보강,True,en,Drakensberg,False
+ZA-L08,ZA,블라이드 리버 캐니언,61,우선 보강,True,en,Blyde River Canyon,False
+ZA-L09,ZA,커스텐보시 식물원,277,보강 권장,False,,,False
+ZA-L10,ZA,아파르트헤이트 박물관,352,기본 이야기 확보,True,en,Apartheid Museum,False
+IE-L01,IE,모허 절벽,242,보강 권장,False,,,False
+IE-L02,IE,트리니티 칼리지 도서관,79,우선 보강,False,,,False
+IE-L03,IE,케리 고리길,69,우선 보강,True,en,Ring of Kerry,False
+IE-L04,IE,킬라니 국립공원,69,우선 보강,True,en,Killarney National Park,False
+IE-L05,IE,블라니 성,71,우선 보강,True,en,Blarney Castle,False
+IE-L06,IE,캐셜의 바위,63,우선 보강,True,en,Rock of Cashel,False
+IE-L07,IE,더블린 성,65,우선 보강,True,en,Dublin Castle,False
+IE-L08,IE,카일모어 수도원,71,우선 보강,True,en,Kylemore Abbey,False
+IE-L09,IE,뉴그레인지,332,보강 권장,True,en,Newgrange,False
+IE-L10,IE,스켈리그 마이클,224,보강 권장,False,,,False
+HU-L01,HU,국회의사당,75,우선 보강,True,en,Hungarian Parliament Building,False
+HU-L02,HU,부다성,236,보강 권장,False,,,False
+HU-L03,HU,어부의 요새,239,보강 권장,False,,,False
+HU-L04,HU,세체니 다리,222,보강 권장,False,,,False
+HU-L05,HU,성 이슈트반 대성당,68,우선 보강,True,en,St. Stephen's Basilica,False
+HU-L06,HU,영웅광장,60,우선 보강,True,en,Heroes' Square,False
+HU-L07,HU,발라톤 호수,61,우선 보강,True,en,Lake Balaton,False
+HU-L08,HU,호르토바지 국립공원,74,우선 보강,True,en,Hortobágy National Park,False
+HU-L09,HU,에게르 성,61,우선 보강,True,en,Eger Castle,False
+HU-L10,HU,세체니 온천,78,우선 보강,True,en,Széchenyi thermal bath,False
+LA-L01,LA,루앙프라방,229,보강 권장,False,,,False
+LA-L02,LA,꽝시 폭포,218,보강 권장,False,,,False
+LA-L03,LA,왓 시엥통,71,우선 보강,True,en,Wat Xieng Thong,False
+LA-L04,LA,방비엥,61,우선 보강,True,en,Vang Vieng,False
+LA-L05,LA,항아리 평원,242,보강 권장,False,,,False
+LA-L06,LA,탓루앙,247,보강 권장,False,,,False
+LA-L07,LA,시판돈,318,보강 권장,True,en,Si Phan Don,False
+LA-L08,LA,볼라벤 고원,67,우선 보강,True,en,Bolaven Plateau,False
+LA-L09,LA,콩로 동굴,61,우선 보강,False,,,False
+LA-L10,LA,왓푸,212,보강 권장,False,,,False
+ZZ-L01,ZZ,성 베드로 대성당,343,보강 권장,False,,,False
+ZZ-L02,ZZ,이스터섬 모아이 석상,362,기본 이야기 확보,False,,,False
+ZZ-L03,ZZ,킬리만자로산,338,보강 권장,False,,,False
+ZZ-L04,ZZ,소수스블레이 사구,342,보강 권장,False,,,False
+ZZ-L05,ZZ,보라보라섬,234,보강 권장,False,,,False
+ZZ-L06,ZZ,몰디브 바다 리조트 풍경,80,우선 보강,True,en,Maldives,False
+ZZ-L07,ZZ,코토르 구시가지,67,우선 보강,True,en,Kotor,False
+ZZ-L08,ZZ,바간 유적,377,기본 이야기 확보,False,,,False
+ZZ-L09,ZZ,갈라파고스 제도,376,기본 이야기 확보,False,,,False
+ZZ-L10,ZZ,탁상 사원,325,보강 권장,False,,,False
+MY-ADD-KK01,MY,코타키나발루,235,보강 권장,False,,,False
+ID-ADD-BALI01,ID,발리섬,256,보강 권장,False,,,False
+ZZ-ADD-SAIPAN01,ZZ,사이판,237,보강 권장,False,,,False
+ZZ-ADD-UYUNI01,ZZ,우유니 소금사막,398,기본 이야기 확보,False,,,False
+ZZ-ADD-VICTORIA01,ZZ,빅토리아 폭포,421,기본 이야기 확보,False,,,False
