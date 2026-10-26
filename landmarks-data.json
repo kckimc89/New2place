@@ -1,8 +1,8 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.64",
-  "release": "V1.64: 나라목록 사진/이야기 완성 숫자 한 줄 표시(45 / 45 (45)), 카드 높이 유지",
-  "basedOn": "1.63",
+  "version": "1.65",
+  "release": "V1.65: 프랑스·이탈리아·스페인 명소 이야기 나라별 1차 보강; 사진/저장 구조 유지",
+  "basedOn": "1.64",
   "categories": [
     {
       "id": "nature",
@@ -1460,7 +1460,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L02",
@@ -1486,7 +1489,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L03",
@@ -1515,7 +1521,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L04",
@@ -1541,7 +1550,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L05",
@@ -1567,7 +1579,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L06",
@@ -1583,7 +1598,7 @@
         "Arc de triomphe de l’Étoile",
         "Arc de Triomphe"
       ],
-      "description": "에투알 개선문은 파리 샹젤리제 거리 끝에 자리한 거대한 기념문입니다. 나폴레옹의 명령으로 건설이 시작되었으며, 19세기에 완공되었습니다. 벽면에는 프랑스 역사와 관련된 인물과 전투를 기리는 조각과 글씨가 새겨져 있습니다. 아래에는 제1차 세계대전의 무명용사를 기리는 무덤이 있고 추모의 불꽃이 이어집니다. 개선문 꼭대기에서는 파리의 큰 도로들이 별 모양으로 뻗어 나가는 모습을 볼 수 있습니다.",
+      "description": "에투알 개선문은 파리 샤를 드골 광장 한가운데 우뚝 선 거대한 개선문입니다. 나폴레옹 시대에 건립이 시작되었고, 프랑스를 위해 싸운 사람들의 이름이 벽에 새겨져 있습니다. 아래에는 제1차 세계대전에서 숨진 무명용사의 무덤과 꺼지지 않는 불꽃이 있습니다. 전망대에 오르면 샹젤리제 거리와 파리의 길들이 별 모양으로 펼쳐지는 모습을 볼 수 있습니다.",
       "wikiTitle": "Arc de Triomphe",
       "wikiLang": "en",
       "photos": [],
@@ -1593,7 +1608,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L07",
@@ -1609,7 +1627,7 @@
         "Cathédrale Notre-Dame de Paris",
         "Notre-Dame de Paris"
       ],
-      "description": "노트르담 대성당은 프랑스 파리 센강의 시테섬에 자리한 고딕 양식의 대성당입니다. 12세기부터 오랫동안 건설되면서 높은 천장과 뾰족한 아치, 장미창과 조각 장식이 갖추어졌습니다. 건물 외벽의 부벽 구조는 높은 벽과 창을 지탱하기 위한 중세 건축 기술을 보여 줍니다. 2019년 화재로 큰 피해를 입은 뒤 복원되어 2024년 다시 문을 열었습니다. 이곳은 파리 역사와 문학에도 중요한 상징으로 등장합니다.",
+      "description": "파리 노트르담 대성당은 센강의 시테섬에 세워진 고딕 건축의 대표적인 성당입니다. 정면의 두 탑과 둥근 장미창, 하늘을 향해 뻗은 아치가 눈에 띕니다. 내부로 들어오는 색유리의 빛은 성당을 한층 신비롭게 만듭니다. 2019년 큰 화재를 겪은 뒤 오랜 복원 끝에 다시 문을 열었습니다. 강변을 걸으며 여러 방향에서 건물의 모습을 비교해 보는 것도 좋습니다.",
       "wikiTitle": "Notre-Dame de Paris",
       "wikiLang": "en",
       "photos": [],
@@ -1619,7 +1637,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L08",
@@ -1634,7 +1655,7 @@
         "Gorges du Verdon",
         "Verdon Gorge"
       ],
-      "description": "베르동 협곡은 프랑스 남동부 프로방스 지역에서 강물이 석회암 지대를 오랜 세월 깎아 만든 깊은 계곡입니다. 가파른 흰 절벽 아래로 녹청색 강물이 흐르며, 굽이치는 물길을 따라 전망이 바뀝니다. 협곡 가장자리의 도로에서는 절벽의 높이가 실감 나고, 호수 가까이에서는 바위와 물빛의 대비가 도드라집니다. 석회암 지형과 강물의 흐름이 만든 아름다운 자연경관으로 유명합니다.",
+      "description": "베르동 협곡은 프랑스 남동부에 자리한 깊고 긴 석회암 협곡입니다. 높은 절벽 사이로 에메랄드빛 베르동강이 흐르고, 굽이치는 도로의 전망대에서는 협곡 전체를 내려다볼 수 있습니다. 강물의 빛깔은 주변 암석과 햇빛에 따라 달라 보여 더욱 특별합니다. 물가에서는 카약이나 보트를 타고 절벽을 가까이에서 올려다보기도 합니다. 자연이 오랜 시간 깎아 만든 풍경입니다.",
       "wikiTitle": "Verdon Gorge",
       "wikiLang": "en",
       "photos": [],
@@ -1644,7 +1665,10 @@
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L09",
@@ -1668,7 +1692,10 @@
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-L10",
@@ -1690,7 +1717,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "KR-L09",
@@ -1885,7 +1915,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L02",
@@ -1910,7 +1943,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L03",
@@ -1935,7 +1971,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L04",
@@ -1949,7 +1988,7 @@
         "Fontana di Trevi",
         "Trevi Fountain Rome"
       ],
-      "description": "로마의 바로크 조각 분수로 거대한 바위와 신화 속 인물들이 어우러집니다. 물과 조각, 궁전 벽면이 하나의 무대처럼 연결됩니다. 로마의 좁은 거리 끝에서 갑자기 등장하는 거대한 바로크 분수입니다. 바다의 신과 말, 물살을 표현한 조각이 건물 벽과 하나로 연결되어 있으며, 동전을 던지고 다시 로마에 오기를 바라는 풍습으로도 유명합니다.",
+      "description": "로마의 트레비 분수는 건물 정면을 무대처럼 꾸민 거대한 바로크식 분수입니다. 가운데에는 바다의 신을 표현한 조각상이 서 있고, 그 아래로 물이 바위 사이를 흘러 넓은 수조에 모입니다. 하얀 돌조각과 푸른 물의 대비가 인상적이며 밤에 조명이 켜지면 분위기가 또 달라집니다. 분수에 동전을 던지며 로마에 다시 오기를 바라는 풍습도 널리 알려져 있습니다.",
       "wikiTitle": "Trevi Fountain",
       "wikiLang": "en",
       "photos": [],
@@ -1959,7 +1998,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L05",
@@ -1983,7 +2025,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L06",
@@ -2000,7 +2045,7 @@
         "Cathedral of Santa Maria del Fiore",
         "피렌체 대성당"
       ],
-      "description": "피렌체 두오모는 이탈리아 피렌체의 중심에 있는 산타 마리아 델 피오레 대성당입니다. 붉은 기와를 얹은 거대한 돔은 르네상스 시대 건축가 브루넬레스키가 설계한 것으로 유명합니다. 겉벽은 색이 다른 대리석으로 장식되어 복잡한 무늬를 만듭니다. 대성당 옆에는 종탑과 세례당이 함께 있어 피렌체의 종교와 도시 역사를 보여 줍니다. 좁은 시가지 위로 솟은 돔은 르네상스 도시의 상징입니다.",
+      "description": "피렌체 두오모는 거대한 붉은 돔이 도시의 지붕 위로 솟아 있는 대성당입니다. 브루넬레스키가 설계한 돔은 르네상스 건축의 중요한 성취로 꼽힙니다. 외벽에는 흰색·초록색·분홍색 대리석이 어우러져 아름다운 무늬를 만듭니다. 바로 옆에는 높은 종탑과 별도의 세례당이 있습니다. 멀리서 보면 둥근 돔이 도시 전체의 중심처럼 보이고, 가까이에서는 섬세한 장식을 발견할 수 있습니다.",
       "wikiTitle": "Florence Cathedral",
       "wikiLang": "en",
       "photos": [],
@@ -2010,7 +2055,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 보존 ID, 명칭 통합 및 새 초안",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L07",
@@ -2024,7 +2072,7 @@
         "Costiera Amalfitana",
         "Amalfitan Coast"
       ],
-      "description": "아말피 해안은 이탈리아 남부의 가파른 절벽 아래로 작은 마을들이 이어지는 해안지역입니다. 산비탈에 층층이 세워진 파스텔빛 집과 푸른 바다, 굽이치는 해안도로가 하나의 풍경을 만듭니다. 아말피와 포지타노 같은 마을에는 오래된 항구와 성당, 계단 골목이 남아 있습니다. 바다로 뻗은 좁은 땅을 사람들이 어떻게 길과 집으로 이어 왔는지를 잘 보여 줍니다.",
+      "description": "아말피 해안은 이탈리아 남부의 가파른 산비탈과 푸른 바다가 만나는 해안입니다. 포지타노와 아말피 같은 마을에는 알록달록한 집들이 절벽을 따라 층층이 들어서 있습니다. 구불구불한 해안도로를 따라가면 작은 만과 바위, 레몬나무가 자라는 비탈이 이어집니다. 위쪽 전망대에서는 마을이 바다를 향해 쏟아지는 듯한 특별한 풍경을 볼 수 있습니다.",
       "wikiTitle": "Amalfi Coast",
       "wikiLang": "en",
       "photos": [],
@@ -2034,7 +2082,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L08",
@@ -2060,7 +2111,10 @@
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Milan_Cathedral"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Milan_Cathedral",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L09",
@@ -2084,7 +2138,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-L10",
@@ -2109,7 +2166,10 @@
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L01",
@@ -2136,7 +2196,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L02",
@@ -2151,7 +2214,7 @@
         "Parque Güell",
         "Park Guell"
       ],
-      "description": "구엘 공원은 스페인 바르셀로나 언덕에 조성된 공원으로, 건축가 안토니 가우디의 독특한 조형 감각이 드러나는 곳입니다. 굽이치는 벤치와 형형색색의 타일 모자이크, 기둥과 계단이 자연의 곡선을 닮았습니다. 처음에는 주택단지 계획으로 시작했으나 오늘날 시민과 관광객이 찾는 공원이 되었습니다. 공원 높은 곳에서는 바르셀로나 시가지와 멀리 바다까지 내려다볼 수 있습니다.",
+      "description": "구엘 공원은 바르셀로나 언덕에 조성된 가우디의 상상력 넘치는 공원입니다. 굽이치는 긴 벤치에는 형형색색의 타일 조각이 붙어 있고, 계단에는 도마뱀 모양의 모자이크 조각상이 있습니다. 나무줄기처럼 기울어진 기둥과 자연을 닮은 돌길도 독특합니다. 높은 곳에서는 바르셀로나 시내와 바다까지 내려다볼 수 있습니다. 건축과 자연, 놀이 같은 장식이 어우러진 공간입니다.",
       "wikiTitle": "Park Güell",
       "wikiLang": "en",
       "photos": [],
@@ -2161,7 +2224,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L03",
@@ -2186,7 +2252,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L04",
@@ -2201,7 +2270,7 @@
         "Spain Square Seville",
         "Plaza de España"
       ],
-      "description": "세비야 스페인 광장은 스페인 남부 세비야의 넓은 반원형 광장입니다. 붉은 벽돌 건물과 아치형 회랑, 작은 운하와 다리가 함께 배치되어 웅장하면서도 부드러운 곡선의 풍경을 만듭니다. 건물 아래에는 스페인 여러 지방을 표현한 타일 장식이 이어집니다. 20세기 국제박람회를 위해 조성된 공간으로, 한 나라의 다양한 지역을 하나의 건축물에 담아낸 점이 흥미롭습니다.",
+      "description": "세비야 스페인 광장은 반원형 건물과 넓은 광장, 작은 운하가 어우러진 아름다운 장소입니다. 건물 앞을 따라 다리가 놓여 있고, 벽에는 스페인 여러 지역을 나타내는 색 타일 장식이 이어집니다. 중앙의 큰 공간에서는 건물의 곡선을 한눈에 볼 수 있습니다. 햇빛에 비치는 붉은 벽돌과 푸른 타일, 물길이 만들어 내는 조화가 특히 인상적입니다.",
       "wikiTitle": "Plaza de España",
       "wikiLang": "en",
       "photos": [],
@@ -2211,7 +2280,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L05",
@@ -2236,7 +2308,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L06",
@@ -2253,7 +2328,7 @@
         "Mosque Cathedral of Cordoba",
         "코르도바 메스키타"
       ],
-      "description": "메스키타는 스페인 코르도바에 있는 대성당으로, 이슬람 사원으로 지어진 건축물의 핵심 부분이 오늘날까지 남아 있습니다. 내부에는 붉고 흰색이 번갈아 나타나는 두 겹 아치와 수많은 기둥이 이어져 숲처럼 보입니다. 중세 이베리아반도의 이슬람 문화와 이후의 기독교 건축이 한 공간 안에서 만나는 것이 특징입니다. 건축을 통해 서로 다른 시대의 종교와 역사가 겹쳐진 모습을 살필 수 있습니다.",
+      "description": "메스키타는 코르도바에 있는 독특한 역사 건축물로, 오랫동안 이슬람 사원으로 사용되다가 오늘날 가톨릭 대성당이 된 곳입니다. 안으로 들어가면 빨간색과 흰색이 번갈아 나타나는 말굽 모양 아치가 끝없이 이어지는 듯 보입니다. 건물 중심에는 뒤에 만들어진 성당 공간도 있어 서로 다른 시대의 건축이 한곳에 남아 있습니다. 여러 문화가 한 도시에서 만나고 변해 온 모습을 보여 주는 곳입니다.",
       "wikiTitle": "Mosque–Cathedral of Córdoba",
       "wikiLang": "en",
       "photos": [],
@@ -2263,7 +2338,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 보존 ID, 명칭 통합 및 새 초안",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L07",
@@ -2287,7 +2365,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L08",
@@ -2312,7 +2393,10 @@
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L09",
@@ -2338,7 +2422,10 @@
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-L10",
@@ -2364,7 +2451,10 @@
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Gothic_Quarter%2C_Barcelona"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Gothic_Quarter%2C_Barcelona",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "KR-CF-001",
@@ -5518,7 +5608,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A5%B4%EC%84%B8_%EB%AF%B8%EC%88%A0%EA%B4%80"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A5%B4%EC%84%B8_%EB%AF%B8%EC%88%A0%EA%B4%80",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-002",
@@ -5537,7 +5630,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EB%A7%88%EB%A5%B4%ED%8A%B8%EB%A5%B4"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EB%A7%88%EB%A5%B4%ED%8A%B8%EB%A5%B4",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-003",
@@ -5556,7 +5652,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%81%AC%EB%A0%88%EC%BE%A8%EB%A5%B4_%EB%8C%80%EC%84%B1%EB%8B%B9"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%81%AC%EB%A0%88%EC%BE%A8%EB%A5%B4_%EB%8C%80%EC%84%B1%EB%8B%B9",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-004",
@@ -5575,7 +5674,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%83%9D%ED%8A%B8%EC%83%A4%ED%8E%A0"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%83%9D%ED%8A%B8%EC%83%A4%ED%8E%A0",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-005",
@@ -5594,7 +5696,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%8A%88%EB%A5%B4%EB%A6%AC_%EC%A0%95%EC%9B%90%EC%9D%98_%EC%9D%8C%EC%95%85%ED%9A%8C"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%8A%88%EB%A5%B4%EB%A6%AC_%EC%A0%95%EC%9B%90%EC%9D%98_%EC%9D%8C%EC%95%85%ED%9A%8C",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-006",
@@ -5604,14 +5709,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "파리의 궁전과 연못을 중심으로 조성된 넓은 공원입니다. 조각상과 나무 그늘, 작은 배가 떠다니는 연못이 여유로운 분위기를 만듭니다. 파리의 뤽상부르 궁전 앞에 조성된 넓은 공원으로 잔디와 연못, 조각상이 어우러집니다. 프랑스식 정원과 일상적인 시민 휴식 공간이 함께 있는 곳입니다.",
+      "description": "뤽상부르 공원은 파리 시민들이 산책과 휴식을 즐기는 넓은 정원입니다. 나무가 줄지어 선 길과 꽃밭, 조각상 사이로 걷다 보면 프랑스식 정원의 질서를 느낄 수 있습니다. 커다란 연못에서는 어린이들이 작은 돛단배를 띄워 놀기도 합니다. 공원 옆의 뤽상부르 궁전은 오늘날 프랑스 상원이 사용하는 건물입니다. 도심 속에서도 여유로운 오후를 보내기 좋은 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-007",
@@ -5630,7 +5738,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%8E%98%EB%9D%BC_%EA%B0%80%EB%A5%B4%EB%8B%88%EC%97%90"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%8E%98%EB%9D%BC_%EA%B0%80%EB%A5%B4%EB%8B%88%EC%97%90",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-008",
@@ -5649,7 +5760,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%90%81%ED%85%90%EB%B8%94%EB%A1%9C%EA%B6%81"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%90%81%ED%85%90%EB%B8%94%EB%A1%9C%EA%B6%81",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-010",
@@ -5668,7 +5782,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%83%B9%EB%B3%B4%EB%A5%B4%EC%84%B1"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%83%B9%EB%B3%B4%EB%A5%B4%EC%84%B1",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-011",
@@ -5686,7 +5803,10 @@
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-012",
@@ -5696,14 +5816,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "두꺼운 석벽과 높은 홀이 중세 교회의 권력과 역사를 전합니다. 14세기 교황들이 머물렀던 아비뇽의 거대한 석조 궁전입니다. 종교적 권위와 방어 목적이 결합된 높은 벽과 큰 홀은 당시 유럽 교회의 정치적 영향력을 보여 줍니다.",
+      "description": "아비뇽 교황청은 프랑스 남부 아비뇽에 남아 있는 거대한 중세 궁전입니다. 14세기에 여러 교황이 이곳에 머무르며 교회 행정을 이끌었습니다. 높은 성벽과 탑, 두꺼운 돌벽은 성처럼 단단해 보이지만, 안으로 들어가면 넓은 뜰과 예배 공간, 벽화가 있는 방도 만날 수 있습니다. 가까운 론강과 아비뇽의 오래된 거리를 함께 바라보면 중세 도시의 분위기가 더 잘 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-013",
@@ -5722,7 +5845,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%8F%84%EA%B5%90"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%8F%84%EA%B5%90",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-014",
@@ -5732,14 +5858,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "바닷바람과 파도가 오랜 시간 깎아 만든 거대한 돌문이 특징입니다. 노르망디 해안의 하얀 석회암 절벽과 자연 아치가 만드는 풍경입니다. 파도와 바람이 오랜 시간 바위를 깎아 지금의 형태를 만들었고, 여러 화가들이 이곳을 작품에 담았습니다.",
+      "description": "에트르타 절벽은 노르망디의 바닷가에 이어진 하얀 백악 절벽입니다. 파도가 오랫동안 절벽을 깎으며 바다로 뻗은 거대한 아치와 뾰족한 바위기둥을 만들었습니다. 초록빛 풀밭 위에서 내려다보면 하얀 절벽과 푸른 바다가 선명하게 대비됩니다. 이 풍경은 화가 클로드 모네의 그림에도 등장합니다. 절벽 위에서는 정해진 길을 따라 안전하게 감상해야 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-015",
@@ -5749,14 +5878,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "초여름 보랏빛 라벤더 밭이 넓게 펼쳐지는 고원 지역입니다. 규칙적인 밭고랑과 향기로운 꽃밭이 프로방스의 대표적 이미지가 되었습니다. 남프랑스 발랑솔 고원의 밭에는 여름철 보랏빛 라벤더 줄이 길게 펼쳐집니다. 라벤더 재배는 지역의 향수·정유 산업과도 관련이 있으며, 개화 시기는 해마다 날씨에 따라 달라집니다.",
+      "description": "프로방스의 발랑솔 평원은 초여름이면 보랏빛 라벤더 밭이 넓게 펼쳐지는 곳입니다. 밭 사이의 곧은 길과 멀리 보이는 낮은 언덕이 어우러져 마치 색색의 줄무늬 같은 풍경을 만듭니다. 라벤더는 향수와 향기 제품에 쓰이며 이 지역의 중요한 농작물이기도 합니다. 꽃이 피는 시기는 해마다 날씨에 따라 달라집니다. 풍경을 볼 때는 농작물이 자라는 밭 안으로 함부로 들어가지 않는 것이 중요합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-016",
@@ -5766,14 +5898,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "세계적인 영화제로 알려진 도시의 해안 풍경을 볼 수 있습니다. 칸의 바닷가를 따라 호텔과 야자수, 해변이 이어지는 넓은 산책로입니다. 국제영화제가 열리는 도시답게 휴양문화와 영화 산업의 상징적인 풍경이 함께 있습니다.",
+      "description": "칸의 크루아제트 거리는 지중해 해변을 따라 이어지는 유명한 산책로입니다. 한쪽에는 모래사장과 파란 바다가 펼쳐지고, 다른 쪽에는 호텔과 가로수가 늘어서 있습니다. 매년 열리는 칸 영화제 기간에는 세계 여러 나라의 영화인과 관객이 모여 거리가 더욱 활기차집니다. 바닷가를 천천히 걸으며 야자수와 해변, 먼 바다의 배를 함께 바라볼 수 있는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-017",
@@ -5783,14 +5918,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "바다를 향한 성벽과 조수 차가 큰 해변이 인상적입니다. 브르타뉴 해안에 높은 성벽으로 둘러싸인 항구도시입니다. 과거 해상무역과 항해의 중심지였고, 성벽 위에서는 도시의 지붕과 조수에 따라 달라지는 바다 풍경이 펼쳐집니다.",
+      "description": "생말로는 프랑스 브르타뉴 해안에 자리한 성벽 도시입니다. 오래된 도심을 둘러싼 두꺼운 돌 성벽 위를 걸으면 한쪽으로는 좁은 골목과 회색 지붕이, 다른 쪽으로는 넓은 바다와 해변이 보입니다. 이곳은 옛날 바다를 누비던 항해자들과도 깊은 인연이 있습니다. 조수 간만의 차이가 커서 물때에 따라 해안의 모습이 크게 달라집니다. 성벽을 따라 걸으며 바다와 도시를 번갈아 보는 재미가 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-018",
@@ -5800,14 +5938,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "유럽 알프스의 높은 설산과 빙하를 바라보는 산악 관광지입니다. 케이블카 전망지에서 날카로운 봉우리와 거대한 빙하 지형을 감상합니다. 알프스 최고봉 몽블랑 아래의 산악 마을과 전망지역입니다. 빙하와 바위 능선, 눈 덮인 봉우리가 가까이 보이며, 케이블카를 이용한 높은 고도 전망도 유명합니다.",
+      "description": "샤모니는 유럽 알프스 최고봉인 몽블랑 산기슭의 산악 마을입니다. 눈을 덮은 높은 봉우리와 빙하가 마을을 둘러싸고 있어 어느 방향을 보아도 웅장한 산 풍경을 만날 수 있습니다. 케이블카로 높은 전망 지점에 오르면 뾰족한 산봉우리들이 눈앞에 펼쳐집니다. 몽블랑은 프랑스와 이탈리아 국경 지역에 걸쳐 있으며, 산악 날씨는 빠르게 변하므로 높은 곳에서는 안전 안내가 중요합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-019",
@@ -5817,14 +5958,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "알프스 산자락의 맑은 호수와 운하가 유명합니다. 오래된 마을의 아치 다리와 물가의 건물들이 동화 같은 분위기를 만듭니다. 프랑스 알프스 기슭에 있는 맑은 호수로 주변에 산과 아름다운 옛도시가 자리합니다. 물가의 산책로와 운하가 이어져 산악 자연과 중세 도시의 풍경을 함께 볼 수 있습니다.",
+      "description": "안시 호수는 프랑스 알프스 산자락에 자리한 맑고 푸른 호수입니다. 물가에는 산책로와 잔디밭이 이어지고, 멀리 산봉우리들이 호수를 둘러싸고 있습니다. 호수에서 보트를 타거나 자전거로 주변을 돌아보면 산과 물이 어우러진 풍경을 여러 각도에서 볼 수 있습니다. 가까운 안시 구시가지에는 운하와 작은 다리, 알록달록한 건물들이 있어 호수와는 또 다른 아름다움을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-020",
@@ -5834,14 +5978,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "고전적인 석조 건축물이 둘러싼 보르도의 중심 광장입니다. 얕은 물거울에 건물이 비치는 장면이 유명합니다. 보르도 옛 항구도시의 고전주의 건축물이 넓은 광장을 둘러싸고 있습니다. 앞쪽의 얕은 수면인 물의 거울에는 건물이 비쳐, 역사적 건축과 현대 도시 공간이 함께 어우러집니다.",
+      "description": "보르도의 부르스 광장은 가론강을 바라보는 우아한 18세기 광장입니다. 반듯한 석조 건물과 조각 장식이 만들어 내는 균형 잡힌 모습이 특징입니다. 광장 앞에는 얕게 물을 깔아 건물과 하늘을 거울처럼 비추는 ‘물의 거울’이 있습니다. 바람이 잔잔하면 건물이 물 위에 거꾸로 선 듯 보이고, 가느다란 물안개가 피어오르면 광장 분위기가 달라집니다. 도시 건축과 물이 어울리는 모습을 보기 좋은 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "FR-CF-021",
@@ -5860,7 +6007,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%8A%A4%EB%B6%80%EB%A5%B4"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%8A%A4%EB%B6%80%EB%A5%B4",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-001",
@@ -5873,7 +6023,7 @@
         "Spanish Steps Rome",
         "Scalinata di Trinità dei Monti"
       ],
-      "description": "계단을 따라 펼쳐지는 도시 풍경이 유명합니다. 로마 스파냐 광장과 트리니타 데이 몬티 성당을 잇는 넓은 계단입니다. 곡선으로 펼쳐진 계단과 광장의 분수가 어우러져 도시의 유명한 만남 장소가 되었으며, 이름은 인근 스페인 대사관과 관련이 있습니다.",
+      "description": "스페인 계단은 로마의 스페인 광장과 트리니타 데이 몬티 성당을 이어 주는 넓은 계단입니다. 부드럽게 굽어 올라가는 여러 단과 중간의 넓은 쉼터가 특징입니다. 계단 아래에는 작은 배처럼 생긴 바르카차 분수가 있고, 위쪽에 오르면 광장과 주변 거리들이 내려다보입니다. 이곳은 많은 사람이 풍경을 감상하는 장소이지만 문화재 보호를 위해 계단에 앉는 행위는 제한됩니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -5882,7 +6032,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Spanish Steps Rome",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-002",
@@ -5895,7 +6048,7 @@
         "Piazza Navona Rome",
         "Piazza Navona"
       ],
-      "description": "베르니니의 분수와 바로크 교회가 둘러싸고 있습니다. 고대 로마 경기장 자리에 조성된 길쭉한 광장입니다. 베르니니의 네 강의 분수와 화려한 바로크 교회들이 남아 있어 고대 유적의 흔적 위에 새로운 도시공간이 만들어진 과정을 보여 줍니다.",
+      "description": "나보나 광장은 로마의 길쭉한 타원형 광장입니다. 고대 로마 경기장이 있던 자리를 따라 지금의 모양이 만들어졌습니다. 가운데에는 베르니니가 설계한 ‘네 강의 분수’가 있으며, 주변의 다른 분수와 성당, 오래된 건물들이 광장을 둘러싸고 있습니다. 넓은 공간을 천천히 걸으며 분수의 조각과 건물의 곡선을 살펴보면 바로크 시대 로마의 분위기를 느낄 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -5904,7 +6057,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Piazza Navona Rome",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-003",
@@ -5927,7 +6083,10 @@
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "Castel Sant'Angelo Rome",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-005",
@@ -5950,7 +6109,10 @@
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "Ponte Vecchio Florence",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-006",
@@ -5963,7 +6125,7 @@
         "Uffizi Gallery Florence",
         "Galleria degli Uffizi"
       ],
-      "description": "르네상스 미술을 대표하는 작품들이 모인 피렌체의 미술관입니다. 보티첼리의 작품을 비롯한 예술유산이 풍부합니다. 피렌체 메디치 가문과 관련된 미술관으로 르네상스 회화의 걸작을 많이 소장합니다. 보티첼리의 작품 등을 통해 신화와 종교 이야기를 새롭게 표현하던 유럽 미술의 변화를 볼 수 있습니다.",
+      "description": "우피치 미술관은 피렌체의 대표적인 미술관으로, 르네상스 시대의 뛰어난 그림들을 만날 수 있는 곳입니다. 보티첼리의 ‘비너스의 탄생’과 ‘봄’을 비롯해 여러 화가들의 작품을 소장하고 있습니다. 길게 이어지는 회랑 창문에서는 아르노강과 베키오 다리 주변의 풍경도 내려다보입니다. 그림 속 인물의 표정과 색, 옷의 주름을 자세히 관찰하면 옛 화가들이 세상을 표현한 방식을 알 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -5972,7 +6134,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Uffizi Gallery Florence",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-007",
@@ -5985,7 +6150,7 @@
         "Piazzale Michelangelo Florence",
         "Piazzale Michelangelo"
       ],
-      "description": "피렌체의 지붕과 두오모, 아르노강을 바라보는 언덕 전망대입니다. 도시 전체가 한 장의 풍경화처럼 펼쳐집니다. 피렌체를 내려다보는 언덕 위 광장으로 아르노강과 붉은 지붕, 두오모의 둥근 돔이 한눈에 보입니다. 도시 전체를 하나의 풍경처럼 감상할 수 있어 피렌체의 대표 전망 장소가 되었습니다.",
+      "description": "미켈란젤로 광장은 피렌체를 한눈에 내려다볼 수 있는 언덕 위 광장입니다. 여기에서 바라보면 아르노강과 베키오 다리, 붉은 지붕들 사이로 피렌체 두오모의 큰 돔이 솟아 있습니다. 광장에는 미켈란젤로의 다비드상을 본뜬 청동 조각도 있습니다. 해 질 무렵 따뜻한 빛이 도시를 물들이면 건물의 지붕과 돌벽이 더욱 아름답게 보입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -5994,7 +6159,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Piazzale Michelangelo Florence",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-008",
@@ -6007,7 +6175,7 @@
         "Piazza del Campo Siena",
         "Piazza del Campo"
       ],
-      "description": "부채꼴 모양의 붉은 벽돌 광장으로 주변 중세 건물이 둘러싸고 있습니다. 시에나의 전통 경마 축제가 열리는 공간입니다. 조개껍데기처럼 둥글게 펼쳐진 시에나의 중앙 광장입니다. 붉은 벽돌 바닥과 높은 시청탑이 어우러지며, 전통 경마 행사인 팔리오가 열리는 장소이기도 합니다.",
+      "description": "시에나 캄포 광장은 부채꼴로 펼쳐진 독특한 모양의 중세 광장입니다. 붉은 벽돌 바닥에는 방사형으로 선이 뻗어 있고, 한쪽에는 시청 건물과 높은 만자 탑이 서 있습니다. 광장 둘레의 건물들은 마치 큰 야외 무대를 감싸듯 이어집니다. 시에나에서는 전통 경마 행사인 팔리오가 이 광장에서 열립니다. 광장 바닥의 경사와 건물의 조화가 특별한 공간입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6016,7 +6184,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Piazza del Campo Siena",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-009",
@@ -6029,7 +6200,7 @@
         "Historic Centre of San Gimignano",
         "San Gimignano medieval towers"
       ],
-      "description": "중세 상인 가문들이 세운 높은 석탑이 도시 위로 솟아 있습니다. 탑의 실루엣 때문에 중세의 맨해튼이라고도 불립니다. 토스카나 언덕 위의 중세 마을로, 멀리서도 여러 개의 높은 돌탑이 눈에 띕니다. 한때 유력 가문들이 세운 탑이 부와 권력을 나타냈으며, 지금은 중세 도시의 모습을 간직한 대표 명소입니다.",
+      "description": "산지미냐노는 이탈리아 토스카나에 있는 중세 도시로, 오래된 석조 탑들이 하늘로 솟아 있어 ‘탑의 도시’라고 불립니다. 옛날 부유한 가문들은 높은 탑을 세워 집안의 힘을 드러내기도 했습니다. 지금도 탑과 성벽, 좁은 골목이 남아 있어 중세 도시의 모습을 떠올리게 합니다. 마을 위에서 바라보면 주변의 포도밭과 구릉지까지 함께 펼쳐집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6038,7 +6209,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Historic Centre of San Gimignano",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-010",
@@ -6051,7 +6225,7 @@
         "St Mark's Basilica Venice",
         "Basilica di San Marco Venezia"
       ],
-      "description": "베네치아의 화려한 모자이크와 여러 돔으로 유명한 성당입니다. 동서 문화가 교류한 도시의 성격이 건축에 담겨 있습니다. 베네치아의 중심 광장에 자리한 성당으로, 여러 개의 둥근 돔과 금빛 모자이크가 특징입니다. 동방 비잔틴 문화의 영향을 받은 장식은 베네치아가 지중해 무역을 통해 성장한 역사를 보여 줍니다.",
+      "description": "베네치아 산마르코 대성당은 금빛 모자이크와 여러 개의 둥근 돔으로 유명한 성당입니다. 건물 정면에는 아치와 기둥, 조각들이 화려하게 이어지고 동방의 건축 양식이 섞인 독특한 모습을 보여 줍니다. 안으로 들어가면 모자이크가 빛을 받아 반짝이는 장면이 인상적입니다. 바로 앞 산마르코 광장과 종탑을 함께 보면 베네치아가 바다를 통해 여러 문화를 만나 온 도시임을 느낄 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6060,7 +6234,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "St Mark's Basilica Venice",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-011",
@@ -6073,7 +6250,7 @@
         "St Mark's Square Venice",
         "Piazza San Marco Venezia"
       ],
-      "description": "바다와 도시가 만나는 역사적 공간입니다. 베네치아의 대표 광장으로 산마르코 대성당과 종탑, 두칼레 궁전이 둘러싸고 있습니다. 물의 도시에서 드물게 넓은 열린 공간이며, 바닷물이 높아질 때 광장 일부에 물이 차기도 합니다.",
+      "description": "산마르코 광장은 베네치아의 중심이 되는 넓은 광장입니다. 한쪽에는 산마르코 대성당과 높은 종탑이 있고, 다른 쪽에는 길게 이어지는 아케이드 건물들이 광장을 감쌉니다. 가까운 두칼레 궁전과 바다를 향한 공간까지 걸어가면 베네치아의 역사와 물의 도시 풍경이 연결됩니다. 비가 많이 오거나 바닷물이 높아지는 때에는 광장 일부에 물이 차기도 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6082,7 +6259,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "St Mark's Square Venice",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-012",
@@ -6095,7 +6275,7 @@
         "Rialto Bridge Venice",
         "Ponte di Rialto"
       ],
-      "description": "다리 양쪽에 상점이 이어져 있으며 베네치아의 상징적 풍경입니다. 베네치아 대운하를 가로지르는 대표적인 석조 다리입니다. 다리의 큰 아치와 중앙 상점들이 특징이며, 오래전부터 시장과 상업지구를 연결하는 중요한 통로였습니다.",
+      "description": "리알토 다리는 베네치아 대운하를 가로지르는 유명한 돌다리입니다. 넓은 아치 하나가 운하를 건너고, 다리 위에는 작은 상점들이 늘어서 있습니다. 다리 양쪽으로 곤돌라와 수상버스가 오가는 모습이 보이며, 운하를 따라 오래된 건물들이 이어집니다. 물길이 도로 역할을 하는 베네치아의 생활을 가장 쉽게 느낄 수 있는 장소 가운데 하나입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6104,7 +6284,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Rialto Bridge Venice",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-013",
@@ -6117,7 +6300,7 @@
         "Doge's Palace Venice",
         "Palazzo Ducale Venezia"
       ],
-      "description": "베네치아 공화국의 통치 중심이었던 궁전입니다. 섬세한 고딕 외벽과 화려한 회의실에서 해상도시의 권력을 엿볼 수 있습니다. 베네치아 공화국의 최고 지도자인 도제가 머물고 정무를 보던 궁전입니다. 아치가 반복되는 외관과 호화로운 내부 장식이 아름답지만, 동시에 법정과 감옥으로 이어지는 역사도 간직합니다.",
+      "description": "두칼레 궁전은 베네치아 공화국의 지도자였던 도제가 살고 중요한 회의가 열리던 화려한 궁전입니다. 바닷가를 향한 외관에는 분홍빛 돌벽과 가느다란 아치가 층층이 이어집니다. 안으로 들어가면 큰 회의실과 천장화, 금빛 장식을 볼 수 있습니다. 궁전 뒤쪽의 탄식의 다리는 예전에 죄수들이 지나가던 통로와 연결되어 있습니다. 아름다운 장식 뒤에 옛 도시의 정치와 재판 이야기가 함께 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6126,7 +6309,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Doge's Palace Venice",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-015",
@@ -6139,7 +6325,7 @@
         "Galleria Vittorio Emanuele II Milan",
         "Galleria Vittorio Emanuele II"
       ],
-      "description": "유리 지붕과 철제 구조물로 덮인 19세기 실내 쇼핑거리입니다. 모자이크 바닥과 웅장한 아치가 특징입니다. 밀라노 두오모 옆에 있는 19세기 유리 지붕 아케이드입니다. 철과 유리로 만든 높은 천장 아래 상점과 카페가 이어져, 현대 쇼핑몰의 선구적인 형태를 보여 줍니다.",
+      "description": "밀라노 비토리오 에마누엘레 2세 갤러리아는 유리 지붕 아래 화려한 상점과 카페가 이어지는 오래된 쇼핑 아케이드입니다. 바닥의 모자이크와 높은 철제 아치, 중앙의 커다란 유리 돔이 건물을 아름답게 만듭니다. 밀라노 두오모 광장 바로 옆에 있어 성당의 웅장한 외관과 갤러리아의 밝고 세련된 실내를 한 번에 비교할 수 있습니다. 이곳은 쇼핑 공간이면서 시민들이 만나는 도시의 거실 같은 장소입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6148,7 +6334,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Galleria Vittorio Emanuele II Milan",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-016",
@@ -6161,7 +6350,7 @@
         "Verona Arena",
         "Arena di Verona"
       ],
-      "description": "오래된 돌계단에서 현대의 음악과 오페라가 울려 퍼집니다. 로마 시대에 지어진 타원형 원형극장으로, 지금도 공연장으로 사용됩니다. 수천 년 가까이 남은 석조 객석과 무대 공간은 고대 건축물이 새로운 문화공간으로 이어진 모습을 보여 줍니다.",
+      "description": "베로나 아레나는 고대 로마 시대에 세워진 커다란 원형극장입니다. 돌로 만든 층층의 관람석이 무대를 둘러싸고 있으며, 오랜 시간이 흘렀어도 공연장으로 사용되고 있습니다. 특히 여름철 야외 오페라 공연으로 널리 알려져 있습니다. 낮에는 거대한 돌계단과 아치 구조를 살펴보고, 밤에는 음악과 조명이 채우는 또 다른 모습을 떠올릴 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6170,7 +6359,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Verona Arena",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-017",
@@ -6183,7 +6375,7 @@
         "Lake Como Italy",
         "Lago di Como"
       ],
-      "description": "높은 산과 오래된 마을이 둘러싼 북이탈리아의 긴 호수입니다. 알프스 산기슭에 길게 뻗은 호수로, 가파른 산과 작은 호숫가 마을들이 어우러집니다. 물가의 오래된 별장과 정원은 아름다운 자연 속에서 발달한 휴양문화를 보여 줍니다.",
+      "description": "코모 호수는 이탈리아 북부 산들 사이에 길게 뻗은 아름다운 호수입니다. 물가에는 벨라조와 바렌나 같은 마을이 있고, 정원과 오래된 별장들이 호수 주변의 풍경을 풍성하게 만듭니다. 배를 타고 이동하면 마을의 색깔 있는 집과 산비탈, 물에 비친 하늘을 차례로 만날 수 있습니다. 호수의 굴곡진 해안선 때문에 보는 장소마다 모습이 다릅니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6192,7 +6384,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Lake Como Italy",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-018",
@@ -6205,7 +6400,7 @@
         "Dolomites Italy",
         "Dolomiti UNESCO"
       ],
-      "description": "뾰족한 석회암·백운암 봉우리와 푸른 초원이 대비되는 알프스 산지입니다. 해질 무렵 붉게 물드는 산벽이 인상적입니다. 이탈리아 북동부 알프스의 산악지역으로, 창처럼 솟은 밝은색 암봉이 특징입니다. 옛 바닷속에서 형성된 암석이 지각운동으로 높이 솟아올라 지금의 극적인 산세를 이루었습니다.",
+      "description": "돌로미티 산맥은 이탈리아 북동부 알프스에 솟은 뾰족한 바위 봉우리들로 유명합니다. 밝은 석회암과 돌로마이트 암석이 햇빛을 받으면 분홍빛이나 황금빛으로 물들기도 합니다. 산 아래에는 초록 목초지와 작은 마을, 맑은 호수가 어우러져 있습니다. 트레 치메 디 라바레도 같은 봉우리는 특히 독특한 실루엣을 보여 줍니다. 산책로와 전망대에서 암봉과 들판의 대비를 감상할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6214,7 +6409,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Dolomites Italy",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-019",
@@ -6236,7 +6434,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
       "wikiTitle": "Pompeii Archaeological Park",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-020",
@@ -6249,7 +6450,7 @@
         "Mount Vesuvius Naples",
         "Monte Vesuvio"
       ],
-      "description": "나폴리만 근처에 있는 활화산입니다. 서기 79년의 거대한 분출로 폼페이와 헤르쿨라네움을 덮었던 역사로 유명합니다. 나폴리만 근처에 솟은 활화산으로, 서기 79년의 분화가 폼페이 도시를 덮친 역사로 널리 알려져 있습니다. 산비탈과 분화구를 통해 지구 내부의 힘이 인간의 생활에 어떤 영향을 주는지 이해할 수 있습니다.",
+      "description": "베수비오산은 이탈리아 나폴리만 가까이에 있는 화산입니다. 서기 79년의 큰 폭발로 폼페이와 헤르쿨라네움 같은 도시가 화산재와 분출물에 뒤덮였습니다. 오늘날 분화구 주변에서 바위와 화산 지형을 살펴볼 수 있으며, 맑은 날에는 나폴리만과 주변 도시가 내려다보입니다. 아름다운 산 풍경을 보여 주면서도 화산이 자연과 인간의 생활에 얼마나 큰 영향을 줄 수 있는지 알려 주는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6258,7 +6459,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Mount Vesuvius Naples",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-021",
@@ -6271,7 +6475,7 @@
         "Blue Grotto Capri",
         "Grotta Azzurra Capri"
       ],
-      "description": "바닷물이 들어오는 좁은 입구를 지나면 내부가 푸른빛으로 물듭니다. 물속에서 반사된 햇빛이 만들어내는 자연의 광학 현상입니다. 카프리섬의 바닷물이 동굴 입구 아래로 들어오는 빛을 받아 푸르게 빛나는 장소입니다. 낮은 입구를 지나면 어두운 동굴 안에서 물빛이 갑자기 환해 보여 특별한 자연현상을 경험하게 됩니다.",
+      "description": "카프리섬의 푸른 동굴은 바닷물이 신비로운 파란빛으로 빛나는 해식 동굴입니다. 좁은 입구 아래로 들어오는 햇빛이 물속에서 굴절되고 반사되면서 동굴 안쪽을 푸르게 비춥니다. 작은 배를 타고 낮은 입구를 지나야 하는 곳으로, 파도가 높으면 들어갈 수 없습니다. 검은 동굴 벽과 빛나는 푸른 물의 대비가 아주 특별한 장면을 만듭니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6280,7 +6484,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Blue Grotto Capri",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "IT-CF-022",
@@ -6293,7 +6500,7 @@
         "Trulli of Alberobello",
         "Trulli di Alberobello"
       ],
-      "description": "원뿔형 돌지붕의 하얀 집들이 모여 있는 남이탈리아 마을입니다. 모르타르를 쓰지 않는 전통 석조 건축이 특징입니다. 이탈리아 남부의 작은 마을로, 하얀 벽 위에 회색 원뿔 지붕을 얹은 트룰리 집들이 빽빽하게 모여 있습니다. 돌을 쌓아 만든 전통 주택은 이 지역의 독특한 생활과 건축 기술을 전합니다.",
+      "description": "알베로벨로는 이탈리아 남부의 ‘트룰리’라는 작은 돌집들로 유명한 마을입니다. 집들은 흰 벽 위에 회색 돌을 겹겹이 쌓아 올린 원뿔 모양 지붕을 갖고 있습니다. 좁은 길을 따라 이런 집들이 모여 있는 모습은 동화 속 마을을 떠올리게 합니다. 돌을 쌓는 전통 건축 방식이 지금까지 남아 있어 마을 전체가 독특한 풍경을 이룹니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6302,7 +6509,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Trulli of Alberobello",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-001",
@@ -6315,7 +6525,7 @@
         "Casa Milà Barcelona",
         "La Pedrera Barcelona"
       ],
-      "description": "물결치는 돌 외벽과 독특한 옥상 굴뚝으로 유명한 가우디 건축물입니다. 직선보다 곡선을 강조한 디자인이 자연의 형태를 연상시킵니다. 바르셀로나의 가우디 건축물로 직선보다 굽이치는 돌 외벽과 독특한 굴뚝들이 눈에 띕니다. 물결치는 바위처럼 보이는 형태와 내부 채광 구조는 자연을 건축 설계에 반영한 사례입니다.",
+      "description": "카사 밀라는 바르셀로나의 거리 모퉁이에 자리한 가우디의 독특한 건물입니다. 물결처럼 구불거리는 석재 외벽 때문에 ‘라 페드레라’라는 별명으로도 불립니다. 옥상에는 사람이나 환상 속 생물처럼 보이는 굴뚝과 환기탑들이 서 있습니다. 직선 대신 곡선과 빛, 자연의 형태를 적극적으로 사용한 가우디의 생각을 건물 곳곳에서 발견할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6324,7 +6534,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Casa Milà Barcelona",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-002",
@@ -6337,7 +6550,7 @@
         "Palau de la Música Catalana Barcelona",
         "Palau de la Música Catalana"
       ],
-      "description": "화려한 모자이크와 유리 천장을 가진 공연장입니다. 자연 채광이 들어오는 중앙 홀에서 카탈루냐 모더니즘 건축의 장식을 볼 수 있습니다. 바르셀로나의 화려한 공연장으로, 색유리 천장과 꽃무늬 장식이 실내를 가득 채웁니다. 카탈루냐 모더니즘 건축의 대표작으로 공연 공간 전체가 하나의 예술작품처럼 꾸며졌습니다.",
+      "description": "카탈루냐 음악당은 바르셀로나에 있는 화려한 공연장입니다. 내부 천장 중앙에는 거꾸로 매달린 꽃처럼 보이는 커다란 색유리 천창이 있어 자연광이 아름답게 들어옵니다. 벽과 기둥에는 꽃무늬 타일과 조각이 풍성하게 장식되어 있습니다. 건축가 도메네크 이 몬타네르가 설계한 이 건물은 음악을 듣는 장소이면서 건물 자체가 예술 작품처럼 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6346,7 +6559,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Palau de la Música Catalana Barcelona",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-003",
@@ -6359,7 +6575,7 @@
         "Montjuïc Castle Barcelona",
         "Castell de Montjuïc"
       ],
-      "description": "성벽과 전망대에서 바다와 도시의 관계를 살펴볼 수 있습니다. 바르셀로나 항구를 내려다보는 몬주익 언덕의 요새입니다. 오래전 항구를 방어하기 위한 시설이었으며, 오늘날에는 높은 성벽 위에서 바다와 도시를 함께 조망할 수 있습니다.",
+      "description": "몬주익 성은 바르셀로나 항구가 내려다보이는 몬주익 언덕 위의 요새입니다. 두꺼운 성벽과 넓은 바깥 공간을 따라 걸으면 도시와 바다, 항구의 모습을 시원하게 볼 수 있습니다. 이 장소는 시대에 따라 도시를 지키는 군사시설로 쓰이거나 정치적 억압의 장소가 되기도 했습니다. 오늘날에는 언덕 산책과 전망을 함께 즐길 수 있는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6368,7 +6584,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Montjuïc Castle Barcelona",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-004",
@@ -6381,7 +6600,7 @@
         "Mercat de la Boqueria Barcelona",
         "La Boqueria"
       ],
-      "description": "과일과 해산물, 향신료가 가득한 진열대에서 현지 식문화를 만납니다. 바르셀로나 람블라스 거리의 전통 식품시장입니다. 과일과 채소, 해산물과 햄 등을 파는 화려한 가게들이 모여 있으며, 지중해 지역의 먹거리와 시장 문화를 체험하는 장소입니다.",
+      "description": "보케리아 시장은 바르셀로나 람블라스 거리 가까이에 있는 활기찬 시장입니다. 안으로 들어서면 알록달록한 과일과 채소, 해산물, 치즈, 햄 등이 빼곡하게 진열되어 있습니다. 상인들의 목소리와 음식 냄새가 어우러져 도시의 일상을 가까이 느낄 수 있습니다. 화려한 진열대뿐 아니라 지역 사람들이 무엇을 먹고 어떻게 장을 보는지 살펴보는 재미도 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6390,7 +6609,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Mercat de la Boqueria Barcelona",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-005",
@@ -6403,7 +6625,7 @@
         "Prado Museum Madrid",
         "Museo del Prado"
       ],
-      "description": "벨라스케스와 고야 등 스페인 거장들의 작품을 소장한 미술관입니다. 그림을 통해 왕실과 사회, 사람들의 모습을 만날 수 있습니다. 마드리드의 대표 미술관으로 스페인 왕실이 모은 회화 작품이 소장되어 있습니다. 벨라스케스와 고야의 작품 등을 통해 왕실의 초상과 역사, 화가들의 새로운 시선을 살펴볼 수 있습니다.",
+      "description": "프라도 미술관은 마드리드의 대표적인 미술관입니다. 벨라스케스와 고야, 엘 그레코를 비롯한 화가들의 작품을 통해 스페인 미술의 여러 시대를 살펴볼 수 있습니다. 그림 속 인물의 눈빛과 옷차림, 빛의 표현을 자세히 관찰하면 당대 사람들의 삶과 생각이 보입니다. 넓은 전시실을 천천히 걸으며 화가마다 색과 구도를 어떻게 다르게 사용하는지 비교해 보면 좋습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6412,7 +6634,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Prado Museum Madrid",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-006",
@@ -6425,7 +6650,7 @@
         "El Retiro Park Madrid",
         "Parque del Buen Retiro"
       ],
-      "description": "시민들의 일상적인 휴식 공간입니다. 마드리드 도심의 넓은 녹지공간으로 호수와 크리스털 궁전, 산책길이 이어집니다. 왕실 정원에서 시민 공원으로 변화한 역사와 함께 도시의 여유로운 일상을 보여 줍니다.",
+      "description": "레티로 공원은 마드리드 도심에 있는 넓고 푸른 공원입니다. 큰 연못에서는 작은 배가 오가고, 나무 그늘 아래에는 산책하는 사람들이 모입니다. 공원 안의 수정궁은 유리와 철로 만든 투명한 건물로, 햇빛에 반짝이는 모습이 아름답습니다. 장미정원과 조각상, 산책길도 있어 바쁜 도시 안에서 자연과 예술을 함께 만날 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6434,7 +6659,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "El Retiro Park Madrid",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-007",
@@ -6447,7 +6675,7 @@
         "Plaza Mayor Madrid",
         "Plaza Mayor de Madrid"
       ],
-      "description": "붉은 건물로 둘러싸인 마드리드의 사각형 광장입니다. 여러 시대에 시장과 행사, 도시생활의 중심이었습니다. 마드리드 옛도심의 직사각형 광장으로 붉은 벽돌 건물과 아치가 둘러싸고 있습니다. 과거에는 시장과 공개행사 등이 열렸으며, 오늘날에도 사람들이 만나는 대표적인 도시 공간입니다.",
+      "description": "마요르 광장은 마드리드 구시가지 중심에 있는 네모반듯한 광장입니다. 붉은빛 건물들이 광장을 사방으로 둘러싸고, 아래층에는 아치형 통로가 이어집니다. 한가운데에는 펠리페 3세의 기마상이 서 있습니다. 예전에는 시장과 축제, 여러 공공행사가 열리던 장소였고, 오늘날에도 많은 사람이 모여 도시의 분위기를 즐깁니다. 광장 한가운데에서 네 면의 건물을 비교해 보면 공간이 얼마나 균형 잡혔는지 알 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6456,7 +6684,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Plaza Mayor Madrid",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-008",
@@ -6469,7 +6700,7 @@
         "Puerta del Sol Madrid",
         "Puerta del Sol"
       ],
-      "description": "마드리드 중심의 바쁜 광장으로 도시의 상징물과 거리 표지가 있습니다. 스페인 주요 도로의 거리 기준점으로도 알려져 있습니다. 마드리드 한가운데 위치한 광장으로 여러 길과 사람이 모이는 교통·문화의 중심지입니다. 스페인 도로 거리의 기준점과 새해맞이 행사 등 도시 생활의 상징적인 의미를 지니고 있습니다.",
+      "description": "푸에르타 델 솔은 마드리드 중심부의 분주한 광장입니다. 스페인의 도로 거리 측정 기준점인 ‘킬로미터 제로’ 표식이 있고, 시계가 달린 건물 앞에는 새해를 맞는 사람들이 모입니다. 마드리드의 상징인 곰과 딸기나무 조각상도 이곳에 있습니다. 여러 거리가 사방으로 뻗어 나가 도시가 모이는 중심이라는 느낌을 줍니다. 오래된 건물과 현대적인 상점들이 함께 있어 마드리드의 과거와 오늘을 한자리에서 만날 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6478,7 +6709,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Puerta del Sol Madrid",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-009",
@@ -6491,7 +6725,7 @@
         "Aqueduct of Segovia",
         "Acueducto de Segovia"
       ],
-      "description": "거대한 화강암 아치가 도시 한가운데 이어지는 로마시대 수도교입니다. 정교한 돌쌓기가 고대 토목기술을 보여줍니다. 고대 로마인들이 도시로 물을 보내기 위해 세운 높은 석조 수도교입니다. 거대한 돌 아치가 여러 층으로 반복되며, 당시 정밀한 건축기술을 오늘날 도시 한복판에서 볼 수 있습니다.",
+      "description": "세고비아 수도교는 고대 로마인이 먼 곳에서 물을 끌어오기 위해 세운 거대한 돌다리 모양의 수로 시설입니다. 돌을 정교하게 쌓아 올린 이층 아치가 도시 앞에 길게 이어집니다. 쇠나 시멘트를 많이 쓰지 않고 돌의 무게와 구조를 이용해 오래 버텨 온 점이 놀랍습니다. 아치 아래에 서서 높이를 올려다보면 고대 기술의 규모를 실감할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6500,7 +6734,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Aqueduct of Segovia",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-010",
@@ -6513,7 +6750,7 @@
         "Alcázar of Segovia",
         "Alcázar de Segovia"
       ],
-      "description": "바위 위에 세워진 성으로 뾰족한 탑과 배 모양의 성곽이 독특합니다. 왕실 거처와 군사시설로 사용된 역사가 있습니다. 바위 능선 위에 자리한 세고비아의 성으로, 뾰족한 지붕의 탑들이 동화 속 성처럼 보입니다. 왕실의 거처이자 군사시설로 쓰인 역사가 있어, 방어와 장식이 한 건물에 결합되어 있습니다.",
+      "description": "세고비아 알카사르는 뾰족한 탑과 경사진 지붕이 돋보이는 언덕 위 성입니다. 두 강이 만나는 지형 위에 서 있어 멀리서 보면 배의 뱃머리처럼 보이기도 합니다. 성벽과 탑은 방어시설의 역할을 했지만, 안쪽에는 왕실이 사용하던 화려한 방도 남아 있습니다. 언덕 아래에서 올려다보면 동화 속 성을 닮은 독특한 실루엣을 감상할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6522,7 +6759,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Alcázar of Segovia",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-011",
@@ -6535,7 +6775,7 @@
         "Royal Monastery of San Lorenzo de El Escorial",
         "Monasterio de El Escorial"
       ],
-      "description": "스페인 왕실의 수도원·궁전·왕실 묘역이 모인 거대한 건축 단지입니다. 엄격한 대칭 구조와 절제된 외관이 특징입니다. 마드리드 근교에 세워진 거대한 왕실 수도원·궁전 복합건축물입니다. 펠리페 2세의 시대에 조성되었으며, 엄격한 대칭 구조와 왕실 묘역이 스페인 제국의 정치·종교 역사를 보여 줍니다.",
+      "description": "엘 에스코리알 수도원은 마드리드 근교의 거대한 왕실 수도원·궁전 복합 건축물입니다. 반듯한 네모 형태의 외관과 단정한 돌벽은 장식이 많은 궁전과 다른 엄숙한 분위기를 줍니다. 안에는 성당과 도서관, 왕실 관련 공간들이 함께 있습니다. 스페인 왕 필리페 2세 시대의 정치와 종교, 학문을 한곳에 담으려 했던 건물로, 넓은 안뜰에서 건물의 비례를 살펴볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6544,7 +6784,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Royal Monastery of San Lorenzo de El Escorial",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-012",
@@ -6557,7 +6800,7 @@
         "Generalife Granada",
         "Jardines del Generalife"
       ],
-      "description": "분수와 수로, 꽃밭이 물의 소리와 그늘을 중심으로 꾸며져 있습니다. 그라나다 알함브라 궁전 옆의 옛 왕실 여름 별궁 정원입니다. 좁은 수로와 분수, 꽃과 나무 사이로 물소리가 이어져 건조한 지역에서 물을 귀하게 다루던 이슬람 정원문화를 보여 줍니다.",
+      "description": "헤네랄리페 정원은 그라나다 알함브라 궁전 가까이에 있는 아름다운 정원입니다. 좁고 긴 수로를 따라 작은 분수가 솟아오르고, 꽃과 나무가 물길을 감싸고 있습니다. 더운 날씨에도 시원한 물소리와 그늘을 느낄 수 있도록 만든 공간입니다. 정원 너머로는 알함브라의 붉은 성벽과 산비탈이 보입니다. 건축물뿐 아니라 물과 식물이 함께 공간을 만드는 지혜를 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6566,7 +6809,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Generalife Granada",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-014",
@@ -6579,7 +6825,7 @@
         "Seville Cathedral",
         "Catedral de Sevilla"
       ],
-      "description": "거대한 고딕 대성당으로 오랜 도시 역사를 담고 있습니다. 높은 천장과 제단, 종탑이 안달루시아의 문화적 변화를 보여줍니다. 세비야의 거대한 고딕 성당으로 원래 모스크가 있던 자리에 세워졌습니다. 높이 솟은 히랄다 탑과 넓은 내부 공간에서 스페인의 종교·문화 변화가 건축에 어떻게 남았는지 볼 수 있습니다.",
+      "description": "세비야 대성당은 유럽에서 손꼽히는 규모의 고딕 대성당입니다. 높게 뻗은 기둥과 넓은 내부 공간, 화려한 제단이 인상적입니다. 이 자리에는 원래 큰 이슬람 사원이 있었고, 뒤에 대성당이 세워졌습니다. 옆의 히랄다 탑에는 이전 사원의 첨탑 흔적이 남아 있어 건축의 역사가 이어지는 모습을 볼 수 있습니다. 성당 주변의 오래된 골목도 함께 둘러볼 만합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6588,7 +6834,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Seville Cathedral",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-015",
@@ -6601,7 +6850,7 @@
         "Giralda Seville",
         "La Giralda Sevilla"
       ],
-      "description": "서로 다른 시대의 건축 양식이 한 건물에 남아 있습니다. 세비야 대성당에 딸린 높은 종탑으로 이슬람 시기의 미나렛에서 시작되었습니다. 후대의 종탑 부분이 더해져 서로 다른 시대의 건축이 하나의 탑에 겹쳐 있는 모습이 특징입니다.",
+      "description": "히랄다 탑은 세비야 대성당 옆에 서 있는 높은 종탑입니다. 원래 이슬람 사원의 첨탑으로 세워졌고, 후대에 종과 상부 장식이 더해졌습니다. 탑 안에는 계단 대신 완만하게 올라가는 경사로가 이어지는 부분이 있습니다. 높은 전망 지점에서 보면 세비야의 지붕과 거리, 넓은 도시 풍경이 펼쳐집니다. 여러 시대의 장식이 한 탑에 겹쳐 있다는 점이 특징입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6610,7 +6859,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Giralda Seville",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-016",
@@ -6623,7 +6875,7 @@
         "Royal Alcázar of Seville",
         "Real Alcázar de Sevilla"
       ],
-      "description": "무데하르 양식이 아름다운 왕궁으로 정교한 타일과 정원이 유명합니다. 이슬람과 기독교의 건축 전통이 오랜 시간 겹쳐 있습니다. 세비야의 왕궁으로 이슬람 건축의 영향을 받은 무데하르 양식이 화려하게 남아 있습니다. 섬세한 타일과 아치, 안뜰과 정원은 여러 문화가 만나 만들어진 독특한 궁전 건축을 보여 줍니다.",
+      "description": "세비야 알카사르는 여러 시대의 궁전과 정원들이 이어진 왕궁입니다. 섬세한 타일 무늬와 조각된 아치, 물이 흐르는 안뜰이 어우러져 무데하르 건축의 아름다움을 보여 줍니다. 정원에는 야자수와 오렌지나무, 연못이 있고 건물 안팎을 오가며 다른 분위기의 공간을 만날 수 있습니다. 지금도 스페인 왕실과 관련된 공식 장소로 사용되는 살아 있는 궁전입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6632,7 +6884,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Royal Alcázar of Seville",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-017",
@@ -6645,7 +6900,7 @@
         "Puente Nuevo Ronda",
         "Puente Nuevo de Ronda"
       ],
-      "description": "깊은 타호 협곡 위에 놓인 거대한 돌다리입니다. 절벽 양쪽의 마을을 연결하며 아찔한 높이를 보여줍니다. 깊은 타호 협곡을 가로질러 론다의 옛도심과 신시가지를 잇는 돌다리입니다. 높은 절벽 사이에 여러 아치가 세워져 다리 아래로 내려다보이는 풍경이 인상적입니다.",
+      "description": "론다의 누에보 다리는 깊은 타호 협곡을 가로질러 도시의 두 부분을 이어 줍니다. 높은 돌 아치 아래로 절벽이 수직으로 떨어지는 모습이 매우 인상적입니다. 다리 위에서는 멀리 산과 마을을 바라볼 수 있고, 협곡 아래쪽 전망 지점에서는 다리의 웅장한 높이가 더욱 두드러집니다. 다리와 절벽, 하얀 건물들이 어우러져 론다만의 독특한 풍경을 만듭니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6654,7 +6909,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Puente Nuevo Ronda",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-018",
@@ -6667,7 +6925,7 @@
         "Old Town of Cádiz",
         "Casco antiguo de Cádiz"
       ],
-      "description": "성곽과 성당, 바다를 향한 골목이 해양도시의 역사를 전합니다. 대서양으로 뻗은 반도 위에 자리한 오래된 항구도시의 중심지입니다. 좁은 골목과 해안 방어시설, 광장이 어우러져 지중해와 대서양 무역의 역사를 전합니다.",
+      "description": "카디스 구시가지는 대서양 바다에 둘러싸인 스페인 남부의 오래된 항구도시입니다. 좁은 골목 사이로 하얀 건물과 작은 광장이 이어지고, 바닷가 산책길에서는 성벽과 등대를 볼 수 있습니다. 오래전부터 바다를 통한 교역으로 번성했던 도시라 항구의 흔적이 곳곳에 남아 있습니다. 바다 가까운 도시 특유의 밝은 햇빛과 바람을 느끼며 걷기 좋은 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6676,7 +6934,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Old Town of Cádiz",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-020",
@@ -6689,7 +6950,7 @@
         "Guggenheim Museum Bilbao",
         "Museo Guggenheim Bilbao"
       ],
-      "description": "빛나는 곡면 금속 외피로 유명한 현대 미술관입니다. 조각처럼 휘어지는 건축이 도시 재생의 상징이 되었습니다. 빌바오 강변에 세워진 현대 미술관으로, 반짝이는 금속 곡면이 물고기 비늘처럼 겹쳐 있습니다. 프랭크 게리의 건축은 산업도시의 이미지를 바꾸고 도시재생의 상징이 되었습니다.",
+      "description": "빌바오 구겐하임 미술관은 은빛 금속 외벽이 물결처럼 굽이치는 현대 미술관입니다. 건축가 프랭크 게리가 설계한 건물은 보는 각도에 따라 배나 꽃, 물고기처럼 보이기도 합니다. 티타늄 외장의 빛깔은 햇살과 날씨에 따라 달라집니다. 앞쪽의 큰 꽃 강아지 조형물과 강변의 풍경도 유명합니다. 미술관 안의 작품뿐 아니라 건물 자체가 거대한 조각 작품처럼 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6698,7 +6959,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Guggenheim Museum Bilbao",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-021",
@@ -6711,7 +6975,7 @@
         "City of Arts and Sciences Valencia",
         "Ciudad de las Artes y las Ciencias"
       ],
-      "description": "흰색의 유선형 건물이 물 위에 떠 있는 듯한 문화·과학 단지입니다. 미래적인 건축이 도시 풍경을 바꾸었습니다. 발렌시아의 옛 강바닥 일대에 세워진 미래적인 문화·과학 건축단지입니다. 커다란 흰색 곡선 지붕과 수면 반사가 특징이며, 과학관과 공연장, 해양관 등이 모여 있습니다.",
+      "description": "발렌시아 예술과학도시는 미래의 우주선이나 바다 생물을 떠올리게 하는 하얀 건물들이 모인 복합문화공간입니다. 건축가 산티아고 칼라트라바 등이 설계한 건물들은 넓은 수면 위에 비치며 특별한 풍경을 만듭니다. 과학관과 공연장, 수족관 등 다양한 시설이 있습니다. 낮에는 하얀 구조물과 푸른 하늘이 어울리고, 밤에는 조명이 물에 반사되어 분위기가 달라집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6720,7 +6984,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "City of Arts and Sciences Valencia",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "ES-CF-022",
@@ -6733,7 +7000,7 @@
         "Teide National Park Tenerife",
         "Parque Nacional del Teide"
       ],
-      "description": "높은 화산과 검붉은 용암 벌판에서 독특한 자연환경을 볼 수 있습니다. 카나리아 제도 테네리페섬의 화산 국립공원으로 테이데산이 높이 솟아 있습니다. 검은 화산암과 붉은 용암지형이 펼쳐져 지구 밖 다른 행성처럼 보이는 풍경을 만날 수 있습니다.",
+      "description": "테이데 국립공원은 스페인 카나리아 제도 테네리페섬의 화산 지형을 보호하는 국립공원입니다. 중심에는 스페인에서 가장 높은 산인 테이데 화산이 솟아 있습니다. 붉고 검은 화산암, 넓은 용암지대와 특이한 모양의 바위들이 마치 다른 행성처럼 보입니다. 고도가 높아 평지와 날씨가 크게 다를 수 있으며, 하늘이 맑은 날에는 밤하늘 관측지로도 유명합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -6742,7 +7009,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Teide National Park Tenerife",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.65",
+      "storyQualityStatus": "나라별 이야기 1차 정리(사실관계 최종 검증 전)"
     },
     {
       "id": "GB-CF-001",
