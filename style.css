@@ -216,3 +216,7 @@
 .country-picker .country-choice:not(.country-complete):not(.country-started) .country-story-progress{
   color:#2878ad!important;
 }
+
+/* V1.66: completed country photo/story counts use one clearly legible white color. */
+.country-picker .country-choice.country-complete .country-counts,
+.country-picker .country-choice.country-complete .country-counts .country-story-progress {color:#ffffff!important;}
