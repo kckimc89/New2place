@@ -1294,7 +1294,7 @@ function retryStoryAuditFailures(){
  notify('기존 유효 자료 '+good.length+'곳을 보존했습니다. 실패·불확실 항목 '+remaining.length+'곳을 다시 조사합니다.');
  startWholeStoryAudit();
 }
-function exportWholeStoryAudit(){const data={version:'1.58',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function exportWholeStoryAudit(){const data={version:'1.59',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 
 function storyCleanLine(raw){
  return String(raw||'').replace(/\[[0-9]+\]/g,'').replace(/\s+/g,' ').trim();
