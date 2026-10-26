@@ -1,0 +1,131 @@
+{
+  "version": "1.50",
+  "changed": [
+    {
+      "id": "KR-L03",
+      "name": "한라산",
+      "previousLength": 176,
+      "newLength": 357,
+      "source": "https://en.wikipedia.org/wiki/Hallasan"
+    },
+    {
+      "id": "KR-L04",
+      "name": "설악산",
+      "previousLength": 174,
+      "newLength": 330,
+      "source": "https://en.wikipedia.org/wiki/Seoraksan_National_Park"
+    },
+    {
+      "id": "KR-L05",
+      "name": "남산서울타워",
+      "previousLength": 189,
+      "newLength": 329,
+      "source": "https://en.wikipedia.org/wiki/Namsan_Seoul_Tower"
+    },
+    {
+      "id": "KR-L06",
+      "name": "광장시장",
+      "previousLength": 185,
+      "newLength": 337,
+      "source": "https://en.wikipedia.org/wiki/Gwangjang_Market"
+    },
+    {
+      "id": "KR-L08",
+      "name": "청계천",
+      "previousLength": 185,
+      "newLength": 339,
+      "source": "https://en.wikipedia.org/wiki/Cheonggyecheon"
+    },
+    {
+      "id": "CN-L07",
+      "name": "상하이 와이탄",
+      "previousLength": 111,
+      "newLength": 345,
+      "source": "https://en.wikipedia.org/wiki/The_Bund"
+    },
+    {
+      "id": "JP-L05",
+      "name": "아라시야마 대나무숲",
+      "previousLength": 192,
+      "newLength": 329,
+      "source": "https://en.wikipedia.org/wiki/Arashiyama"
+    },
+    {
+      "id": "JP-L07",
+      "name": "쓰키지 장외시장",
+      "previousLength": 172,
+      "newLength": 326,
+      "source": "https://en.wikipedia.org/wiki/Tsukiji_fish_market"
+    },
+    {
+      "id": "JP-L08",
+      "name": "나라공원",
+      "previousLength": 139,
+      "newLength": 322,
+      "source": "https://en.wikipedia.org/wiki/Nara_Park"
+    },
+    {
+      "id": "TW-L05",
+      "name": "지우펀 옛거리",
+      "previousLength": 189,
+      "newLength": 314,
+      "source": "https://en.wikipedia.org/wiki/Jiufen"
+    },
+    {
+      "id": "FR-L09",
+      "name": "카르카손 성곽도시",
+      "previousLength": 173,
+      "newLength": 356,
+      "source": "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne"
+    },
+    {
+      "id": "CN-L10",
+      "name": "황산",
+      "previousLength": 186,
+      "newLength": 368,
+      "source": "https://en.wikipedia.org/wiki/Huangshan"
+    },
+    {
+      "id": "IT-L08",
+      "name": "밀라노 두오모",
+      "previousLength": 140,
+      "newLength": 336,
+      "source": "https://en.wikipedia.org/wiki/Milan_Cathedral"
+    },
+    {
+      "id": "IT-L10",
+      "name": "판테온",
+      "previousLength": 158,
+      "newLength": 392,
+      "source": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+    },
+    {
+      "id": "ES-L08",
+      "name": "카사 바트요",
+      "previousLength": 144,
+      "newLength": 335,
+      "source": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3"
+    },
+    {
+      "id": "ES-L10",
+      "name": "바르셀로나 고딕 지구",
+      "previousLength": 159,
+      "newLength": 343,
+      "source": "https://en.wikipedia.org/wiki/Gothic_Quarter%2C_Barcelona"
+    },
+    {
+      "id": "KR-CF-019",
+      "name": "주상절리대",
+      "previousLength": 182,
+      "newLength": 354,
+      "source": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%93%B1%EC%82%B0_%EC%A3%BC%EC%83%81%EC%A0%88%EB%A6%AC%EB%8C%80"
+    },
+    {
+      "id": "CN-CF-001",
+      "name": "천안문광장",
+      "previousLength": 184,
+      "newLength": 353,
+      "source": "https://ko.wikipedia.org/wiki/1989%EB%85%84_%EC%B2%9C%EC%95%88%EB%AC%B8_%EA%B4%91%EC%9E%A5_%EC%8B%9C%EC%9C%84_%EB%B0%8F_%ED%95%99%EC%82%B4_%EA%B8%B0%EB%85%90%EB%B9%84"
+    }
+  ]
+}
