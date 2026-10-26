@@ -1,8 +1,8 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.48",
-  "release": "NEW 41 V1.48",
-  "basedOn": "V1.47 + two new natural landmarks + independent whole-library story research tools + selective story editorial",
+  "version": "1.49",
+  "release": "NEW 41 V1.49",
+  "basedOn": "V1.48 + multilingual context-checked wiki story source lookup and retry failures; no photo changes",
   "categories": [
     {
       "id": "nature",

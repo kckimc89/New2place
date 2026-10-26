@@ -1,0 +1,11 @@
+{
+  "version": "1.49",
+  "fixes": [
+    "specific landmark titles",
+    "strict alias/title match",
+    "multilingual fallback",
+    "retry failures while preserving valid findings",
+    "unverified sources are never automatically saved"
+  ],
+  "sourceAudit": "2026-10-25 V1.48 815 investigated, 349 found; NOT 349 verified"
+}
