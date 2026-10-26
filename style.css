@@ -199,3 +199,20 @@
 /* V1.62: Quiet story-completion accent; photo-completion colors are unchanged. */
 .nameplate.story-complete{outline:1.5px solid #8dbed4;outline-offset:-2px;}
 .country-story-progress{display:block;font-size:10.5px;line-height:1.35;font-weight:650;color:#638aa6;margin-top:2px;letter-spacing:-.02em;}
+
+/* V1.64 — compact photo / story progress on ONE line; no new card height. */
+.country-picker .country-choice .country-counts{
+  display:block!important;white-space:nowrap!important;
+  margin:4px auto 0!important;padding:0!important;
+  line-height:1.25!important;
+}
+.country-picker .country-choice .country-story-progress{
+  display:inline!important;margin:0!important;padding:0!important;
+  font-size:inherit!important;line-height:inherit!important;
+  font-weight:850!important;letter-spacing:0!important;
+  color:#bfe9ff!important;
+}
+.country-picker .country-choice.country-started .country-story-progress,
+.country-picker .country-choice:not(.country-complete):not(.country-started) .country-story-progress{
+  color:#2878ad!important;
+}
