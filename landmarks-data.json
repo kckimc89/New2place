@@ -1,8 +1,8 @@
 {
   "title": "세계 명소대백과",
-  "version": "1.67",
-  "release": "V1.67: 짧은 설명 긴급 보강·사실 오류 교정 27곳; 전체 국가 설명 진단",
-  "basedOn": "1.66",
+  "version": "1.68",
+  "release": "V1.68: 짧은 명소 설명 60곳 개별 보강 (전체 완료 아님)",
+  "basedOn": "1.67",
   "categories": [
     {
       "id": "nature",
@@ -4385,7 +4385,7 @@
         "Temple of the Emerald Buddha",
         "วัดพระแก้ว"
       ],
-      "description": "지붕과 벽면의 금빛 장식과 신화적 조형물이 아름답습니다. 방콕 왕궁 안에 있는 중요한 불교 사원으로, 에메랄드 불상을 모신 곳으로 알려져 있습니다. 황금빛 지붕과 화려한 모자이크 장식은 태국 왕실과 불교 신앙이 깊이 연결된 문화를 보여 줍니다.",
+      "description": "지붕과 벽면의 금빛 장식과 신화적 조형물이 아름답습니다. 방콕 왕궁 안에 있는 중요한 불교 사원으로, 에메랄드 불상을 모신 곳으로 알려져 있습니다. 황금빛 지붕과 화려한 모자이크 장식은 태국 왕실과 불교 신앙이 깊이 연결된 문화를 보여 줍니다. 사원에서 모시는 불상은 옥처럼 빛나는 녹색 광물로 만들어졌으며, 계절에 맞춰 불상의 옷을 갈아입히는 왕실 의식도 이어집니다. 벽을 따라 그려진 긴 회화에는 태국의 서사시와 신화가 펼쳐져 있어 지붕뿐 아니라 건물 안팎을 자세히 살펴볼 만합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4394,7 +4394,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Wat Phra Kaew",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-003",
@@ -4431,7 +4434,7 @@
         "Wat Phra Chetuphon",
         "วัดโพธิ์"
       ],
-      "description": "거대한 와불상과 전통 사원 건축으로 유명합니다. 누운 불상의 규모와 발바닥 장식에서 태국 불교미술의 특징을 볼 수 있습니다. 방콕의 오래된 사찰로 거대한 누운 부처상인 와불이 유명합니다. 화려한 발바닥 문양과 많은 불상, 전통 지식의 기록이 남아 있어 태국의 종교와 교육 역사를 함께 알 수 있습니다.",
+      "description": "거대한 와불상과 전통 사원 건축으로 유명합니다. 누운 불상의 규모와 발바닥 장식에서 태국 불교미술의 특징을 볼 수 있습니다. 방콕의 오래된 사찰로 거대한 누운 부처상인 와불이 유명합니다. 화려한 발바닥 문양과 많은 불상, 전통 지식의 기록이 남아 있어 태국의 종교와 교육 역사를 함께 알 수 있습니다. 와불은 몸을 옆으로 기댄 모습으로, 발바닥의 자개 문양까지 세밀하게 장식되어 있습니다. 사원 안을 천천히 걸으며 줄지어 놓인 불상과 석탑을 살펴보면, 이곳이 단순한 관광지가 아니라 태국 전통 지식을 전해 온 공간임을 알 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4440,7 +4443,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Wat Pho",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-005",
@@ -4454,7 +4460,7 @@
         "Golden Mount Bangkok",
         "วัดสระเกศ"
       ],
-      "description": "방콕 구도심 언덕에 있는 황금산 사원입니다. 계단을 올라가면 사원 탑과 주변 도시가 내려다보입니다. 방콕의 인공 언덕 위에 자리한 불교 사원으로 황금빛 탑이 멀리서도 보입니다. 나선형 계단을 따라 올라가면 도시의 지붕과 운하가 내려다보여 평지에 자리한 방콕의 풍경을 볼 수 있습니다.",
+      "description": "방콕 구도심 언덕에 있는 황금산 사원입니다. 계단을 올라가면 사원 탑과 주변 도시가 내려다보입니다. 방콕의 인공 언덕 위에 자리한 불교 사원으로 황금빛 탑이 멀리서도 보입니다. 나선형 계단을 따라 올라가면 도시의 지붕과 운하가 내려다보여 평지에 자리한 방콕의 풍경을 볼 수 있습니다. 황금산으로 이어지는 길에는 나무와 종, 작은 불교 조형물이 곳곳에 있어 산책하듯 걸을 수 있습니다. 정상의 둥근 탑 주위를 돌며 내려다보는 풍경은 높은 빌딩 사이에서도 오래된 방콕의 골목과 지붕을 발견하게 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4463,7 +4469,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Wat Saket",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-006",
@@ -4500,7 +4509,7 @@
         "Damnoen Saduak Floating Market",
         "ตลาดน้ำดำเนินสะดวก"
       ],
-      "description": "물길이 생활과 상업의 통로였던 모습을 보여줍니다. 방콕 근교 운하 위로 작은 배들이 오가며 과일과 음식을 판매하는 시장입니다. 도로가 발달하기 전 물길을 따라 물건을 운반하던 태국의 생활문화에서 유래한 모습이 남아 있습니다.",
+      "description": "물길이 생활과 상업의 통로였던 모습을 보여줍니다. 방콕 근교 운하 위로 작은 배들이 오가며 과일과 음식을 판매하는 시장입니다. 도로가 발달하기 전 물길을 따라 물건을 운반하던 태국의 생활문화에서 유래한 모습이 남아 있습니다. 상인들이 작은 배에 과일을 높이 쌓아 놓거나 배 위에서 음식을 만드는 모습이 이 시장의 독특한 볼거리입니다. 오늘날에는 관광객도 많이 찾으므로 옛 생활 풍경과 현대 관광시장이 섞여 있다는 점을 함께 이해하면 좋습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4509,7 +4518,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Damnoen Saduak Floating Market",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-008",
@@ -4566,7 +4578,7 @@
         "Bridge over the River Kwai Kanchanaburi",
         "สะพานข้ามแม่น้ำแคว"
       ],
-      "description": "제2차 세계대전 시기 철도 건설의 역사를 간직한 다리입니다. 아름다운 강 풍경 이면에 강제노동과 전쟁의 비극이 담겨 있습니다. 제2차 세계대전 중 건설된 태국·미얀마 철도와 관련된 다리입니다. 많은 강제노동과 희생의 역사가 담겨 있어 단순한 풍경 명소를 넘어 전쟁의 고통을 기억하게 하는 장소입니다.",
+      "description": "제2차 세계대전 시기 철도 건설의 역사를 간직한 다리입니다. 아름다운 강 풍경 이면에 강제노동과 전쟁의 비극이 담겨 있습니다. 제2차 세계대전 중 건설된 태국·미얀마 철도와 관련된 다리입니다. 많은 강제노동과 희생의 역사가 담겨 있어 단순한 풍경 명소를 넘어 전쟁의 고통을 기억하게 하는 장소입니다. 콰이강 다리는 강 위로 길게 놓인 철교라는 모습만으로는 그 역사적 의미를 다 알기 어렵습니다. 전쟁 당시 열악한 조건에서 철도 건설에 동원된 아시아인 노동자와 연합군 포로들이 큰 희생을 치렀습니다. 아름다운 강 풍경 앞에서 평화의 소중함도 생각하게 됩니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4575,7 +4587,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Bridge over the River Kwai Kanchanaburi",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-011",
@@ -4588,7 +4603,7 @@
         "Wat Phra That Doi Suthep",
         "วัดพระธาตุดอยสุเทพ"
       ],
-      "description": "치앙마이 외곽 산 위에 자리한 사원입니다. 황금빛 탑과 높은 곳에서 내려다보는 도시 풍경이 유명합니다. 치앙마이 북쪽 산 위에 자리한 불교 사원으로 황금빛 탑과 장식적인 계단이 유명합니다. 높은 위치에서 도시를 내려다볼 수 있으며, 북부 태국의 신앙과 전통 건축을 보여 줍니다.",
+      "description": "치앙마이 외곽 산 위에 자리한 사원입니다. 황금빛 탑과 높은 곳에서 내려다보는 도시 풍경이 유명합니다. 치앙마이 북쪽 산 위에 자리한 불교 사원으로 황금빛 탑과 장식적인 계단이 유명합니다. 높은 위치에서 도시를 내려다볼 수 있으며, 북부 태국의 신앙과 전통 건축을 보여 줍니다. 사원으로 올라가는 긴 계단의 양옆에는 전설 속 뱀인 나가를 형상화한 장식이 이어집니다. 치앙마이 주민들에게 중요한 순례지여서 화려한 탑뿐 아니라 꽃과 향을 올리며 기도하는 사람들의 모습도 볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4597,7 +4612,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Wat Phra That Doi Suthep",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-012",
@@ -4610,7 +4628,7 @@
         "Chiang Mai Old City",
         "เมืองเก่าเชียงใหม่"
       ],
-      "description": "옛 성곽과 해자 안에 사찰과 전통 골목이 이어집니다. 북부 란나 왕국의 문화가 남아 있습니다. 옛 란나 왕국의 중심이었던 치앙마이의 성곽도시 구역입니다. 성문과 해자 일부가 남아 있고 수많은 오래된 사원이 모여 있어 방콕과 다른 북부 태국의 역사를 느낄 수 있습니다.",
+      "description": "옛 성곽과 해자 안에 사찰과 전통 골목이 이어집니다. 북부 란나 왕국의 문화가 남아 있습니다. 옛 란나 왕국의 중심이었던 치앙마이의 성곽도시 구역입니다. 성문과 해자 일부가 남아 있고 수많은 오래된 사원이 모여 있어 방콕과 다른 북부 태국의 역사를 느낄 수 있습니다. 네모난 옛 성곽 안에는 사원과 시장, 조용한 골목이 가까이 모여 있습니다. 붉은 벽돌 성벽의 흔적과 해자 주변을 비교해 보면 옛 도시를 지키려 했던 구조가 보입니다. 거리에서는 지금도 북부 태국의 공예와 음식을 만날 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4619,7 +4637,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Chiang Mai Old City",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-013",
@@ -4657,7 +4678,7 @@
         "Blue Temple Chiang Rai",
         "วัดร่องเสือเต้น"
       ],
-      "description": "현대적 색감 속에 불교 상징이 녹아 있습니다. 치앙라이의 파란색 사원으로 푸른 벽과 황금빛 장식이 뚜렷하게 대비됩니다. 내부의 큰 흰색 불상과 섬세한 벽화가 현대 태국 사원 예술의 색다른 모습을 보여 줍니다.",
+      "description": "현대적 색감 속에 불교 상징이 녹아 있습니다. 치앙라이의 파란색 사원으로 푸른 벽과 황금빛 장식이 뚜렷하게 대비됩니다. 내부의 큰 흰색 불상과 섬세한 벽화가 현대 태국 사원 예술의 색다른 모습을 보여 줍니다. 강한 파랑과 금색 장식, 흰 불상이 어우러진 모습은 전통 사원을 새롭게 해석한 예입니다. 벽과 기둥을 가까이에서 살펴보면 물결과 신화 속 생물을 떠올리게 하는 무늬가 많아, 건축 자체가 한 장의 거대한 그림처럼 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4666,7 +4687,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Wat Rong Suea Ten",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-015",
@@ -4702,7 +4726,7 @@
         "Patong Beach Phuket",
         "หาดป่าตอง"
       ],
-      "description": "푸껫의 대표적인 관광 해변입니다. 긴 백사장과 활기찬 거리, 바다에서 즐기는 활동으로 알려져 있습니다. 태국 푸껫섬의 대표 해변으로 길게 펼쳐진 모래사장과 활기찬 관광거리가 특징입니다. 아름다운 바다뿐 아니라 국제적인 휴양도시의 모습을 보여 주며, 지역 자연환경을 지키는 일도 중요해지고 있습니다.",
+      "description": "푸껫의 대표적인 관광 해변입니다. 긴 백사장과 활기찬 거리, 바다에서 즐기는 활동으로 알려져 있습니다. 태국 푸껫섬의 대표 해변으로 길게 펼쳐진 모래사장과 활기찬 관광거리가 특징입니다. 아름다운 바다뿐 아니라 국제적인 휴양도시의 모습을 보여 주며, 지역 자연환경을 지키는 일도 중요해지고 있습니다. 해가 질 무렵 긴 해변을 따라 걷다 보면 바다 위 하늘이 주황색으로 물듭니다. 뒤편의 번화한 거리와 앞쪽의 탁 트인 바다가 뚜렷하게 대비되는데, 많은 사람이 찾는 만큼 해변의 쓰레기와 해양환경을 돌보는 일도 중요합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4711,7 +4735,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Patong Beach Phuket",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-017",
@@ -4725,7 +4752,7 @@
         "Ko Phi Phi",
         "หมู่เกาะพีพี"
       ],
-      "description": "석회암 절벽이 바다 위로 솟고 푸른 만이 형성된 섬들입니다. 아름다운 해양환경을 지키기 위한 방문 규정도 중요합니다. 안다만해의 석회암 절벽과 투명한 바닷물로 알려진 섬들입니다. 좁은 만과 높은 암벽이 극적인 해안 경관을 이루며, 관광객 증가로 인한 산호·해양환경 보전도 중요한 과제입니다.",
+      "description": "석회암 절벽이 바다 위로 솟고 푸른 만이 형성된 섬들입니다. 아름다운 해양환경을 지키기 위한 방문 규정도 중요합니다. 안다만해의 석회암 절벽과 투명한 바닷물로 알려진 섬들입니다. 좁은 만과 높은 암벽이 극적인 해안 경관을 이루며, 관광객 증가로 인한 산호·해양환경 보전도 중요한 과제입니다. 배를 타고 섬 사이를 지나면 바다에서 바로 솟은 절벽이 시야를 가득 채웁니다. 작은 모래사장과 깊게 들어온 만은 아름답지만, 산호와 해양생물이 살아가는 곳이기도 합니다. 방문 제한과 보호 규정을 지키는 것이 풍경을 오래 남기는 길입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4734,7 +4761,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Phi Phi Islands Krabi",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-018",
@@ -4747,7 +4777,7 @@
         "Phang Nga Bay",
         "อ่าวพังงา"
       ],
-      "description": "바다에서 가파른 석회암 봉우리들이 섬처럼 솟아 있습니다. 카약과 배에서 바라보는 기묘한 바위 풍경이 유명합니다. 푸껫 북쪽의 바다에 뾰족한 석회암 바위섬들이 솟아 있는 지역입니다. 카르스트 지형이 바다에 잠기며 생긴 풍경으로 동굴과 맹그로브 숲 등 해안 생태계를 함께 볼 수 있습니다.",
+      "description": "바다에서 가파른 석회암 봉우리들이 섬처럼 솟아 있습니다. 카약과 배에서 바라보는 기묘한 바위 풍경이 유명합니다. 푸껫 북쪽의 바다에 뾰족한 석회암 바위섬들이 솟아 있는 지역입니다. 카르스트 지형이 바다에 잠기며 생긴 풍경으로 동굴과 맹그로브 숲 등 해안 생태계를 함께 볼 수 있습니다. 오랫동안 비와 바닷물이 석회암을 깎아 동굴과 가파른 벽을 만들었습니다. 작은 배나 카약을 타면 멀리서 하나의 바위처럼 보이던 섬 안쪽에 좁은 물길과 고요한 만이 숨어 있음을 발견할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4756,7 +4786,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Phang Nga Bay",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-019",
@@ -4770,7 +4803,7 @@
         "Rai Leh Beach",
         "หาดไร่เลย์"
       ],
-      "description": "암벽등반과 잔잔한 바다, 해질녘 풍경이 어우러집니다. 석회암 절벽에 둘러싸여 주로 배를 타고 접근하는 끄라비의 해변입니다. 고운 모래와 청록색 바다, 높이 솟은 암벽이 어우러져 수영과 암벽등반으로 모두 유명합니다.",
+      "description": "암벽등반과 잔잔한 바다, 해질녘 풍경이 어우러집니다. 석회암 절벽에 둘러싸여 주로 배를 타고 접근하는 끄라비의 해변입니다. 고운 모래와 청록색 바다, 높이 솟은 암벽이 어우러져 수영과 암벽등반으로 모두 유명합니다. 절벽에 둘러싸인 해변은 육지와 가까워도 길보다 배로 들어가는 것이 편리한 곳입니다. 흰 모래사장에서 고개를 들면 암벽등반가들이 오르는 높은 돌벽이 보이고, 해질 무렵에는 절벽의 모양이 실루엣처럼 나타납니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4779,7 +4812,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Railay Beach Krabi",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "TH-CF-020",
@@ -4793,7 +4829,7 @@
         "Koh Tao",
         "เกาะเต่า"
       ],
-      "description": "맑은 바다와 산호초로 알려진 태국만의 작은 섬입니다. 스노클링과 다이빙을 통해 해양 생물을 관찰하기 좋습니다. 태국만의 작은 섬으로 맑은 바닷물과 산호초 때문에 스노클링·다이빙 장소로 알려져 있습니다. 바닷속에는 여러 종류의 열대어와 해양생물이 살아 해양생태계의 아름다움과 보전 필요성을 보여 줍니다.",
+      "description": "맑은 바다와 산호초로 알려진 태국만의 작은 섬입니다. 스노클링과 다이빙을 통해 해양 생물을 관찰하기 좋습니다. 태국만의 작은 섬으로 맑은 바닷물과 산호초 때문에 스노클링·다이빙 장소로 알려져 있습니다. 바닷속에는 여러 종류의 열대어와 해양생물이 살아 해양생태계의 아름다움과 보전 필요성을 보여 줍니다. ‘거북섬’이라는 뜻을 가진 이름처럼 이 섬 주변 바다에서는 해양생물과 산호초를 살펴볼 수 있습니다. 얕은 물에서도 형형색색의 물고기가 보이는 장소가 있지만 산호를 밟거나 만지지 않는 관찰 태도가 중요합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -4802,7 +4838,10 @@
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Ko Tao Island",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-001",
@@ -4839,14 +4878,17 @@
         "Hoàn Kiếm Lake",
         "Hanoi Hoan Kiem"
       ],
-      "description": "하노이 구도심 중심의 호수로 산책길과 응옥선 사원이 있습니다. 호수에 얽힌 전설이 도시의 역사와 함께 전해집니다. 하노이 옛도심의 중심에 있는 호수로, 호수 한가운데 작은 탑과 응옥선 사원으로 이어지는 다리가 유명합니다. 전설 속 보검 이야기와 시민들의 일상이 함께 어우러진 도시의 상징입니다.",
+      "description": "하노이 구도심 중심의 호수로 산책길과 응옥선 사원이 있습니다. 호수에 얽힌 전설이 도시의 역사와 함께 전해집니다. 하노이 옛도심의 중심에 있는 호수로, 호수 한가운데 작은 탑과 응옥선 사원으로 이어지는 다리가 유명합니다. 전설 속 보검 이야기와 시민들의 일상이 함께 어우러진 도시의 상징입니다. 호수 이름에는 거북이가 왕에게 보검을 돌려받았다는 오래된 전설이 전해집니다. 붉은 다리가 이어지는 응옥선 사원과 물 위의 작은 거북탑이 호수 풍경에 이야기를 더합니다. 이른 아침에는 주민들이 호숫가에서 산책과 운동을 즐깁니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-003",
@@ -4881,14 +4923,17 @@
         "Lăng Chủ tịch Hồ Chí Minh",
         "Ho Chi Minh Mausoleum Hanoi"
       ],
-      "description": "넓은 바딘광장과 함께 현대 베트남사의 상징적 공간입니다. 하노이 바딘광장에 있는 호찌민을 기리는 거대한 기념 건축물입니다. 베트남 현대 독립운동의 역사를 상징하며, 광장 주변의 정치·기념 공간과 함께 방문하는 장소입니다.",
+      "description": "넓은 바딘광장과 함께 현대 베트남사의 상징적 공간입니다. 하노이 바딘광장에 있는 호찌민을 기리는 거대한 기념 건축물입니다. 베트남 현대 독립운동의 역사를 상징하며, 광장 주변의 정치·기념 공간과 함께 방문하는 장소입니다. 호찌민은 베트남의 독립운동과 현대사에서 중요한 인물입니다. 묘소가 있는 바딘광장은 1945년 독립 선언과 연결되는 장소이기도 합니다. 넓고 엄숙한 광장과 기념 건축을 보며 한 나라가 역사를 어떻게 기억하는지 살펴볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-005",
@@ -4902,14 +4947,17 @@
         "Hoàng thành Thăng Long",
         "Thang Long Imperial Citadel"
       ],
-      "description": "여러 시대의 지층과 건축 흔적이 베트남 수도의 긴 역사를 보여줍니다. 하노이에 남은 베트남 옛 왕조의 궁성 유적입니다. 여러 시대의 건물터와 발굴 유물이 층층이 남아 있어 도시의 정치 중심지가 오랫동안 같은 지역에 이어져 왔음을 보여 줍니다.",
+      "description": "여러 시대의 지층과 건축 흔적이 베트남 수도의 긴 역사를 보여줍니다. 하노이에 남은 베트남 옛 왕조의 궁성 유적입니다. 여러 시대의 건물터와 발굴 유물이 층층이 남아 있어 도시의 정치 중심지가 오랫동안 같은 지역에 이어져 왔음을 보여 줍니다. 이곳에는 궁전 건물뿐 아니라 발굴 조사로 확인된 옛 기초와 길, 물길의 흔적도 남아 있습니다. 땅속에서 서로 다른 시기의 유물이 발견되는 모습은 같은 자리에 수많은 세대의 사람들이 살며 도시를 이어 왔음을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-006",
@@ -4967,14 +5015,17 @@
         "Sapa rice terraces",
         "Ruộng bậc thang Sa Pa"
       ],
-      "description": "베트남 북서부 산비탈을 따라 논이 계단처럼 이어집니다. 지역 공동체가 산지 지형에 맞춰 만든 농업 경관입니다. 베트남 북부 산악지대에 층층이 이어지는 논으로 산비탈을 따라 곡선을 그립니다. 산악 주민들이 가파른 땅을 개간하고 물을 나누어 쓰며 만들어 낸 농업 풍경입니다.",
+      "description": "베트남 북서부 산비탈을 따라 논이 계단처럼 이어집니다. 지역 공동체가 산지 지형에 맞춰 만든 농업 경관입니다. 베트남 북부 산악지대에 층층이 이어지는 논으로 산비탈을 따라 곡선을 그립니다. 산악 주민들이 가파른 땅을 개간하고 물을 나누어 쓰며 만들어 낸 농업 풍경입니다. 비가 내리는 계절에는 논이 거울처럼 하늘을 비추고, 벼가 자라면 산비탈이 초록색 곡선으로 물듭니다. 수확철에는 황금빛 층계로 변합니다. 농사짓기 어려운 가파른 지형을 사람들이 오랜 세월 가꾸어 낸 생활 속 예술입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-009",
@@ -5080,14 +5131,17 @@
         "Cầu Rồng",
         "Cầu Rồng Đà Nẵng"
       ],
-      "description": "다낭 한강 위에 용 모양 구조물을 설치한 다리입니다. 현대 도시의 상징이며 야간 조명과 공연으로 알려져 있습니다. 다낭 한강을 가로지르는 다리로 거대한 황금빛 용 형상을 다리 구조와 결합했습니다. 일부 시간에는 용의 머리에서 불과 물을 뿜는 공연을 선보여 현대 도시의 관광 상징이 되었습니다.",
+      "description": "다낭 한강 위에 용 모양 구조물을 설치한 다리입니다. 현대 도시의 상징이며 야간 조명과 공연으로 알려져 있습니다. 다낭 한강을 가로지르는 다리로 거대한 황금빛 용 형상을 다리 구조와 결합했습니다. 일부 시간에는 용의 머리에서 불과 물을 뿜는 공연을 선보여 현대 도시의 관광 상징이 되었습니다. 용의 몸통이 다리의 곡선을 이루고 머리가 강 건너편을 바라보도록 설계되어 있습니다. 밤에는 조명을 받아 색다른 모습이 되고, 다리 위를 지나는 사람과 차의 움직임이 도시의 활기와 어우러집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-014",
@@ -5122,14 +5176,17 @@
         "Ngũ Hành Sơn",
         "Marble Mountains Vietnam"
       ],
-      "description": "다낭 부근의 석회암·대리석 봉우리들입니다. 동굴 사원과 전망 공간에서 종교문화와 지형을 함께 만날 수 있습니다. 다낭 인근에 솟은 여러 개의 대리석·석회암 바위산으로 동굴과 불교 사찰들이 자리합니다. 산속의 자연 동굴에 빛이 들어오는 모습과 바다를 내려다보는 전망이 독특합니다.",
+      "description": "다낭 부근의 석회암·대리석 봉우리들입니다. 동굴 사원과 전망 공간에서 종교문화와 지형을 함께 만날 수 있습니다. 다낭 인근에 솟은 여러 개의 대리석·석회암 바위산으로 동굴과 불교 사찰들이 자리합니다. 산속의 자연 동굴에 빛이 들어오는 모습과 바다를 내려다보는 전망이 독특합니다. 봉우리들에는 금속과 나무, 물, 불, 땅이라는 다섯 요소의 이름이 붙어 있습니다. 동굴 입구로 들어온 햇빛이 불상과 바위에 닿는 장면은 자연 지형을 종교적 공간으로 활용한 옛사람들의 감각을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-016",
@@ -5143,14 +5200,17 @@
         "Phong Nha-Ke Bang National Park",
         "Vườn quốc gia Phong Nha Kẻ Bàng"
       ],
-      "description": "거대한 동굴과 석회암 산지로 유명한 국립공원입니다. 복잡한 지하수와 동굴 지형이 긴 지질 역사를 보여줍니다. 베트남 중부의 넓은 석회암 지대로 거대한 동굴과 지하하천이 유명합니다. 수많은 세월 동안 물이 바위를 녹이고 깎아 만든 지하세계가 과학적·자연적 가치를 인정받았습니다.",
+      "description": "거대한 동굴과 석회암 산지로 유명한 국립공원입니다. 복잡한 지하수와 동굴 지형이 긴 지질 역사를 보여줍니다. 베트남 중부의 넓은 석회암 지대로 거대한 동굴과 지하하천이 유명합니다. 수많은 세월 동안 물이 바위를 녹이고 깎아 만든 지하세계가 과학적·자연적 가치를 인정받았습니다. 물방울과 지하하천이 석회암을 조금씩 녹여 거대한 동굴을 만들었습니다. 동굴 안에는 종유석과 석순이 자라고, 어떤 곳에서는 배를 타고 어둠 속 물길을 이동합니다. 눈에 보이는 산보다 훨씬 넓은 지하 풍경이 숨어 있다는 점이 놀랍습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-017",
@@ -5164,14 +5224,17 @@
         "Bưu điện Trung tâm Sài Gòn",
         "Ho Chi Minh City Central Post Office"
       ],
-      "description": "프랑스 식민지 시기에 지어진 역사적 우체국 건축물입니다. 아치형 실내 공간과 철제 구조, 장식이 특징입니다. 호찌민시 중심의 프랑스 식민지 시기 건축물로, 높은 아치형 천장과 옛 지도 장식이 특징입니다. 지금도 우체국으로 기능하며 도시의 근대사와 통신 역사를 보여 줍니다.",
+      "description": "프랑스 식민지 시기에 지어진 역사적 우체국 건축물입니다. 아치형 실내 공간과 철제 구조, 장식이 특징입니다. 호찌민시 중심의 프랑스 식민지 시기 건축물로, 높은 아치형 천장과 옛 지도 장식이 특징입니다. 지금도 우체국으로 기능하며 도시의 근대사와 통신 역사를 보여 줍니다. 큰 홀의 높은 천장을 받치는 철제 구조와 양쪽으로 펼쳐진 옛 지도가 특히 눈에 띕니다. 건물의 식민지 시대 역사를 이해하면서도, 오늘날 사람들이 편지를 보내는 실제 우체국이라는 점을 관찰하면 건물이 살아 있는 느낌이 듭니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-018",
@@ -5185,14 +5248,17 @@
         "Dinh Độc Lập",
         "Reunification Palace Saigon"
       ],
-      "description": "베트남 현대사의 중요한 사건과 연결된 궁전 건물입니다. 1975년 전쟁 종결의 상징적 장면이 이곳과 관련됩니다. 베트남 통일의 역사와 관련된 호찌민시의 중요한 현대 건축물입니다. 옛 대통령 집무실과 회의실, 지하 공간이 남아 있어 20세기 베트남의 정치적 변화를 이해할 수 있습니다.",
+      "description": "베트남 현대사의 중요한 사건과 연결된 궁전 건물입니다. 1975년 전쟁 종결의 상징적 장면이 이곳과 관련됩니다. 베트남 통일의 역사와 관련된 호찌민시의 중요한 현대 건축물입니다. 옛 대통령 집무실과 회의실, 지하 공간이 남아 있어 20세기 베트남의 정치적 변화를 이해할 수 있습니다. 넓은 회의실과 복도, 지하의 통신 시설은 이 건물이 단순한 거처가 아니라 정치와 군사 업무를 수행하던 곳이었음을 보여 줍니다. 건물 밖의 넓은 잔디밭과 현대적인 직선 건축도 눈여겨볼 만합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "VN-CF-019",
@@ -5228,14 +5294,17 @@
         "Chợ nổi Cái Răng",
         "Can Tho floating market"
       ],
-      "description": "메콩강 삼각주의 강과 운하 위에서 배들이 물건을 거래하는 문화입니다. 지역에 따라 시장 운영 방식과 규모가 다릅니다. 베트남 남부 메콩강 여러 갈래의 물길에서 배를 이용해 과일과 농산물을 거래하던 시장문화입니다. 배 위에 물건을 싣고 이동하는 모습은 물이 많은 삼각주 지역의 생활방식을 보여 줍니다.",
+      "description": "메콩강 삼각주의 강과 운하 위에서 배들이 물건을 거래하는 문화입니다. 지역에 따라 시장 운영 방식과 규모가 다릅니다. 베트남 남부 메콩강 여러 갈래의 물길에서 배를 이용해 과일과 농산물을 거래하던 시장문화입니다. 배 위에 물건을 싣고 이동하는 모습은 물이 많은 삼각주 지역의 생활방식을 보여 줍니다. 배에 어떤 물건을 파는지 알리기 위해 긴 장대에 과일이나 채소를 걸어 두는 모습은 수상시장의 재미있는 전통입니다. 강물이 육지의 도로처럼 쓰였던 생활을 생각하며, 지금도 변하고 있는 시장의 모습을 함께 살펴볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-001",
@@ -5281,14 +5350,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "거대한 나무 모양 수직 정원들이 모여 있는 공간입니다. 밤에는 조명과 음악이 어우러져 환상적인 풍경을 만듭니다. 가든스 바이 더 베이의 커다란 인공 나무 형태 구조물들이 모인 곳입니다. 수직 정원에 식물을 심고 태양광·환경기술을 활용하며, 밤에는 조명과 음악 공연으로 특별한 분위기를 만듭니다.",
+      "description": "거대한 나무 모양 수직 정원들이 모여 있는 공간입니다. 밤에는 조명과 음악이 어우러져 환상적인 풍경을 만듭니다. 가든스 바이 더 베이의 커다란 인공 나무 형태 구조물들이 모인 곳입니다. 수직 정원에 식물을 심고 태양광·환경기술을 활용하며, 밤에는 조명과 음악 공연으로 특별한 분위기를 만듭니다. 높이 솟은 인공 나무 기둥에는 다양한 식물이 자라며, 일부는 정원 시설을 운영하는 환경 기술과 연결됩니다. 낮에는 거대한 식물 조형물이고 밤에는 빛나는 무대가 되어 자연을 도시 안에 들여오는 새로운 방법을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-004",
@@ -5332,14 +5404,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "강 하구와 마리나만의 도시 풍경을 함께 볼 수 있습니다. 싱가포르 강어귀 인근에 사자 머리와 물고기 몸통을 가진 머라이언 상이 있는 공원입니다. 사자는 도시 이름의 전설을, 물고기 몸통은 항구·어촌의 역사를 상징합니다.",
+      "description": "강 하구와 마리나만의 도시 풍경을 함께 볼 수 있습니다. 싱가포르 강어귀 인근에 사자 머리와 물고기 몸통을 가진 머라이언 상이 있는 공원입니다. 사자는 도시 이름의 전설을, 물고기 몸통은 항구·어촌의 역사를 상징합니다. 머라이언의 입에서 솟는 물줄기 너머로 마리나만의 높은 건물과 수변 풍경이 펼쳐집니다. 작은 조형물이 한 도시의 항구 역사와 상상 속 동물을 동시에 상징한다는 점이 흥미롭습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-007",
@@ -5404,14 +5479,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "DNA 이중나선을 연상시키는 강철 구조의 보행교입니다. 밤에는 빛나는 구조물이 마리나만 야경에 더해집니다. 마리나 베이에 놓인 보행자 다리로 DNA 이중나선처럼 꼬인 금속 구조가 특징입니다. 밤에는 조명이 켜져 주변 고층 건물과 수변 풍경을 연결하는 현대적인 산책길이 됩니다.",
+      "description": "DNA 이중나선을 연상시키는 강철 구조의 보행교입니다. 밤에는 빛나는 구조물이 마리나만 야경에 더해집니다. 마리나 베이에 놓인 보행자 다리로 DNA 이중나선처럼 꼬인 금속 구조가 특징입니다. 밤에는 조명이 켜져 주변 고층 건물과 수변 풍경을 연결하는 현대적인 산책길이 됩니다. 강철로 만든 두 줄의 나선 구조가 다리를 감싸고 있어 걸을 때마다 선과 그림자가 다르게 보입니다. 전망 공간에 서면 물가의 건물과 도시 불빛을 한눈에 볼 수 있어 다리 자체가 산책 장소이자 현대 건축 작품이 됩니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-011",
@@ -5440,14 +5518,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "영화와 애니메이션을 주제로 한 센토사의 테마파크입니다. 다양한 이야기 속 공간을 놀이기구와 거리 장식으로 재현했습니다. 센토사섬의 테마파크로 영화와 애니메이션 속 장면을 놀이기구와 거리, 공연으로 구현합니다. 실제 영화 촬영장 같은 건축과 특수효과가 스토리텔링을 어떻게 공간으로 만드는지 보여 줍니다.",
+      "description": "영화와 애니메이션을 주제로 한 센토사의 테마파크입니다. 다양한 이야기 속 공간을 놀이기구와 거리 장식으로 재현했습니다. 센토사섬의 테마파크로 영화와 애니메이션 속 장면을 놀이기구와 거리, 공연으로 구현합니다. 실제 영화 촬영장 같은 건축과 특수효과가 스토리텔링을 어떻게 공간으로 만드는지 보여 줍니다. 서로 다른 주제의 거리마다 건물 모양과 음악, 놀이기구가 달라 영화 장면 속을 걷는 느낌을 줍니다. 실제 도시와는 다른 상상의 장소가 어떻게 사람들에게 즐거움과 이야기를 전하는지 살펴볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-013",
@@ -5476,14 +5557,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "밤에 활동하는 동물을 중심으로 소개하는 야간 동물원입니다. 어두운 숲 환경에 맞춘 관람 방식이 독특합니다. 밤에 활동하는 동물을 관찰하는 야간 동물원으로, 조명과 탐방로를 통해 다양한 동물의 행동을 볼 수 있습니다. 낮에 쉬는 동물이 밤에는 어떻게 움직이는지 비교하는 특별한 체험을 제공합니다.",
+      "description": "밤에 활동하는 동물을 중심으로 소개하는 야간 동물원입니다. 어두운 숲 환경에 맞춘 관람 방식이 독특합니다. 밤에 활동하는 동물을 관찰하는 야간 동물원으로, 조명과 탐방로를 통해 다양한 동물의 행동을 볼 수 있습니다. 낮에 쉬는 동물이 밤에는 어떻게 움직이는지 비교하는 특별한 체험을 제공합니다. 밤에 활동하는 동물들은 낮에 보는 동물원과 다른 모습을 보여 줍니다. 방문객이 조용히 움직이며 강한 빛을 비추지 않는 이유는 동물의 자연스러운 행동을 방해하지 않기 위해서입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-015",
@@ -5548,14 +5632,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "말레이·아랍 문화의 흔적이 남아 있는 역사적인 동네입니다. 술탄 모스크의 황금빛 돔과 거리 예술을 볼 수 있습니다. 싱가포르의 말레이·아랍계 문화와 연결된 옛 지역으로, 황금빛 돔의 술탄 모스크가 중심에 있습니다. 좁은 골목의 가게와 장식적인 건물은 싱가포르의 이슬람·상업문화를 보여 줍니다.",
+      "description": "말레이·아랍 문화의 흔적이 남아 있는 역사적인 동네입니다. 술탄 모스크의 황금빛 돔과 거리 예술을 볼 수 있습니다. 싱가포르의 말레이·아랍계 문화와 연결된 옛 지역으로, 황금빛 돔의 술탄 모스크가 중심에 있습니다. 좁은 골목의 가게와 장식적인 건물은 싱가포르의 이슬람·상업문화를 보여 줍니다. 노란빛 상점 건물과 화려한 벽화, 모스크의 금빛 돔이 한 동네에서 어우러집니다. 다채로운 문화가 섞여 발전한 싱가포르의 특징을 건축과 음식, 일상생활 속에서 느낄 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-019",
@@ -5565,14 +5652,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "도심 언덕에 역사 유적과 울창한 녹지가 이어집니다. 옛 방어시설과 고고학적 흔적이 싱가포르의 역사를 보여줍니다. 싱가포르 중심의 언덕 위에 조성된 공원으로 옛 왕국 유적과 식민지 시기의 군사시설 흔적이 남아 있습니다. 숲길과 역사 안내를 통해 여러 시대의 싱가포르를 한곳에서 만날 수 있습니다.",
+      "description": "도심 언덕에 역사 유적과 울창한 녹지가 이어집니다. 옛 방어시설과 고고학적 흔적이 싱가포르의 역사를 보여줍니다. 싱가포르 중심의 언덕 위에 조성된 공원으로 옛 왕국 유적과 식민지 시기의 군사시설 흔적이 남아 있습니다. 숲길과 역사 안내를 통해 여러 시대의 싱가포르를 한곳에서 만날 수 있습니다. 울창한 나무 사이를 걸으면 번잡한 도심에서 잠시 떨어진 듯합니다. 언덕의 높은 위치 때문에 옛날에는 방어와 통치에 중요한 곳이었고, 오늘날에는 시민들이 산책하고 음악회도 즐기는 공원이 되었습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SG-CF-020",
@@ -8445,14 +8535,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "빅토리아주 필립아일랜드에서 작은 펭귄들이 저녁 무렵 바다에서 육지의 둥지로 돌아오는 모습을 관찰하는 장소입니다. 야생동물의 생활을 방해하지 않도록 관람과 촬영 규칙을 지키는 것이 중요합니다.",
+      "description": "빅토리아주 필립아일랜드에서 작은 펭귄들이 저녁 무렵 바다에서 육지의 둥지로 돌아오는 모습을 관찰하는 장소입니다. 야생동물의 생활을 방해하지 않도록 관람과 촬영 규칙을 지키는 것이 중요합니다. 작은 펭귄들이 하루 동안 바다에서 먹이를 찾다가 해가 지면 무리를 지어 모래사장을 가로지릅니다. 몸집이 작아도 먼 바다를 오가는 놀라운 생활을 합니다. 관찰할 때는 빛과 소음이 펭귄에게 영향을 줄 수 있어 촬영 제한을 반드시 지켜야 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "AU-CF-011",
@@ -8612,14 +8705,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "퍼스 도심과 스완강을 내려다보는 넓은 공원입니다. 서호주의 자생식물과 보행로, 도시 전망이 유명합니다. 퍼스 시내의 높은 언덕과 넓은 식물원이 어우러진 공원입니다. 스완강과 도심이 내려다보이며 서호주 고유 식물을 소개하는 정원과 산책길이 있습니다.",
+      "description": "퍼스 도심과 스완강을 내려다보는 넓은 공원입니다. 서호주의 자생식물과 보행로, 도시 전망이 유명합니다. 퍼스 시내의 높은 언덕과 넓은 식물원이 어우러진 공원입니다. 스완강과 도심이 내려다보이며 서호주 고유 식물을 소개하는 정원과 산책길이 있습니다. 넓은 잔디밭 너머로 퍼스 도심의 건물과 스완강이 한눈에 들어옵니다. 식물원에는 서호주의 독특한 야생화와 나무가 자라 도시 공원에서 지역 자연의 다양성을 배우게 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "AU-CF-020",
@@ -8629,14 +8725,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "빙하가 깎은 날카로운 산과 호수가 어우러진 산악 국립공원 지역입니다. 고산 초원과 숲 속에서 야생동물을 만날 수 있습니다. 태즈메이니아의 울퉁불퉁한 봉우리와 빙하호수가 어우러진 산악 국립공원입니다. 도브호수 주변 산책길에서 오래된 숲과 고산습지, 독특한 동식물을 만날 수 있습니다.",
+      "description": "빙하가 깎은 날카로운 산과 호수가 어우러진 산악 국립공원 지역입니다. 고산 초원과 숲 속에서 야생동물을 만날 수 있습니다. 태즈메이니아의 울퉁불퉁한 봉우리와 빙하호수가 어우러진 산악 국립공원입니다. 도브호수 주변 산책길에서 오래된 숲과 고산습지, 독특한 동식물을 만날 수 있습니다. 도브호수에 산봉우리가 비치는 날에는 물과 산의 경계가 희미해집니다. 빙하가 만든 골짜기와 차가운 고산 숲은 오랫동안 형성된 지형의 흔적이며, 산책길에서는 섬 고유의 야생동물을 조용히 관찰할 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-001",
@@ -8722,14 +8821,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "돌탑과 굵은 케이블, 보행로가 독특한 도시 풍경을 만듭니다. 맨해튼과 브루클린을 잇는 오래된 현수교로, 고딕풍 석조 교탑과 촘촘한 케이블이 특징입니다. 19세기 후반의 건설기술을 보여 주며, 다리를 걷다 보면 이스트강과 뉴욕의 고층 건물이 한눈에 들어옵니다.",
+      "description": "돌탑과 굵은 케이블, 보행로가 독특한 도시 풍경을 만듭니다. 맨해튼과 브루클린을 잇는 오래된 현수교로, 고딕풍 석조 교탑과 촘촘한 케이블이 특징입니다. 19세기 후반의 건설기술을 보여 주며, 다리를 걷다 보면 이스트강과 뉴욕의 고층 건물이 한눈에 들어옵니다. 두 개의 커다란 돌탑 사이에 케이블이 부챗살처럼 펼쳐지는 장면이 이 다리의 상징입니다. 1883년에 개통된 뒤 뉴욕의 두 지역을 이어 왔으며, 보행로에서 바라보는 고층 건물의 변화는 도시의 오랜 성장을 느끼게 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-006",
@@ -8886,14 +8988,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "강과 암벽이 만든 웅장한 수직 풍경이 특징입니다. 유타주의 붉은 사암 절벽과 깊은 협곡이 이어지는 국립공원입니다. 강물이 오랫동안 바위를 깎아 좁은 계곡을 만들었으며, 높이 솟은 암벽과 나무가 극적인 대비를 이룹니다.",
+      "description": "강과 암벽이 만든 웅장한 수직 풍경이 특징입니다. 유타주의 붉은 사암 절벽과 깊은 협곡이 이어지는 국립공원입니다. 강물이 오랫동안 바위를 깎아 좁은 계곡을 만들었으며, 높이 솟은 암벽과 나무가 극적인 대비를 이룹니다. 자이언 협곡 바닥에서는 강 옆의 나무가 자라고, 머리 위로는 수백 미터 높이의 붉은 절벽이 솟습니다. 붉은색과 흰색 사암의 층을 살펴보면 오래전 모래가 쌓이고 돌로 굳은 흔적을 읽을 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-015",
@@ -8922,14 +9027,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "좁은 사암 틈으로 햇빛이 들어오며 벽면에 물결무늬 그림자를 만듭니다. 급류가 오랜 시간 깎은 슬롯 협곡입니다. 애리조나주의 좁은 사암 협곡으로 매끄럽게 굽은 붉은 벽이 유명합니다. 오랜 세월 급류가 지나가며 벽을 깎았고, 위에서 들어오는 햇빛이 곡선 위에 독특한 빛무늬를 만듭니다.",
+      "description": "좁은 사암 틈으로 햇빛이 들어오며 벽면에 물결무늬 그림자를 만듭니다. 급류가 오랜 시간 깎은 슬롯 협곡입니다. 애리조나주의 좁은 사암 협곡으로 매끄럽게 굽은 붉은 벽이 유명합니다. 오랜 세월 급류가 지나가며 벽을 깎았고, 위에서 들어오는 햇빛이 곡선 위에 독특한 빛무늬를 만듭니다. 매끄러운 곡선이 반복되는 벽은 사람이 다듬은 조각처럼 보이지만, 갑자기 불어난 물이 오랜 시간 깎아 만든 자연의 작품입니다. 나바호족의 땅에 있으므로 허가받은 안내에 따라 방문하고, 갑작스러운 홍수 위험을 조심해야 합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-017",
@@ -8977,14 +9085,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "극도로 건조한 분지와 소금 평원, 다채로운 암석 지형이 나타납니다. 기온이 매우 높은 사막 환경으로 유명합니다. 미국에서 특히 덥고 건조한 곳으로 알려진 사막 국립공원입니다. 해수면보다 낮은 염전 지형과 색이 다른 산, 모래언덕이 나타나며 기후와 지형의 극단적인 모습을 보여 줍니다.",
+      "description": "극도로 건조한 분지와 소금 평원, 다채로운 암석 지형이 나타납니다. 기온이 매우 높은 사막 환경으로 유명합니다. 미국에서 특히 덥고 건조한 곳으로 알려진 사막 국립공원입니다. 해수면보다 낮은 염전 지형과 색이 다른 산, 모래언덕이 나타나며 기후와 지형의 극단적인 모습을 보여 줍니다. 배드워터 분지의 하얀 소금 평원에서는 바닥이 다각형 무늬로 갈라진 모습을 볼 수 있습니다. 뜨거운 날씨와 메마른 산은 아름답지만 위험할 수 있어, 이곳의 풍경은 사막 환경에 적응한 생명과 안전의 소중함도 일깨웁니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-020",
@@ -9030,14 +9141,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "섬의 역사에는 군사시설과 수감, 원주민 운동의 이야기가 담겨 있습니다. 샌프란시스코만의 바위섬으로 과거 군사시설과 연방교도소로 사용되었습니다. 높은 담장과 감방이 남아 있고, 바다 건너 도시가 선명하게 보이지만 섬에서 벗어나기는 어려웠던 장소입니다.",
+      "description": "섬의 역사에는 군사시설과 수감, 원주민 운동의 이야기가 담겨 있습니다. 샌프란시스코만의 바위섬으로 과거 군사시설과 연방교도소로 사용되었습니다. 높은 담장과 감방이 남아 있고, 바다 건너 도시가 선명하게 보이지만 섬에서 벗어나기는 어려웠던 장소입니다. 이 섬은 한때 탈출하기 어렵기로 유명한 교도소였지만, 그보다 앞서 군사시설로 쓰였고 이후에는 원주민 권리운동의 상징적인 장소가 되기도 했습니다. 감방과 바닷바람이 부는 해안을 둘러보면 같은 섬에 서로 다른 역사가 겹쳐 있음을 알 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-023",
@@ -9047,14 +9161,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "영화 산업과 세계 대중문화의 중심지라는 이미지를 나타냅니다. 로스앤젤레스 언덕 위에 세워진 커다란 흰색 글자들로 영화산업의 상징이 되었습니다. 처음에는 부동산 광고와 관련해 설치되었지만, 시간이 지나 세계적인 대중문화의 이미지로 자리 잡았습니다.",
+      "description": "영화 산업과 세계 대중문화의 중심지라는 이미지를 나타냅니다. 로스앤젤레스 언덕 위에 세워진 커다란 흰색 글자들로 영화산업의 상징이 되었습니다. 처음에는 부동산 광고와 관련해 설치되었지만, 시간이 지나 세계적인 대중문화의 이미지로 자리 잡았습니다. 원래는 ‘할리우드랜드’라는 부동산 광고용 간판이었지만, 시간이 흐르며 이름과 의미가 달라졌습니다. 산등성이 위의 거대한 흰 글자는 도시 어디에서나 보이는 것이 아니라 특정 전망대에서 더 잘 보이므로 멀리서 감상하는 명소입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-024",
@@ -9064,14 +9181,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "로스앤젤레스 언덕 위에 서 있는 과학·천문 시설입니다. 도시 야경과 할리우드 사인을 함께 바라볼 수 있습니다. 로스앤젤레스의 산비탈에 있는 천문학 교육시설로 돔과 전망 테라스가 유명합니다. 맑은 날에는 도시와 할리우드 사인이 보이고, 전시를 통해 우주와 별의 움직임을 배울 수 있습니다.",
+      "description": "로스앤젤레스 언덕 위에 서 있는 과학·천문 시설입니다. 도시 야경과 할리우드 사인을 함께 바라볼 수 있습니다. 로스앤젤레스의 산비탈에 있는 천문학 교육시설로 돔과 전망 테라스가 유명합니다. 맑은 날에는 도시와 할리우드 사인이 보이고, 전시를 통해 우주와 별의 움직임을 배울 수 있습니다. 둥근 천체관측 돔과 계단식 건물은 과학관 자체를 특별한 건축 명소로 만듭니다. 낮에는 태양계 전시를, 밤에는 별자리와 도시의 불빛을 생각하며 하늘을 올려다볼 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-025",
@@ -9098,14 +9218,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "공연과 놀이시설이 하나의 상상 속 도시를 만듭니다. 플로리다 올랜도 근처의 대형 테마파크로 동화 속 성을 중심으로 여러 주제구역이 펼쳐집니다. 이야기와 음악, 퍼레이드와 놀이시설을 결합해 하나의 가상 세계를 실제 공간으로 만들었습니다.",
+      "description": "공연과 놀이시설이 하나의 상상 속 도시를 만듭니다. 플로리다 올랜도 근처의 대형 테마파크로 동화 속 성을 중심으로 여러 주제구역이 펼쳐집니다. 이야기와 음악, 퍼레이드와 놀이시설을 결합해 하나의 가상 세계를 실제 공간으로 만들었습니다. 중앙의 성을 향해 여러 거리와 놀이시설이 펼쳐지는 구성이 특징입니다. 낮에는 퍼레이드와 놀이를, 밤에는 빛과 음악의 공연을 즐기며 사람들의 상상력이 실제 장소의 모습으로 바뀌는 과정을 느낄 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-027",
@@ -9153,14 +9276,17 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "정상에서 바다와 호놀룰루 해안선을 내려다볼 수 있습니다. 오아후섬 와이키키 부근의 둥근 화산 분화구 지형입니다. 주변 전망길에서 호놀룰루 해안과 푸른 바다를 한눈에 내려다볼 수 있으며, 화산 활동이 섬을 만든 흔적이 남아 있습니다.",
+      "description": "정상에서 바다와 호놀룰루 해안선을 내려다볼 수 있습니다. 오아후섬 와이키키 부근의 둥근 화산 분화구 지형입니다. 주변 전망길에서 호놀룰루 해안과 푸른 바다를 한눈에 내려다볼 수 있으며, 화산 활동이 섬을 만든 흔적이 남아 있습니다. 분화구 가장자리를 따라 만들어진 전망길에서는 푸른 바다와 흰 파도가 이어지는 와이키키 해안을 내려다볼 수 있습니다. 다이아몬드 헤드는 오랜 화산 활동이 하와이섬들의 풍경을 어떻게 만들었는지 보여 주는 지형입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "US-CF-030",
@@ -12228,7 +12354,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "호카 곶(포르투갈어: Cabo da Roca 카보 다 호카)은 유라시아 대륙 최서단의 곶입니다. 리스보아현의 남서쪽 신트라에 위치해있습니다. 1772년 처음 운행한 등대가 호카 곶에 있습니다.",
+      "description": "호카 곶(포르투갈어: Cabo da Roca 카보 다 호카)은 유라시아 대륙 최서단의 곶입니다. 리스보아현의 남서쪽 신트라에 위치해있습니다. 1772년 처음 운행한 등대가 호카 곶에 있습니다. 높은 절벽 위에 서면 눈앞에 대서양의 넓은 수평선이 펼쳐집니다. 대륙의 서쪽 끝이라는 지리적 의미와 달리 주변은 바람이 세고 자연이 거칠게 드러나는 곳입니다. 옛 항해자들이 이 바다를 바라보며 느꼈을 두려움과 호기심도 떠올려 볼 만합니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12237,8 +12363,10 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
-      "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%B9%B4%EA%B3%B6"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%B9%B4%EA%B3%B6",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "PT-N12",
@@ -12836,7 +12964,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "두브로브니크 구시가지는 아드리아해를 마주한 오래된 항구도시의 중심입니다. 좁은 돌길과 광장, 석조 건물 사이에는 바다 무역으로 번영하던 시절의 흔적이 남아 있습니다. 오래된 도시 전체가 하나의 역사책처럼 느껴집니다.",
+      "description": "두브로브니크 구시가지는 아드리아해를 마주한 오래된 항구도시의 중심입니다. 좁은 돌길과 광장, 석조 건물 사이에는 바다 무역으로 번영하던 시절의 흔적이 남아 있습니다. 오래된 도시 전체가 하나의 역사책처럼 느껴집니다. 튼튼한 성벽 밖으로는 아드리아해의 짙푸른 물결이 펼쳐지고, 안으로는 밝은 돌바닥과 붉은 지붕이 어우러집니다. 성벽 위에서 내려다보면 좁은 골목과 작은 광장이 촘촘히 이어져 하나의 완성된 도시 풍경을 이룹니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12845,7 +12973,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N03",
@@ -12855,7 +12985,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "로브리예나츠 요새는 두브로브니크 구시가지 바깥의 높은 바위 위에 자리한 방어 시설입니다. 바다 쪽에서 도시로 접근하는 배를 살피기 좋은 위치에 세워졌습니다. 요새를 바라보면 왜 옛사람들이 절벽처럼 높은 곳을 선택했는지 이해할 수 있습니다.",
+      "description": "로브리예나츠 요새는 두브로브니크 구시가지 바깥의 높은 바위 위에 자리한 방어 시설입니다. 바다 쪽에서 도시로 접근하는 배를 살피기 좋은 위치에 세워졌습니다. 요새를 바라보면 왜 옛사람들이 절벽처럼 높은 곳을 선택했는지 이해할 수 있습니다. 가파른 절벽 위의 돌벽은 거대한 성곽보다도 바다와 바위가 어우러지는 모습이 인상적입니다. 맞은편 성벽 도시와 나란히 바라보면 두브로브니크 사람들이 항구 입구를 얼마나 중요하게 지켰는지 상상할 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12864,7 +12994,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N04",
@@ -12874,7 +13006,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "스르지산은 두브로브니크의 구시가지 뒤편에 솟은 산입니다. 정상 쪽에서는 성벽에 둘러싸인 도시와 아드리아해의 섬들을 한눈에 내려다볼 수 있습니다. 같은 도시도 높은 곳에서 바라보면 지붕과 길, 항구가 어떻게 이어지는지 새롭게 보입니다.",
+      "description": "스르지산은 두브로브니크의 구시가지 뒤편에 솟은 산입니다. 정상 쪽에서는 성벽에 둘러싸인 도시와 아드리아해의 섬들을 한눈에 내려다볼 수 있습니다. 같은 도시도 높은 곳에서 바라보면 지붕과 길, 항구가 어떻게 이어지는지 새롭게 보입니다. 해 질 무렵 정상에서 바라보면 구시가지의 붉은 지붕이 따뜻하게 빛나고, 바다에는 크고 작은 섬들이 길게 그림자를 드리웁니다. 같은 장소도 위에서 내려다보면 성벽과 항구의 모양을 훨씬 쉽게 이해할 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12883,7 +13015,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N05",
@@ -12893,7 +13027,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "이 궁전은 로마 황제 디오클레티아누스가 은퇴 후 머물기 위해 세운 대규모 건축물입니다. 오늘날에는 오래된 궁전 벽과 기둥 사이로 집, 상점, 골목이 이어져 사람이 실제로 살아가는 구시가지가 되었습니다. 고대 로마의 건물이 현대 도시의 일부로 남아 있다는 점이 특별합니다.",
+      "description": "이 궁전은 로마 황제 디오클레티아누스가 은퇴 후 머물기 위해 세운 대규모 건축물입니다. 오늘날에는 오래된 궁전 벽과 기둥 사이로 집, 상점, 골목이 이어져 사람이 실제로 살아가는 구시가지가 되었습니다. 고대 로마의 건물이 현대 도시의 일부로 남아 있다는 점이 특별합니다. 궁전의 옛 벽과 기둥 사이에 카페와 집, 작은 가게가 들어서 있어 고대 건축물이 박물관에만 남아 있는 것이 아님을 보여 줍니다. 광장에 서면 로마 시대 석조 구조물과 오늘날 사람들의 일상이 한 화면에 겹쳐 보입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12902,7 +13036,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N06",
@@ -12912,7 +13048,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "스플리트의 성 도미니우스 대성당은 원래 로마 황제 디오클레티아누스를 위한 무덤 건물로 지어졌습니다. 시간이 흐르면서 기독교 성당으로 쓰임새가 바뀌었습니다. 건물의 둥근 공간과 돌기둥, 종탑을 살펴보면 한 장소가 여러 시대를 지나며 어떻게 변하는지 알 수 있습니다.",
+      "description": "스플리트의 성 도미니우스 대성당은 원래 로마 황제 디오클레티아누스를 위한 무덤 건물로 지어졌습니다. 시간이 흐르면서 기독교 성당으로 쓰임새가 바뀌었습니다. 건물의 둥근 공간과 돌기둥, 종탑을 살펴보면 한 장소가 여러 시대를 지나며 어떻게 변하는지 알 수 있습니다. 로마 황제의 무덤이 수백 년 뒤 성당으로 바뀌었다는 점에서 쓰임새의 변화가 특히 흥미롭습니다. 성당 안의 오래된 돌기둥과 높은 종탑은 서로 다른 시대의 건축이 어떻게 어울려 남을 수 있는지 보여 줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12921,7 +13057,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N07",
@@ -12931,7 +13069,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "트로기르는 크로아티아 해안 가까운 작은 섬에 자리한 오래된 도시입니다. 좁은 골목과 석조 건물, 성당이 작은 공간에 모여 있습니다. 도시의 형태에는 고대부터 중세와 르네상스 시대까지 여러 시대의 흔적이 겹쳐 있습니다.",
+      "description": "트로기르는 크로아티아 해안 가까운 작은 섬에 자리한 오래된 도시입니다. 좁은 골목과 석조 건물, 성당이 작은 공간에 모여 있습니다. 도시의 형태에는 고대부터 중세와 르네상스 시대까지 여러 시대의 흔적이 겹쳐 있습니다. 해안 가까운 작은 섬에 성당과 궁전, 집들이 모여 있어 골목을 조금만 걸어도 바다와 만납니다. 오래된 석조 건물의 창과 문, 정교한 조각은 이곳이 오랫동안 무역과 문화의 교차점이었음을 보여 줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -12940,7 +13078,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N08",
@@ -12991,7 +13131,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "자다르 바다 오르간은 해안 계단 아래에 파이프를 설치해 바닷물과 파도가 소리를 내도록 만든 현대 예술 작품입니다. 파도의 크기와 움직임에 따라 들리는 음이 달라집니다. 사람이 연주하지 않아도 바다가 음악을 만드는 셈입니다.",
+      "description": "자다르 바다 오르간은 해안 계단 아래에 파이프를 설치해 바닷물과 파도가 소리를 내도록 만든 현대 예술 작품입니다. 파도의 크기와 움직임에 따라 들리는 음이 달라집니다. 사람이 연주하지 않아도 바다가 음악을 만드는 셈입니다. 바다 오르간은 파도가 세게 밀려들 때와 잔잔할 때 서로 다른 소리를 냅니다. 바닷가 계단에 앉아 파도와 음악을 함께 들으면 자연이 연주자가 되고 건축물이 악기가 되는 독특한 경험을 할 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13000,7 +13140,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N11",
@@ -13010,7 +13152,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "자다르의 ‘태양의 인사’는 해안 바닥에 둥글게 놓인 빛의 설치 작품입니다. 낮 동안 태양 에너지를 모으고 밤에는 빛의 무늬를 보여 줍니다. 가까이에 바다 오르간도 있어 바다의 움직임과 빛을 함께 느낄 수 있습니다. 자연의 에너지가 도시 예술로 바뀌는 예입니다.",
+      "description": "자다르의 ‘태양의 인사’는 해안 바닥에 둥글게 놓인 빛의 설치 작품입니다. 낮 동안 태양 에너지를 모으고 밤에는 빛의 무늬를 보여 줍니다. 가까이에 바다 오르간도 있어 바다의 움직임과 빛을 함께 느낄 수 있습니다. 자연의 에너지가 도시 예술로 바뀌는 예입니다. 해가 질 무렵 수면의 붉은빛과 둥근 빛의 설치 작품이 함께 반짝입니다. 바다 오르간이 파도로 음악을 만든다면 이 작품은 햇빛으로 빛을 만들며, 자연현상을 도시의 예술로 바꾼다는 공통점이 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13019,7 +13161,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N12",
@@ -13051,7 +13195,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "로빈 구시가지는 아드리아해 쪽으로 튀어나온 작은 반도 위에 형성된 해안 마을입니다. 촘촘한 집들이 언덕을 따라 모여 있고 꼭대기에는 성당의 종탑이 눈에 띕니다. 바다에서 바라보면 마을 전체가 하나의 그림처럼 보입니다. 골목이 언덕의 높낮이를 따라 이어지는 모습도 재미있습니다.",
+      "description": "로빈 구시가지는 아드리아해 쪽으로 튀어나온 작은 반도 위에 형성된 해안 마을입니다. 촘촘한 집들이 언덕을 따라 모여 있고 꼭대기에는 성당의 종탑이 눈에 띕니다. 바다에서 바라보면 마을 전체가 하나의 그림처럼 보입니다. 골목이 언덕의 높낮이를 따라 이어지는 모습도 재미있습니다. 바닷가에서 언덕 위 성당을 바라보면 여러 층의 집들이 계단처럼 겹쳐 보입니다. 골목에서는 오래된 돌길과 창가의 꽃, 작은 상점이 이어져 바다에서 보는 모습과 거리에서 걷는 모습이 서로 다릅니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13060,7 +13204,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N14",
@@ -13090,7 +13236,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "코르출라 구시가지는 크로아티아의 코르출라섬에 있는 오래된 해안 도시입니다. 성벽과 좁은 돌길, 돌로 지은 집들이 촘촘히 이어집니다. 골목의 방향과 건물 배치를 살펴보면 사람들이 바닷바람과 햇빛 속에서 어떻게 생활했을지 상상할 수 있습니다.",
+      "description": "코르출라 구시가지는 크로아티아의 코르출라섬에 있는 오래된 해안 도시입니다. 성벽과 좁은 돌길, 돌로 지은 집들이 촘촘히 이어집니다. 골목의 방향과 건물 배치를 살펴보면 사람들이 바닷바람과 햇빛 속에서 어떻게 생활했을지 상상할 수 있습니다. 좁은 골목이 촘촘한 물고기 뼈 모양으로 배치되어 있다는 설명으로도 유명합니다. 바닷바람과 강한 햇빛을 고려해 길의 방향을 정한 도시의 지혜를 살펴보며 성벽과 항구를 함께 감상할 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13099,7 +13245,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N16",
@@ -13109,7 +13257,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "자그레브 성 마르코 교회는 지붕에 알록달록한 기와로 만든 문장 무늬가 있어 쉽게 알아볼 수 있습니다. 지붕의 도안에는 크로아티아와 자그레브를 상징하는 모습이 담겨 있습니다. 건물의 역사는 중세까지 이어지며 여러 차례 변화했습니다.",
+      "description": "자그레브 성 마르코 교회는 지붕에 알록달록한 기와로 만든 문장 무늬가 있어 쉽게 알아볼 수 있습니다. 지붕의 도안에는 크로아티아와 자그레브를 상징하는 모습이 담겨 있습니다. 건물의 역사는 중세까지 이어지며 여러 차례 변화했습니다. 지붕의 알록달록한 문장은 멀리서도 눈에 띄어 교회 자체가 도시의 상징처럼 보입니다. 가까이 다가가면 기와 한 장 한 장의 색이 모여 큰 그림을 만든다는 점을 발견할 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13118,7 +13266,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N17",
@@ -13147,7 +13297,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "자그레브의 실연 박물관은 끝난 관계와 이별의 기억이 담긴 물건을 전시하는 독특한 박물관입니다. 평범한 물건도 누군가에게는 특별한 이야기를 간직할 수 있다는 점을 보여 줍니다. 오래된 유물뿐 아니라 개인의 감정과 기억도 전시의 주제가 될 수 있다는 사실이 흥미롭습니다.",
+      "description": "자그레브의 실연 박물관은 끝난 관계와 이별의 기억이 담긴 물건을 전시하는 독특한 박물관입니다. 평범한 물건도 누군가에게는 특별한 이야기를 간직할 수 있다는 점을 보여 줍니다. 오래된 유물뿐 아니라 개인의 감정과 기억도 전시의 주제가 될 수 있다는 사실이 흥미롭습니다. 사람들이 기증한 작은 물건 옆에는 저마다의 짧은 사연이 붙어 있습니다. 값비싼 보물이 아니라도 마음속 기억을 담은 물건이라면 박물관의 전시품이 될 수 있다는 점에서 보통의 역사 박물관과는 다른 경험을 줍니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13156,7 +13306,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "HR-N19",
@@ -13188,7 +13340,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "브리유니 국립공원은 크로아티아 이스트리아반도 가까이에 있는 여러 섬과 주변 바다를 보호하는 공간입니다. 바닷가 풍경과 숲, 오래된 유적이 함께 남아 있습니다. 섬마다 풍경이 조금씩 다르고 자연과 사람이 살아온 흔적을 함께 살펴볼 수 있다는 점이 특징입니다.",
+      "description": "브리유니 국립공원은 크로아티아 이스트리아반도 가까이에 있는 여러 섬과 주변 바다를 보호하는 공간입니다. 바닷가 풍경과 숲, 오래된 유적이 함께 남아 있습니다. 섬마다 풍경이 조금씩 다르고 자연과 사람이 살아온 흔적을 함께 살펴볼 수 있다는 점이 특징입니다. 해안을 따라 맑은 물과 작은 만이 이어지고 숲 속에는 옛 건축 흔적이 남아 있습니다. 섬에서 바라보는 자연의 아름다움과 그곳을 오가며 살아온 사람들의 자취를 함께 볼 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13197,7 +13349,9 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "개별 명소 초안 · 검증 전",
-      "descriptionProvenance": "V1.38 개별 명소 편집 초안 (원문 자료 대조 및 부모 검토 필요)"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "NO-N01",
@@ -13362,7 +13516,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "로포텐 제도(노르웨이어: Lofoten)는 노르웨이 노를란주의 군도입니다. 로포텐 제도는 험준한 산과 꼭대기, 넓은 바다와 보호된 만, 해변 및 발길이 닿지않은 땅이 있는 독특한 풍경으로 유명하다.",
+      "description": "로포텐 제도(노르웨이어: Lofoten)는 노르웨이 노를란주의 군도입니다. 로포텐 제도는 험준한 산과 꼭대기, 넓은 바다와 보호된 만, 해변 및 발길이 닿지않은 땅이 있는 독특한 풍경으로 유명하다. 뾰족한 산들이 바다에서 바로 솟는 듯한 풍경과 붉은색 어부의 집들이 유명합니다. 겨울에는 눈 덮인 산과 어두운 바다가 대비되고, 여름에는 긴 낮과 푸른 만이 특별한 풍경을 만듭니다. 오랫동안 이어 온 어업의 생활문화도 이 섬들의 중요한 이야기입니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13371,8 +13525,10 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
-      "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%8F%AC%ED%85%90_%EC%A0%9C%EB%8F%84"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%8F%AC%ED%85%90_%EC%A0%9C%EB%8F%84",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "NO-N10",
@@ -13479,7 +13635,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "뭉크 미술관(노르웨이어: Munch-museet)은 노르웨이 예술가 에드바르 뭉크의 생애와 작품에 헌정된 노르웨이 오슬로 비요르비카에 있는 미술관입니다. 이 미술관은 원래 1963년 퇴옌에서 개관했습니다. 2021년 10월 22일에 비요르비카에 건립된 새 건물로 이전했습니다.",
+      "description": "뭉크 미술관(노르웨이어: Munch-museet)은 노르웨이 예술가 에드바르 뭉크의 생애와 작품에 헌정된 노르웨이 오슬로 비요르비카에 있는 미술관입니다. 이 미술관은 원래 1963년 퇴옌에서 개관했습니다. 2021년 10월 22일에 비요르비카에 건립된 새 건물로 이전했습니다. 바닷가에 솟은 새 미술관 건물은 위쪽에서 방향이 꺾인 독특한 형태로도 눈에 띕니다. 뭉크의 대표작 《절규》를 비롯해 여러 작품과 자료를 통해 한 화가가 불안과 사랑, 삶의 감정을 어떻게 색과 선으로 표현했는지 살펴볼 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13488,8 +13644,10 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
-      "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AD%89%ED%81%AC_%EB%AF%B8%EC%88%A0%EA%B4%80"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AD%89%ED%81%AC_%EB%AF%B8%EC%88%A0%EA%B4%80",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "NO-N16",
@@ -13754,7 +13912,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "유르고르덴(스웨덴어: Djurgården)은 스웨덴의 수도인 스톡홀름 중부에 위치한 섬입니다. 유르고르덴은 스웨덴어로 \"동물원\"을 뜻합니다. 역사적 건축물, 박물관, 전시관, 놀이공원, 야외 박물관 등으로 유명한 곳입니다.",
+      "description": "유르고르덴(스웨덴어: Djurgården)은 스웨덴의 수도인 스톡홀름 중부에 위치한 섬입니다. 유르고르덴은 스웨덴어로 \"동물원\"을 뜻합니다. 역사적 건축물, 박물관, 전시관, 놀이공원, 야외 박물관 등으로 유명한 곳입니다. 물가의 푸른 숲과 산책로 사이로 다양한 박물관과 오래된 건물이 모여 있어 하루에 여러 시대를 여행하는 느낌을 줍니다. 바사 박물관과 스칸센 같은 문화시설이 가까이 있어 자연과 역사, 놀이를 함께 만날 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13763,8 +13921,10 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
-      "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A5%B4%EA%B3%A0%EB%A5%B4%EB%8D%B4"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A5%B4%EA%B3%A0%EB%A5%B4%EB%8D%B4",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "SE-N10",
@@ -13976,7 +14136,7 @@
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "아비스코(스웨덴어: Abisko, 북부 사미어: Ábeskovvu 아베스코부)는 스웨덴 북부 사프미에 있는 마을로 북극권에서 약 220km 이내에 있습니다. 4km 서쪽에 아비스코 국립공원이 있습니다. 영구동토층은 지구 온난화로 사라지고 있지만 마을 주변에서 흔히 볼 수 있습니다.",
+      "description": "아비스코(스웨덴어: Abisko, 북부 사미어: Ábeskovvu 아베스코부)는 스웨덴 북부 사프미에 있는 마을로 북극권에서 약 220km 이내에 있습니다. 4km 서쪽에 아비스코 국립공원이 있습니다. 영구동토층은 지구 온난화로 사라지고 있지만 마을 주변에서 흔히 볼 수 있습니다. 산과 호수, 자작나무 숲이 펼쳐진 북쪽 자연보호구역으로 겨울에는 오로라 관측지로도 알려져 있습니다. 눈과 빙하가 만든 골짜기 풍경을 살펴보고, 여름에는 긴 낮과 북극권의 독특한 식물을 만날 수 있습니다.",
       "wikiTitle": "",
       "wikiLang": "en",
       "photos": [],
@@ -13985,8 +14145,10 @@
       "source": "41-country-curated-starter",
       "selectionStatus": "추가 검증 필요",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
-      "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%B9%84%EC%8A%A4%EC%BD%94"
+      "descriptionProvenance": "V1.68 개별 명소 특징 추가 보강",
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%B9%84%EC%8A%A4%EC%BD%94",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.68"
     },
     {
       "id": "DK-N01",
