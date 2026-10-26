@@ -1,0 +1,281 @@
+id,name,new_characters,source
+KR-CF-001,덕수궁,428,https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81
+KR-CF-003,북촌한옥마을,433,https://ko.wikipedia.org/wiki/%EB%B6%81%EC%B4%8C_%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84
+KR-CF-005,롯데월드타워 서울스카이,423,https://ko.wikipedia.org/wiki/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%ED%83%80%EC%9B%8C
+KR-CF-011,대릉원,310,https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A6%89%EC%9B%90
+KR-CF-013,전주한옥마을,402,https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84
+KR-CF-014,해인사 장경판전,416,https://ko.wikipedia.org/wiki/%ED%95%A9%EC%B2%9C_%ED%95%B4%EC%9D%B8%EC%82%AC_%EC%9E%A5%EA%B2%BD%ED%8C%90%EC%A0%84
+KR-CF-015,백제역사유적지구,522,https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%A0%9C%EC%97%AD%EC%82%AC%EC%9C%A0%EC%A0%81%EC%A7%80%EA%B5%AC
+KR-CF-016,공주 공산성,386,https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%A3%BC_%EA%B3%B5%EC%82%B0%EC%84%B1
+KR-CF-018,천지연폭포,218,https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%A7%80%EC%97%B0%ED%8F%AD%ED%8F%AC
+CN-CF-009,동방명주탑,405,https://ko.wikipedia.org/wiki/%EB%8F%99%EB%B0%A9%EB%AA%85%EC%A3%BC%ED%83%91
+CN-CF-021,황룽 풍경구,286,https://ko.wikipedia.org/wiki/%ED%99%A9%EB%A3%BD_%ED%92%8D%EA%B2%BD%EA%B5%AC
+CN-CF-024,포탈라궁,413,https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%83%88%EB%9D%BC%EA%B6%81
+JP-CF-001,도쿄타워,404,https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84_%ED%83%80%EC%9B%8C
+JP-CF-002,센소지,276,https://ko.wikipedia.org/wiki/%EC%84%BC%EC%86%8C%EC%A7%80
+JP-CF-003,메이지 신궁,215,https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%8B%A0%EA%B6%81
+JP-CF-004,시부야 스크램블 교차로,415,https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%B6%80%EC%95%BC
+JP-CF-005,도쿄역 마루노우치 역사,402,https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84%EC%97%AD
+JP-CF-006,우에노 공원,390,https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%97%90%EB%85%B8_%EA%B3%B5%EC%9B%90
+JP-CF-013,도다이지,397,https://ko.wikipedia.org/wiki/%EB%8F%84%EB%8B%A4%EC%9D%B4%EC%A7%80
+JP-CF-015,히로시마 평화기념공원,198,https://ko.wikipedia.org/wiki/%ED%9E%88%EB%A1%9C%EC%8B%9C%EB%A7%88_%ED%8F%89%ED%99%94%EA%B8%B0%EB%85%90%EA%B3%B5%EC%9B%90
+JP-CF-017,가나자와 겐로쿠엔,391,https://ko.wikipedia.org/wiki/%EA%B2%90%EB%A1%9C%EC%BF%A0%EC%97%94
+VN-CF-010,미선 유적,354,https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%84%A0_%EC%9C%A0%EC%A0%81
+VN-CF-012,티엔무 사원,212,https://ko.wikipedia.org/wiki/%ED%8B%B0%EC%97%94%EB%AC%B4_%EC%82%AC%EC%9B%90
+SG-CF-007,싱가포르 플라이어,278,https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4_%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B4
+SG-CF-009,에스플러네이드,332,https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%ED%94%8C%EB%9F%AC%EB%84%A4%EC%9D%B4%EB%93%9C_%EC%8B%9C%EC%96%B4%ED%84%B0%EC%8A%A4_%EC%98%A8_%EB%8D%94_%EB%B2%A0%EC%9D%B4
+SG-CF-011,센토사섬,408,https://ko.wikipedia.org/wiki/%EC%84%BC%ED%86%A0%EC%82%AC%EC%84%AC
+SG-CF-013,싱가포르 동물원,435,https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4_%EB%8F%99%EB%AC%BC%EC%9B%90
+SG-CF-016,차이나타운,366,https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%9D%B4%EB%82%98%ED%83%80%EC%9A%B4
+SG-CF-017,리틀 인디아,294,https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8B%80%EC%9D%B8%EB%94%94%EC%95%84
+FR-CF-001,오르세 미술관,383,https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A5%B4%EC%84%B8_%EB%AF%B8%EC%88%A0%EA%B4%80
+FR-CF-002,몽마르트르 언덕,308,https://ko.wikipedia.org/wiki/%EB%AA%BD%EB%A7%88%EB%A5%B4%ED%8A%B8%EB%A5%B4
+FR-CF-003,사크레쾨르 대성당,260,https://ko.wikipedia.org/wiki/%EC%82%AC%ED%81%AC%EB%A0%88%EC%BE%A8%EB%A5%B4_%EB%8C%80%EC%84%B1%EB%8B%B9
+FR-CF-004,생트샤펠,419,https://ko.wikipedia.org/wiki/%EC%83%9D%ED%8A%B8%EC%83%A4%ED%8E%A0
+FR-CF-005,튈르리 정원,461,https://ko.wikipedia.org/wiki/%ED%8A%88%EB%A5%B4%EB%A6%AC_%EC%A0%95%EC%9B%90%EC%9D%98_%EC%9D%8C%EC%95%85%ED%9A%8C
+FR-CF-007,오페라 가르니에,390,https://ko.wikipedia.org/wiki/%EC%98%A4%ED%8E%98%EB%9D%BC_%EA%B0%80%EB%A5%B4%EB%8B%88%EC%97%90
+FR-CF-008,퐁텐블로 궁전,427,https://ko.wikipedia.org/wiki/%ED%90%81%ED%85%90%EB%B8%94%EB%A1%9C%EA%B6%81
+FR-CF-010,샹보르성,382,https://ko.wikipedia.org/wiki/%EC%83%B9%EB%B3%B4%EB%A5%B4%EC%84%B1
+FR-CF-013,퐁뒤가르 수도교,350,https://ko.wikipedia.org/wiki/%EC%88%98%EB%8F%84%EA%B5%90
+FR-CF-021,스트라스부르 프티트프랑스,421,https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%8A%A4%EB%B6%80%EB%A5%B4
+GB-CF-001,빅벤과 웨스트민스터 궁전,414,https://ko.wikipedia.org/wiki/%EC%9B%A8%EC%8A%A4%ED%8A%B8%EB%AF%BC%EC%8A%A4%ED%84%B0%EA%B6%81
+GB-CF-002,버킹엄 궁전,393,https://ko.wikipedia.org/wiki/%EB%B2%84%ED%82%B9%EC%97%84%EA%B6%81
+GB-CF-003,타워 브리지,419,https://ko.wikipedia.org/wiki/%ED%83%80%EC%9B%8C_%EB%B8%8C%EB%A6%AC%EC%A7%80
+GB-CF-004,런던탑,435,https://ko.wikipedia.org/wiki/%EB%9F%B0%EB%8D%98%ED%83%91
+GB-CF-005,웨스트민스터 사원,270,https://ko.wikipedia.org/wiki/%EC%9B%A8%EC%8A%A4%ED%8A%B8%EB%AF%BC%EC%8A%A4%ED%84%B0_%EC%82%AC%EC%9B%90
+GB-CF-007,런던 아이,479,https://ko.wikipedia.org/wiki/%EB%9F%B0%EB%8D%98_%EC%95%84%EC%9D%B4
+GB-CF-008,세인트폴 대성당,408,https://ko.wikipedia.org/wiki/%EC%84%B8%EC%9D%B8%ED%8A%B8%ED%8F%B4_%EB%8C%80%EC%84%B1%EB%8B%B9
+GB-CF-009,트라팔가 광장,401,https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9D%BC%ED%8C%94%EA%B0%80_%EA%B4%91%EC%9E%A5
+GB-CF-012,윈저성,405,https://ko.wikipedia.org/wiki/%EC%9C%88%EC%A0%80%EC%84%B1
+GB-CF-016,에든버러성,413,https://ko.wikipedia.org/wiki/%EC%97%90%EB%93%A0%EB%B2%84%EB%9F%AC%EC%84%B1
+GB-CF-019,콘위성,441,https://ko.wikipedia.org/wiki/%EC%BD%98%EC%9C%84%EC%84%B1
+DE-CF-001,브란덴부르크 문,288,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9E%80%EB%8D%B4%EB%B6%80%EB%A5%B4%ED%81%AC_%EB%AC%B8
+DE-CF-003,베를린 장벽 이스트사이드 갤러리,405,https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%BC%EB%A6%B0_%EC%9E%A5%EB%B2%BD
+DE-CF-004,박물관섬,479,https://ko.wikipedia.org/wiki/%EB%B0%95%EB%AC%BC%EA%B4%80%EC%84%AC
+DE-CF-008,호엔슈방가우성,243,https://ko.wikipedia.org/wiki/%ED%98%B8%EC%97%94%EC%8A%88%EB%B0%A9%EA%B0%80%EC%9A%B0%EC%84%B1
+DE-CF-009,뮌헨 마리엔 광장,412,https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC%EC%97%94_%EA%B4%91%EC%9E%A5
+DE-CF-010,님펜부르크 궁전,405,https://ko.wikipedia.org/wiki/%EB%8B%98%ED%8E%9C%EB%B6%80%EB%A5%B4%ED%81%AC%EA%B6%81
+DE-CF-014,쾰른 대성당,384,https://ko.wikipedia.org/wiki/%EC%BE%B0%EB%A5%B8_%EB%8C%80%EC%84%B1%EB%8B%B9
+DE-CF-016,라인강 로렐라이 바위,355,https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B8%EA%B0%95
+DE-CF-020,포츠담 상수시 궁전,494,https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%B8%A0%EB%8B%B4
+CH-CF-004,쉴트호른,424,https://ko.wikipedia.org/wiki/%EC%89%B4%ED%8A%B8%ED%98%B8%EB%A5%B8
+CH-CF-007,트뤼멜바흐 폭포,385,https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A4%BC%EB%A9%9C%EB%B0%94%ED%9D%90_%ED%8F%AD%ED%8F%AC
+CH-CF-008,알레치 빙하,353,https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A0%88%EC%B9%98_%EB%B9%99%ED%95%98
+CH-CF-009,리기산,290,https://ko.wikipedia.org/wiki/%EB%A6%AC%EA%B8%B0%EC%82%B0
+CH-CF-013,루체른 카펠교,268,https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%B2%B4%EB%A5%B8
+CH-CF-014,취리히 구시가지,493,https://ko.wikipedia.org/wiki/%EC%B7%A8%EB%A6%AC%ED%9E%88
+CH-CF-017,시옹성,263,https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%98%B9%EC%84%B1
+AU-CF-002,시드니 하버브리지,262,https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%93%9C%EB%8B%88_%ED%95%98%EB%B2%84_%EB%B8%8C%EB%A6%AC%EC%A7%80
+AU-CF-003,본다이 비치,285,https://ko.wikipedia.org/wiki/%EB%B3%B8%EB%8B%A4%EC%9D%B4%EB%B9%84%EC%B9%98
+AU-CF-004,블루마운틴 세 자매봉,251,https://ko.wikipedia.org/wiki/%EC%84%B8_%EC%9E%90%EB%A7%A4%EB%B4%89
+AU-CF-005,타롱가 동물원,404,https://ko.wikipedia.org/wiki/%ED%83%80%EB%A1%B1%EA%B0%80_%EB%8F%99%EB%AC%BC%EC%9B%90
+AU-CF-007,멜버른 플린더스 스트리트역,386,https://ko.wikipedia.org/wiki/%EB%A9%9C%EB%B2%84%EB%A5%B8
+AU-CF-008,그레이트 오션 로드,527,https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EC%9D%B4%ED%8A%B8_%EC%98%A4%EC%85%98_%EB%A1%9C%EB%93%9C
+AU-CF-011,애들레이드 식물원,446,https://ko.wikipedia.org/wiki/%EC%8B%9D%EB%AC%BC%EC%9B%90
+AU-CF-012,그레이트 배리어 리프,394,https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EC%9D%B4%ED%8A%B8%EB%B0%B0%EB%A6%AC%EC%96%B4%EB%A6%AC%ED%94%84
+AU-CF-013,데인트리 열대우림,366,https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B8%ED%8A%B8%EB%A6%AC_%EC%97%B4%EB%8C%80%EC%9A%B0%EB%A6%BC
+AU-CF-015,카타추타,405,https://ko.wikipedia.org/wiki/%EC%B9%B4%ED%83%80%EC%B6%94%ED%83%80
+AU-CF-016,카카두 국립공원,309,https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B9%B4%EB%91%90_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+AU-CF-017,킹스캐니언,444,https://ko.wikipedia.org/wiki/%ED%82%B9%EC%8A%A4_%EC%BA%90%EB%8B%88%EC%96%B8_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+AU-CF-018,웨이브 록,227,https://ko.wikipedia.org/wiki/%EC%9B%A8%EC%9D%B4%EB%B8%8C%EB%A1%9D
+US-CF-002,타임스스퀘어,441,https://ko.wikipedia.org/wiki/%ED%83%80%EC%9E%84%EC%8A%A4_%EC%8A%A4%ED%80%98%EC%96%B4
+US-CF-003,센트럴파크,395,https://ko.wikipedia.org/wiki/%EC%84%BC%ED%8A%B8%EB%9F%B4_%ED%8C%8C%ED%81%AC
+US-CF-004,엠파이어 스테이트 빌딩,414,https://ko.wikipedia.org/wiki/%EC%97%A0%ED%8C%8C%EC%9D%B4%EC%96%B4_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8_%EB%B9%8C%EB%94%A9
+US-CF-006,메트로폴리탄 미술관,437,https://ko.wikipedia.org/wiki/%EB%A9%94%ED%8A%B8%EB%A1%9C%ED%8F%B4%EB%A6%AC%ED%83%84_%EB%AF%B8%EC%88%A0%EA%B4%80
+US-CF-007,워싱턴 링컨 기념관,422,https://ko.wikipedia.org/wiki/%EB%A7%81%EC%BB%A8_%EA%B8%B0%EB%85%90%EA%B4%80
+US-CF-008,백악관,384,https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%95%85%EA%B4%80
+US-CF-009,미국 국회의사당,408,https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%82%AC%EB%8B%B9
+US-CF-012,요세미티 국립공원,366,https://ko.wikipedia.org/wiki/%EC%9A%94%EC%84%B8%EB%AF%B8%ED%8B%B0_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+US-CF-015,브라이스캐니언,398,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%8A%A4_%EC%BA%90%EB%8B%88%EC%96%B8_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+US-CF-017,모뉴먼트밸리,466,https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%89%B4%EB%A8%BC%ED%8A%B8%EB%B0%B8%EB%A6%AC
+US-CF-018,아치스 국립공원,367,https://ko.wikipedia.org/wiki/%EC%95%84%EC%B9%98%EC%8A%A4_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+US-CF-020,레드우드 국립공원,226,https://ko.wikipedia.org/wiki/%EB%A0%88%EB%93%9C%EC%9A%B0%EB%93%9C_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+US-CF-027,시카고 밀레니엄 파크,423,https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%B9%B4%EA%B3%A0
+US-CF-028,스페이스 니들,269,https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4_%EB%8B%88%EB%93%A4
+US-CF-030,하와이 화산 국립공원,391,https://ko.wikipedia.org/wiki/%ED%95%98%EC%99%80%EC%9D%B4_%ED%99%94%EC%82%B0_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+IN-N03,파테푸르 시크리,316,https://ko.wikipedia.org/wiki/%ED%8C%8C%ED%85%8C%ED%91%B8%EB%A5%B4_%EC%8B%9C%ED%81%AC%EB%A6%AC
+IN-N04,쿠트브 미나르,325,https://ko.wikipedia.org/wiki/%EC%BF%A0%ED%8A%B8%EB%B8%8C_%EB%AF%B8%EB%82%98%EB%A5%B4
+IN-N05,붉은 요새,224,https://ko.wikipedia.org/wiki/%EB%B6%89%EC%9D%80_%EC%9A%94%EC%83%88
+IN-N08,연꽃 사원,285,https://ko.wikipedia.org/wiki/%EC%97%B0%EA%BD%83_%EC%82%AC%EC%9B%90
+IN-N09,하와 마할,415,https://ko.wikipedia.org/wiki/%ED%95%98%EC%99%80%EB%A7%88%ED%95%A0
+IN-N12,잔타르 만타르,397,https://ko.wikipedia.org/wiki/%EC%9E%94%ED%83%80%EB%A5%B4_%EB%A7%8C%ED%83%80%EB%A5%B4
+IN-N14,카주라호 사원군,144,https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%A3%BC%EB%9D%BC%ED%98%B8
+IN-N15,엘로라 석굴,340,https://ko.wikipedia.org/wiki/%EC%97%98%EB%A1%9C%EB%9D%BC_%EC%84%9D%EA%B5%B4
+IN-N16,아잔타 석굴,365,https://ko.wikipedia.org/wiki/%EC%95%84%EC%9E%94%ED%83%80_%EC%84%9D%EA%B5%B4
+ID-N01,보로부두르,400,https://ko.wikipedia.org/wiki/%EB%B3%B4%EB%A1%9C%EB%B6%80%EB%91%90%EB%A5%B4
+ID-N02,프람바난,367,https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%8C%EB%B0%94%EB%82%9C
+ID-N04,타나롯 사원,141,https://ko.wikipedia.org/wiki/%ED%83%80%EB%82%98%EB%A1%AF
+ID-N07,바투르산,406,https://ko.wikipedia.org/wiki/%EB%B0%94%ED%88%AC%EB%A5%B4%EC%82%B0
+ID-N08,브로모산,275,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A1%9C%EB%AA%A8%EC%82%B0
+ID-N10,코모도 국립공원,266,https://ko.wikipedia.org/wiki/%EC%BD%94%EB%AA%A8%EB%8F%84_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+ID-N11,린차섬,203,https://ko.wikipedia.org/wiki/%EB%A6%B0%EC%B0%A8%EC%84%AC
+ID-N15,길리 트라왕안,298,https://ko.wikipedia.org/wiki/%EA%B8%B8%EB%A6%AC_%ED%8A%B8%EB%9D%BC%EC%99%95%EC%95%88
+GR-N01,아테네 아크로폴리스,503,https://ko.wikipedia.org/wiki/%EC%95%84%ED%85%8C%EB%84%A4
+GR-N02,파르테논 신전,461,https://ko.wikipedia.org/wiki/%ED%8C%8C%EB%A5%B4%ED%85%8C%EB%85%BC_%EC%8B%A0%EC%A0%84
+GR-N03,아크로폴리스 박물관,187,https://ko.wikipedia.org/wiki/%EC%95%84%ED%81%AC%EB%A1%9C%ED%8F%B4%EB%A6%AC%EC%8A%A4_%EB%B0%95%EB%AC%BC%EA%B4%80
+GR-N04,고대 아고라,409,https://ko.wikipedia.org/wiki/%EC%95%84%EA%B3%A0%EB%9D%BC
+GR-N05,올림피아 제우스 신전,241,https://ko.wikipedia.org/wiki/%EC%98%AC%EB%A6%BC%ED%94%BC%EC%95%84_%EC%A0%9C%EC%9A%B0%EC%8A%A4_%EC%8B%A0%EC%A0%84
+GR-N06,델포이 유적,439,https://ko.wikipedia.org/wiki/%EB%8D%B8%ED%8F%AC%EC%9D%B4
+GR-N07,메테오라 수도원,258,https://ko.wikipedia.org/wiki/%EB%A9%94%ED%85%8C%EC%98%A4%EB%9D%BC
+GR-N10,에피다우로스 극장,206,https://ko.wikipedia.org/wiki/%EC%97%90%ED%94%BC%EB%8B%A4%EC%9A%B0%EB%A1%9C%EC%8A%A4_%EA%B7%B9%EC%9E%A5
+GR-N11,크노소스 궁전,351,https://ko.wikipedia.org/wiki/%ED%81%AC%EB%85%B8%EC%86%8C%EC%8A%A4
+GR-N17,델로스섬,244,https://ko.wikipedia.org/wiki/%EB%8D%B8%EB%A1%9C%EC%8A%A4%EC%84%AC
+TR-N01,아야 소피아,456,https://ko.wikipedia.org/wiki/%EC%95%84%EC%95%BC_%EC%86%8C%ED%94%BC%EC%95%84
+TR-N02,술탄아흐메트 모스크,276,https://ko.wikipedia.org/wiki/%EC%88%A0%ED%83%84_%EC%95%84%ED%9D%90%EB%A9%94%ED%8A%B8_%EB%AA%A8%EC%8A%A4%ED%81%AC
+TR-N03,톱카프 궁전,433,https://ko.wikipedia.org/wiki/%ED%86%B1%EC%B9%B4%ED%94%84_%EA%B6%81%EC%A0%84
+TR-N04,돌마바흐체 궁전,427,https://ko.wikipedia.org/wiki/%EB%8F%8C%EB%A7%88%EB%B0%94%ED%9D%90%EC%B2%B4_%EA%B6%81%EC%A0%84
+TR-N05,갈라타 탑,322,https://ko.wikipedia.org/wiki/%EA%B0%88%EB%9D%BC%ED%83%80_%ED%83%91
+TR-N06,그랜드 바자르,261,https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%9C%EB%93%9C_%EB%B0%94%EC%9E%90%EB%A5%B4_(%ED%85%8C%ED%97%A4%EB%9E%80)
+TR-N07,예레바탄 사라이,394,https://ko.wikipedia.org/wiki/%EC%98%88%EB%A0%88%EB%B0%94%ED%83%84_%EC%82%AC%EB%9D%BC%EC%9D%B4
+TR-N08,보스포루스 해협,406,https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%8A%A4%ED%8F%AC%EB%A3%A8%EC%8A%A4_%ED%95%B4%ED%98%91
+TR-N09,카파도키아 괴레메,224,https://ko.wikipedia.org/wiki/%EA%B4%B4%EB%A0%88%EB%A9%94
+TR-N10,데린쿠유 지하도시,259,https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%A6%B0%EC%BF%A0%EC%9C%A0_%EC%A7%80%ED%95%98%EB%8F%84%EC%8B%9C
+TR-N11,파묵칼레,131,https://ko.wikipedia.org/wiki/%ED%8C%8C%EB%AC%B5%EC%B9%BC%EB%A0%88
+TR-N12,히에라폴리스,209,https://ko.wikipedia.org/wiki/%ED%9E%88%EC%97%90%EB%9D%BC%ED%8F%B4%EB%A6%AC%EC%8A%A4
+TR-N13,에페소스,487,https://ko.wikipedia.org/wiki/%EC%97%90%ED%8E%98%EC%86%8C%EC%8A%A4
+TR-N14,트로이 유적,443,https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A1%9C%EC%9D%B4
+TR-N15,넴루트산,266,https://ko.wikipedia.org/wiki/%EB%84%B4%EB%A3%A8%ED%8A%B8%EC%82%B0
+NL-N01,암스테르담 운하,259,https://ko.wikipedia.org/wiki/%EC%95%94%EC%8A%A4%ED%85%8C%EB%A5%B4%EB%8B%B4_%EC%9A%B4%ED%95%98
+NL-N02,안네 프랑크의 집,218,https://ko.wikipedia.org/wiki/%EC%95%88%EB%84%A4_%ED%94%84%EB%9E%91%ED%81%AC%EC%9D%98_%EC%A7%91
+NL-N03,국립미술관,292,https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80_%EB%AA%A9%EB%A1%9D
+NL-N04,반 고흐 미술관,456,https://ko.wikipedia.org/wiki/%EB%B0%98_%EA%B3%A0%ED%9D%90_%EB%AF%B8%EC%88%A0%EA%B4%80
+NL-N07,요르단 지구,235,https://ko.wikipedia.org/wiki/%EC%9A%94%EB%A5%B4%EB%8B%A8
+NL-N10,쾨켄호프 정원,474,https://ko.wikipedia.org/wiki/%EC%BE%A8%EC%BC%84%ED%98%B8%ED%94%84
+NL-N11,마우리츠하위스 미술관,237,https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9A%B0%EB%A6%AC%EC%B8%A0%ED%95%98%EC%9C%84%EC%8A%A4
+NL-N12,헤이그 평화궁,256,https://ko.wikipedia.org/wiki/%ED%8F%89%ED%99%94%EA%B6%81
+NL-N16,유로마스트,496,https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A1%9C%EB%A7%88%EC%8A%A4%ED%8A%B8
+NL-N19,크뢸러뮐러 미술관,218,https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A2%B8%EB%9F%AC_%EB%AE%90%EB%9F%AC_%EB%AF%B8%EC%88%A0%EA%B4%80
+AT-N01,쇤브룬 궁전,447,https://ko.wikipedia.org/wiki/%EC%87%A4%EB%B8%8C%EB%A3%AC%EA%B6%81
+AT-N02,벨베데레 궁전,398,https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%B2%A0%EB%8D%B0%EB%A0%88%EA%B6%81
+AT-N04,슈테판 대성당,325,https://ko.wikipedia.org/wiki/%EC%8A%88%ED%85%8C%ED%8C%90_%EB%8C%80%EC%84%B1%EB%8B%B9
+AT-N05,빈 국립오페라극장,395,https://ko.wikipedia.org/wiki/%EB%B9%88_%EA%B5%AD%EB%A6%BD_%EC%98%A4%ED%8E%98%EB%9D%BC_%EA%B7%B9%EC%9E%A5
+AT-N06,미술사 박물관,319,https://ko.wikipedia.org/wiki/%EB%B9%88_%EB%AF%B8%EC%88%A0%EC%82%AC_%EB%B0%95%EB%AC%BC%EA%B4%80
+AT-N07,알베르티나 미술관,472,https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8B%B0%EB%82%98
+AT-N12,모차르트 생가,402,https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%B0%A8%EB%A5%B4%ED%8A%B8_%EC%83%9D%EA%B0%80
+AT-N13,할슈타트,492,https://ko.wikipedia.org/wiki/%ED%95%A0%EC%8A%88%ED%83%80%ED%8A%B8
+AT-N20,그라츠 시계탑,254,https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9D%BC%EC%B8%A0
+CZ-N01,프라하 성,306,https://ko.wikipedia.org/wiki/%ED%94%84%EB%9D%BC%ED%95%98%EC%84%B1
+CZ-N02,카를교,394,https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A5%BC%EA%B5%90
+CZ-N03,구시가 광장,153,https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%8B%9C%EA%B0%80_%EA%B4%91%EC%9E%A5_(%ED%94%84%EB%9D%BC%ED%95%98)
+CZ-N04,천문시계,173,https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%AC%B8%EC%8B%9C%EA%B3%84
+CZ-N05,성 비투스 대성당,274,https://ko.wikipedia.org/wiki/%EC%84%B1_%EB%B9%84%ED%88%AC%EC%8A%A4_%EB%8C%80%EC%84%B1%EB%8B%B9
+CZ-N06,성 니콜라스 성당,287,https://ko.wikipedia.org/wiki/%EC%84%B1_%EB%8B%88%EC%BD%9C%EB%9D%BC%EC%8A%A4_%EC%84%B1%EB%8B%B9_(%EC%8A%A4%ED%83%80%EB%A0%88%EB%A9%94%EC%8A%A4%ED%86%A0)
+CZ-N08,바츨라프 광장,301,https://ko.wikipedia.org/wiki/%EB%B0%94%EC%B8%A8%EB%9D%BC%ED%94%84_%EA%B4%91%EC%9E%A5
+CZ-N10,비셰흐라트,446,https://ko.wikipedia.org/wiki/%EB%B9%84%EC%85%B0%ED%9D%90%EB%9D%BC%ED%8A%B8
+CZ-N11,체스키크룸로프 성,156,https://ko.wikipedia.org/wiki/%EC%B2%B4%EC%8A%A4%ED%82%A4%ED%81%AC%EB%A3%B8%EB%A1%9C%ED%94%84%EC%84%B1
+CZ-N12,체스키크룸로프 구시가지,343,https://ko.wikipedia.org/wiki/%EC%B2%B4%EC%8A%A4%ED%82%A4%ED%81%AC%EB%A3%B8%EB%A1%9C%ED%94%84
+CZ-N18,브르노 슈필베르크 성,431,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A5%B4%EB%85%B8
+CZ-N19,카를로비바리 온천,216,https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A5%BC%EB%A1%9C%EB%B9%84%EB%B0%94%EB%A6%AC
+PT-N01,벨렝 탑,426,https://ko.wikipedia.org/wiki/%EB%B2%A8%EB%A0%9D%ED%83%91
+PT-N02,제로니무스 수도원,197,https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%A1%9C%EB%8B%88%EB%AC%B4%EC%8A%A4_%EC%88%98%EB%8F%84%EC%9B%90
+PT-N03,발견기념비,186,https://ko.wikipedia.org/wiki/%EB%B0%9C%EA%B2%AC%EA%B8%B0%EB%85%90%EB%B9%84
+PT-N04,상조르즈 성,238,https://ko.wikipedia.org/wiki/%EC%83%81%EC%A1%B0%EB%A5%B4%EC%A6%88%EC%84%B1
+PT-N05,코메르시우 광장,179,https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A9%94%EB%A5%B4%EC%8B%9C%EC%9A%B0_%EA%B4%91%EC%9E%A5
+PT-N07,산타주스타 엘리베이터,396,https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0
+PT-N11,호카곶,107,https://ko.wikipedia.org/wiki/%ED%98%B8%EC%B9%B4%EA%B3%B6
+PT-N12,포르투 히베이라,274,https://ko.wikipedia.org/wiki/%ED%8F%AC%EB%A5%B4%ED%88%AC
+PT-N17,코임브라 대학교,433,https://ko.wikipedia.org/wiki/%EC%BD%94%EC%9E%84%EB%B8%8C%EB%9D%BC_%EB%8C%80%ED%95%99%EA%B5%90
+PT-N18,바탈랴 수도원,372,https://ko.wikipedia.org/wiki/%EB%B0%94%ED%83%88%EB%9E%B4_%EC%88%98%EB%8F%84%EC%9B%90
+PT-N19,알코바사 수도원,352,https://ko.wikipedia.org/wiki/%EC%95%8C%EC%BD%94%EB%B0%94%EC%82%AC_%EC%88%98%EB%8F%84%EC%9B%90
+PT-N20,에보라 로마 신전,391,https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%A7%88_%EC%8B%A0%EC%A0%84
+PL-N01,바벨 성,394,https://ko.wikipedia.org/wiki/%EB%B0%94%EB%B2%A8%EC%84%B1
+PL-N04,비엘리치카 소금광산,204,https://ko.wikipedia.org/wiki/%EB%B9%84%EC%97%98%EB%A6%AC%EC%B9%98%EC%B9%B4_%EC%86%8C%EA%B8%88%EA%B4%91%EC%82%B0
+PL-N06,바르샤바 구시가지,440,https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A5%B4%EC%83%A4%EB%B0%94
+PL-N07,바르샤바 왕궁,168,https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A5%B4%EC%83%A4%EB%B0%94_%EC%99%95%EA%B6%81
+PL-N08,와지엔키 공원,422,https://ko.wikipedia.org/wiki/%EC%99%80%EC%A7%80%EC%97%94%ED%82%A4_%EA%B3%B5%EC%9B%90
+PL-N09,문화과학궁전,127,https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EA%B3%BC%ED%95%99%EA%B6%81%EC%A0%84
+PL-N10,빌라누프 궁전,411,https://ko.wikipedia.org/wiki/%EB%B9%8C%EB%9D%BC%EB%88%84%ED%94%84%EA%B6%81
+PL-N12,말보르크 성,388,https://ko.wikipedia.org/wiki/%EB%A7%90%EB%B3%B4%EB%A5%B4%ED%81%AC%EC%84%B1
+PL-N14,브로츠와프 시장광장,347,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A1%9C%EC%B8%A0%EC%99%80%ED%94%84
+PL-N16,자코파네,222,https://ko.wikipedia.org/wiki/%EC%9E%90%EC%BD%94%ED%8C%8C%EB%84%A4
+PL-N17,타트라 국립공원,287,https://ko.wikipedia.org/wiki/%ED%83%80%ED%8A%B8%EB%9D%BC_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90_(%ED%8F%B4%EB%9E%80%EB%93%9C)
+PL-N18,비아워비에자 숲,210,https://ko.wikipedia.org/wiki/%EB%B9%84%EC%95%84%EC%9B%8C%EB%B9%84%EC%97%90%EC%9E%90_%EC%88%B2
+PL-N20,모르스키에 오코,439,https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%A5%B4%EC%8A%A4%ED%82%A4%EC%97%90%EC%98%A4%EC%BD%94%ED%98%B8
+HR-N14,흐바르 요새,397,https://ko.wikipedia.org/wiki/%ED%9D%90%EB%B0%94%EB%A5%B4
+NO-N01,게이랑에르피오르,176,https://ko.wikipedia.org/wiki/%EA%B2%8C%EC%9D%B4%EB%9E%91%EC%97%90%EB%A5%B4_%ED%94%BC%EC%98%A4%EB%A5%B4
+NO-N02,네뢰위피오르,404,https://ko.wikipedia.org/wiki/%EB%84%A4%EB%A2%B0%EC%9C%84_%ED%94%BC%EC%98%A4%EB%A5%B4
+NO-N03,브뤼겐,307,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A4%BC%EA%B2%90
+NO-N09,로포텐 제도,110,https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%8F%AC%ED%85%90_%EC%A0%9C%EB%8F%84
+NO-N11,트롬쇠 북극대성당,430,https://ko.wikipedia.org/wiki/%EB%8C%80%EC%84%B1%EB%8B%B9
+NO-N13,오슬로 오페라하우스,266,https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%AC%EB%A1%9C_%EC%98%A4%ED%8E%98%EB%9D%BC_%ED%95%98%EC%9A%B0%EC%8A%A4
+NO-N15,뭉크 미술관,154,https://ko.wikipedia.org/wiki/%EB%AD%89%ED%81%AC_%EB%AF%B8%EC%88%A0%EA%B4%80
+NO-N17,바이킹 선박 박물관,466,https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%82%B9
+NO-N18,노르카프,252,https://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B4%EC%B9%B4%ED%94%84
+SE-N01,감라스탄,414,https://ko.wikipedia.org/wiki/%EA%B0%90%EB%9D%BC%EC%8A%A4%ED%83%84
+SE-N02,스톡홀름 왕궁,226,https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%86%A1%ED%99%80%EB%A6%84
+SE-N03,바사 박물관,306,https://ko.wikipedia.org/wiki/%EB%B0%94%EC%82%AC_%EB%B0%95%EB%AC%BC%EA%B4%80
+SE-N04,스칸센 야외박물관,292,https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%B9%B8%EC%84%BC
+SE-N06,스톡홀름 시청,442,https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%86%A1%ED%99%80%EB%A6%84_%EC%8B%9C%EC%B2%AD%EC%82%AC
+SE-N07,드로트닝홀름 궁전,222,https://ko.wikipedia.org/wiki/%EB%93%9C%EB%A1%9C%ED%8A%B8%EB%8B%9D%ED%99%80%EB%A6%84_%EA%B6%81%EC%A0%84
+SE-N09,유르고르덴,124,https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A5%B4%EA%B3%A0%EB%A5%B4%EB%8D%B4
+SE-N10,웁살라 대성당,349,https://ko.wikipedia.org/wiki/%EC%9B%81%EC%82%B4%EB%9D%BC_%EB%8C%80%EC%84%B1%EB%8B%B9
+SE-N13,고틀란드 비스뷔,345,https://ko.wikipedia.org/wiki/%EB%B9%84%EC%8A%A4%EB%B7%94
+SE-N15,예테보리 리세베리,391,https://ko.wikipedia.org/wiki/%EC%98%88%ED%85%8C%EB%B3%B4%EB%A6%AC
+SE-N17,말뫼 터닝 토르소,226,https://ko.wikipedia.org/wiki/%ED%84%B0%EB%8B%9D_%ED%86%A0%EB%A5%B4%EC%86%8C
+SE-N18,외레순 다리,378,https://ko.wikipedia.org/wiki/%EC%99%B8%EB%A0%88%EC%88%9C_%EB%8B%A4%EB%A6%AC
+SE-N20,아비스코 국립공원,157,https://ko.wikipedia.org/wiki/%EC%95%84%EB%B9%84%EC%8A%A4%EC%BD%94
+DK-N01,뉘하운,423,https://ko.wikipedia.org/wiki/%EB%89%98%ED%95%98%EC%9A%B4
+DK-N02,인어공주 동상,417,https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%96%B4%EA%B3%B5%EC%A3%BC
+DK-N03,티볼리 공원,109,https://ko.wikipedia.org/wiki/%ED%8B%B0%EB%B3%BC%EB%A6%AC_%EA%B3%B5%EC%9B%90
+DK-N05,로센보르 성,391,https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%84%BC%EB%B3%B4%EB%A5%B4%EC%84%B1
+DK-N09,크리스티아니아,133,https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%ED%83%80%EC%9A%B4_%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%84%EB%8B%88%EC%95%84
+DK-N10,코펜하겐 오페라하우스,407,https://ko.wikipedia.org/wiki/%EC%BD%94%ED%8E%9C%ED%95%98%EA%B2%90
+DK-N13,프레데릭스보르 성,403,https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EB%8D%B0%EB%A6%AD%EC%8A%A4%EB%B3%B4%EB%A5%B4%EC%84%B1
+DK-N14,로스킬레 대성당,164,https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%8A%A4%ED%82%AC%EB%A0%88
+DK-N15,바이킹 선박 박물관,466,https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%82%B9
+DK-N16,레고랜드 빌룬,378,https://ko.wikipedia.org/wiki/%EB%A0%88%EA%B3%A0%EB%9E%9C%EB%93%9C_%EB%B9%8C%EB%A3%AC_%EB%A6%AC%EC%A1%B0%ED%8A%B8
+FI-N01,헬싱키 대성당,327,https://ko.wikipedia.org/wiki/%ED%97%AC%EC%8B%B1%ED%82%A4_%EB%8C%80%EC%84%B1%EB%8B%B9
+FI-N02,원로원 광장,256,https://ko.wikipedia.org/wiki/%EC%9B%90%EB%A1%9C%EC%9B%90_%EA%B4%91%EC%9E%A5_(%EC%83%81%ED%8A%B8%ED%8E%98%ED%85%8C%EB%A5%B4%EB%B6%80%EB%A5%B4%ED%81%AC)
+FI-N03,수오멘린나 요새,385,https://ko.wikipedia.org/wiki/%EC%88%98%EC%98%A4%EB%A9%98%EB%A6%B0%EB%82%98
+FI-N04,템펠리아우키오 교회,403,https://ko.wikipedia.org/wiki/%ED%85%9C%ED%8E%A0%EB%A6%AC%EC%95%84%EC%9A%B0%ED%82%A4%EC%98%A4_%EA%B5%90%ED%9A%8C
+FI-N05,우스펜스키 대성당,395,https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%8A%A4%ED%8E%9C%EC%8A%A4%ED%82%A4_%EB%8C%80%EC%84%B1%EB%8B%B9
+FI-N07,오디 중앙도서관,421,https://ko.wikipedia.org/wiki/%EB%8F%84%EC%84%9C%EA%B4%80
+FI-N11,투르쿠 성,154,https://ko.wikipedia.org/wiki/%ED%88%AC%EB%A5%B4%EC%BF%A0%EC%84%B1
+FI-N16,로바니에미 산타클로스 마을,457,https://ko.wikipedia.org/wiki/%EC%82%B0%ED%83%80%ED%81%B4%EB%A1%9C%EC%8A%A4
+IS-N02,게이시르 간헐천,387,https://ko.wikipedia.org/wiki/%EA%B2%8C%EC%9D%B4%EC%8B%9C%EB%A5%B4
+IS-N04,블루라군,123,https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A3%A8_%EB%9D%BC%EA%B5%B0
+IS-N12,스카프타펠,187,https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%B9%B4%ED%94%84%ED%83%80%ED%8E%A0
+IS-N16,고다포스 폭포,194,https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%8B%A4%ED%8F%AC%EC%8A%A4
+IS-N17,미바튼 호수,163,https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%B0%94%ED%8A%BC
+IS-N19,할그림스키르캬,413,https://ko.wikipedia.org/wiki/%ED%95%A0%EA%B7%B8%EB%A6%BC%EC%8A%A4%ED%82%A4%EB%A5%B4%EC%BA%AC
+BE-N02,오줌싸개 소년상,424,https://ko.wikipedia.org/wiki/%EC%98%A4%EC%A4%8C%EC%8B%B8%EA%B0%9C_%EC%86%8C%EB%85%84
+BE-N03,아토미움,413,https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%A0%EB%AF%B8%EC%9B%80
+BE-N04,브뤼셀 왕궁,350,https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A4%BC%EC%85%80_%EC%99%95%EA%B6%81
+NP-N01,카트만두 더르바르 광장,317,https://ko.wikipedia.org/wiki/%EB%8D%94%EB%A5%B4%EB%B0%94%EB%A5%B4_%EA%B4%91%EC%9E%A5
+NP-N02,스와얌부나트,284,https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%99%80%EC%96%8C%EB%B6%80%EB%82%98%ED%8A%B8_%EC%82%AC%EC%9B%90
+NP-N04,파슈파티나트,336,https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%8A%88%ED%8C%8C%ED%8B%B0%EB%82%98%ED%8A%B8_%EC%82%AC%EC%9B%90
+NP-N05,파탄 더르바르 광장,317,https://ko.wikipedia.org/wiki/%EB%8D%94%EB%A5%B4%EB%B0%94%EB%A5%B4_%EA%B4%91%EC%9E%A5
+NP-N06,박타푸르 더르바르 광장,317,https://ko.wikipedia.org/wiki/%EB%8D%94%EB%A5%B4%EB%B0%94%EB%A5%B4_%EA%B4%91%EC%9E%A5
+NP-N08,에베레스트산,376,https://ko.wikipedia.org/wiki/%EC%97%90%EB%B2%A0%EB%A0%88%EC%8A%A4%ED%8A%B8%EC%82%B0
+NP-N09,사가르마타 국립공원,117,https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B0%80%EB%A5%B4%EB%A7%88%ED%83%80_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+MY-N01,페트로나스 트윈타워,471,https://ko.wikipedia.org/wiki/%ED%8E%98%ED%8A%B8%EB%A1%9C%EB%82%98%EC%8A%A4_%ED%8A%B8%EC%9C%88_%ED%83%80%EC%9B%8C
+MY-N04,쿠알라룸푸르 타워,417,https://ko.wikipedia.org/wiki/%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4_%ED%83%80%EC%9B%8C
+MY-N06,페낭 조지타운,206,https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%ED%83%80%EC%9A%B4
+MY-N07,켁록시 사원,398,https://ko.wikipedia.org/wiki/%EC%BC%81%EB%A1%9D%EC%8B%9C
+MY-N08,키나발루산,178,https://ko.wikipedia.org/wiki/%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%EC%82%B0
+KH-N02,앙코르톰,400,https://ko.wikipedia.org/wiki/%EC%95%99%EC%BD%94%EB%A5%B4_%ED%86%B0
+KH-N03,바이욘 사원,409,https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EC%9A%98
+KH-N04,타 프롬,162,https://ko.wikipedia.org/wiki/%ED%83%80_%ED%94%84%EB%A1%AC
+KH-N06,프레아 비헤아르 사원,446,https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EC%95%84_%EB%B9%84%ED%97%A4%EC%95%84%EB%A5%B4_%EC%82%AC%EC%9B%90
+KH-N08,톤레사프 호수,172,https://ko.wikipedia.org/wiki/%ED%86%A4%EB%A0%88%EC%82%AC%ED%94%84%ED%98%B8
+KH-N09,프놈펜 왕궁,306,https://ko.wikipedia.org/wiki/%ED%94%84%EB%86%88%ED%8E%9C_%EC%99%95%EA%B6%81
+PH-N01,인트라무로스,267,https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%8A%B8%EB%9D%BC%EB%AC%B4%EB%A1%9C%EC%8A%A4
+PH-N04,리살 공원,157,https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%82%B4_%EA%B3%B5%EC%9B%90
+PH-N06,초콜릿 힐스,184,https://ko.wikipedia.org/wiki/%EC%B4%88%EC%BD%9C%EB%A6%BF_%ED%9E%90%EC%8A%A4
+PH-N07,푸에르토프린세사 지하강,179,https://ko.wikipedia.org/wiki/%ED%91%B8%EC%97%90%EB%A5%B4%ED%86%A0%ED%94%84%EB%A6%B0%EC%84%B8%EC%82%AC
+PH-N09,코론섬,401,https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%A0%EC%84%AC
+MN-N01,칭기즈 칸 기마상,396,https://ko.wikipedia.org/wiki/%EC%B9%AD%EA%B8%B0%EC%A6%88_%EC%B9%B8_%EA%B8%B0%EB%A7%88%EC%83%81
+MN-N02,간단 사원,381,https://ko.wikipedia.org/wiki/%EA%B0%84%EB%8B%A8_%EC%82%AC%EC%9B%90
+MN-N03,수흐바타르 광장,340,https://ko.wikipedia.org/wiki/%EC%88%98%ED%9D%90%EB%B0%94%ED%83%80%EB%A5%B4_%EA%B4%91%EC%9E%A5
+MN-N04,테를지 국립공원,420,https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A5%B4%ED%9E%88-%ED%85%8C%EB%A5%BC%EC%A7%80_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90
+MN-N05,고비 사막,193,https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%B9%84_%EC%82%AC%EB%A7%89
+MN-N09,카라코룸 유적,402,https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%9D%BC%EC%BD%94%EB%A3%B8
+MN-N10,에르덴조 사원,179,https://ko.wikipedia.org/wiki/%EC%97%90%EB%A5%B4%EB%8D%B4_%EC%A1%B0_%EC%82%AC%EC%9B%90
+EG-N01,기자 대피라미드,477,https://ko.wikipedia.org/wiki/%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C
+EG-N02,스핑크스,156,https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%95%91%ED%81%AC%EC%8A%A4
+EG-N06,살라딘 성채,522,https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%94%98
+EG-N07,룩소르 신전,274,https://ko.wikipedia.org/wiki/%EB%A3%A9%EC%86%8C%EB%A5%B4_%EC%8B%A0%EC%A0%84
+EG-N09,왕가의 계곡,437,https://ko.wikipedia.org/wiki/%EC%99%95%EA%B0%80%EC%9D%98_%EA%B3%84%EA%B3%A1
+BR-N01,구세주 그리스도상,397,https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%84%B8%EC%A3%BC_%EA%B7%B8%EB%A6%AC%EC%8A%A4%EB%8F%84%EC%83%81
+BR-N04,이파네마 해변,127,https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%8C%8C%EB%84%A4%EB%A7%88
+BR-N08,아마존강,400,https://ko.wikipedia.org/wiki/%EC%95%84%EB%A7%88%EC%A1%B4%EA%B0%95
