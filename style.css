@@ -195,3 +195,7 @@
 .country-picker .country-choice.country-complete.selected {outline:2px solid #e4b66e;outline-offset:1px;}
 .country-picker .country-choice.country-started.selected {outline:2px solid #b17a44;outline-offset:1px;}
 .country-picker .country-choice .country-counts {background:transparent!important;font-weight:850;}
+
+/* V1.62: Quiet story-completion accent; photo-completion colors are unchanged. */
+.nameplate.story-complete{outline:1.5px solid #8dbed4;outline-offset:-2px;}
+.country-story-progress{display:block;font-size:10.5px;line-height:1.35;font-weight:650;color:#638aa6;margin-top:2px;letter-spacing:-.02em;}

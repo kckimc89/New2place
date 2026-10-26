@@ -1,8 +1,8 @@
 window.LANDMARK_BASE = {
   "title": "세계 명소대백과",
-  "version": "1.61",
-  "release": "V1.61 · 아일랜드·헝가리·라오스 30개 명소 이야기 심화",
-  "basedOn": "V1.60 · 사진·검색기억과 기존 식별번호 보존",
+  "version": "1.62",
+  "release": "V1.62 · 대한민국·중국·일본·대만 나라별 이야기 1차 완성 · 은은한 파란색 표시",
+  "basedOn": "V1.61 3개국 이야기 보강판",
   "categories": [
     {
       "id": "nature",
@@ -474,7 +474,7 @@ window.LANDMARK_BASE = {
         "景福宮",
         "Gyeongbokgung"
       ],
-      "description": "경복궁은 1395년 조선의 첫 도읍 한양에 세워진 궁궐입니다. 왕이 나라의 중요한 행사를 열던 근정전, 연회를 베풀던 경회루, 연못 위의 향원정처럼 건물마다 쓰임이 달랐습니다. 궁궐은 여러 차례 큰 피해를 입었고 고종 때 크게 다시 지었습니다. 오늘날에도 역사 자료를 바탕으로 복원과 연구가 이어지고 있습니다. 북악산을 배경으로 한 전각의 배치를 보면 왕궁이 도시와 산을 어떻게 연결했는지 느낄 수 있습니다.",
+      "description": "서울 한복판의 경복궁은 조선이 새 수도 한양을 정한 뒤 1395년에 세운 첫 번째 큰 궁궐입니다. 근정전 앞 넓은 마당에서는 나라의 중요한 의식이 열렸고, 경회루에서는 연못 위 누각을 배경으로 연회가 펼쳐졌습니다. 궁 안의 길을 따라가면 왕이 나라 일을 보던 곳과 가족이 지내던 곳이 차례로 나타납니다. 임진왜란 때 불탄 뒤 오랫동안 폐허로 남았고, 19세기에 다시 지어졌지만 일제강점기에도 많은 건물이 훼손되었습니다. 오늘날 복원된 전각과 광화문은 여러 시대의 아픔을 지나 다시 모습을 되찾은 궁궐의 역사를 전합니다.",
       "wikiTitle": "Gyeongbokgung",
       "wikiLang": "en",
       "photos": [],
@@ -484,7 +484,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L02",
@@ -501,7 +504,7 @@ window.LANDMARK_BASE = {
         "昌德宮",
         "Changdeokgung"
       ],
-      "description": "창덕궁은 조선시대 서울에 세워진 궁궐로, 자연 지형을 살리면서 건물을 배치한 점이 특징입니다. 궁궐의 주요 전각인 인정전은 국가 의식이 거행되던 공간이었고, 낙선재 일대에는 왕실의 생활 흔적이 남아 있습니다. 뒤쪽의 후원에는 연못과 정자, 숲길이 이어져 건축과 자연이 조화를 이룹니다. 경복궁과 달리 건물이 지형에 따라 조금씩 방향을 바꾸는 모습이 특히 흥미롭습니다.",
+      "description": "창덕궁은 조선 왕들이 오래 머물렀던 궁궐로, 주변 산과 언덕을 억지로 깎지 않고 자연의 굴곡을 따라 건물을 세운 점이 특별합니다. 인정전은 나라의 큰 의식을 치르던 공간이고, 뒤쪽 후원에는 연못과 정자, 숲길이 이어집니다. 후원은 아무나 드나드는 공원이 아니라 왕실 사람들이 자연 속에서 쉬고 학문을 즐기던 정원이었습니다. 궁궐 건물과 숲이 서로 어우러진 모습은 창덕궁이 유네스코 세계유산으로 인정받은 중요한 이유 가운데 하나입니다. 화려한 궁전과 고요한 정원이 하나의 풍경을 이룹니다.",
       "wikiTitle": "Changdeokgung",
       "wikiLang": "en",
       "photos": [],
@@ -511,7 +514,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L03",
@@ -538,7 +544,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Hallasan"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Hallasan",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L04",
@@ -565,7 +574,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Seoraksan_National_Park"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Seoraksan_National_Park",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L05",
@@ -591,7 +603,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Namsan_Seoul_Tower"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Namsan_Seoul_Tower",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L06",
@@ -615,7 +630,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Gwangjang_Market"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Gwangjang_Market",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L07",
@@ -640,7 +658,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집"
+      "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L08",
@@ -667,7 +688,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Cheonggyecheon"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Cheonggyecheon",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L01",
@@ -699,7 +723,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L02",
@@ -738,7 +765,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L03",
@@ -770,7 +800,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 보존 ID, 명칭 통합 및 새 초안",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L04",
@@ -801,7 +834,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L05",
@@ -825,7 +861,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집"
+      "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L06",
@@ -855,7 +894,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L07",
@@ -889,7 +931,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/The_Bund"
+      "storySourceReference": "https://en.wikipedia.org/wiki/The_Bund",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L08",
@@ -917,7 +962,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L01",
@@ -933,7 +981,7 @@ window.LANDMARK_BASE = {
         "Mount Fuji",
         "Fuji-san"
       ],
-      "description": "후지산은 일본 혼슈에 솟은 원뿔 모양의 화산이자 일본에서 가장 높은 산입니다. 화산활동으로 만들어진 거의 대칭적인 모습은 수많은 그림과 시, 사진에 등장했습니다. 산 정상 주변에는 분화구가 남아 있고, 산기슭에는 숲과 호수, 마을이 이어집니다. 특히 후지오호 지역에서 바라보는 모습은 계절과 날씨에 따라 크게 달라집니다. 2013년에는 산 자체뿐 아니라 신앙과 예술의 전통을 함께 인정받아 유네스코 세계유산에 등재되었습니다.",
+      "description": "일본에서 가장 높은 후지산은 멀리서 보면 삼각형에 가까운 아름다운 화산입니다. 하지만 이 산은 한 번에 만들어진 것이 아니라 여러 차례 화산활동을 거치며 지금의 모습을 갖추었습니다. 산 정상에는 커다란 분화구가 남아 있고, 맑은 날에는 눈 덮인 봉우리가 멀리서도 선명하게 보입니다. 일본 사람들은 오랫동안 후지산을 신성한 산으로 여겨 순례했고, 화가들은 그림과 판화에 그 모습을 담았습니다. 특히 가쓰시카 호쿠사이의 연작 판화에도 후지산이 자주 등장합니다. 자연의 산이 종교와 예술 속에서도 중요한 상징이 된 곳입니다.",
       "wikiTitle": "Mount Fuji",
       "wikiLang": "en",
       "photos": [],
@@ -943,7 +991,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L02",
@@ -970,7 +1021,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 사실 기반 명소별 개별 집필",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L03",
@@ -988,7 +1042,7 @@ window.LANDMARK_BASE = {
         "Kiyomizu-dera",
         "청수사"
       ],
-      "description": "기요미즈데라는 교토 동쪽 산기슭에 자리한 오랜 불교 사찰입니다. 가장 유명한 본당 앞의 커다란 목조 무대는 가파른 언덕을 향해 돌출되어 있고, 복잡하게 맞물린 기둥과 들보가 이를 받칩니다. 무대에 서면 교토 시가지와 사찰 주변의 숲이 한눈에 펼쳐집니다. 봄에는 벚꽃, 가을에는 단풍이 풍경을 바꾸며 같은 건물도 계절마다 다른 느낌을 줍니다. 사찰 이름에는 주변에서 흘러내리는 맑은 물과 관련된 뜻이 담겨 있습니다.",
+      "description": "교토 산비탈에 세워진 기요미즈데라의 가장 유명한 모습은 높은 나무기둥이 받치는 본당의 넓은 무대입니다. 산에서 앞으로 튀어나온 듯한 무대 아래에는 굵은 기둥과 들보들이 복잡하게 맞물려 있습니다. 옛사람들은 이런 목조건축 기술로 가파른 지형 위에 큰 공간을 만들었습니다. 사찰 이름은 ‘맑은 물의 절’이라는 뜻으로, 가까운 오토와 폭포와도 관련이 있습니다. 봄의 벚꽃과 가을의 단풍 사이로 드러나는 기둥과 지붕은 교토의 오래된 건축문화를 보여 줍니다.",
       "wikiTitle": "Kiyomizu-dera",
       "wikiLang": "en",
       "photos": [],
@@ -998,7 +1052,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L04",
@@ -1022,7 +1079,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L05",
@@ -1051,7 +1111,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Arashiyama"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Arashiyama",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L06",
@@ -1067,7 +1130,7 @@ window.LANDMARK_BASE = {
         "Osaka Castle",
         "大阪城"
       ],
-      "description": "오사카성은 일본 오사카 중심부의 성곽 유적으로, 도요토미 히데요시가 16세기 후반 축성을 시작했습니다. 높은 돌담과 해자가 성의 방어 기능을 보여 주며, 중심의 천수각은 여러 차례 소실과 재건을 거쳐 현재의 모습에 이르렀습니다. 흰 벽과 녹색 지붕, 금빛 장식은 다른 성과 구분되는 인상을 줍니다. 봄에는 성곽 공원에 벚꽃이 피어 역사유적과 계절 풍경이 함께 펼쳐집니다.",
+      "description": "오사카성은 일본의 전국시대가 끝나 가던 16세기 후반, 도요토미 히데요시가 축성을 시작한 큰 성입니다. 적의 공격을 막기 위해 파 놓은 해자와 높고 두꺼운 돌담이 성의 바깥을 둘러쌉니다. 특히 거대한 돌을 맞물려 쌓은 성벽은 가까이에서 보면 규모가 더욱 실감 납니다. 성의 중심인 천수각은 전쟁과 화재 등으로 여러 차례 사라졌다가 다시 세워졌으며, 현재 건물은 20세기에 재건한 것입니다. 그래서 오사카성은 옛 성의 방어시설과 근대에 복원한 건물을 함께 살펴볼 수 있는 장소입니다.",
       "wikiTitle": "Osaka Castle",
       "wikiLang": "en",
       "photos": [],
@@ -1077,7 +1140,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L07",
@@ -1101,7 +1167,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Tsukiji_fish_market"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Tsukiji_fish_market",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L08",
@@ -1128,7 +1197,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Nara_Park"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Nara_Park",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L01",
@@ -1145,7 +1217,7 @@ window.LANDMARK_BASE = {
         "台北101",
         "臺北101"
       ],
-      "description": "타이베이 101은 대만 타이베이에 세워진 초고층 건축물입니다. 건물이 여덟 개 층씩 쌓인 듯한 형태에는 전통 아시아 건축과 길상무늬에서 얻은 영감이 반영되어 있습니다. 높은 건물이 강풍과 지진을 견디도록 내부에는 거대한 진동 제어 장치가 설치되어 있습니다. 전망대에서는 도시를 넓게 내려다볼 수 있고, 야간에는 외벽 조명이 타이베이의 스카이라인을 밝힙니다. 전통적인 상징과 현대 공학이 함께 들어 있는 명소입니다.",
+      "description": "타이베이 101은 대만의 수도 타이베이에 솟은 높이 약 508미터의 초고층 건물입니다. 멀리서 보면 대나무 마디가 차곡차곡 쌓인 것처럼 층이 나뉘어 보입니다. 대만은 태풍과 지진이 잦은 지역이어서 높은 건물의 흔들림을 줄이는 기술이 특히 중요합니다. 그래서 건물 높은 곳에는 무게가 수백 톤에 이르는 커다란 금속 구슬인 질량감쇠장치가 설치되어 있습니다. 바람이나 지진으로 건물이 움직일 때 이 구슬이 함께 움직이며 흔들림을 줄이도록 돕습니다. 아름다운 모양 안에 정교한 안전 기술이 숨어 있는 건물입니다.",
       "wikiTitle": "Taipei 101",
       "wikiLang": "en",
       "photos": [],
@@ -1155,7 +1227,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L02",
@@ -1171,7 +1246,7 @@ window.LANDMARK_BASE = {
         "國立故宮博物院",
         "National Palace Museum"
       ],
-      "description": "타이베이 국립고궁박물원은 중국 역대 왕실이 수집하고 전해 온 다양한 유물을 보관·전시하는 박물관입니다. 도자기와 서화, 청동기, 옥 공예품 등 여러 시대의 예술과 생활문화를 한곳에서 만날 수 있습니다. 대표적인 옥 조각과 섬세한 공예품은 작은 재료로 놀라운 질감과 형태를 만들어 낸 기술을 보여 줍니다. 유물을 통해 왕실의 취향과 동아시아의 오랜 문화 교류를 이해할 수 있습니다.",
+      "description": "타이베이 국립고궁박물원은 중국 왕실에서 오랫동안 모아 온 귀중한 문화유산을 전시하는 박물관입니다. 붓글씨와 그림, 청동기, 도자기, 옥 공예품 등 여러 시대의 작품을 한곳에서 볼 수 있습니다. 특히 옥을 깎아 배추처럼 만든 ‘취옥백채’와 돌의 무늬를 살려 고기처럼 보이게 만든 ‘육형석’이 유명합니다. 처음에는 평범한 채소와 고기처럼 보이지만 가까이 보면 단단한 돌을 정교하게 깎아 만든 예술품입니다. 박물관에는 옛사람들이 자연의 재료를 얼마나 섬세한 작품으로 바꾸었는지 보여 주는 보물이 가득합니다.",
       "wikiTitle": "National Palace Museum",
       "wikiLang": "en",
       "photos": [],
@@ -1181,7 +1256,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L03",
@@ -1199,7 +1277,7 @@ window.LANDMARK_BASE = {
         "太鲁阁峡谷",
         "Taroko National Park"
       ],
-      "description": "타이루거 협곡은 대만 동부의 산악지역에서 강물이 단단한 대리석 지형을 깊이 깎아 만든 협곡입니다. 좁은 절벽 사이로 물길이 흐르고, 높은 암벽과 터널이 이어져 규모가 압도적입니다. 이곳은 지진과 낙석의 영향을 받는 지형이므로 접근 가능한 구간과 통제 현황은 시기에 따라 달라질 수 있습니다. 협곡의 형태는 강물의 침식과 지각운동이 긴 시간 함께 작용한 결과입니다.",
+      "description": "대만 동부의 타이루거 협곡은 높은 산 사이로 강물이 오랫동안 바위를 깎아 만든 깊은 골짜기입니다. 절벽에는 대리석이 드러나고, 계곡 아래로는 물길이 굽이쳐 흐릅니다. 지각의 움직임으로 산이 솟아오르는 동안 물이 바위를 파고들며 지금처럼 좁고 높은 협곡이 형성되었습니다. 높은 절벽 옆으로 이어지는 도로와 터널은 놀라운 풍경을 보여 주지만, 이곳은 지진과 낙석이 잦아 안전 관리가 특히 중요합니다. 아름다운 협곡은 땅이 움직이고 물이 흐른 아주 긴 시간을 한눈에 보여 줍니다.",
       "wikiTitle": "Taroko National Park",
       "wikiLang": "en",
       "photos": [],
@@ -1209,7 +1287,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L04",
@@ -1235,7 +1316,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L05",
@@ -1262,7 +1346,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Jiufen"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Jiufen",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L06",
@@ -1285,7 +1372,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L07",
@@ -1311,7 +1401,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-L08",
@@ -1338,7 +1431,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "검색엔진 확인 전",
       "researchProvenance": "Stage 0.1 수동선정 초안; 위키데이터 조회 및 부모 검토 전",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "FR-L01",
@@ -1617,7 +1713,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-L10",
@@ -1640,7 +1739,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.55 기존 설명 보존 + 명소별 고유 이야기 편집",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L09",
@@ -1666,7 +1768,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-L10",
@@ -1679,7 +1784,7 @@ window.LANDMARK_BASE = {
         "Himeji Castle",
         "姫路城"
       ],
-      "description": "히메지성은 일본 효고현에 있는 성으로, 새하얀 외벽과 겹겹이 이어진 지붕 때문에 ‘백로성’이라는 별명으로도 불립니다. 복잡하게 꺾인 성 안의 길과 높은 돌담, 좁은 창문은 방어를 고려한 설계입니다. 현존하는 일본 성곽 가운데 보존 상태가 뛰어나 세계유산에 등재되어 있습니다. 멀리서 보면 흰 성벽이 층층이 솟아 오른 듯한 실루엣이 특히 아름답습니다.",
+      "description": "일본 효고현의 히메지성은 눈처럼 하얀 외벽 때문에 날개를 편 흰 해오라기 같은 성이라는 별명을 얻었습니다. 높은 천수각은 멀리서도 보이지만 성 안으로 들어가는 길은 생각보다 복잡합니다. 좁은 길과 굽은 통로를 따라가야 하는데, 적이 쉽게 중심부까지 들어오지 못하도록 설계했기 때문입니다. 목조 건물과 성벽, 여러 문이 옛 모습에 가깝게 남아 있어 일본 성곽 건축을 살펴보기 좋습니다. 겉으로는 우아해 보여도 안쪽에는 치밀한 방어 계획이 숨어 있는 성입니다.",
       "wikiTitle": "Himeji Castle",
       "wikiLang": "en",
       "photos": [],
@@ -1689,7 +1794,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "Stage 1.4 새 편집설명 (개별 자료 검증 전)",
-      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요"
+      "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L09",
@@ -1716,7 +1824,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "사진·검색 검증 대기",
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-L10",
@@ -1745,7 +1856,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "대표명소 후보 수동 편집; 온라인 식별자/사진 미검증",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
       "descriptionNote": "편집 보강 원고 · 개별 문헌 검증 필요",
-      "storySourceReference": "https://en.wikipedia.org/wiki/Huangshan"
+      "storySourceReference": "https://en.wikipedia.org/wiki/Huangshan",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "IT-L01",
@@ -2267,7 +2381,7 @@ window.LANDMARK_BASE = {
         "덕수궁 중화전",
         "Deoksugung Jungwhajeon"
       ],
-      "description": "덕수궁(德壽宮)은 서울 중구 정동(貞洞)에 있는 조선과 대한제국의 궁궐지정. 본래 이름은 경운궁(慶運宮)으로, 아관파천 이후 환궁하여 법궁으로 사용되다가 순종 즉위 후 궁의 이름을 현재의 덕수궁으로 변경되었습니다. 현재의 영역 외에 선원전, 홍원, 중명전 영역도 덕수궁의 영역으로 모두 이어져 있었으나, 일제강점기를 거치면서 축소되었습니다. 조선 초기 세조가 남편을 잃고 궁궐을 떠나는 맏며느리 수빈 한씨(인수대비)를 가엽게 여겨 개인 사저로 마련해주었고, 이후 한씨의 차남 자산군(9대성종)이 보위에 오르게 되어 궁궐에 들어가자 장남인 월산대군이 물려받았다. 임진왜란 이후 선조가 월산대군의 집을 임시로 왕의 거처로 쓰면서 궁이 되었습니다. 1608년 선조가 죽은 뒤 광해군이 이곳에서 즉위하였는데, 그해 완성된 창덕궁으로 떠나면서 경운궁이라는 궁호를 붙여주었다.",
+      "description": "서울 정동의 덕수궁은 조선 왕궁이면서 대한제국의 역사가 남아 있는 특별한 곳입니다. 원래 경운궁이라고 불렸으며, 고종이 대한제국 황제로서 머물던 시기에 나라의 중요한 일들이 이곳에서 이루어졌습니다. 궁 안에는 전통 목조건물인 중화전과 함께 서양식 석조 건물인 석조전도 서 있습니다. 한 궁궐 안에서 서로 다른 두 건축양식을 볼 수 있는 까닭은 당시 조선이 새로운 문물과 제도를 받아들이며 큰 변화를 겪었기 때문입니다. 궁 밖의 돌담길까지 이어지는 풍경은 근대의 역사와 궁궐의 아름다움을 함께 전합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2276,7 +2390,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-002",
@@ -2294,7 +2411,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-003",
@@ -2309,7 +2429,7 @@ window.LANDMARK_BASE = {
         "북촌 한옥마을",
         "Bukchon Seoul"
       ],
-      "description": "북촌 한옥마을은 서울특별시 종로구의 가회동과 삼청동 내에 위치한 한옥마을입니다. 지리상으로 경복궁과 창덕궁, 종묘의 사이에 자리잡고 있습니다. 조선 왕조의 두 궁궐 사이에 위치한 이 지역은 예로부터 청계천과 종로의 윗동네라는 의미로 ‘북촌’이라 불리었으며, 현재의 가회동, 삼청동, 원서동, 재동, 계동 일대에 해당합니다. 많은 사적과 문화재, 민속자료가 있어 도심 속의 박물관이라 불리기도 합니다. 경복궁과 마주하고 있는 삼청동길 주변에는 많은 갤러리가 늘어서 있고, 화동길을 비롯한 곳에서는 각종 먹거리와 특색있는 카페를 접할 수 있습니다. 또한 원서동에는 전통 기능의 보유자 및 예술인들이 모여 살고 있습니다. 1990년대 이후 다세대가구 주택이 급속하게 들어서며 많은 수의 한옥이 사라졌지만, 현재까지 양호한 상태의 한옥이 군집을 이룬 채 일부 지역에 남아 있습니다.",
+      "description": "서울 북촌한옥마을은 경복궁과 창덕궁 사이의 언덕과 골목에 한옥이 모여 있는 동네입니다. 기와지붕이 줄지어 보이고 좁은 골목이 경사진 길을 따라 이어져 오래된 서울의 분위기를 느낄 수 있습니다. 오늘날 보이는 집들 중에는 20세기 초 도시가 커지면서 지어진 한옥도 많습니다. 한옥은 마당과 처마, 온돌과 마루를 이용해 계절에 맞추어 생활하도록 만들어졌습니다. 무엇보다 북촌은 사람들이 실제로 살아가는 주거지역이어서 조용히 둘러보아야 하는 곳입니다. 도시의 현재와 전통적인 집의 모습이 함께 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2318,7 +2438,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%B6%81%EC%B4%8C_%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%B6%81%EC%B4%8C_%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-005",
@@ -2333,7 +2456,7 @@ window.LANDMARK_BASE = {
         "Lotte World Tower Seoul",
         "서울스카이 롯데월드타워"
       ],
-      "description": "롯데월드타워 또는 줄여서 롯데타워는 대한민국 서울특별시 송파구 올림픽로 300에 위치한 마천루입니다. 지상 123층, 높이가 무려 555m까지 된다. 2010년에아 착공을 시작하여 2016년 12월 22일 134층까지 상량 완료했으며, 2016년 3월경 첨탑공사가 완료됨으로써 외장 공사가 완료되었고, 2016년 12월 22일에 완공된 후 2017년 4월 3일에 개장하였습니다. 이 건물은 일본 도쿄의 명문 와세다 대학을 졸업한 신격호 롯데그룹 명예회장의 평생 숙원 사업으로, 일본을 넘어서는 세계 제일의 마천루를 모국 대한민국에 짓겠다는 일념으로 아들들의 반대에도 추진하여 성공시킨 마천루다. 본래 1994년 추진 당시엔 단순히 \"제2롯데월드\"라는 이름으로 추진했습니다. 이는 실제 1989년 롯데월드를 개관한 다음 그 바로 옆에 짓는 복합 단지였으므로.",
+      "description": "서울 잠실의 롯데월드타워는 123층, 높이 약 555미터에 이르는 초고층 건물입니다. 아래에서 올려다보면 건물이 하늘로 갈수록 가늘어지는 모습이 눈에 띕니다. 한국의 전통 도자기와 붓의 곡선에서 영감을 얻은 형태로 알려져 있습니다. 높은 곳의 서울스카이 전망대에서는 한강과 도시의 건물들, 멀리 펼쳐진 산줄기까지 내려다볼 수 있습니다. 초고층 건물은 높이뿐 아니라 강풍과 흔들림을 견디는 구조가 중요합니다. 이 탑은 옛 궁궐이 많은 서울에 오늘날의 건축기술이 더해진 풍경을 만듭니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2342,7 +2465,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%ED%83%80%EC%9B%8C"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C%ED%83%80%EC%9B%8C",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-006",
@@ -2360,7 +2486,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-007",
@@ -2370,14 +2499,17 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "중국풍 문과 건물, 음식점 사이에 인천의 근대사가 남아 있습니다. 인천항 개항 이후 중국인들이 모여 살면서 형성된 거리입니다. 중국풍 건물과 음식점, 계단 길을 통해 항구도시 인천의 교류 역사를 느낄 수 있으며, 가까운 개항장 거리에도 근대 건축물이 남아 있습니다.",
+      "description": "인천 차이나타운은 인천항이 문을 연 뒤 중국에서 건너온 사람들이 모여 살면서 형성된 거리입니다. 중국풍 지붕과 붉은 간판, 작은 음식점들이 이어져 항구도시 인천의 특별한 역사를 보여 줍니다. 이곳에는 다른 나라에서 온 사람들이 새로운 땅에서 가게를 열고 가족과 이웃을 이루며 살았던 이야기가 담겨 있습니다. 짜장면이 한국에서 발전한 음식 문화와 깊이 관련된 거리로도 알려져 있습니다. 오늘날 북적이는 관광지 뒤에는 바다를 통해 오가던 사람들과 문화가 남긴 흔적이 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-008",
@@ -2387,14 +2519,17 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "신라시대에 조성된 인공 석굴 사원입니다. 중앙의 본존불과 주변 부조가 원형에 가까운 공간 속에 치밀하게 배치되어 있습니다. 경주 토함산에 있는 통일신라 시대의 석조 불교 유산입니다. 둥근 천장의 석굴 안에 본존불이 앉아 있는 구조는 불교의 세계관과 뛰어난 돌 조각 기술을 함께 보여 주며, 불국사와 함께 세계유산으로 지정되었습니다.",
+      "description": "경주 토함산 자락의 석굴암은 8세기 통일신라 사람들이 돌로 만든 특별한 불교 공간입니다. 자연 동굴을 이용한 것이 아니라 돌을 하나하나 다듬어 둥근 방과 통로를 만들었습니다. 방 한가운데에는 커다란 석가모니불이 앉아 있고, 주위 벽에는 여러 불교 인물상이 섬세하게 새겨져 있습니다. 특히 돌을 쌓아 둥근 천장을 만든 기술은 당시 장인들의 뛰어난 솜씨를 보여 줍니다. 석굴암은 불국사와 함께 유네스코 세계유산으로 지정되어 있습니다. 산속 작은 공간에 오랜 세월 이어진 믿음과 정교한 돌 조각이 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-009",
@@ -2412,7 +2547,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-010",
@@ -2422,14 +2560,17 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "신라 왕궁의 별궁과 연못이 있었던 경주 유적입니다. 연못에 비치는 전각과 야간 조명이 아름다우며, 발굴된 유물로 당시 왕실 생활을 엿볼 수 있습니다. 신라 왕궁의 별궁 공간에 조성된 인공 연못과 건물터입니다. 발굴 과정에서 목재와 생활용품 등 많은 유물이 발견되어 당시 왕실의 생활을 이해하는 자료가 되었고, 물에 비친 전각은 밤에도 아름답습니다.",
+      "description": "경주의 동궁과 월지는 통일신라 왕궁에서 연회와 손님맞이를 위해 쓰던 별궁과 연못의 흔적입니다. 옛날에는 안압지라는 이름으로 더 널리 알려졌습니다. 왕궁 안에 만든 연못이지만 가장자리를 구불구불하게 꾸며 자연의 호수처럼 보이도록 했습니다. 연못 주변 건물에서는 손님을 맞거나 잔치를 열었을 것으로 여겨집니다. 발굴 과정에서는 나무로 만든 배와 생활용품 등 많은 유물이 발견되어 왕궁 사람들의 생활을 짐작하게 했습니다. 오늘날 연못에 비치는 전각의 모습은 신라 사람들이 꾸민 정원의 아름다움을 전해 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-011",
@@ -2439,7 +2580,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "대릉원(大陵園)은 대한민국 경상북도 경주시 노동동, 노서동과 황남동에 있는 무덤입니다. 2011년 7월 28일 대한민국의 사적 제512호로 통합 재지정되었습니다. 본래 사적 경주노동리고분군(慶州路東里古墳群), 사적 경주노서리고분군(慶州路西里古墳群), 사적 경주황남리고분군(慶州皇南里古墳群), 사적 경주황오리고분군(慶州皇吾里古墳群), 사적 경주인왕리고분군(慶州仁旺里古墳群)으로 분리되어 있었으나, 2011년 7월 28일 문화재청(현 국가유산청)이 역사성과 특성을 고려하여 경주 평야 한복판에 서로 인접해 있는 신라 시대의 고분군을 통합하여 재지정하였습니다.",
+      "description": "경주 대릉원에는 신라 왕과 귀족들의 무덤으로 여겨지는 커다란 봉분들이 모여 있습니다. 겉에서 보면 둥근 잔디 언덕처럼 보이지만, 그 아래에는 오래전 사람들의 삶과 장례 문화가 잠들어 있습니다. 천마총은 내부를 볼 수 있도록 꾸며진 무덤으로, 발굴 과정에서 말 그림이 그려진 천마도와 금관 등 귀중한 유물이 발견되었습니다. 무덤의 크기와 장식품은 당시 신라의 권력과 공예기술을 보여 줍니다. 큰 나무 사이로 둥근 무덤들이 이어지는 대릉원은 천 년이 넘는 역사가 오늘날의 풍경 속에 남아 있는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2448,7 +2589,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A6%89%EC%9B%90"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A6%89%EC%9B%90",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-012",
@@ -2471,7 +2615,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-013",
@@ -2485,7 +2632,7 @@ window.LANDMARK_BASE = {
         "Jeonju Hanok Maeul",
         "Jeonju Hanok"
       ],
-      "description": "전주한옥마을은 전북특별자치도 전주시 완산구 풍남동에 있는 면적 298,260m2의 한옥마을입니다. 현재 947가구, 2,202명의 인구가 거주하고 있습니다. 총 947동의 건물 중에 한옥이 735개이고 비한옥이 212개입니다. 전주에는 지금으로부터 약 1만 5천년 전부터 사람이 살기 시작했다고 추측되고 있습니다. 원래 자연부락 형태의 마을들이 산자락에 형성되었었으나, 665년 신라 문무왕 때 완산주(完山州)가 설치되면서 주거지가 평지로 이동했습니다. 전주사람들의 본격적인 평지에서의 생활은 전주성의 축조와 함께 시작되었습니다. 전주읍성을 중심으로 고려시대에는 한벽당, 오목대, 간납대 등이 지어졌고, 그 주위로 옥류동, 자만동과 같은 마을이 자연스럽게 형성되었습니다. 이 마을들이 현재 한옥마을의 모태가 되었습니다.",
+      "description": "전주한옥마을은 전주의 옛 도심에 한옥들이 모여 있는 거리입니다. 기와지붕과 낮은 담장이 골목을 따라 이어지고, 한옥의 마당과 처마에서는 전통적인 집의 구조를 볼 수 있습니다. 한옥은 여름에는 바람이 통하는 마루를, 겨울에는 바닥을 따뜻하게 하는 온돌을 이용해 사계절에 맞추어 생활하도록 지어졌습니다. 오늘날 이 마을에는 실제로 사는 주민들과 공방, 가게가 함께 자리합니다. 전주의 음식 문화와 공예도 이곳에서 널리 소개됩니다. 오래된 집의 모습이 오늘의 도시 생활과 만나는 거리입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2494,7 +2641,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC%ED%95%9C%EC%98%A5%EB%A7%88%EC%9D%84",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-014",
@@ -2504,7 +2654,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "합천 해인사 장경판전(陜川 海印寺 藏經板殿)은 해인사에 딸린 건물의 하나로, 고려 시대에 만들어진 《팔만대장경》 목판을 보관하고 있습니다. 장경각(藏經閣), 판당(板堂), 판전(板殿)이라고도 불렸고, 대적광전 뒤편의 언덕에 위치해 있습니다. 해인사에 남아있는 건물 중 가장 오래된 것으로, 대한민국의 국보 제52호로 지정되었습니다. 장경판전은 건물 자체가 특수할 뿐 아니라 고려대장경의 판전으로서 유명하며, 똑같은 규모양식을 가진 두 건물이 남북으로 나란히 세워져 있어 남쪽을 수다라장(修多羅藏), 북쪽을 법보전(法寶殿)이라 합니다.건물은 간단한 방식으로 가구하였고 세부 역시 간결하여 판전에 요구되는 기능을 충족시킬 목적 이외에는 아무런 장식적 의장을 가하지 않았다. 그 앞 2개 동의 소당에는 보판(補板)과 잡판(雜板)을 소장하고 있습니다.",
+      "description": "경남 합천 해인사의 장경판전은 팔만대장경 목판을 보관하는 특별한 목조건물입니다. 팔만대장경은 고려 사람들이 불교 경전을 나무판에 새긴 방대한 자료입니다. 수많은 목판을 오래 지키려면 습기와 바람을 잘 관리해야 합니다. 장경판전은 창의 크기와 위치, 바닥 재료와 건물의 방향을 이용해 공기가 자연스럽게 흐르도록 설계했습니다. 덕분에 수백 년 동안 목판을 보존할 수 있었습니다. 화려한 장식보다 목판을 지키는 기능에 집중한 건축물이어서 더욱 특별합니다. 장경판전과 고려대장경판은 각각 유네스코의 중요한 유산으로 인정받고 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2513,7 +2663,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%95%A9%EC%B2%9C_%ED%95%B4%EC%9D%B8%EC%82%AC_%EC%9E%A5%EA%B2%BD%ED%8C%90%EC%A0%84"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%95%A9%EC%B2%9C_%ED%95%B4%EC%9D%B8%EC%82%AC_%EC%9E%A5%EA%B2%BD%ED%8C%90%EC%A0%84",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-015",
@@ -2530,7 +2683,7 @@ window.LANDMARK_BASE = {
         "Mireuksa Temple Site",
         "백제역사유적지구"
       ],
-      "description": "백제역사유적지구(百濟歷史遺跡(=遺蹟)地區, 영어: Baekje Historic Areas)는 대한민국 충청남도 공주시, 부여군과 전북특별자치도 익산시에 있는 백제 관련 역사유적지구입니다. 2015년 7월 4일 독일 본에서 열린 제39차 유네스코 세계유산위원회(WHC)에서 세계유산 등재 심사를 최종 통과하여 대한민국의 12번째 세계유산이 되었습니다. 백제역사유적지구는 총 8개의 유적을 포함한 연속유산으로 공주시에 2곳(공산성, 송산리 고분군), 부여군 4곳(관북리 유적과 부소산성, 능산리 고분군, 정림사지, 부여 나성), 익산시에 2곳(왕궁리 유적, 미륵사지)을 포함합니다. 세계유산위원회와 국제기념물유적협의회(ICOMOS, 유네스코 세계유산센터 산하 자문기구로서 문화유산의 등재 여부를 위원회에 권고)는 동 유산이 한국·중국·일본 동아시아 삼국 고대 왕국들 사이의 상호 교류 역사를 잘 보여준다는 점, 백제의 내세관·종교·건축기술·예술미 등을 모두 포함하고 있는 백제 역사와 문화의 특출한 증거라는 점 등을 높이 평가하였습니다.",
+      "description": "백제역사유적지구는 한 장소가 아니라 공주, 부여, 익산에 흩어져 있는 백제의 옛 수도와 관련된 유적들을 함께 부르는 이름입니다. 공주 공산성과 무령왕릉, 부여의 왕궁터와 사찰터, 익산 미륵사지 등에서 백제의 모습을 찾아볼 수 있습니다. 백제는 주변 나라와 활발히 교류하며 세련된 불교문화와 건축기술을 발전시켰습니다. 지금은 건물의 터와 돌기둥, 무덤이 남아 있지만 발굴된 유물과 흔적을 통해 그 시대의 도시를 상상할 수 있습니다. 여러 도시의 유적이 이어져 하나의 역사를 들려준다는 점에서 특별합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2539,7 +2692,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%A0%9C%EC%97%AD%EC%82%AC%EC%9C%A0%EC%A0%81%EC%A7%80%EA%B5%AC"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%A0%9C%EC%97%AD%EC%82%AC%EC%9C%A0%EC%A0%81%EC%A7%80%EA%B5%AC",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-016",
@@ -2549,7 +2705,7 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "공주 공산성(公州 公山城)은 사적 제12호로, 대한민국 충청남도 공주시 산성동에 소재하고 있는 성입니다. 삼국시대의 성곽으로, 백제의 문주왕 원년(475) 한성에서 웅진으로 이주한 후 성왕 16년(538년)에 사비로 옮길 때까지 도성이었으며 그 후 신라·고려·조선 시대에도 행정과 군사적 요충지였습니다. 백제시대 토성 735m, 신라시대 석성 1925m, 총둘레 2,660m의 포곡형 산성입니다. 산성의 북쪽에는 금강이 흐르고 해발 110m의 능선에 위치하는 천연의 요새로서 동서로 약 800m 남북으로 약 400m 정도의 장방형을 이루고 있습니다. 성곽의 길이는 2,660m이며 능선과 계곡을 따라 쌓은 포곡형으로 원래 백제 시대에는 토성이었으나 조선 시대 대부분 석성으로 개축되었습니다.",
+      "description": "공주 공산성은 금강이 굽이쳐 흐르는 언덕 위에 세운 오래된 성입니다. 백제가 475년 수도를 한성에서 웅진, 지금의 공주로 옮겼을 때 왕궁과 도시를 지키는 중요한 역할을 했습니다. 성벽을 따라 걸으면 강이 내려다보이고, 높은 곳에서 주변 움직임을 살피기 좋은 지형임을 알 수 있습니다. 성 안에서는 왕궁과 관련된 건물터와 여러 유물이 발견되었습니다. 오늘날 남아 있는 성벽에는 여러 시대에 고쳐 쌓은 흔적도 있습니다. 금강을 끼고 있는 이 성은 옛사람들이 자연 지형을 어떻게 방어에 이용했는지 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2558,7 +2714,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%A3%BC_%EA%B3%B5%EC%82%B0%EC%84%B1"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%A3%BC_%EA%B3%B5%EC%82%B0%EC%84%B1",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-017",
@@ -2568,14 +2727,17 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "제주 화산활동으로 만들어진 긴 용암동굴입니다. 용암이 흐르며 남긴 선반과 기둥 등 독특한 지형을 볼 수 있으며 방문 가능 여부는 확인이 필요합니다. 제주의 용암이 흐르다가 겉부분이 굳고 안쪽이 빠져나가며 형성된 용암동굴입니다. 내부의 용암 종유석과 용암기둥은 화산 활동이 남긴 자취이며, 관람 구간과 개방 여부는 보전·안전 사정에 따라 달라질 수 있습니다.",
+      "description": "제주의 만장굴은 옛날 뜨거운 용암이 흐르며 만들어진 긴 동굴입니다. 용암의 겉부분이 먼저 식어 단단해진 뒤 안쪽의 뜨거운 용암이 빠져나가면 속이 빈 긴 통로가 남습니다. 만장굴이 바로 이런 용암동굴의 대표적인 사례입니다. 동굴 안에서는 용암이 흘러가며 벽에 남긴 줄무늬와 굳어 만들어진 기둥 같은 지형을 볼 수 있습니다. 특히 큰 용암석주는 세계적으로도 규모가 큰 것으로 알려져 있습니다. 어두운 동굴 속의 독특한 바위는 제주가 화산섬이라는 사실을 생생하게 보여 줍니다. 실제 관람 가능 구간은 보존·안전 상황에 따라 달라집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-018",
@@ -2589,7 +2751,7 @@ window.LANDMARK_BASE = {
         "Cheonjiyeon Falls",
         "천지연 폭포 Jeju"
       ],
-      "description": "천지연폭포(天地淵瀑布)는 제주도 서귀포시 서귀동에 있는 폭포입니다. ‘천지연’이란 이름은 ‘하늘(天)과 땅(地)이 만나서 이룬 연못’이라는 뜻입니다. 폭포의 절벽은 화산활동으로 인해 생성된 조면암이 섞인 안산암으로 구성된다. 폭포수의 폭은 약 12 m, 높이는 22 m, 연못의 수심은 약 20 m입니다. 계곡에는 아열대성·난대성의 각종 상록수와 양치식물 등이 밀생하는 울창한 숲을 이룬다.",
+      "description": "제주 서귀포의 천지연폭포는 높은 절벽에서 물이 떨어져 깊은 소를 만드는 폭포입니다. 천지연이라는 이름은 하늘과 땅이 만나는 연못이라는 뜻으로 전해집니다. 폭포 뒤의 절벽은 화산활동과 오랜 침식으로 만들어진 암석 지형입니다. 물이 떨어질 때 하얀 물보라가 일어나고, 주변에는 습한 환경을 좋아하는 식물들이 자랍니다. 제주의 폭포가 특별한 까닭은 화산섬의 바위층과 계곡의 물이 만나 독특한 지형을 만들었기 때문입니다. 폭포수와 짙은 숲이 한자리에서 어우러집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -2598,7 +2760,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%A7%80%EC%97%B0%ED%8F%AD%ED%8F%AC"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%A7%80%EC%97%B0%ED%8F%AD%ED%8F%AC",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-019",
@@ -2617,7 +2782,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%93%B1%EC%82%B0_%EC%A3%BC%EC%83%81%EC%A0%88%EB%A6%AC%EB%8C%80"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%93%B1%EC%82%B0_%EC%A3%BC%EC%83%81%EC%A0%88%EB%A6%AC%EB%8C%80",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-021",
@@ -2641,7 +2809,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-022",
@@ -2659,7 +2830,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-023",
@@ -2683,7 +2857,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-CF-024",
@@ -2698,14 +2875,17 @@ window.LANDMARK_BASE = {
         "Juknokwon",
         "담양 죽녹원"
       ],
-      "description": "키 큰 대나무가 빽빽하게 자란 담양의 대숲 정원입니다. 대나무 사이로 스미는 빛과 바람 소리가 특별한 산책 분위기를 만듭니다. 담양의 대나무숲 사이로 산책길이 이어지는 곳입니다. 촘촘하게 자란 대나무는 위쪽에서 빛을 걸러 주고 바람이 지나갈 때 특유의 소리를 내어, 일반 숲과는 다른 분위기를 만듭니다.",
+      "description": "전남 담양의 죽녹원은 빽빽하게 자란 대나무 사이로 길이 이어지는 숲 정원입니다. 대나무는 줄기가 가늘어 보여도 단단하고, 마디를 만들며 곧게 자랍니다. 숲 안으로 들어가면 높은 줄기들이 햇빛을 가려 한여름에도 그늘이 생기고, 바람이 불 때마다 잎이 서로 스치는 소리가 들립니다. 담양에서는 오래전부터 대나무를 이용해 바구니와 생활 도구를 만들었습니다. 그래서 이 숲은 보기 좋은 풍경일 뿐 아니라 지역 사람들이 자연에서 얻은 재료로 살아온 이야기도 품고 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-001",
@@ -2730,7 +2910,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "descriptionProvenance": "V1.51 · 명소 고유 이야기 확장 · 기존 서술 보존",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/1989%EB%85%84_%EC%B2%9C%EC%95%88%EB%AC%B8_%EA%B4%91%EC%9E%A5_%EC%8B%9C%EC%9C%84_%EB%B0%8F_%ED%95%99%EC%82%B4_%EA%B8%B0%EB%85%90%EB%B9%84"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/1989%EB%85%84_%EC%B2%9C%EC%95%88%EB%AC%B8_%EA%B4%91%EC%9E%A5_%EC%8B%9C%EC%9C%84_%EB%B0%8F_%ED%95%99%EC%82%B4_%EA%B8%B0%EB%85%90%EB%B9%84",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-002",
@@ -2755,7 +2938,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-003",
@@ -2765,14 +2951,17 @@ window.LANDMARK_BASE = {
       "extraCategories": [],
       "region": "",
       "aliases": [],
-      "description": "청나라 황실의 정원 유적으로 여러 정원과 건축물이 있었던 곳입니다. 현재 남은 터와 석조 유적은 19세기에 겪은 파괴의 역사를 전합니다. 청나라 황실의 거대한 정원이었던 곳으로, 오늘날에는 일부 서양식 석조 유적과 연못터가 남아 있습니다. 19세기 전쟁과 파괴의 흔적이 남은 장소로, 아름다운 정원과 역사의 상처를 함께 기억하게 합니다.",
+      "description": "베이징의 원명원은 청나라 황실이 오랫동안 가꾸었던 넓은 정원과 궁전의 터입니다. 이곳에는 중국식 정원뿐 아니라 서양식 분수와 건축물도 만들어져 다양한 미술과 건축 양식이 어우러졌습니다. 그러나 1860년 제2차 아편전쟁 중 영국과 프랑스 군대가 정원을 약탈하고 불태웠습니다. 오늘날에는 화려했던 건물 대신 부서진 돌기둥과 남은 정원터를 볼 수 있습니다. 아름다운 정원이었던 장소가 동시에 전쟁으로 문화유산이 파괴된 역사를 알려 주는 유적이 되었습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-004",
@@ -2788,14 +2977,17 @@ window.LANDMARK_BASE = {
         "明十三陵",
         "Changling Tomb Beijing"
       ],
-      "description": "산을 배경으로 묘역이 배치되어 있으며 신도에는 돌로 만든 동물과 인물상이 서 있습니다. 베이징 북쪽 산기슭에 명나라 황제들의 무덤이 모여 있습니다. 신도라고 부르는 긴 길에는 돌로 만든 사람과 동물 조각상이 줄지어 서 있어 황실 장례의 위엄과 당시의 조각 기술을 보여 줍니다.",
+      "description": "베이징 북쪽 산기슭의 명13릉은 명나라 황제 열세 명의 무덤이 모인 곳입니다. 산과 계곡의 모양을 중요하게 여기던 옛사람들은 황제의 무덤을 자연 지형과 어울리도록 배치했습니다. 묘역으로 들어가는 신도에는 돌로 만든 코끼리와 낙타, 말, 사람 모양의 조각상이 줄지어 서 있습니다. 무덤을 향해 길게 늘어선 조각들은 왕실의 권위를 드러내는 동시에 옛 장인들의 섬세한 솜씨를 보여 줍니다. 한 무덤이 아니라 여러 세대의 황제가 남긴 거대한 왕실 묘역이라는 점이 특별합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-006",
@@ -2811,14 +3003,17 @@ window.LANDMARK_BASE = {
         "西安城墙",
         "西安城牆"
       ],
-      "description": "옛 도심을 둘러싼 명나라시대 성벽입니다. 성문과 망루, 넓은 성벽 위 길이 잘 남아 있어 고도 시안의 구조를 이해할 수 있습니다. 명나라 시기에 크게 정비된 시안의 도심 성벽으로, 오랫동안 도시를 둘러싼 방어시설입니다. 넓은 성벽 위에 올라가면 성문과 해자, 현대 시가지가 함께 보여 오래된 중국 도시의 구조를 이해할 수 있습니다.",
+      "description": "중국의 옛 수도 시안을 둘러싼 성벽은 명나라 때 크게 정비되어 지금까지 남아 있습니다. 높은 성벽 위에는 사람들이 걸을 수 있을 만큼 넓은 길이 있고, 중요한 방향마다 성문과 망루가 세워졌습니다. 옛 도시에서는 성벽이 적의 침입을 막고 드나드는 사람과 물자를 관리하는 역할을 했습니다. 성벽 위에서 보면 오래된 도심의 골목과 멀리 솟은 현대 건물들이 한눈에 들어옵니다. 옛날의 도시를 감싸던 경계가 오늘날에는 시안의 긴 역사를 보여 주는 거대한 길이 된 셈입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-007",
@@ -2833,14 +3028,17 @@ window.LANDMARK_BASE = {
         "大雁塔",
         "西安大雁塔"
       ],
-      "description": "당나라시대 불교 경전과 관련해 세워진 시안의 탑입니다. 현장 법사가 인도에서 가져온 경전과 불교 교류의 역사를 떠올리게 합니다. 시안 대자은사에 세워진 불교 탑입니다. 당나라 승려 현장이 인도에서 가져온 불경을 보관하기 위해 세운 탑에서 유래하며, 동서 문명 교류와 불교의 전파를 떠올리게 합니다.",
+      "description": "시안의 대안탑은 당나라 시대에 세워진 불교 탑입니다. 인도를 여행하고 돌아온 승려 현장이 가져온 불교 경전과 불상을 보관하기 위해 만들어졌습니다. 현장은 먼 나라에서 배운 내용을 중국어로 번역하며 불교 지식이 널리 퍼지는 데 힘썼습니다. 여러 층의 벽돌탑은 장식이 복잡하지 않지만 높이 솟은 단정한 모습이 인상적입니다. 이 탑을 보면 실크로드 시대에 사람들은 비단과 물건뿐 아니라 종교와 책, 새로운 생각도 먼 나라까지 전했다는 사실을 알 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-009",
@@ -2865,7 +3063,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%B0%A9%EB%AA%85%EC%A3%BC%ED%83%91"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%B0%A9%EB%AA%85%EC%A3%BC%ED%83%91",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-010",
@@ -2881,14 +3082,17 @@ window.LANDMARK_BASE = {
         "朱家角古镇",
         "朱家角古鎮"
       ],
-      "description": "상하이 외곽 운하를 따라 옛 집과 돌다리가 남아 있는 수향마을입니다. 좁은 수로 위를 지나는 작은 배가 전통적인 강남 풍경을 보여줍니다. 상하이 외곽에 자리한 물길 중심의 오래된 마을로, 수로 위에 돌다리와 전통 건물이 이어집니다. 예전에는 배를 이용해 물건과 사람을 실어 날랐으며, 지금도 강남 수향도시의 분위기를 느낄 수 있습니다.",
+      "description": "상하이 외곽의 주가각은 골목보다 물길이 더 중요한 역할을 했던 오래된 마을입니다. 운하를 따라 하얀 벽과 검은 기와지붕의 집들이 늘어서고, 돌다리는 물길의 양쪽을 연결합니다. 다리 아래로 작은 배가 지나가는 풍경은 차와 곡식, 생활용품을 물길로 실어 나르던 옛 생활을 떠올리게 합니다. 마을 한가운데 오래된 팡성차오는 여러 개의 아치가 이어진 돌다리로 유명합니다. 빠른 자동차가 없던 시대에는 이런 수로와 다리가 사람들의 길이자 마을의 중심이었습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-011",
@@ -2904,14 +3108,17 @@ window.LANDMARK_BASE = {
         "西湖风景名胜区",
         "西湖風景名勝區"
       ],
-      "description": "항저우 도심 곁에 펼쳐진 큰 호수로 정자와 제방, 멀리 보이는 산이 어우러집니다. 시와 그림에 자주 등장한 중국 정원문화의 대표적 풍경입니다. 항저우의 도시 한가운데 펼쳐진 호수로, 둑길과 정자, 작은 섬이 풍경을 이루고 있습니다. 시인과 화가들이 오래전부터 아름다움을 노래했고, 자연과 사람이 꾸민 경관이 하나의 문화유산으로 인정받았습니다.",
+      "description": "중국 항저우의 서호는 도시 가까이에 펼쳐진 호수이지만, 오래전부터 수많은 시인과 화가가 사랑한 특별한 풍경입니다. 물 위로 긴 둑길이 이어지고, 둑과 작은 섬에는 버드나무와 정자, 탑이 자리합니다. 소동파와 백거이 같은 옛 문인들이 이 지역에서 일했고, 호수를 가꾸는 일에도 관계했습니다. 호수 주변에는 계절과 날씨에 따라 서로 다른 풍경을 이름 붙여 즐기는 전통도 있습니다. 서호는 사람들이 자연을 감상하는 방법이 정원과 문학으로 이어진 장소입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-012",
@@ -2927,14 +3134,17 @@ window.LANDMARK_BASE = {
         "烏鎮",
         "乌镇古镇"
       ],
-      "description": "물가에 이어지는 목조 건물과 아치형 돌다리가 특징입니다. 항저우와 상하이 사이에 있는 강남의 전통 수향마을입니다. 돌다리 아래로 좁은 수로가 지나고 목조 가옥과 작은 가게가 이어져, 물길이 생활의 중심이었던 지역 문화를 보여 줍니다.",
+      "description": "우전은 중국 강남 지역의 운하와 오래된 집들이 어우러진 수향마을입니다. 집의 벽과 처마가 물가 가까이 이어지고, 좁은 수로 위로 돌다리가 놓여 있습니다. 강가의 계단은 사람들이 물을 긷거나 배를 타던 흔적을 떠올리게 합니다. 밤에 불이 켜지면 집들과 다리가 물에 비쳐 낮과 다른 풍경이 만들어집니다. 지금은 관광지로도 널리 알려져 있지만, 골목과 운하가 이어지는 구조에는 물길을 중심으로 살아온 강남 사람들의 생활 방식이 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-013",
@@ -2958,7 +3168,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-014",
@@ -2973,14 +3186,17 @@ window.LANDMARK_BASE = {
         "中山陵",
         "南京中山陵"
       ],
-      "description": "난징 쯔진산 자락에 있는 쑨원 묘역입니다. 긴 계단과 푸른 지붕의 기념건축물이 현대 중국사의 한 장면을 전합니다. 쑨원의 묘가 있는 난징의 기념 건축단지입니다. 긴 계단과 대칭을 이루는 건물들이 산비탈을 따라 놓여 있으며, 중국 근대사의 전환기를 기억하는 장소입니다.",
+      "description": "중국 난징의 쯔진산 자락에는 쑨원을 기리는 중산릉이 있습니다. 쑨원은 청나라가 무너지고 중화민국이 세워지는 과정에 중요한 역할을 한 인물입니다. 넓은 계단을 오르면 푸른 기와지붕을 얹은 기념 건물이 나타납니다. 건물은 산비탈을 따라 좌우가 균형을 이루도록 배치되어 멀리서도 웅장하게 보입니다. 오랜 왕조의 황제 무덤과는 다르게 근대에 나라의 변화를 이끈 인물을 기억하기 위해 조성한 곳이라는 점에서 의미가 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-015",
@@ -3004,7 +3220,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-017",
@@ -3020,14 +3239,17 @@ window.LANDMARK_BASE = {
         "天門山",
         "天门山国家森林公园"
       ],
-      "description": "거대한 자연 암문인 천문동으로 알려진 산입니다. 가파른 절벽과 산길, 케이블카에서 내려다보는 굴곡진 경관이 인상적입니다. 장자제에 있는 산으로 커다란 바위 구멍인 천문동과 가파른 절벽길이 유명합니다. 케이블카와 굽이치는 산악도로를 통해 높이 올라가며, 좁은 절벽 위 풍경은 독특한 지형을 보여 줍니다.",
+      "description": "중국 장자제의 톈먼산에는 거대한 바위 절벽 한가운데 문처럼 뚫린 구멍이 있습니다. ‘하늘의 문’이라는 뜻을 가진 천문동입니다. 오랜 자연 작용으로 형성된 이 구멍은 멀리서도 또렷하게 보일 만큼 큽니다. 산 정상 부근으로 이어지는 케이블카와 굽이굽이 휘어진 도로도 이곳의 독특한 풍경입니다. 가파른 절벽과 깊은 골짜기가 구름에 가려졌다 나타나면 바위문이 하늘에 떠 있는 듯 보입니다. 같은 장자제 지역이라도 이곳의 주인공은 숲 위 바위기둥이 아니라 거대한 자연 바위문입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-018",
@@ -3043,14 +3265,17 @@ window.LANDMARK_BASE = {
         "桂林漓江",
         "Guilin Li River"
       ],
-      "description": "계림에서 양숴로 이어지는 강 주변에 둥근 카르스트 산봉우리들이 솟아 있습니다. 물에 비치는 산 그림자가 중국 산수화의 전형적인 풍경입니다. 석회암 봉우리가 강 양쪽에 솟아 있는 계림의 산수 풍경으로 유명합니다. 오랜 침식으로 만들어진 기묘한 산들의 그림자가 물에 비치며, 중국 산수화에 자주 등장하는 풍경과 닮았습니다.",
+      "description": "중국 남부 계림의 리강은 뾰족하고 둥근 석회암 산봉우리 사이를 구불구불 흘러갑니다. 오랜 세월 빗물과 강물이 석회암을 녹이고 깎아 독특한 산 모양을 만들었습니다. 강에서는 나룻배와 작은 배가 오가고, 물 위에 비친 봉우리의 그림자는 한 폭의 산수화처럼 보입니다. 중국의 옛 화가들은 이런 산과 물의 조화를 그림에 담았고, 시인들은 시로 노래했습니다. 리강의 풍경은 눈앞의 자연이 오랫동안 그림과 글 속에도 살아왔다는 점에서 특별합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-019",
@@ -3066,14 +3291,17 @@ window.LANDMARK_BASE = {
         "陽朔",
         "Yangshuo Guilin"
       ],
-      "description": "광시성 양숴 일대의 석회암 봉우리와 강, 들판이 어우러진 풍경입니다. 자전거나 배로 이동하면서 서로 다른 각도의 산세를 감상할 수 있습니다. 계림에서 남쪽으로 이어지는 카르스트 지형의 마을과 들판입니다. 둥글고 뾰족한 석회암 봉우리 사이에 논과 강물이 놓여 있어, 산과 농촌의 생활풍경을 함께 만날 수 있습니다.",
+      "description": "계림에서 남쪽으로 이어지는 양숴 지역은 둥글고 가파른 석회암 봉우리들이 논밭과 강 사이에 솟아 있는 풍경으로 유명합니다. 봉우리 사이로는 리강과 위룽강이 흐르고, 마을길 가까이에도 작은 산들이 자리합니다. 많은 산이 한 줄로 이어진 산맥처럼 보이지 않고 여기저기 떨어져 솟아 있는 모습이 독특합니다. 석회암이 물에 오랫동안 녹고 깎이면서 만들어진 지형이기 때문입니다. 물길과 농촌 마을, 초록 들판이 어우러져 계림의 산수 가운데서도 부드럽고 평화로운 풍경을 만듭니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-020",
@@ -3097,7 +3325,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-021",
@@ -3113,7 +3344,7 @@ window.LANDMARK_BASE = {
         "黃龍",
         "黄龙风景名胜区"
       ],
-      "description": "황룽풍경구는 유네스코의 세계자연유산에 등록된 중국의 자연 지역의 명칭입니다. 황룽은 쓰촨성의 북서부에 자리를 잡고 있으며, 송판현 지역을 중심으로 하여, 남쪽으로는 민산산맥의 부분이며, 청두에서 150 km 북북서에 위치하고 있습니다. 이 지역은 방해석으로 인해 생성된 아름다운 연못으로 유명하며, 눈 덮인 산봉오리와 폭포, 온천까지 아름다운 자연환경의 다양함을 엿볼 수 있는 곳입니다. 황룽은 또한 자이언트 팬더나 금빛원숭이와 같은 멸종위기 동물의 천국이기도 하다. 1992년에 세계자연유산으로 등록되었습니다.",
+      "description": "중국 쓰촨성의 황룽에는 산비탈을 따라 연못이 계단처럼 이어지는 독특한 자연 풍경이 있습니다. 물에는 석회질 성분이 녹아 있는데, 오랜 세월 이 성분이 쌓이면서 낮은 둑을 만들고 작은 연못들이 생겼습니다. 맑은 날에는 물빛이 푸른색과 초록색, 황금빛으로 달라 보여 마치 물감을 풀어 놓은 듯합니다. 주변에는 높은 산과 숲도 펼쳐집니다. 황룽이라는 이름은 ‘누런 용’이라는 뜻으로, 산을 따라 굽이치는 황금빛 지형을 떠올리게 합니다. 자연이 아주 천천히 만든 돌계단과 물의 풍경입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3122,7 +3353,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%99%A9%EB%A3%BD_%ED%92%8D%EA%B2%BD%EA%B5%AC"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%99%A9%EB%A3%BD_%ED%92%8D%EA%B2%BD%EA%B5%AC",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-022",
@@ -3145,7 +3379,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-023",
@@ -3169,7 +3406,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CN-CF-024",
@@ -3184,7 +3424,7 @@ window.LANDMARK_BASE = {
         "布達拉宮",
         "Lhasa Potala Palace"
       ],
-      "description": "포탈라 궁은 중화인민공화국 티베트 자치구의 라싸에 위치한 건축물입니다. 1959년 중국의 침략으로 14대 달라이 라마가 인도로 망명할 때까지 달라이 라마의 주요 거주지였습니다. 현재는 박물관이자 유네스코 세계유산입니다. 포탈라 궁이라는 이름은 부처가 산다는 것으로 여겨진 티베트의 포탈라카 산의 이름에서 따온 것이며, 1645년에 5대 달라이 라마가 티베트의 주요 현자들이 지목한 라싸와 주요 사원들 사이에 있는 명당에 포탈라 궁을 지었다. 포탈라 궁은 637년에 손챈감포가 지은 거대한 요새의 잔해 위에 세워졌다. 건물은 동서로 400m이고, 남북으로 350m의 규모입니다. 벽들의 두께는 3m나 되고, 궁전의 최하단부의 벽은 그 두께가 무려 5m나된다. 또한 궁전의 기단에는 지진으로 인한 피해를 막기 위해 구리를 부어 보강하였습니다.",
+      "description": "티베트 라싸의 포탈라궁은 붉은색과 흰색 벽이 층층이 높아지는 거대한 궁전입니다. 언덕 위에 세워져 도시의 여러 곳에서 모습을 볼 수 있습니다. 오랫동안 티베트의 정치와 종교에서 중요한 중심지였으며, 달라이 라마의 거처와 여러 불교 의식의 공간으로 사용되었습니다. 건물 안에는 불상과 벽화, 오래된 경전과 화려하게 꾸민 방들이 남아 있습니다. 높은 고원의 강한 햇빛 아래 우뚝 솟은 궁전은 티베트 사람들이 발전시킨 건축과 종교문화를 보여 줍니다. 지금은 중요한 문화유산으로 보존되고 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3193,7 +3433,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%83%88%EB%9D%BC%EA%B6%81"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%8F%AC%ED%83%88%EB%9D%BC%EA%B6%81",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-001",
@@ -3206,7 +3449,7 @@ window.LANDMARK_BASE = {
         "Tokyo Tower",
         "東京タワー"
       ],
-      "description": "도쿄 타워는 일본 도쿄도 미나토구에 있는 높이 333m의 종합 전파탑으로, 관광명소로서의 인기는 지금도 여전하다(에펠탑을 모방해서 만들었음). 빨간색(또는 국제 표준 주황색)하고 하얀색이 교차하여 도색되어 있다(주소는 도쿄 도 미나토 구 시바코엔 4-2-8). 지상파 아날로그·디지털 텔레비전 방송(VHF·UHF) 및 FM 방송의 안테나로서 방송전파로서 방송전파를 송출하는 다른 동일본 여객철도(JR 동일본)의 열차 방호 무선장치용 안테나와 도쿄 도 환경국의 각종 측정기를 설치하였습니다. 2012년 근처에 634m의 도쿄 스카이 트리가 들어서기 전까지는 도쿄에서 제일 유명한 건축물이었으며, 관광객들의 인기는 지금도 여전하다. 일본 최고층 마천루인 오사카 아베노바시 터미널 빌딩(60층, 300m)보다 33m가 더 높다.",
+      "description": "도쿄타워는 1958년에 완공된 높이 약 333미터의 방송탑입니다. 멀리서도 잘 보이는 붉은빛과 흰색의 철골 구조가 특징으로, 파리 에펠탑과 닮았지만 일본의 방송시설로 지어졌습니다. 텔레비전 방송이 널리 퍼지던 시대에 전파를 멀리 보내는 중요한 역할을 했습니다. 도시가 커지면서 더 높은 도쿄 스카이트리가 세워졌지만, 도쿄타워는 지금도 전망대와 야간 조명으로 사랑받는 상징적인 건물입니다. 오래된 전파탑 하나가 도시의 기억이 된 셈입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3215,7 +3458,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84_%ED%83%80%EC%9B%8C"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84_%ED%83%80%EC%9B%8C",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-002",
@@ -3229,7 +3475,7 @@ window.LANDMARK_BASE = {
         "Sensoji Temple Asakusa",
         "浅草寺"
       ],
-      "description": "Sensoji (Temple))는 일본 도쿄도 다이토구 아사쿠사에 있는 절로 도쿄에서 가장 큰 사찰입니다. 628년 스미다강에서 백제인 히노구마 어부 형제가 던져놓은 그물에 걸린 관음상을 모시기 위해 사당을 지었다. 이후 승려 쇼카이가 645년에 절을 세운 것이 센소지의 유래로 알려져 있습니다. 에도 시대 후반에는 사원 내의 상점가와 연극 무대가 설치되어 있기도 했습니다. 그러나 관동 대지진과 2차 세계 대전 당시 대부분의 건물이 소실되고 현재의 건물들은 1960년 이후에 재건한 것입니다.",
+      "description": "도쿄 아사쿠사에 있는 센소지는 오래전부터 사람들이 찾아온 불교 사찰입니다. 전해지는 이야기에는 7세기에 어부들이 강에서 관음상을 발견했고, 이를 모시면서 절의 역사가 시작되었다고 합니다. 사찰로 들어가는 가미나리몬에는 커다란 붉은 등불이 걸려 있고, 그 안쪽 나카미세 거리에는 작은 가게들이 이어집니다. 큰 문과 오층탑, 향을 피우는 사람들의 모습은 현대 건물이 많은 도쿄 속에서도 오래된 신앙과 거리 문화를 보여 줍니다. 사찰의 시작 이야기는 전승으로 알려져 있어 역사적 사실과 구분해 볼 필요가 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3238,7 +3484,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%84%BC%EC%86%8C%EC%A7%80"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%84%BC%EC%86%8C%EC%A7%80",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-003",
@@ -3251,7 +3500,7 @@ window.LANDMARK_BASE = {
         "Meiji Jingu Shrine",
         "明治神宮"
       ],
-      "description": "메이지 신궁治 (じ)神 (じん)宮 (ぐう) 메이지진구)는 일본 도쿄도 시부야구에 위치한 신사로 메이지 천황과 그의 아내 쇼켄 황태후의 영혼을 봉헌한 곳입니다. 1912년 메이지 천황이, 1914년에 쇼켄 황태후가 각각 사망하자 일본의 국내 여론은 격동의 일본 근대사의 상징인 두 인물을 배향하기를 바랐다. 이러한 이유로 메이지 신궁이 건설되었고 1920년 11월 1일에 안치되었습니다.",
+      "description": "도쿄의 메이지 신궁은 메이지 천황과 쇼켄 황태후를 기리는 신사입니다. 20세기 초에 세워졌으며, 도시 한복판인데도 울창한 숲이 둘러싸고 있다는 점이 특별합니다. 이 숲은 처음부터 완성된 자연림이 아니라 여러 지역에서 보내온 나무를 심고 오랫동안 가꾸어 만든 숲입니다. 커다란 도리이 문을 지나 자갈길을 걸으면 바쁜 도쿄의 소음이 조금씩 멀어지고 나무가 만든 그늘이 이어집니다. 신사 건물뿐 아니라 도시 안에 숲을 조성한 사람들의 오랜 계획도 함께 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3260,7 +3509,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%8B%A0%EA%B6%81"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%8B%A0%EA%B6%81",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-004",
@@ -3273,7 +3525,7 @@ window.LANDMARK_BASE = {
         "Shibuya Scramble Crossing",
         "渋谷スクランブル交差点"
       ],
-      "description": "시부야는 도쿄도 시부야구에 있는 지명의 이름입니다. 이 지역에 위치하는 시부야역을 중심으로 하는 거리입니다. 신주쿠, 이케부쿠로, 긴자, 롯폰기, 하라주쿠, 오다이바, 아키하바라, 오모테산도 등의 지역들과 더불어 도쿄를 대표하는 번화가로, 시부야역을 중심으로 세이부 백화점, 도큐 백화점, 파르코, 마루이 등의 백화점과 레스토랑, 쇼핑몰들이 군집하여 있습니다. 과거에는 시부야역을 중심으로, 도겐자카(道玄坂), 우다카와초(宇田川町), 진난(神南), 사쿠라오카초(桜丘町) 등을 가리키는 명칭이었는데, 최근에는 시부야역에서 북서쪽으로 약간 떨어진 곳에 위치하지만, 개성 있는 가게들이 주택과 기업 사무실 사이에 점재하는 지역을 가리켜 오쿠시부야라고 부르기도 합니다. 지명으로는 쇼토(松濤), 도미가야(富ヶ谷), 가미야마초(神山町) 등이 해당된다.",
+      "description": "도쿄 시부야역 앞 스크램블 교차로는 여러 방향에서 사람들이 한꺼번에 길을 건너는 모습으로 유명합니다. 신호가 바뀌면 자동차가 멈추고, 사방의 횡단보도 위로 사람들의 발걸음이 교차합니다. 높은 건물의 전광판과 밝은 간판이 교차로를 둘러싸고 있어 도쿄의 활기찬 도시 풍경을 보여 줍니다. 수많은 사람이 몰려도 서로 방향을 바꾸며 건너는 모습은 멀리서 보면 움직이는 무늬처럼 보입니다. 특별한 궁전이나 오래된 유적이 없어도 현대 도시의 일상 자체가 유명한 명소가 될 수 있다는 것을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3282,7 +3534,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%B6%80%EC%95%BC"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%B6%80%EC%95%BC",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-005",
@@ -3295,7 +3550,7 @@ window.LANDMARK_BASE = {
         "Tokyo Station Marunouchi Building",
         "東京駅丸の内駅舎"
       ],
-      "description": "도카이도 신칸센과 도호쿠 신칸센, 조에쓰 신칸센, 호쿠리쿠 신칸센의 기점이 되어 있으며, 전국의 신칸센망에 있어서 최대의 거점입니다. 또한 도카이도 본선과 도호쿠 본선 등 주요간선의 기점역이기도 하다. 환승 없이 33개 도도부현을 잇고 있으며, 하루 열차발착횟수는 약 3000회라는, 일본을 대표하는 터미널 역의 하나입니다. 플랫폼의 수는 일본에서 제일 많으며 재래선이 지상 5면 10선과 지하 4면 8선 합계 9면 18선, 신칸센이 지상 5면 10선, 지하선은 지하 1면 2선이 있습니다. 적벽돌을 쌓아올린 마루노우치구치 역사는 다쓰노 긴고의 설계로서 1914년 준공되었습니다. 2003년 마루노우치 역사는 나라의 중요문화재로 지정되었으며 중요문화재 지정의 역건축물은 당역과 모지코역(후쿠오카현 기타큐슈시) 뿐입니다.",
+      "description": "도쿄역의 마루노우치 역사는 붉은 벽돌과 둥근 지붕으로 유명한 오래된 역 건물입니다. 1914년에 문을 열었으며 일본의 철도망이 커지던 시기에 수도의 중요한 관문이 되었습니다. 건물은 전쟁으로 지붕 등이 손상되었지만, 훗날 복원공사를 거쳐 원래 모습에 가까운 지붕을 되찾았습니다. 지금도 수많은 기차와 신칸센이 도쿄역을 드나들고, 옛 역사는 현대적인 고층 건물 사이에 서 있습니다. 교통시설이면서 도시의 역사와 건축을 함께 보여 주는 건물입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3304,7 +3559,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84%EC%97%AD"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BF%84%EC%97%AD",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-006",
@@ -3317,7 +3575,7 @@ window.LANDMARK_BASE = {
         "Ueno Park Tokyo",
         "上野恩賜公園"
       ],
-      "description": "우에노 공원(Ueno Park,上野公園)은 일본 도쿄도 다이토구의 우에노 지구에 위치한 넓은 공원입니다. 공원은 도쿠가와 막부와 관련이 있는 절로 불행한 방향으로 여겨지는 북동쪽으로부터 에도 성을 방어하기 위해 세워진 칸에이지의 예전 자리에 있습니다. 우에노 공원은 1924년에 다이쇼 천황이 황제의 영지를 도쿄 시에 하사하여 설치되었습니다. 공원의 공식 명칭은 우에노 은사공원(上野恩賜公園)으로 \"황제(천황)가 선물한 우에노의 공원\"이라는 뜻입니다. 공원에는 사이고 다카모리가 그의 개와 함께 서있는 아주 유명한 조각상이 있습니다. 세 개의 박물관(도쿄 국립박물관, 국립과학박물관, 국립서양미술관)과 콘서트 홀, 동조궁 신사, 시노바주 연못의 변재천 신사, 고조 신사, 우에노 동물원이 있습니다.",
+      "description": "도쿄의 우에노 공원은 넓은 산책길과 오래된 나무들 사이에 박물관과 미술관, 동물원이 모여 있는 공원입니다. 이곳은 과거 사찰이 자리했던 땅의 일부를 이용해 근대에 공원으로 조성되었습니다. 봄이면 벚꽃이 활짝 피어 많은 사람이 찾아오고, 연못에는 연꽃이 자라 계절마다 풍경이 달라집니다. 도쿄국립박물관처럼 일본의 역사와 예술을 만날 수 있는 시설도 가까이 있습니다. 한 장소에서 자연과 역사, 과학과 미술을 함께 만나는 도시의 큰 문화공간입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3326,7 +3584,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%97%90%EB%85%B8_%EA%B3%B5%EC%9B%90"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%97%90%EB%85%B8_%EA%B3%B5%EC%9B%90",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-007",
@@ -3339,14 +3600,17 @@ window.LANDMARK_BASE = {
         "Tokyo Disney Resort Urayasu",
         "東京ディズニーリゾート"
       ],
-      "description": "도쿄 동쪽 지바현 우라야스시에 자리한 대형 테마파크 단지입니다. 동화 속 공간을 재현한 시설과 다양한 공연이 특징입니다. 지바현 우라야스에 조성된 대규모 테마파크 리조트로 도쿄 디즈니랜드와 디즈니씨 등이 있습니다. 이야기 속 세계를 건축과 놀이기구, 공연으로 구현하여 실제 장소를 걷는 듯한 경험을 제공합니다.",
+      "description": "도쿄 디즈니리조트는 도쿄 중심부가 아니라 가까운 지바현 우라야스의 바닷가에 자리한 대형 놀이공원 단지입니다. 이곳에는 동화와 영화 속 세계를 꾸민 도쿄 디즈니랜드와 바다의 모험을 주제로 한 도쿄 디즈니씨가 있습니다. 각각의 구역은 건물과 음악, 놀이기구와 공연을 하나의 이야기처럼 연결하도록 만들어졌습니다. 그래서 단순히 놀이기구를 타는 장소를 넘어, 상상의 세계를 실제 거리와 건축물로 표현한 공간이기도 합니다. 두 공원은 서로 다른 이야기를 중심으로 설계되어 분위기도 크게 다릅니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-008",
@@ -3368,7 +3632,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-009",
@@ -3382,14 +3649,17 @@ window.LANDMARK_BASE = {
         "Ashinoko",
         "芦ノ湖 箱根"
       ],
-      "description": "화산 지형 속에 형성된 하코네의 호수입니다. 맑은 날에는 호수와 도리이, 멀리 후지산이 한 장면에 담깁니다. 화산지형 속에 형성된 하코네의 호수로, 맑은 날에는 후지산이 물 너머에 솟아 있는 모습을 볼 수 있습니다. 주변 온천과 신사, 산악도로는 일본 화산지대의 자연과 생활 문화를 이어 줍니다.",
+      "description": "일본 하코네의 아시노코는 화산활동으로 만들어진 산악지역에 자리한 호수입니다. 약 3천 년 전 큰 화산활동으로 산의 일부가 무너지고 물길이 막히면서 오늘날의 호수가 형성된 것으로 알려져 있습니다. 호숫가에는 하코네 신사의 붉은 도리이 문이 서 있고, 맑은 날에는 멀리 후지산이 모습을 드러냅니다. 호수 위로 유람선이 지나가면 산과 구름, 붉은 문이 한 화면에 담깁니다. 잔잔한 물을 바라보면 이 평화로운 호수도 오래전 격렬한 화산활동과 연결되어 있다는 사실이 특별하게 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-010",
@@ -3411,7 +3681,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-011",
@@ -3433,7 +3706,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-012",
@@ -3455,7 +3731,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-013",
@@ -3469,7 +3748,7 @@ window.LANDMARK_BASE = {
         "Todaiji Great Buddha Hall",
         "東大寺 大仏殿"
       ],
-      "description": "도다이지大 (だい)寺 (じ))는 일본 나라현 나라시에 위치한 불교 사찰입니다. 일본에서 한때 가장 역사가 깊고 강력했던 절들인 남도 7대사의 일원입니다. 도다이지의 대불전(大佛殿)은 세계에서 가장 큰 목조 건물로 그 안에는 세계에서 가장 큰 비로자나불(毘盧遮那佛)의 청동 대불이 있습니다. 나라 시대(8세기)에 쇼무 천황이 창건한 절로 현재는 일본 화엄종의 대본산입니다. 공식적으로는 광명사천왕호국지사(金光明四天王護國之寺)라고 합니다. 나라 시대에는 중심당우의 대불전 외에 동서 2개의 7층탑(추정 높이 약 70m 이상)을 포함한 대가람이 있었지만, 이후 2번의 화재로 양 목탑을 포함한 많은 건물이 소실되었습니다. 현재의 대불은 여러 차례 수리된 까닭에 대좌(연화좌) 등 일부에만 원래의 모습이 남아있습니다.",
+      "description": "일본 나라의 도다이지는 8세기에 세워진 거대한 불교 사찰입니다. 특히 대불전 안에는 커다란 청동 불상인 나라 대불이 앉아 있습니다. 오래전 국가의 평안과 사람들의 안녕을 기원하며 이런 큰 불상을 만들었고, 사찰은 일본 불교에서 중요한 장소가 되었습니다. 대불전은 여러 차례 화재를 겪고 다시 지어져 지금에 이릅니다. 나무로 세운 큰 지붕과 거대한 청동 불상을 보면 당시 사람들이 불교를 얼마나 중요한 일로 여겼는지 느낄 수 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3478,7 +3757,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%8B%A4%EC%9D%B4%EC%A7%80"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%8B%A4%EC%9D%B4%EC%A7%80",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-015",
@@ -3491,7 +3773,7 @@ window.LANDMARK_BASE = {
         "Hiroshima Peace Memorial Park",
         "広島平和記念公園"
       ],
-      "description": "히로시마 평화기념공원은 일본 히로시마현 히로시마시 나카구에 있는 공원입니다. 제2차 세계 대전 말 원자폭탄이 투하된 히로시마에서 세계의 평화를 기원하는 의미에서 조성되었습니다. 원폭 사망자 위령비, 원폭 공양탑, 평화의 종, 사사키 사다코를 기념하는 원폭 어린이의 상 등의 건축물이 있습니다. 남쪽에 히로시마 평화기념자료관, 북동쪽에 원폭 돔이 있습니다.",
+      "description": "일본 히로시마의 평화기념공원은 1945년 8월 6일 원자폭탄이 떨어진 도시의 중심부에 조성되었습니다. 당시 큰 피해를 입은 사람들을 기억하고, 다시는 같은 비극이 일어나지 않기를 바라는 뜻을 담고 있습니다. 공원에는 원폭 희생자를 기리는 위령비와 평화기념자료관이 있고, 가까이에는 폭격의 흔적을 남긴 원폭 돔이 서 있습니다. 평화로운 공원길을 따라 남아 있는 건물과 기념물을 보면 전쟁이 사람들의 삶을 얼마나 크게 바꿀 수 있는지 알게 됩니다. 이곳은 아픈 역사를 기억하며 평화의 가치를 전하는 장소입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3500,7 +3782,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%A1%9C%EC%8B%9C%EB%A7%88_%ED%8F%89%ED%99%94%EA%B8%B0%EB%85%90%EA%B3%B5%EC%9B%90"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%A1%9C%EC%8B%9C%EB%A7%88_%ED%8F%89%ED%99%94%EA%B8%B0%EB%85%90%EA%B3%B5%EC%9B%90",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-016",
@@ -3521,7 +3806,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
-      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필"
+      "descriptionProvenance": "V1.52 · V1.49 일치 자료 기반 독립 이야기 집필",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-017",
@@ -3534,7 +3822,7 @@ window.LANDMARK_BASE = {
         "Kenrokuen Garden Kanazawa",
         "兼六園 金沢"
       ],
-      "description": "겐로쿠엔(兼六園)은 일본 이시카와현 가나자와시에 위치한 오래된 다이묘의 정원으로 1620년대부터 1840년대까지 가가번을 지배했던 마에다씨에 의해 만들어졌다. 가이라쿠엔, 고라쿠엔과 더불어 겐로쿠엔은 일본 3대 정원의 하나입니다. 정원은 연중 낮 시간에 개방되고 계절마다 아름다운 정취를 가진 것으로 유명하다. 정원은 원래 가나자와 성 바깥에 위치했으며 면적은 114,436.65 m²입니다. 5대 번주 마에다 쓰나노리가 렌치 정(蓮池亭)을 만들고 그 뜰을 렌치 뜰(蓮池庭)로 부르면서 만들어지기 시작했습니다. 그러나 이 정원은 1759년에 화재로 파괴되었습니다. 1774년에 11대 번주 마에다 하루나가에 의해 재건되기 시작했고 미도리 폭포(翠滝), 다실(茶室)인 유가오 정(夕顔亭)이 만들어졌다.",
+      "description": "가나자와의 겐로쿠엔은 옛 가가번의 영주들이 오랜 시간 가꾸어 온 일본식 정원입니다. 연못과 돌다리, 작은 언덕과 소나무가 한눈에 모두 보이지 않도록 길을 따라 차례로 배치되어 있습니다. 정원 안에서는 발걸음을 옮길 때마다 풍경이 달라집니다. 겨울에는 눈이 많이 쌓이는 지역이라 나뭇가지가 무게에 꺾이지 않도록 줄을 위에서 아래로 펼쳐 묶는 ‘유키쓰리’가 유명합니다. 단순히 나무를 심은 공원이 아니라 사계절의 변화를 생각하며 세심하게 관리해 온 정원입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3543,7 +3831,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "자동 편집 초안: 출처 확인·수동 교열 전; 기존 설명은 V1.52 ZIP에 보존됨",
       "descriptionProvenance": "V1.53 위키백과 한국어 자료 기반 1차 설명 보강 (출처와 정확성 재검토 필요)",
-      "storySourceReference": "https://ko.wikipedia.org/wiki/%EA%B2%90%EB%A1%9C%EC%BF%A0%EC%97%94"
+      "storySourceReference": "https://ko.wikipedia.org/wiki/%EA%B2%90%EB%A1%9C%EC%BF%A0%EC%97%94",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-018",
@@ -3556,14 +3847,17 @@ window.LANDMARK_BASE = {
         "Shirakawa-go Gassho-zukuri Village",
         "白川郷 合掌造り"
       ],
-      "description": "지붕이 두 손을 모은 모양처럼 가파른 전통 가옥이 모여 있습니다. 눈이 많이 오는 지역의 생활환경에 맞춘 건축 방식입니다. 기후현 산골짜기에 가파른 삼각형 초가지붕 가옥들이 모여 있습니다. 눈이 많이 내리는 지역의 기후에 맞춘 지붕 구조가 특징이며, 여러 세대가 함께 살아가던 산촌의 생활양식을 전해 줍니다.",
+      "description": "일본 기후현 산골짜기의 시라카와고에는 지붕이 두 손을 모은 모습처럼 가파른 전통 가옥들이 모여 있습니다. 이 집의 지붕은 눈이 많이 오는 겨울에 눈이 흘러내리도록 높은 삼각형 모양으로 만들었습니다. 나무로 짜 맞춘 큰 지붕 아래에는 여러 층의 공간이 마련되었고, 옛날에는 누에를 기르는 데에도 이용했습니다. 마을 사람들이 함께 지붕을 새로 얹는 전통도 이어져 왔습니다. 눈이 깊은 산속에서 살아가기 위해 사람들이 집의 모양과 생활 방식을 어떻게 바꾸었는지 보여 주는 마을입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-019",
@@ -3576,14 +3870,17 @@ window.LANDMARK_BASE = {
         "Nikko Toshogu Shrine",
         "日光東照宮"
       ],
-      "description": "정교한 나무 조각과 금빛 채색이 산림 속 건축물에 담겨 있습니다. 에도 막부를 연 도쿠가와 이에야스를 기리는 신사입니다. 화려한 목조 조각과 색채가 특징이며, 세 마리 원숭이와 잠자는 고양이 조각에는 다양한 이야기가 담겨 있습니다.",
+      "description": "일본 닛코의 도쇼구는 에도 막부를 세운 도쿠가와 이에야스를 기리는 화려한 신사입니다. 숲속 건물의 문과 기둥에는 금빛 장식과 알록달록한 나무 조각이 가득합니다. 특히 눈을 가리고 귀를 막고 입을 가린 세 마리 원숭이 조각과 조용히 웅크린 잠자는 고양이 조각이 유명합니다. 작은 동물들의 모습에는 옛사람들이 전하고 싶었던 삶의 태도와 상징이 담겨 있다고 해석합니다. 돌과 나무로 만든 정교한 장식들을 살피면 신사 전체가 거대한 조각 전시장처럼 느껴집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-020",
@@ -3604,7 +3901,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-021",
@@ -3617,14 +3917,17 @@ window.LANDMARK_BASE = {
         "Shuri Castle Okinawa",
         "首里城 沖縄"
       ],
-      "description": "류큐왕국의 정치와 문화를 상징하는 성입니다. 일본 본토와 다른 붉은 전각과 독특한 양식이 특징이며 복원 상태를 확인해야 합니다. 류큐 왕국의 중심 성곽이자 궁전으로, 일본 본토와 다른 붉은색 건축과 장식이 인상적입니다. 중국과 동남아시아 사이의 교역으로 성장한 섬 왕국의 역사를 보여 주며, 화재 이후 복원 작업도 이어지고 있습니다.",
+      "description": "오키나와 나하의 슈리성은 한때 류큐왕국의 정치와 문화를 이끌던 왕궁입니다. 붉게 칠한 건물과 독특한 지붕, 돌로 쌓은 성문은 일본 본토의 성과는 다른 모습을 보여 줍니다. 류큐왕국은 바다를 건너 중국과 일본, 동남아시아와 교류하며 독특한 문화를 발전시켰습니다. 슈리성은 전쟁으로 큰 피해를 입었고, 복원된 주요 건물도 2019년 화재로 다시 소실되어 복구가 이어지고 있습니다. 이곳의 역사는 아름다운 왕궁뿐 아니라 섬나라 사람들이 바다를 통해 쌓아 온 교류와 복원의 노력도 전합니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "JP-CF-022",
@@ -3637,14 +3940,17 @@ window.LANDMARK_BASE = {
         "Glover Garden Nagasaki",
         "グラバー園 長崎"
       ],
-      "description": "나가사키 언덕에 서양식 근대 주택이 모여 있는 정원입니다. 개항기 국제교류와 항구의 역사를 보여줍니다. 나가사키 항구가 내려다보이는 언덕에 서양식 주택과 정원이 남아 있습니다. 개항 이후 외국 상인들이 생활하던 공간으로, 일본과 다른 나라가 교류했던 근대 항구도시의 모습이 담겨 있습니다.",
+      "description": "나가사키의 구라바엔은 항구가 내려다보이는 언덕 위에 옛 서양식 주택들이 모인 정원입니다. 일본이 해외와 교류를 넓혀 가던 19세기에 외국 상인들이 이 지역에 살며 집을 지었습니다. 목조 베란다와 넓은 창, 바다를 향한 정원은 당시 서양식 집의 특징을 보여 줍니다. 정원의 이름은 이곳에 살았던 스코틀랜드 출신 상인 토머스 글로버와 관련이 있습니다. 항구에 들어오던 배와 새로운 물건, 다른 나라의 생활문화가 일본의 변화에 영향을 주던 시대가 이 집들에 남아 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
       "source": "Stage 1.4 CONTENT FIRST editorial draft",
       "selectionStatus": "편집 목록 (식별정보·대표사진 확인 전)",
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
-      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요"
+      "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-001",
@@ -3658,7 +3964,7 @@ window.LANDMARK_BASE = {
         "艋舺龍山寺",
         "龍山寺 台北"
       ],
-      "description": "타이베이의 오래된 사찰로 화려한 지붕 장식과 향 연기로 유명합니다. 지역 주민의 신앙과 생활문화가 함께 이어지는 공간입니다. 타이베이 완화구에 있는 오래된 사찰로 불교·도교 등 여러 신앙의 모습이 공존합니다. 화려한 지붕 장식과 향을 피우는 마당은 일상과 깊이 연결된 대만의 신앙 문화를 보여 줍니다.",
+      "description": "타이베이의 용산사는 18세기에 세워진 오래된 사찰로, 지붕의 용 조각과 화려한 색채가 눈에 띕니다. 건물 안에는 불교와 대만의 여러 민간신앙이 어우러져 있어 다양한 신을 모시는 공간을 볼 수 있습니다. 사찰에 들어서면 향을 피우거나 소원을 비는 사람들이 있고, 앞마당은 지역 주민이 만나고 쉬는 장소로도 이용됩니다. 용산사는 오랜 세월 지진과 전쟁의 피해를 겪으면서도 고쳐 짓고 지켜 온 곳입니다. 아름다운 지붕 장식과 사람들의 일상적인 기도가 함께 사찰의 역사를 이어 갑니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3667,7 +3973,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Lungshan Temple of Manka Taipei",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-002",
@@ -3681,7 +3990,7 @@ window.LANDMARK_BASE = {
         "迪化街",
         "大稻埕 迪化街"
       ],
-      "description": "타이베이 다다오청의 옛 상업 거리입니다. 전통 약재·건어물 가게와 근대식 상점 건축이 이어집니다. 타이베이의 옛 상업거리로 한약재·건어물·직물 등을 파는 상점이 이어집니다. 길쭉한 상가 건물의 입면에는 여러 시대의 건축 양식이 남아 있어 대만의 상업 역사를 느낄 수 있습니다.",
+      "description": "타이베이의 디화제는 오래전부터 무역과 장사가 활발했던 다다오청 지역의 상업 거리입니다. 길을 따라 걸으면 한약재와 건어물, 차와 직물을 파는 가게들이 이어집니다. 건물 앞면에는 옛 중국식 장식과 근대 서양식 요소가 섞여 있어 거리 자체가 건축의 전시장처럼 보입니다. 대만의 차가 해외로 팔려 나가던 시절, 이 지역에는 물건을 모으고 내보내는 상인들이 많았습니다. 오늘날에는 오래된 상점 옆에 새로운 가게도 들어서며 옛 상업거리의 모습이 계속 변하고 있습니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3690,7 +3999,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Dihua Street Taipei",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-003",
@@ -3713,7 +4025,10 @@ window.LANDMARK_BASE = {
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "Shifen Waterfall",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-004",
@@ -3736,7 +4051,10 @@ window.LANDMARK_BASE = {
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "Yehliu Geopark",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-005",
@@ -3749,7 +4067,7 @@ window.LANDMARK_BASE = {
         "Tamsui Old Street",
         "淡水老街"
       ],
-      "description": "타이베이 북서쪽 강 하구의 오래된 항구 거리입니다. 강변 산책로와 역사적 건물, 일몰 풍경이 조화를 이룹니다. 단수이강 하구에 자리한 항구도시의 옛거리입니다. 개항기 건물과 강변 산책로, 붉게 물드는 석양이 유명하며, 바다와 강을 통한 대만의 교류 역사가 남아 있습니다.",
+      "description": "타이베이 북쪽의 단수이는 강물이 바다와 만나는 곳에 발달한 오래된 항구마을입니다. 강 하구의 위치 덕분에 사람과 물건이 배를 타고 드나들었고, 여러 나라와 교류한 흔적이 건축물에 남았습니다. 옛거리에는 간식 가게와 상점들이 이어지고, 강변에서는 작은 배와 석양을 볼 수 있습니다. 물결 위로 붉은 해가 내려앉는 저녁 풍경이 특히 유명합니다. 단수이에서는 오래된 항구의 역사와 오늘날 사람들이 즐겨 찾는 산책길이 나란히 이어집니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3758,7 +4076,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Tamsui Old Street",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-008",
@@ -3772,7 +4093,7 @@ window.LANDMARK_BASE = {
         "Cingjing Farm",
         "清境農場"
       ],
-      "description": "대만 중부의 고지대 초원 목장입니다. 구릉을 따라 펼쳐진 잔디밭과 멀리 보이는 산봉우리가 특징입니다. 대만 중부의 높은 산에 있는 초원형 관광농장으로 양들이 풀을 뜯는 모습이 알려져 있습니다. 주변 능선과 구름이 만드는 풍경은 해안의 열대 이미지와 다른 대만의 산악 환경을 보여 줍니다.",
+      "description": "대만 중부의 산 높은 곳에는 푸른 초원이 넓게 펼쳐진 칭징농장이 있습니다. 따뜻한 해안 도시와 달리 고도가 높아 서늘한 날씨가 나타나고, 구릉을 따라 양들이 풀을 뜯는 풍경을 볼 수 있습니다. 이곳은 대만의 높은 산줄기와 멀리 겹쳐 보이는 능선을 함께 감상할 수 있는 장소로 알려져 있습니다. 안개가 낮게 깔리는 날에는 초원과 산이 구름 사이에 떠 있는 듯 보이기도 합니다. 한 섬 안에서도 해변과 고산 초원처럼 전혀 다른 자연환경이 나타난다는 사실을 보여 줍니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3781,7 +4102,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Qingjing Farm",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-009",
@@ -3804,7 +4128,10 @@ window.LANDMARK_BASE = {
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "National Taichung Theater",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-010",
@@ -3827,7 +4154,10 @@ window.LANDMARK_BASE = {
       "descriptionNote": "명소별 역사 및 특징을 바탕으로 작성. 세부 수치/연혁 추가 검증 권장.",
       "wikiTitle": "Dragon and Tiger Pagodas Kaohsiung",
       "wikiLang": "en",
-      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안"
+      "descriptionProvenance": "V1.54 명소별 개별 집필·사실 점검 초안",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-011",
@@ -3840,7 +4170,7 @@ window.LANDMARK_BASE = {
         "Pier-2 Art Center Kaohsiung",
         "駁二藝術特區"
       ],
-      "description": "대형 설치미술과 전시, 거리 예술이 어우러집니다. 가오슝 항구의 오래된 창고를 전시장과 공공예술 공간으로 바꾼 문화지구입니다. 산업시설을 헐지 않고 새로운 용도로 활용해, 항구도시의 과거와 현대 예술을 연결합니다.",
+      "description": "대만 남부 가오슝의 보얼예술특구는 항구 가까이 있던 오래된 창고들을 문화공간으로 바꾼 장소입니다. 물건을 쌓아 두던 창고에는 전시실과 작은 상점이 들어섰고, 바깥에는 커다란 조형물과 벽화가 설치되었습니다. 예술가들은 낡은 공장 벽과 철도 흔적을 없애지 않고 작품의 배경으로 활용했습니다. 그래서 거리를 걷다 보면 항구에서 짐을 실어 나르던 산업도시의 모습과 새로운 예술이 한꺼번에 보입니다. 오래된 건물을 허무는 대신 다른 용도로 다시 사용하는 방법을 보여 주는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3849,7 +4179,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Pier-2 Art Center Kaohsiung",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-012",
@@ -3862,7 +4195,7 @@ window.LANDMARK_BASE = {
         "Chihkan Tower Tainan",
         "赤崁樓"
       ],
-      "description": "타이난의 역사적 건축물로 여러 시대의 흔적이 겹쳐 있습니다. 네덜란드 통치기의 요새 터 위에 중국식 건축이 들어선 역사를 보여줍니다. 대만 남부 타이난에 있는 역사유적으로, 네덜란드 식민지 시기의 요새 터에 후대의 중국식 건축물이 들어섰습니다. 서로 다른 시대의 건물이 겹친 모습이 섬의 복잡한 역사를 보여 줍니다.",
+      "description": "대만 남부 타이난의 적감루는 한 장소에 서로 다른 시대의 건축이 겹쳐 있는 유적입니다. 17세기 네덜란드 사람들이 이 일대에 요새를 세웠고, 훗날 그 터 위에 중국식 누각과 사당이 들어섰습니다. 그래서 지금은 붉은 벽돌과 옛 성벽의 흔적 옆에 전통 지붕의 건물을 볼 수 있습니다. 주변의 돌비석과 석조물도 이 지역이 오랫동안 역사적 중심지였음을 알려 줍니다. 한 건물만 보는 것이 아니라 서로 다른 사람들이 남긴 시간의 층을 읽는 장소입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3871,7 +4204,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Chihkan Tower Tainan",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-013",
@@ -3884,7 +4220,7 @@ window.LANDMARK_BASE = {
         "Anping Old Fort Tainan",
         "安平古堡"
       ],
-      "description": "타이난 안핑의 옛 해안 요새 유적입니다. 타이난의 옛 항구에 남은 요새 유적으로, 네덜란드 동인도회사 시기의 흔적과 이후의 역사가 겹쳐 있습니다. 오래된 벽과 주변 거리에서 대만의 해상무역 역사를 이해할 수 있습니다.",
+      "description": "타이난 안핑의 고보는 17세기 네덜란드 동인도회사가 세운 젤란디아 요새와 관련된 유적입니다. 이곳은 한때 바다를 통한 무역과 항구 방어의 중심지였습니다. 세월이 흐르면서 해안선과 도시가 달라졌고, 요새도 여러 차례 변화를 겪었습니다. 오늘날에는 남아 있는 오래된 벽돌 성벽과 후대에 세운 건물, 전망 공간에서 옛 항구의 모습을 떠올릴 수 있습니다. 대만이 여러 나라의 배와 상인들이 오가던 중요한 바닷길에 있었음을 보여 주는 곳입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3893,7 +4229,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Anping Old Fort Tainan",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TW-CF-014",
@@ -3906,7 +4245,7 @@ window.LANDMARK_BASE = {
         "Kenting National Park Taiwan",
         "墾丁國家公園"
       ],
-      "description": "대만 남쪽 끝의 해안과 열대 숲을 포함하는 국립공원입니다. 푸른 바다, 산호초, 초원과 바위 해안이 다채롭습니다. 대만 최남단의 국립공원으로 산호초 해안과 해변, 숲이 함께 펼쳐집니다. 따뜻한 기후 속에 다양한 생물이 살며, 등대와 바닷길 등 남쪽 해안의 특징적인 풍경도 볼 수 있습니다.",
+      "description": "대만의 가장 남쪽에 있는 컨딩 국가공원은 따뜻한 바다와 산호초 해안, 초원과 숲이 이어지는 곳입니다. 북쪽의 높은 산악지대와 달리 이곳에서는 열대에 가까운 식물과 밝은 바다 풍경을 만날 수 있습니다. 해안에는 파도에 깎인 바위와 하얀 모래사장이 있고, 바닷속에는 다양한 산호와 물고기가 살아갑니다. 육지의 언덕과 숲에도 여러 생물이 서식합니다. 컨딩은 한 지역 안에서도 바다와 육지의 자연이 촘촘하게 연결되어 있다는 사실을 보여 주는 국립공원입니다.",
       "photos": [],
       "status": "초안",
       "verified": false,
@@ -3915,7 +4254,10 @@ window.LANDMARK_BASE = {
       "researchProvenance": "명소별 사실관계 및 별칭 별도 확인 예정",
       "descriptionNote": "Stage 1.6 명소별 서술 보강 초안 · 출처/세부 사실 최종 대조 필요",
       "wikiTitle": "Kenting National Park Taiwan",
-      "wikiLang": "en"
+      "wikiLang": "en",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "TH-CF-001",
@@ -8406,7 +8748,10 @@ window.LANDMARK_BASE = {
       "source": "Stage 2.2.2 사용자 요청 신규 명소",
       "selectionStatus": "신규 명소 (사진 검색 및 출처 확인 필요)",
       "researchProvenance": "관광공사·유네스코 기본정보 참조; 세부 사실 및 사진 개별 검토 필요",
-      "descriptionNote": "신규 작성 초안 · 사진 미포함"
+      "descriptionNote": "신규 작성 초안 · 사진 미포함",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-002",
@@ -8428,7 +8773,10 @@ window.LANDMARK_BASE = {
       "source": "Stage 2.2.2 사용자 요청 신규 명소",
       "selectionStatus": "신규 명소 (사진 검색 및 출처 확인 필요)",
       "researchProvenance": "관광공사·유네스코 기본정보 참조; 세부 사실 및 사진 개별 검토 필요",
-      "descriptionNote": "신규 작성 초안 · 사진 미포함"
+      "descriptionNote": "신규 작성 초안 · 사진 미포함",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-003",
@@ -8450,7 +8798,10 @@ window.LANDMARK_BASE = {
       "source": "Stage 2.2.2 사용자 요청 신규 명소",
       "selectionStatus": "신규 명소 (사진 검색 및 출처 확인 필요)",
       "researchProvenance": "관광공사·유네스코 기본정보 참조; 세부 사실 및 사진 개별 검토 필요",
-      "descriptionNote": "신규 작성 초안 · 사진 미포함"
+      "descriptionNote": "신규 작성 초안 · 사진 미포함",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-004",
@@ -8476,7 +8827,10 @@ window.LANDMARK_BASE = {
       "source": "Stage 2.2.2 사용자 요청 신규 명소",
       "selectionStatus": "신규 명소 (사진 검색 및 출처 확인 필요)",
       "researchProvenance": "관광공사·유네스코 기본정보 참조; 세부 사실 및 사진 개별 검토 필요",
-      "descriptionNote": "신규 작성 초안 · 사진 미포함"
+      "descriptionNote": "신규 작성 초안 · 사진 미포함",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "IN-N01",
@@ -16783,7 +17137,7 @@ window.LANDMARK_BASE = {
         "松廣寺",
         "송광사 순천"
       ],
-      "description": "송광사는 전라남도 순천의 조계산 기슭에 자리한 오래된 사찰입니다. 한국 불교에서 수행과 배움의 중심지로 알려졌으며, 깊은 산속으로 이어지는 숲길과 전각이 고요한 분위기를 만들어 줍니다. 사찰에 들어서기 전 계곡과 다리 주변 풍경도 많은 사람이 좋아하는 장면입니다. 오래된 목조건축은 화려함보다는 주변 산과 어우러지는 아름다움을 보여 줍니다.",
+      "description": "전남 순천 조계산 자락의 송광사는 한국 불교에서 오랫동안 수행과 교육의 중심지로 여겨진 사찰입니다. 고려시대의 보조국사 지눌은 이곳에서 수행 공동체를 이끌며 불교 수행을 새롭게 정비했습니다. 숲길과 계곡을 지나 절에 들어서면 여러 전각이 산의 지형에 맞추어 자리한 모습을 볼 수 있습니다. 오래된 목조건물과 조용한 마당에는 수많은 승려가 공부하고 수행해 온 시간이 담겨 있습니다. 송광사는 아름다운 산사인 동시에 사람들의 배움과 수행이 이어져 온 곳입니다.",
       "wikiTitle": "Songgwangsa",
       "wikiLang": "en",
       "photos": [],
@@ -16793,7 +17147,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-006",
@@ -16807,7 +17164,7 @@ window.LANDMARK_BASE = {
         "Soyang Dam",
         "소양강댐 춘천"
       ],
-      "description": "소양강댐은 북한강 상류에 세워진 큰 댐으로, 넓은 호수와 주변 산세가 함께 어우러진 시원한 풍경으로 유명합니다. 춘천의 대표 경관 가운데 하나로, 인공 구조물과 자연 풍경을 함께 살펴볼 수 있습니다.",
+      "description": "강원도 춘천의 소양강댐은 북한강 지류인 소양강을 가로막아 물을 모으는 큰 댐입니다. 1973년에 완공되었으며 돌과 흙을 층층이 쌓아 만든 사력댐으로 알려져 있습니다. 댐 뒤에 생긴 소양호는 골짜기를 따라 길게 뻗어 마치 산속에 새로운 바다가 생긴 듯한 풍경을 만듭니다. 이곳의 물은 홍수를 조절하고 생활용수와 발전에 도움을 줍니다. 높은 산과 넓은 호수를 함께 바라보면 자연의 물길을 이용해 생활을 바꾼 거대한 토목공사의 의미를 떠올리게 됩니다.",
       "wikiTitle": "Soyang Dam",
       "wikiLang": "en",
       "photos": [],
@@ -16817,7 +17174,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-007",
@@ -16831,7 +17191,7 @@ window.LANDMARK_BASE = {
         "Ulleung Island",
         "鬱陵島"
       ],
-      "description": "울릉도는 동해 위에 솟아 있는 화산섬입니다. 가파른 절벽과 높은 산, 깊은 바다가 가까이 붙어 있어 육지와는 다른 독특한 지형을 볼 수 있습니다. 성인봉 주변에는 숲이 울창하며, 해안에는 파도에 깎여 만들어진 바위 절벽이 많습니다. 섬에서는 날씨가 빨리 바뀔 수 있어 배가 오가거나 해안 길을 여행할 때 파도와 바람을 살펴야 합니다.",
+      "description": "울릉도는 동해의 깊은 바다에서 화산활동으로 솟아난 섬입니다. 땅이 가파르게 올라가는 곳이 많아 바닷가에서 조금만 들어가도 높은 산과 깊은 골짜기가 나타납니다. 섬 한가운데에는 성인봉이 있고, 나리분지처럼 다른 해안 풍경과는 전혀 다른 평평한 땅도 있습니다. 오랜 세월 파도가 해안을 깎으면서 절벽과 기묘한 바위들이 만들어졌습니다. 섬의 독특한 지형 때문에 사람들은 산비탈과 바닷가에 맞추어 집을 짓고 생활해 왔습니다. 울릉도의 풍경은 바닷속 화산이 얼마나 큰 섬을 만들 수 있는지 보여 줍니다.",
       "wikiTitle": "Ulleungdo",
       "wikiLang": "en",
       "photos": [],
@@ -16841,7 +17201,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-008",
@@ -16855,7 +17218,7 @@ window.LANDMARK_BASE = {
         "Liancourt Rocks",
         "獨島"
       ],
-      "description": "독도는 울릉도 동남쪽 동해에 자리한 바위섬입니다. 동도와 서도를 비롯한 바위와 작은 섬들이 모여 있으며, 깎아지른 절벽과 거센 파도가 인상적입니다. 화산 활동으로 형성된 지형을 볼 수 있고 바다새와 다양한 해양 생물이 살아갑니다. 날씨와 파도 때문에 가까이 가기 어려운 날도 많습니다.",
+      "description": "독도는 울릉도 동남쪽 동해에 자리한 우리나라의 화산섬입니다. 동도와 서도를 중심으로 작은 바위섬들이 모여 있고, 절벽 아래로 파도가 부딪칩니다. 지금 보이는 바위는 오랜 화산활동과 침식이 남긴 흔적입니다. 땅은 가파르고 넓지 않지만 바다새가 번식하고 여러 식물이 자라는 소중한 자연환경을 지녔습니다. 독도는 자연을 보호하기 위해 출입이 제한되는 구역이 많고, 날씨와 바다 상황에 따라 방문하기도 쉽지 않습니다. 작은 섬 안에는 동해의 지질과 생태를 보여 주는 이야기가 담겨 있습니다.",
       "wikiTitle": "Liancourt Rocks",
       "wikiLang": "en",
       "photos": [],
@@ -16865,7 +17228,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-009",
@@ -16879,7 +17245,7 @@ window.LANDMARK_BASE = {
         "Hallyeo Waterway",
         "한려해상국립공원"
       ],
-      "description": "한려수도는 남해안의 섬과 바다가 길게 이어지는 아름다운 바다 길입니다. 크고 작은 섬, 잔잔한 물길, 푸른 해안 풍경이 함께 어우러져 한국을 대표하는 해상 절경으로 꼽힙니다.",
+      "description": "한려수도는 경남 통영에서 전남 여수에 이르는 남해안의 섬과 바닷길을 가리키는 이름입니다. 수많은 섬이 크고 작은 물길을 만들기 때문에 같은 바다라도 바라보는 곳마다 풍경이 달라집니다. 산처럼 솟은 섬 사이로 배가 지나가고, 잔잔한 만 안에는 어촌과 항구가 자리합니다. 이 지역의 일부는 한려해상국립공원으로 보호받고 있습니다. 바다를 단순히 넓은 물이라고 생각하기 쉽지만, 이곳에서는 섬과 해안선이 오랫동안 사람들의 이동과 생활을 이어 준 길이었습니다.",
       "wikiTitle": "Hallyeohaesang National Park",
       "wikiLang": "en",
       "photos": [],
@@ -16889,7 +17255,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-010",
@@ -16903,7 +17272,7 @@ window.LANDMARK_BASE = {
         "Jiri Mountain",
         "智異山"
       ],
-      "description": "지리산은 전남·전북·경남에 걸쳐 이어지는 큰 산으로, 넓은 능선과 깊은 골짜기가 특징입니다. 지리산국립공원에는 높은 봉우리와 계곡, 숲과 사찰이 함께 있습니다. 천왕봉에서 맞는 해돋이와 가을 단풍, 겨울 설경은 서로 전혀 다른 풍경을 보여 줍니다. 자연을 보호하기 위해 지정된 탐방로를 이용하고 야생동물을 멀리서 관찰하는 것이 중요합니다.",
+      "description": "지리산은 전북·전남·경남에 걸쳐 넓은 능선이 이어지는 큰 산입니다. 가장 높은 천왕봉에 이르기까지 여러 봉우리와 깊은 계곡, 울창한 숲이 펼쳐집니다. 계절마다 산의 모습이 크게 바뀌어 봄에는 연둣빛 숲, 가을에는 단풍, 겨울에는 눈 덮인 능선을 볼 수 있습니다. 지리산은 우리나라 최초의 국립공원으로 지정된 곳이기도 합니다. 산에는 반달가슴곰을 비롯한 다양한 생물이 살며, 오래된 사찰과 마을도 자리합니다. 지리산은 자연과 사람들이 오랜 세월 가까이 살아온 산입니다.",
       "wikiTitle": "Jirisan",
       "wikiLang": "en",
       "photos": [],
@@ -16913,7 +17282,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.46 직접 관찰 지시문 제거 · 기존 설명 보존",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-011",
@@ -16932,7 +17304,7 @@ window.LANDMARK_BASE = {
         "퍼플섬 반월도 박지도",
         "신안군 전남"
       ],
-      "description": "신안 천사섬은 전라남도 신안군의 섬과 바다를 아우르는 이름입니다. 섬들을 잇는 천사대교와 보라색 풍경으로 알려진 반월도·박지도 퍼플섬, 갯벌과 다도해의 풍경이 아름답습니다. 중국의 동명 지명과 혼동되지 않도록 대한민국 전라남도 신안군 사진을 중심으로 살펴봅니다.",
+      "description": "전남 신안군에는 수많은 섬이 바다 위에 흩어져 있습니다. ‘천사섬’이라는 이름은 신안의 많은 섬을 친근하게 부르는 별칭으로 알려져 있습니다. 섬을 잇는 천사대교 위에서는 푸른 바다와 작은 섬이 겹쳐 보입니다. 반월도와 박지도에는 보라색으로 꾸민 길과 건물이 눈에 띄어 ‘퍼플섬’이라는 이름으로도 불립니다. 신안의 갯벌에는 다양한 생물이 살고, 섬마을에서는 바다의 밀물과 썰물에 맞추어 생활해 왔습니다. 다리와 배가 이어 주는 섬들의 풍경이 이 지역의 특별함입니다.",
       "wikiTitle": "Sinan County, South Korea",
       "wikiLang": "en",
       "photos": [],
@@ -16942,7 +17314,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "대한민국 신안군 지역·사진 검색 전용 보강",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-012",
@@ -16957,7 +17332,7 @@ window.LANDMARK_BASE = {
         "완도",
         "청산도"
       ],
-      "description": "완도 청산도는 느린 풍경으로 유명한 섬으로, 돌담길과 바다, 완만한 언덕이 어우러진 풍경이 아름답습니다. 완도 지역의 섬과 바다 문화를 대표해서 보기 좋은 명소입니다.",
+      "description": "전남 완도에서 배를 타고 들어가는 청산도에는 푸른 바다를 향해 완만한 언덕과 돌담길이 이어집니다. 밭을 만들기 어려운 비탈진 땅에서도 사람들이 농사를 지을 수 있도록 돌을 쌓아 만든 논과 밭이 남아 있습니다. 섬 곳곳을 잇는 느린 산책길은 서두르지 않고 마을과 바다를 만나는 길로 알려져 있습니다. 멀리서 보면 초록빛 들판과 푸른 바다가 층층이 이어지지만, 가까이에서는 돌 하나씩 옮겨 밭을 일군 사람들의 손길도 보입니다. 청산도의 아름다움에는 자연 풍경과 섬사람들의 생활이 함께 담겨 있습니다.",
       "wikiTitle": "Cheongsando",
       "wikiLang": "en",
       "photos": [],
@@ -16967,7 +17342,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-013",
@@ -16981,7 +17359,7 @@ window.LANDMARK_BASE = {
         "진도",
         "Jindo County"
       ],
-      "description": "진도 바닷길은 바다가 갈라져 길이 드러나는 신기한 자연현상으로 유명한 곳입니다. 넓은 바다와 갯벌, 섬 풍경을 함께 볼 수 있어 한국의 특별한 바다 명소로 잘 알려져 있습니다.",
+      "description": "전남 진도의 바닷길은 바닷물이 매우 낮아지는 때에 바다 사이의 얕은 땅이 드러나는 자연현상으로 유명합니다. 진도 본섬과 가까운 섬 사이에 평소 물속에 잠겨 있던 길이 모습을 드러내면 사람들이 바다 위를 걷는 듯한 장면이 펼쳐집니다. 이 현상은 달과 태양의 인력으로 생기는 조수 간만의 차와 바닷속 지형이 만나 나타납니다. 길이 나타나는 시기와 시간은 물때에 따라 달라집니다. 신비롭게 보이는 바닷길은 자연의 물리 법칙이 만들어 낸 아주 특별한 풍경입니다.",
       "wikiTitle": "Jindo Sea Parting",
       "wikiLang": "en",
       "photos": [],
@@ -16991,7 +17369,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-014",
@@ -17004,7 +17385,7 @@ window.LANDMARK_BASE = {
         "Donghaksa",
         "東鶴寺"
       ],
-      "description": "동학사는 계룡산 자락에 자리한 사찰로, 숲길과 계곡을 따라 차분한 분위기를 느낄 수 있는 곳입니다. 계룡산의 자연과 어우러진 전각 풍경이 아름다워 사계절 내내 많은 사람이 찾습니다.",
+      "description": "충남 계룡산 자락의 동학사는 숲과 계곡을 지나 만나는 오래된 절입니다. 계룡산의 산줄기가 둘러싼 골짜기에는 계절마다 다른 풍경이 나타납니다. 봄에는 벚꽃길이 알려져 있고, 여름에는 계곡의 물소리와 짙은 숲이 절을 감쌉니다. 동학사는 불교 수행의 공간이면서 역사 속 인물들을 기리는 사당과도 관련이 있는 장소입니다. 사찰로 향하는 길을 따라 걷다 보면 북적이는 도시와 달리 산의 기운을 가까이 느낄 수 있습니다. 오래된 전각과 산길이 함께 이곳의 분위기를 만듭니다.",
       "wikiTitle": "Donghaksa",
       "wikiLang": "en",
       "photos": [],
@@ -17014,7 +17395,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-015",
@@ -17027,7 +17411,7 @@ window.LANDMARK_BASE = {
         "Naksansa",
         "洛山寺"
       ],
-      "description": "낙산사는 동해 바다가 내려다보이는 절벽 가까이에 자리한 사찰입니다. 바다와 절이 함께 보이는 풍경이 특히 유명하며, 일출을 감상하기 좋은 한국의 대표 해안 사찰 가운데 하나입니다.",
+      "description": "강원도 양양의 낙산사는 동해를 내려다보는 산과 절벽 가까이에 자리한 불교 사찰입니다. 신라의 승려 의상이 이곳에서 관음보살을 만났다는 전설이 전해져 오랫동안 기도하는 장소로 여겨졌습니다. 해안 절벽의 의상대와 바다 가까이 자리한 홍련암에서는 지붕 너머로 넓은 동해가 펼쳐집니다. 절은 여러 차례 화재와 전쟁의 피해를 겪었고, 2005년 큰 산불 뒤에도 복구가 이어졌습니다. 파도 소리가 들리는 절은 오랜 믿음과 자연이 가까이 만나는 장소입니다.",
       "wikiTitle": "Naksansa",
       "wikiLang": "en",
       "photos": [],
@@ -17037,7 +17421,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "Stage 1.43 어린이용 기초설명",
-      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상"
+      "descriptionNote": "확장 추가 명소 · 사진/설명 보강 대상",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "KR-ADD-016",
@@ -17067,7 +17454,10 @@ window.LANDMARK_BASE = {
       "selectionStatus": "V1.43.4 사진 검색어 집중 보강 · 사진 개별 검토 필요",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.46 명소이야기 편집 보강",
-      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장"
+      "descriptionNote": "장소별 고유한 역사·특징·사진 관찰 포인트를 추가한 편집 원고; 원문 사실 검토 권장",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.62",
+      "storyQualityStatus": "나라별 이야기 1차 정리"
     },
     {
       "id": "CA-L01",
@@ -18652,7 +19042,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L02",
@@ -18674,7 +19066,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L03",
@@ -18696,7 +19090,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L04",
@@ -18718,7 +19114,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L05",
@@ -18740,7 +19138,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L06",
@@ -18762,7 +19162,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L07",
@@ -18784,7 +19186,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L08",
@@ -18806,7 +19210,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L09",
@@ -18828,7 +19234,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "IE-L10",
@@ -18850,7 +19258,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L01",
@@ -18872,7 +19282,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L02",
@@ -18894,7 +19306,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L03",
@@ -18916,7 +19330,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L04",
@@ -18939,7 +19355,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L05",
@@ -18961,7 +19379,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L06",
@@ -18983,7 +19403,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L07",
@@ -19005,7 +19427,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L08",
@@ -19027,7 +19451,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L09",
@@ -19049,7 +19475,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "HU-L10",
@@ -19072,7 +19500,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L01",
@@ -19094,7 +19524,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L02",
@@ -19116,7 +19548,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L03",
@@ -19138,7 +19572,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L04",
@@ -19160,7 +19596,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L05",
@@ -19182,7 +19620,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L06",
@@ -19205,7 +19645,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L07",
@@ -19228,7 +19670,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L08",
@@ -19250,7 +19694,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L09",
@@ -19272,7 +19718,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "LA-L10",
@@ -19294,7 +19742,9 @@ window.LANDMARK_BASE = {
       "selectionStatus": "확장 명소 초안",
       "researchProvenance": "Stage 1.43 확장 명소 초안; 사진·설명 검토 전",
       "descriptionProvenance": "V1.61 · 아일랜드·헝가리·라오스 고유 이야기 심화 편집",
-      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능."
+      "descriptionNote": "역사·자연·생활문화·특별한 사실을 엮은 어린이용 이야기. 사실관계 추가 검증 가능.",
+      "storyPhase1Complete": true,
+      "storyPhase1Version": "1.61"
     },
     {
       "id": "ZZ-L01",
