@@ -220,3 +220,10 @@
 /* V1.66: completed country photo/story counts use one clearly legible white color. */
 .country-picker .country-choice.country-complete .country-counts,
 .country-picker .country-choice.country-complete .country-counts .country-story-progress {color:#ffffff!important;}
+
+/* V1.70: keep both counts in one line and use white on complete green cards. */
+.country-picker .country-choice .country-counts {font-size:11.5px!important;letter-spacing:-.025em!important;white-space:nowrap!important;}
+.country-picker .country-choice .country-story-progress {display:inline!important;color:inherit!important;font-size:inherit!important;white-space:nowrap!important;}
+.country-picker .country-choice.country-complete .country-counts,
+.country-picker .country-choice.country-complete .country-story-progress {color:#fff!important;}
+@media(max-width:560px){.country-picker .country-choice .country-counts{font-size:10.5px!important;}}

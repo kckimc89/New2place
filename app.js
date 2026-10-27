@@ -735,18 +735,30 @@ function renderHome(){const items=allLandmarks(),feature=items.find(x=>x.id==='F
  <div class="info">🌱 <b>첫 기본자료 안내:</b> 40개 명소의 이름·분류·설명·별칭은 미확정 기초자료입니다. 부모모드에서 검색 결과를 비교하세요. 사진은 위키미디어에서 온라인으로 불러오며, 검색된 사진은 부모가 정확성과 이용조건을 확인한 후 사진첩에 넣도록 설계했습니다.</div>`;}
 function greenLandmarkPlate(f){return !f.cardPaused && (countStored(f.id)>=30 || !!f.photoReady || !!f.verified);}
 function storyDone(f){return !!f.storyPhase1Complete;}
+// V1.70: Preliminary quality triage. The number in parentheses is NOT the old
+// storyPhase1Complete marker. Manual/local edits are not silently approved.
+function storyReviewNeeded(f){
+ const d=String(f.description||'').trim();
+ if(!d || d.length<260) return true;
+ if(f.storyQualityStatus && String(f.storyQualityStatus).startsWith("V1.71 개별 내용 검토") && !/대표적인 여행명소입니다|사진을 감상할 때는|방문 전에는/.test(d))return false;
+ if(/대표적인 여행명소입니다|추가 검증이 필요합니다|자세한 역사와 방문정보|이 명소를 이해할 때|이곳의 핵심은 단순히|사진을 감상할 때는|주변의 동선과|방문 전에는/.test(d))return true;
+ const base=BASE.landmarks.find(x=>x.id===f.id);
+ if(base && String(base.description||'').trim()!==d)return true;
+ return !!f.storyReviewNeeded;
+}
+function storyHasDescription(f){return !!String(f.description||'').trim();}
 function countryButtons(list){
  const stats=new Map();
  for(const f of allLandmarks()){
-  if(!stats.has(f.countryCode))stats.set(f.countryCode,{total:0,green:0,photographed:0,story:0});
-  const stat=stats.get(f.countryCode);stat.total++;if(storyDone(f))stat.story++;
+  if(!stats.has(f.countryCode))stats.set(f.countryCode,{total:0,green:0,photographed:0,story:0,storyPresent:0,storyReview:0});
+  const stat=stats.get(f.countryCode);stat.total++;if(storyDone(f))stat.story++;if(storyHasDescription(f))stat.storyPresent++;if(storyReviewNeeded(f))stat.storyReview++;
   if(greenLandmarkPlate(f))stat.green++;
   if(countStored(f.id)>0)stat.photographed++;
  }
  return `<div class="country-picker ${state.countryExpanded||!showAllCountries?'':'collapsed'}">${list.map(c=>{
-  const stat=stats.get(c.code)||{total:0,green:0,photographed:0,story:0};
+  const stat=stats.get(c.code)||{total:0,green:0,photographed:0,story:0,storyPresent:0,storyReview:0};
   const status=photoLibraryStatus==='ready'?(stat.total>0&&stat.green===stat.total?'country-complete':stat.photographed>0?'country-started':''):'';
-  return `<button class="country-choice ${status} ${state.country===c.code?'selected':''}" type="button" data-act="set-country" data-code="${esc(c.code)}"><small>${esc(c.continent)}</small>${esc(c.flag)} ${esc(c.name)}<span class="country-counts">${photoLibraryStatus==='loading'?'사진 확인 중…':photoLibraryStatus==='error'?'사진 확인 필요':`${stat.green} / ${stat.total}${stat.story?` <span class="country-story-progress" aria-label="이야기 완성 ${stat.story}곳">(${stat.story})</span>`:''}`}</span></button>`;
+  return `<button class="country-choice ${status} ${state.country===c.code?'selected':''}" type="button" data-act="set-country" data-code="${esc(c.code)}"><small>${esc(c.continent)}</small>${esc(c.flag)} ${esc(c.name)}<span class="country-counts">${photoLibraryStatus==='loading'?'사진 확인 중…':photoLibraryStatus==='error'?'사진 확인 필요':`${stat.green}/${stat.total} <span class="country-story-progress" aria-label="설명 보완 필요 ${stat.storyReview}곳, 설명 있는 명소 ${stat.storyPresent}곳">(${stat.storyReview}/${stat.storyPresent})</span>`}</span></button>`;
  }).join('')}</div>`;
 }
 function renderCountries(){const cs=countries(),search=state.countrySearch,list=cs.filter(c=>match([c.name,c.continent,c.code,COUNTRY_ALIASES[c.code]||'',countryEnglishOf(c.code)||''].join(' '),search)).sort((a,b)=>{if(!search)return countrySort(a,b);const a0=norm(a.name).startsWith(norm(search))?0:1,b0=norm(b.name).startsWith(norm(search))?0:1;return a0!==b0?a0-b0:countrySort(a,b);}),curr=COUNTRY_MAP.get(state.country)||cs[0],places=allLandmarks().filter(f=>f.countryCode===curr.code);return `<section class="panel"><div class="section-head"><h2>🌏 나라 목록</h2><small>${scopeLabel()} 전체 · 대륙별 / 가나다순</small></div><form class="search-form" id="countryForm"><input type="search" id="countryInput" enterkeyhint="search" autocomplete="off" placeholder="나라 부분검색: 한, 중국, France, 아시아" value="${esc(search)}" aria-label="나라 검색"><button>검색</button></form><div class="muted small">아시아는 대한민국 → 중국 → 일본 → 대만 우선 · 입력 후 검색 버튼을 눌러주세요</div>${photoLibraryStatus==='loading'?'<div class="info" role="status">📚 기존 사진 자료를 확인하고 있습니다. 자료가 지워진 것이 아닙니다. 확인이 끝나면 완성된 나라가 초록색으로 표시됩니다.</div>':photoLibraryStatus==='error'?'<div class="warning" role="alert">사진 저장소 확인에 실패했습니다. 사진이 삭제되었다는 뜻은 아닙니다. 새로 저장하거나 초기화하지 말고 백업 상태를 확인해 주세요.</div>':''}${countryButtons(list)}<div class="action-row"><button class="btn" data-act="toggle-country-list">${state.countryExpanded?'▲ 목록 접기':'▼ 목록 펼치기'} (${countryListItemLabel(list.length)})</button><button class="btn ghost" data-act="country-clear">검색 초기화</button></div></section>
@@ -1295,7 +1307,7 @@ function retryStoryAuditFailures(){
  notify('기존 유효 자료 '+good.length+'곳을 보존했습니다. 실패·불확실 항목 '+remaining.length+'곳을 다시 조사합니다.');
  startWholeStoryAudit();
 }
-function exportWholeStoryAudit(){const data={version:'1.69',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function exportWholeStoryAudit(){const data={version:'1.71',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 
 function storyCleanLine(raw){
  return String(raw||'').replace(/\[[0-9]+\]/g,'').replace(/\s+/g,' ').trim();
