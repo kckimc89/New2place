@@ -740,7 +740,7 @@ function storyDone(f){return !!f.storyPhase1Complete;}
 function storyReviewNeeded(f){
  const d=String(f.description||'').trim();
  if(!d || d.length<260) return true;
- if(f.storyQualityStatus && /^V1\.7[12] (개별 내용 검토|개별 내용 보강 완료)/.test(String(f.storyQualityStatus)) && !/대표적인 여행명소입니다|사진을 감상할 때는|방문 전에는/.test(d))return false;
+ if(f.storyQualityStatus && /^V1\.7[123] (개별 내용 검토|개별 내용 보강 완료)/.test(String(f.storyQualityStatus)) && !/대표적인 여행명소입니다|사진을 감상할 때는|방문 전에는/.test(d))return false;
  if(/대표적인 여행명소입니다|추가 검증이 필요합니다|자세한 역사와 방문정보|이 명소를 이해할 때|이곳의 핵심은 단순히|사진을 감상할 때는|주변의 동선과|방문 전에는/.test(d))return true;
  const base=BASE.landmarks.find(x=>x.id===f.id);
  if(base && String(base.description||'').trim()!==d)return true;
@@ -1307,7 +1307,7 @@ function retryStoryAuditFailures(){
  notify('기존 유효 자료 '+good.length+'곳을 보존했습니다. 실패·불확실 항목 '+remaining.length+'곳을 다시 조사합니다.');
  startWholeStoryAudit();
 }
-function exportWholeStoryAudit(){const data={version:'1.72',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function exportWholeStoryAudit(){const data={version:'1.73',createdAt:new Date().toISOString(),...storyAuditSummary(),results:wholeStoryAudit?.done||[]};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='landmarks-story-audit-v158.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 
 function storyCleanLine(raw){
  return String(raw||'').replace(/\[[0-9]+\]/g,'').replace(/\s+/g,' ').trim();
