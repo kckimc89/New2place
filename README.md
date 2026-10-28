@@ -12,3 +12,5 @@ V1.85: 명소이야기 편집 단일 진입점(부모모드 ON+명소 이야기 
 V1.86: 명소 이야기·명소일기 한국어 읽어주기, 나의 기록 검색/나라/유형/날짜순 필터. 기존 저장 구조 변경 없음.
 
 V1.87: V1.86에서 누락된 renderJournal 함수를 복구하여 전체 화면 공백 현상 수정.
+
+V1.88: V1.87 HTML had kept v186 script cache keys, so iPad may reuse broken V1.86 JS even while header showed V1.87. Cache keys for JS/CSS and data updated to v188. Existing storage identifiers and data unchanged.
