@@ -271,3 +271,8 @@
 @media(min-width:1000px){.country-filter-singleline .filter-chip{flex:1 1 auto;padding:8px 5px;font-size:12px}}
 @media(max-width:800px){.country-landmark-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:560px){.country-landmark-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.country-filter-singleline .filter-chip{font-size:12px}.parent-bar-spacer{flex-basis:100%;height:0}.parent-bar [data-go="parent"],.parent-bar #parentToggle{flex:1}}
+
+/* V1.81: unified category toolbar on every discovery screen; single row on iPad. */
+.compact-category-row{display:flex;flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:5px;padding:3px 0 7px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.compact-category-row>.filter-chip{flex:1 0 auto;white-space:nowrap;padding:8px 7px;font-size:12px;min-height:38px}
+@media(min-width:1000px){.compact-category-row>.filter-chip{flex:1 1 auto;padding:8px 4px}}
