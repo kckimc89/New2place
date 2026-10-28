@@ -284,3 +284,6 @@
 
 /* V1.86: diary catalogue and read-aloud controls */
 .journal-browse{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0;padding:14px;border:1px solid #eadcc8;border-radius:14px;background:#fffaf2}.journal-browse label{display:flex;flex-direction:column;gap:5px;font-weight:700;font-size:13px}.journal-browse input,.journal-browse select{width:100%;min-width:0;padding:10px;border:1px solid #d8c7b2;border-radius:10px;background:white;font-size:16px}.journal-browse button{align-self:end}.story-read-actions{justify-content:center;margin:12px 0}@media(max-width:550px){.journal-browse{grid-template-columns:1fr}}
+
+/* V1.89: compact landmark-first journal index */
+.journal-place-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 22px}.journal-place-button{background:#fff;border:1px solid #cfbdad;border-radius:12px;min-height:76px;display:flex;flex-direction:column;justify-content:center;gap:5px;padding:10px;text-align:center;color:#58371d;cursor:pointer}.journal-place-button.selected{border:2px solid #8b451f;background:#fff1df}.journal-place-button small{color:#796452}.journal-selected{border-top:1px solid #ddd;padding-top:14px}@media(max-width:650px){.journal-place-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
