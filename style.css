@@ -255,3 +255,19 @@
 
 /* V1.79: isolated country view + family journal */
 .journal-editor-overlay{display:none;position:fixed;inset:0;z-index:10050;background:#172331a8;overflow:auto;padding:18px;align-items:flex-start;justify-content:center}.journal-editor-overlay.open{display:flex}.journal-editor-box{width:min(720px,100%);background:#fff;color:#253049;border-radius:18px;padding:20px;margin:20px auto;box-shadow:0 12px 32px #0004}.journal-editor-box .field{display:flex;flex-direction:column;margin:15px 0;gap:8px}.journal-editor-box input,.journal-editor-box select,.journal-editor-box textarea{font-size:17px}.journal-editor-box .field input[type=radio]{width:auto}.journal-entry{margin:14px 0;padding:15px;border:1px solid #cbd8e7;border-radius:14px;background:#fff}.journal-entry-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.journal-entry p{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}.journal-diary-section,.country-journey-end,.travel-route-note{margin:20px 0;padding:16px;border-radius:14px;background:#f2f7ff;border:1px solid #d9e7f5}.country-journey-end{margin-top:30px}.journal-editor-box textarea{min-height:200px;width:100%;box-sizing:border-box}
+
+/* V1.80: compact header, consistent country landmark cards, legacy journal retained only in storage. */
+.parent-bar{justify-content:flex-start;flex-wrap:wrap;gap:8px 10px}
+.parent-bar-spacer{flex:1 1 auto}
+.parent-bar [data-go="parent"]{background:#fff8f0}
+.parent-bar [data-go="parent"].active{border-color:#804018;background:#804018;color:#fff}
+.country-landmark-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:12px 0 22px}
+.country-landmark-grid .country-landmark-choice{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;min-height:80px;width:100%;margin:0;padding:12px 6px;border-radius:14px;text-align:center;overflow-wrap:anywhere;font-size:14px;line-height:1.3}
+.country-landmark-title{font-weight:850}
+.country-landmark-count{font-size:11px;font-weight:700;opacity:.85}
+.country-filter-singleline{display:flex;gap:5px;flex-wrap:nowrap;overflow-x:auto;max-width:100%;padding:2px 0 7px;margin:11px 0;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.country-filter-singleline .filter-chip{flex:1 0 auto;padding:7px 8px;min-height:38px;font-size:12px;white-space:nowrap;text-align:center}
+.legacy-travel-journal{display:none!important}
+@media(min-width:1000px){.country-filter-singleline .filter-chip{flex:1 1 auto;padding:8px 5px;font-size:12px}}
+@media(max-width:800px){.country-landmark-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:560px){.country-landmark-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.country-filter-singleline .filter-chip{font-size:12px}.parent-bar-spacer{flex-basis:100%;height:0}.parent-bar [data-go="parent"],.parent-bar #parentToggle{flex:1}}
