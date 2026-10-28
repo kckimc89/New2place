@@ -276,3 +276,8 @@
 .compact-category-row{display:flex;flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:5px;padding:3px 0 7px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
 .compact-category-row>.filter-chip{flex:1 0 auto;white-space:nowrap;padding:8px 7px;font-size:12px;min-height:38px}
 @media(min-width:1000px){.compact-category-row>.filter-chip{flex:1 1 auto;padding:8px 4px}}
+
+/* V1.83: four evenly sized landmark tabs */
+.story-tabbar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+.story-tabbar .story-tab{min-width:0;white-space:normal;line-height:1.25;padding:12px 5px}
+@media(max-width:560px){.story-tabbar .story-tab{font-size:11px;padding:10px 3px}}
